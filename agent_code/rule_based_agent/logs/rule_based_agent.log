@@ -1,0 +1,2123 @@
+2021-02-14 11:59:09,789 [rule_based_agent_wrapper] DEBUG: Calling setup on callback.
+2021-02-14 11:59:09,789 [rule_based_agent_code] DEBUG: Successfully entered setup code
+2021-02-14 11:59:09,789 [rule_based_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-02-14 11:59:09,900 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:09,900 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:09,900 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:09,903 [rule_based_agent_code] DEBUG: Suitable target found at (15, 14)
+2021-02-14 11:59:09,904 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:10,000 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,000 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,000 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:10,001 [rule_based_agent_code] DEBUG: Suitable target found at (15, 14)
+2021-02-14 11:59:10,002 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:10,100 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,100 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,100 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:10,101 [rule_based_agent_code] DEBUG: Suitable target found at (13, 15)
+2021-02-14 11:59:10,101 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:10,201 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,201 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,202 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:10,203 [rule_based_agent_code] DEBUG: Suitable target found at (13, 15)
+2021-02-14 11:59:10,204 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:10,303 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,303 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,303 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:10,305 [rule_based_agent_code] DEBUG: Suitable target found at (13, 15)
+2021-02-14 11:59:10,305 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:10,407 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,407 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,408 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:10,411 [rule_based_agent_code] DEBUG: Suitable target found at (13, 15)
+2021-02-14 11:59:10,411 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:10,505 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,505 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,505 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:10,506 [rule_based_agent_code] DEBUG: Suitable target found at (13, 15)
+2021-02-14 11:59:10,506 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:10,606 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,606 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,607 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:10,607 [rule_based_agent_code] DEBUG: Suitable target found at (13, 15)
+2021-02-14 11:59:10,607 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:10,708 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,709 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,709 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:10,712 [rule_based_agent_code] DEBUG: Suitable target found at (15, 12)
+2021-02-14 11:59:10,713 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:10,823 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,823 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,823 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:10,826 [rule_based_agent_code] DEBUG: Suitable target found at (15, 12)
+2021-02-14 11:59:10,826 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:10,916 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:10,916 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:10,916 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'WAIT']
+2021-02-14 11:59:10,917 [rule_based_agent_code] DEBUG: Suitable target found at (15, 12)
+2021-02-14 11:59:10,918 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:11,015 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,015 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,015 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
+2021-02-14 11:59:11,016 [rule_based_agent_code] DEBUG: Suitable target found at (15, 12)
+2021-02-14 11:59:11,016 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:11,119 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,120 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,120 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:11,121 [rule_based_agent_code] DEBUG: Suitable target found at (15, 12)
+2021-02-14 11:59:11,121 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:11,220 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,220 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,221 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:11,223 [rule_based_agent_code] DEBUG: Suitable target found at (14, 11)
+2021-02-14 11:59:11,223 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:11,322 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,322 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,322 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:11,323 [rule_based_agent_code] DEBUG: Suitable target found at (14, 11)
+2021-02-14 11:59:11,324 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:11,425 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,425 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,425 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:11,427 [rule_based_agent_code] DEBUG: Suitable target found at (14, 11)
+2021-02-14 11:59:11,428 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:11,526 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,526 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,526 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:11,528 [rule_based_agent_code] DEBUG: Suitable target found at (13, 12)
+2021-02-14 11:59:11,528 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:11,627 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,627 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,628 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:11,631 [rule_based_agent_code] DEBUG: Suitable target found at (13, 12)
+2021-02-14 11:59:11,632 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:11,731 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,731 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,732 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:11,742 [rule_based_agent_code] DEBUG: Suitable target found at (13, 12)
+2021-02-14 11:59:11,742 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:11,845 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,846 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,846 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:11,852 [rule_based_agent_code] DEBUG: Suitable target found at (13, 12)
+2021-02-14 11:59:11,852 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:11,936 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:11,936 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:11,936 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:11,938 [rule_based_agent_code] DEBUG: Suitable target found at (13, 10)
+2021-02-14 11:59:11,938 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:12,039 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,039 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,039 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:12,043 [rule_based_agent_code] DEBUG: Suitable target found at (13, 10)
+2021-02-14 11:59:12,043 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:12,147 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,147 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,147 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:12,151 [rule_based_agent_code] DEBUG: Suitable target found at (13, 10)
+2021-02-14 11:59:12,151 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:12,246 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,246 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,246 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:12,249 [rule_based_agent_code] DEBUG: Suitable target found at (13, 10)
+2021-02-14 11:59:12,249 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:12,346 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,346 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,346 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:12,349 [rule_based_agent_code] DEBUG: Suitable target found at (13, 10)
+2021-02-14 11:59:12,349 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:12,450 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,450 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,450 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:12,452 [rule_based_agent_code] DEBUG: Suitable target found at (13, 10)
+2021-02-14 11:59:12,452 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:12,552 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,552 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,552 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:12,554 [rule_based_agent_code] DEBUG: Suitable target found at (13, 10)
+2021-02-14 11:59:12,554 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:12,654 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,654 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,654 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:12,657 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:12,657 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:12,755 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,755 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,756 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:12,759 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:12,759 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:12,857 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,857 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,857 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:12,861 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:12,861 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:12,958 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:12,958 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:12,958 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT']
+2021-02-14 11:59:12,959 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:12,959 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:13,059 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,059 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,060 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:13,063 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:13,063 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:13,162 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,162 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,162 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:13,170 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:13,171 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:13,268 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,268 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,268 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:13,270 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:13,270 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:13,370 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,370 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,370 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:13,371 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:13,371 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:13,470 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,470 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,471 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:13,472 [rule_based_agent_code] DEBUG: Suitable target found at (11, 12)
+2021-02-14 11:59:13,472 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:13,572 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,572 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,572 [rule_based_agent_code] DEBUG: Valid actions: ['UP']
+2021-02-14 11:59:13,575 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:13,575 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:13,671 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,673 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,673 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:13,680 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:13,680 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:13,773 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,774 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,774 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:13,779 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:13,779 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:13,875 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,875 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,875 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT']
+2021-02-14 11:59:13,877 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:13,877 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:13,980 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:13,981 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:13,981 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:13,984 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:13,985 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:14,077 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,077 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,078 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:14,079 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:14,079 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:14,180 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,180 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,181 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:14,182 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:14,182 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:14,281 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,281 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,281 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:14,284 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:14,289 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:14,382 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,382 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,382 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:14,383 [rule_based_agent_code] DEBUG: Suitable target found at (13, 6)
+2021-02-14 11:59:14,384 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:14,483 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,483 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,483 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:14,488 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:14,488 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:14,585 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,586 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,586 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:14,598 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:14,604 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-02-14 11:59:14,696 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,696 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,697 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:14,702 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:14,702 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:14,787 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,787 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,788 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:14,793 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:14,793 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:14,888 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,888 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,888 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:14,892 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:14,892 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:14,991 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:14,991 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:14,991 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:14,997 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:14,997 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:15,093 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,093 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,093 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:15,095 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:15,095 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:15,194 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,194 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,194 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:15,195 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:15,195 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:15,296 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,296 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,296 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:15,297 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:15,297 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:15,398 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,398 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,398 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:15,399 [rule_based_agent_code] DEBUG: Suitable target found at (11, 9)
+2021-02-14 11:59:15,399 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:15,500 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,500 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,500 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:15,503 [rule_based_agent_code] DEBUG: Suitable target found at (8, 15)
+2021-02-14 11:59:15,503 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:15,601 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,601 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,601 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:15,604 [rule_based_agent_code] DEBUG: Suitable target found at (8, 15)
+2021-02-14 11:59:15,604 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:15,704 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,704 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,704 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:15,710 [rule_based_agent_code] DEBUG: Suitable target found at (8, 15)
+2021-02-14 11:59:15,711 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:15,807 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,807 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,808 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:15,814 [rule_based_agent_code] DEBUG: Suitable target found at (12, 5)
+2021-02-14 11:59:15,814 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:15,909 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:15,909 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:15,909 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:15,914 [rule_based_agent_code] DEBUG: Suitable target found at (14, 9)
+2021-02-14 11:59:15,915 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:16,009 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,009 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,009 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:16,010 [rule_based_agent_code] DEBUG: Suitable target found at (14, 9)
+2021-02-14 11:59:16,010 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:16,110 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,110 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,110 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:16,111 [rule_based_agent_code] DEBUG: Suitable target found at (14, 9)
+2021-02-14 11:59:16,111 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:16,211 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,212 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,212 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:16,214 [rule_based_agent_code] DEBUG: Suitable target found at (14, 9)
+2021-02-14 11:59:16,214 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:16,312 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,313 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,313 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:16,318 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:16,318 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:16,415 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,415 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,415 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:16,420 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:16,420 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:16,521 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,521 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,521 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:16,524 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:16,527 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:16,617 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,617 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,618 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN']
+2021-02-14 11:59:16,621 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:16,621 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:16,717 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,717 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,717 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:16,719 [rule_based_agent_code] DEBUG: Suitable target found at (15, 9)
+2021-02-14 11:59:16,719 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:16,818 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,818 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,818 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:16,823 [rule_based_agent_code] DEBUG: Suitable target found at (15, 9)
+2021-02-14 11:59:16,823 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:16,919 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:16,919 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:16,919 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:16,921 [rule_based_agent_code] DEBUG: Suitable target found at (15, 9)
+2021-02-14 11:59:16,921 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:17,020 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,021 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,021 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:17,023 [rule_based_agent_code] DEBUG: Suitable target found at (15, 9)
+2021-02-14 11:59:17,023 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:17,121 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,121 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,121 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:17,123 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,123 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:17,222 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,222 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,223 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:17,231 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,232 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:17,336 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,336 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,336 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:17,341 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,341 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:17,431 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,431 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,431 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:17,436 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,437 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:17,531 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,531 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,531 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:17,536 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,536 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:17,634 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,634 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,634 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:17,639 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,639 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:17,736 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,736 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,736 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:17,738 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,738 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:17,838 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,838 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,838 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:17,842 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,842 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:17,941 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:17,941 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:17,941 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:17,944 [rule_based_agent_code] DEBUG: Suitable target found at (11, 8)
+2021-02-14 11:59:17,944 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:18,050 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,051 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,051 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:18,053 [rule_based_agent_code] DEBUG: Suitable target found at (11, 6)
+2021-02-14 11:59:18,054 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:18,148 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,148 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,149 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:18,150 [rule_based_agent_code] DEBUG: Suitable target found at (11, 6)
+2021-02-14 11:59:18,150 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:18,250 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,250 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,250 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:18,251 [rule_based_agent_code] DEBUG: Suitable target found at (11, 6)
+2021-02-14 11:59:18,251 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:18,361 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,361 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,361 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:18,364 [rule_based_agent_code] DEBUG: Suitable target found at (10, 7)
+2021-02-14 11:59:18,364 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:18,458 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,459 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,459 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'DOWN', 'WAIT']
+2021-02-14 11:59:18,461 [rule_based_agent_code] DEBUG: Suitable target found at (10, 7)
+2021-02-14 11:59:18,461 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:18,559 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,559 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,560 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:18,561 [rule_based_agent_code] DEBUG: Suitable target found at (10, 7)
+2021-02-14 11:59:18,561 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:18,662 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,662 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,663 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:18,666 [rule_based_agent_code] DEBUG: Suitable target found at (10, 7)
+2021-02-14 11:59:18,666 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:18,764 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,765 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,765 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:18,766 [rule_based_agent_code] DEBUG: Suitable target found at (10, 7)
+2021-02-14 11:59:18,766 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:18,865 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,865 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,865 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:18,871 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:18,871 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:18,966 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:18,967 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:18,967 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:18,971 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:18,971 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:19,068 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,068 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,068 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:19,073 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,073 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:19,168 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,168 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,168 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:19,170 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,170 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:19,271 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,271 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,271 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:19,277 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,277 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:19,379 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,379 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,379 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:19,388 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,388 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:19,479 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,479 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,480 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:19,483 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,484 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:19,581 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,582 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,582 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:19,583 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,584 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:19,682 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,682 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,682 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:19,683 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,683 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:19,798 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,803 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,804 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:19,806 [rule_based_agent_code] DEBUG: Suitable target found at (7, 9)
+2021-02-14 11:59:19,806 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:19,891 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,891 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,893 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:19,903 [rule_based_agent_code] DEBUG: Suitable target found at (7, 6)
+2021-02-14 11:59:19,903 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:19,993 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:19,993 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:19,993 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:20,004 [rule_based_agent_code] DEBUG: Suitable target found at (7, 6)
+2021-02-14 11:59:20,004 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:20,094 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,094 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,095 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:20,107 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:20,107 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-02-14 11:59:20,197 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,197 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,197 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:20,205 [rule_based_agent_code] DEBUG: Suitable target found at (7, 6)
+2021-02-14 11:59:20,209 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-02-14 11:59:20,296 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,296 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,296 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:20,300 [rule_based_agent_code] DEBUG: Suitable target found at (7, 8)
+2021-02-14 11:59:20,300 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:20,398 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,398 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,398 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:20,401 [rule_based_agent_code] DEBUG: Suitable target found at (7, 8)
+2021-02-14 11:59:20,402 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:20,500 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,500 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,500 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:20,501 [rule_based_agent_code] DEBUG: Suitable target found at (7, 8)
+2021-02-14 11:59:20,501 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:20,602 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,602 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,602 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:20,603 [rule_based_agent_code] DEBUG: Suitable target found at (7, 8)
+2021-02-14 11:59:20,603 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:20,703 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,703 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,703 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:20,704 [rule_based_agent_code] DEBUG: Suitable target found at (7, 8)
+2021-02-14 11:59:20,704 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:20,805 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,805 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,805 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:20,806 [rule_based_agent_code] DEBUG: Suitable target found at (7, 6)
+2021-02-14 11:59:20,806 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:20,907 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:20,907 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:20,908 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:20,909 [rule_based_agent_code] DEBUG: Suitable target found at (7, 6)
+2021-02-14 11:59:20,910 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:21,008 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,008 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,008 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:21,009 [rule_based_agent_code] DEBUG: Suitable target found at (7, 6)
+2021-02-14 11:59:21,009 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:21,109 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,109 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,109 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:21,111 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:21,111 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:21,211 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,211 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,211 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:21,213 [rule_based_agent_code] DEBUG: Suitable target found at (7, 12)
+2021-02-14 11:59:21,213 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:21,312 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,312 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,312 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:21,315 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:21,315 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:21,413 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,413 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,413 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:21,416 [rule_based_agent_code] DEBUG: Suitable target found at (7, 12)
+2021-02-14 11:59:21,416 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:21,515 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,515 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,515 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:21,517 [rule_based_agent_code] DEBUG: Suitable target found at (8, 5)
+2021-02-14 11:59:21,522 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:21,616 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,616 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,616 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:21,618 [rule_based_agent_code] DEBUG: Suitable target found at (8, 5)
+2021-02-14 11:59:21,618 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:21,717 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,717 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,718 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:21,720 [rule_based_agent_code] DEBUG: Suitable target found at (8, 5)
+2021-02-14 11:59:21,720 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:21,825 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,825 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,826 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:21,828 [rule_based_agent_code] DEBUG: Suitable target found at (8, 5)
+2021-02-14 11:59:21,828 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:21,925 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:21,925 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:21,925 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:21,926 [rule_based_agent_code] DEBUG: Suitable target found at (8, 5)
+2021-02-14 11:59:21,926 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:22,027 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,027 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,027 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:22,028 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,028 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:22,129 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,129 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,129 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:22,129 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,129 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:22,230 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,230 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,231 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:22,234 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,234 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:22,332 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,332 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,332 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN']
+2021-02-14 11:59:22,333 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,333 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:22,433 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,434 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,434 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:22,437 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,437 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:22,535 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,535 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,535 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:22,536 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,536 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:22,640 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,640 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,640 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:22,641 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,641 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:22,740 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,740 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,740 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:22,741 [rule_based_agent_code] DEBUG: Suitable target found at (7, 3)
+2021-02-14 11:59:22,741 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:22,842 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,842 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,842 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:22,843 [rule_based_agent_code] DEBUG: Suitable target found at (9, 4)
+2021-02-14 11:59:22,844 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:22,946 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:22,947 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:22,947 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:22,950 [rule_based_agent_code] DEBUG: Suitable target found at (9, 4)
+2021-02-14 11:59:22,951 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:23,046 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,046 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,047 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:23,051 [rule_based_agent_code] DEBUG: Suitable target found at (9, 4)
+2021-02-14 11:59:23,051 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:23,148 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,148 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,148 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:23,149 [rule_based_agent_code] DEBUG: Suitable target found at (9, 4)
+2021-02-14 11:59:23,149 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:23,250 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,250 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,250 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:23,252 [rule_based_agent_code] DEBUG: Suitable target found at (7, 2)
+2021-02-14 11:59:23,252 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:23,352 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,352 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,352 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:23,354 [rule_based_agent_code] DEBUG: Suitable target found at (7, 2)
+2021-02-14 11:59:23,354 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:23,454 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,454 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,454 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:23,456 [rule_based_agent_code] DEBUG: Suitable target found at (7, 2)
+2021-02-14 11:59:23,456 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:23,556 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,556 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,557 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:23,559 [rule_based_agent_code] DEBUG: Suitable target found at (7, 2)
+2021-02-14 11:59:23,559 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:23,657 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,658 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,658 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:23,660 [rule_based_agent_code] DEBUG: Suitable target found at (7, 2)
+2021-02-14 11:59:23,660 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:23,759 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,760 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,760 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:23,761 [rule_based_agent_code] DEBUG: Suitable target found at (7, 1)
+2021-02-14 11:59:23,761 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:23,861 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,861 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,861 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:23,862 [rule_based_agent_code] DEBUG: Suitable target found at (7, 1)
+2021-02-14 11:59:23,862 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:23,963 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:23,963 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:23,963 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:23,965 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:23,965 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:24,065 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,065 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,065 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:24,067 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:24,067 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:24,167 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,168 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,168 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:24,172 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:24,172 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:24,267 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,267 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,268 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:24,271 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:24,271 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:24,369 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,369 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,369 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:24,371 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:24,371 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:24,471 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,471 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,472 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:24,474 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:24,474 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:24,574 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,574 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,574 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:24,577 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:24,577 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:24,675 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,676 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,676 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:24,678 [rule_based_agent_code] DEBUG: Suitable target found at (11, 2)
+2021-02-14 11:59:24,678 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:24,776 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,776 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,776 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:24,780 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:24,780 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:24,879 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,879 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,879 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:24,882 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:24,886 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:24,981 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:24,981 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:24,981 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:24,985 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:24,985 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:25,083 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,083 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,083 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:25,085 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:25,085 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:25,185 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,185 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,186 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:25,188 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:25,188 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:25,287 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,287 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,287 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:25,288 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:25,289 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:25,388 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,388 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,388 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:25,389 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:25,389 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:25,490 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,490 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,490 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:25,492 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:25,492 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:25,591 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,591 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,592 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:25,593 [rule_based_agent_code] DEBUG: Suitable target found at (14, 1)
+2021-02-14 11:59:25,593 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:25,694 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,694 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,694 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:25,700 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:25,704 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:25,797 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,797 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,797 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:25,816 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:25,817 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-02-14 11:59:25,897 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:25,897 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:25,898 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:25,910 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:25,910 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-02-14 11:59:26,004 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,004 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,005 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:26,028 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,028 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.024s.
+2021-02-14 11:59:26,113 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,118 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,119 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,129 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,129 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:26,208 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,208 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,208 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,219 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,219 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:26,309 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,309 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,310 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,317 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,317 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:26,411 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,412 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,412 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,426 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,426 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-02-14 11:59:26,512 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,512 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,512 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,516 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,520 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:26,613 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,613 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,614 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,625 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,626 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-02-14 11:59:26,715 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,715 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,716 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,725 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,725 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:26,817 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,817 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,818 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,823 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,823 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:26,918 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:26,918 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:26,918 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:26,920 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:26,920 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:27,019 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,020 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,020 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:27,024 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:27,024 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:27,121 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,121 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,122 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:27,126 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:27,126 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:27,231 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,231 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,232 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:27,235 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:27,235 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:27,330 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,330 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,330 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:27,332 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:27,332 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:27,432 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,432 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,432 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:27,435 [rule_based_agent_code] DEBUG: Suitable target found at (5, 7)
+2021-02-14 11:59:27,435 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:27,533 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,533 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,533 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:27,535 [rule_based_agent_code] DEBUG: Suitable target found at (5, 7)
+2021-02-14 11:59:27,535 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:27,634 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,634 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,635 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:27,637 [rule_based_agent_code] DEBUG: Suitable target found at (5, 7)
+2021-02-14 11:59:27,637 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:27,735 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,735 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,735 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:27,736 [rule_based_agent_code] DEBUG: Suitable target found at (5, 7)
+2021-02-14 11:59:27,737 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:27,837 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,837 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,837 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:27,840 [rule_based_agent_code] DEBUG: Suitable target found at (5, 7)
+2021-02-14 11:59:27,840 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:27,947 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:27,947 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:27,947 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:27,949 [rule_based_agent_code] DEBUG: Suitable target found at (5, 7)
+2021-02-14 11:59:27,949 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:28,044 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,045 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,045 [rule_based_agent_code] DEBUG: Valid actions: ['UP']
+2021-02-14 11:59:28,050 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:28,050 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:28,146 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,146 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,146 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
+2021-02-14 11:59:28,156 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:28,156 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:28,246 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,247 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,247 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:28,251 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:28,251 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:28,348 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,348 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,348 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:28,351 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:28,351 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:28,449 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,450 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,450 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:28,456 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:28,456 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:28,550 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,550 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,550 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:28,553 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:28,553 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:28,651 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,651 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,651 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:28,653 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:28,653 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:28,752 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,753 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,753 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:28,759 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:28,759 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:28,854 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,854 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,854 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:28,858 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:28,858 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:28,956 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:28,956 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:28,956 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:28,959 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:28,959 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:29,057 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,057 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,058 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:29,059 [rule_based_agent_code] DEBUG: Suitable target found at (2, 7)
+2021-02-14 11:59:29,059 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:29,158 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,159 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,159 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:29,160 [rule_based_agent_code] DEBUG: Suitable target found at (2, 7)
+2021-02-14 11:59:29,160 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:29,263 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,264 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,264 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:29,268 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:29,268 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:29,363 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,364 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,364 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:29,368 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:29,368 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:29,466 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,466 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,467 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:29,470 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:29,471 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:29,569 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,569 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,570 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN']
+2021-02-14 11:59:29,571 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:29,571 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:29,670 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,670 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,670 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:29,671 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:29,671 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:29,771 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,771 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,772 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:29,773 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:29,773 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:29,876 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,876 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,877 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:29,879 [rule_based_agent_code] DEBUG: Suitable target found at (4, 9)
+2021-02-14 11:59:29,879 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:29,977 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:29,977 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:29,977 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:29,982 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:29,982 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:30,079 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,079 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,080 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:30,085 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:30,085 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:30,184 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,184 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,184 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:30,185 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:30,186 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:30,284 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,285 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,285 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:30,286 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:30,286 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:30,386 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,386 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,386 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:30,387 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:30,388 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:30,496 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,496 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,496 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:30,500 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:30,500 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:30,595 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,595 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,595 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:30,597 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:30,597 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:30,697 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,697 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,698 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:30,700 [rule_based_agent_code] DEBUG: Suitable target found at (5, 15)
+2021-02-14 11:59:30,700 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:30,800 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,800 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,801 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:30,807 [rule_based_agent_code] DEBUG: Suitable target found at (5, 15)
+2021-02-14 11:59:30,807 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:30,900 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:30,901 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:30,901 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:30,904 [rule_based_agent_code] DEBUG: Suitable target found at (5, 15)
+2021-02-14 11:59:30,904 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:31,001 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,001 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,002 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:31,003 [rule_based_agent_code] DEBUG: Suitable target found at (5, 15)
+2021-02-14 11:59:31,003 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:31,102 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,102 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,102 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:31,103 [rule_based_agent_code] DEBUG: Suitable target found at (5, 15)
+2021-02-14 11:59:31,103 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:31,204 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,204 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,204 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:31,205 [rule_based_agent_code] DEBUG: Suitable target found at (1, 14)
+2021-02-14 11:59:31,205 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:31,307 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,307 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,307 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:31,308 [rule_based_agent_code] DEBUG: Suitable target found at (1, 14)
+2021-02-14 11:59:31,308 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:31,409 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,409 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,409 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:31,410 [rule_based_agent_code] DEBUG: Suitable target found at (1, 14)
+2021-02-14 11:59:31,410 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:31,510 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,510 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,510 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:31,511 [rule_based_agent_code] DEBUG: Suitable target found at (1, 14)
+2021-02-14 11:59:31,511 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:31,613 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,613 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,613 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:31,614 [rule_based_agent_code] DEBUG: Suitable target found at (1, 14)
+2021-02-14 11:59:31,614 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:31,714 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,714 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,714 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:31,715 [rule_based_agent_code] DEBUG: Suitable target found at (1, 14)
+2021-02-14 11:59:31,715 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:31,816 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,816 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,816 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:31,821 [rule_based_agent_code] DEBUG: Suitable target found at (7, 12)
+2021-02-14 11:59:31,821 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:31,917 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:31,917 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:31,917 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:31,920 [rule_based_agent_code] DEBUG: Suitable target found at (7, 12)
+2021-02-14 11:59:31,920 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:32,018 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,018 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,019 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:32,024 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:32,024 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:32,118 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,118 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,119 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:32,122 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:32,122 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:32,219 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,219 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,219 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:32,221 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,221 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:32,321 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,321 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,321 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:32,325 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,325 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:32,421 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,421 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,422 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:32,426 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,426 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:32,524 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,524 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,524 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:32,528 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,529 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:32,624 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,624 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,624 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:32,628 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,628 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:32,726 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,726 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,726 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:32,727 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,727 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:32,827 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,828 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,828 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:32,829 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,830 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:32,929 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:32,929 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:32,929 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:32,931 [rule_based_agent_code] DEBUG: Suitable target found at (3, 13)
+2021-02-14 11:59:32,931 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:33,031 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,031 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,032 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:33,035 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:33,035 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:33,132 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,132 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,133 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:33,138 [rule_based_agent_code] DEBUG: Suitable target found at (7, 12)
+2021-02-14 11:59:33,138 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:33,233 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,233 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,234 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:33,239 [rule_based_agent_code] DEBUG: Suitable target found at (7, 12)
+2021-02-14 11:59:33,239 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:33,336 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,336 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,337 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:33,345 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:33,346 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:33,436 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,436 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,436 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:33,438 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:33,438 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:33,537 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,537 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,538 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:33,541 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:33,541 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:33,638 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,639 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,639 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:33,642 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:33,642 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:33,740 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,740 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,741 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:33,745 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:33,745 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:33,840 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,840 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,840 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:33,841 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:33,841 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:33,942 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:33,943 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:33,943 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:33,945 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:33,945 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:34,043 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,043 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,044 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:34,046 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:34,046 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:34,146 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,146 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,146 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:34,148 [rule_based_agent_code] DEBUG: Suitable target found at (6, 13)
+2021-02-14 11:59:34,148 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:34,248 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,248 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,249 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:34,256 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:34,256 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:34,351 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,352 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,352 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:34,353 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:34,353 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:34,451 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,451 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,452 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:34,457 [rule_based_agent_code] DEBUG: Suitable target found at (7, 12)
+2021-02-14 11:59:34,457 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:34,553 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,553 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,554 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN']
+2021-02-14 11:59:34,562 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:34,562 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:34,663 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,663 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,665 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:34,667 [rule_based_agent_code] DEBUG: Suitable target found at (7, 14)
+2021-02-14 11:59:34,668 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:34,763 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,763 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,763 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:34,766 [rule_based_agent_code] DEBUG: Suitable target found at (7, 14)
+2021-02-14 11:59:34,767 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:34,864 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,864 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,864 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:34,865 [rule_based_agent_code] DEBUG: Suitable target found at (7, 14)
+2021-02-14 11:59:34,865 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:34,970 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:34,970 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:34,971 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:34,973 [rule_based_agent_code] DEBUG: Suitable target found at (7, 14)
+2021-02-14 11:59:34,973 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:35,071 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,071 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,071 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:35,073 [rule_based_agent_code] DEBUG: Suitable target found at (7, 14)
+2021-02-14 11:59:35,073 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:35,172 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,173 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,173 [rule_based_agent_code] DEBUG: Valid actions: ['UP']
+2021-02-14 11:59:35,175 [rule_based_agent_code] DEBUG: Suitable target found at (9, 13)
+2021-02-14 11:59:35,175 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:35,278 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,278 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,278 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT']
+2021-02-14 11:59:35,281 [rule_based_agent_code] DEBUG: Suitable target found at (9, 13)
+2021-02-14 11:59:35,281 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:35,380 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,380 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,380 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:35,382 [rule_based_agent_code] DEBUG: Suitable target found at (9, 13)
+2021-02-14 11:59:35,382 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:35,481 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,482 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,482 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:35,483 [rule_based_agent_code] DEBUG: Suitable target found at (9, 13)
+2021-02-14 11:59:35,483 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:35,584 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,584 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,584 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:35,587 [rule_based_agent_code] DEBUG: Suitable target found at (9, 13)
+2021-02-14 11:59:35,587 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:35,684 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,684 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,684 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:35,685 [rule_based_agent_code] DEBUG: Suitable target found at (9, 13)
+2021-02-14 11:59:35,685 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:35,786 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,786 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,786 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:35,788 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:35,788 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:35,888 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,888 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,888 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:35,890 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:35,890 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:35,989 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:35,989 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:35,990 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:35,992 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:35,993 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:36,092 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,092 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,092 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:36,096 [rule_based_agent_code] DEBUG: Suitable target found at (8, 11)
+2021-02-14 11:59:36,096 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:36,194 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,194 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,195 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:36,199 [rule_based_agent_code] DEBUG: Suitable target found at (10, 13)
+2021-02-14 11:59:36,199 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:36,296 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,296 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,297 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:36,300 [rule_based_agent_code] DEBUG: Suitable target found at (10, 13)
+2021-02-14 11:59:36,300 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:36,397 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,398 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,398 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:36,400 [rule_based_agent_code] DEBUG: Suitable target found at (10, 13)
+2021-02-14 11:59:36,400 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:36,499 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,499 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,499 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:36,500 [rule_based_agent_code] DEBUG: Suitable target found at (10, 13)
+2021-02-14 11:59:36,501 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:36,603 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,603 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,603 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:36,605 [rule_based_agent_code] DEBUG: Suitable target found at (10, 13)
+2021-02-14 11:59:36,605 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:36,704 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,704 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,704 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:36,711 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:36,711 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:36,804 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,804 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,804 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:36,810 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:36,810 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:36,906 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:36,906 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:36,906 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:36,910 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:36,910 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:37,007 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,008 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,008 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,023 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:37,023 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-02-14 11:59:37,109 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,109 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,109 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,116 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:37,116 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:37,210 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,211 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,211 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,222 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:37,222 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:37,313 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,313 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,313 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,323 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:37,323 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:37,415 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,415 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,416 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,418 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:37,418 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:37,517 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,517 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,518 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,521 [rule_based_agent_code] DEBUG: Suitable target found at (6, 11)
+2021-02-14 11:59:37,522 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:37,620 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,620 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,620 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,627 [rule_based_agent_code] DEBUG: Suitable target found at (5, 11)
+2021-02-14 11:59:37,627 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:37,720 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,720 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,720 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,724 [rule_based_agent_code] DEBUG: Suitable target found at (6, 11)
+2021-02-14 11:59:37,724 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:37,820 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,820 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,820 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,821 [rule_based_agent_code] DEBUG: Suitable target found at (5, 11)
+2021-02-14 11:59:37,821 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:37,921 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:37,921 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:37,921 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:37,922 [rule_based_agent_code] DEBUG: Suitable target found at (4, 11)
+2021-02-14 11:59:37,922 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:38,024 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,024 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,024 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:38,027 [rule_based_agent_code] DEBUG: Suitable target found at (3, 11)
+2021-02-14 11:59:38,033 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:38,123 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,124 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,124 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:38,126 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:38,127 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:38,225 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,225 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,226 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:38,229 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:38,230 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:38,325 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,325 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,326 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN']
+2021-02-14 11:59:38,327 [rule_based_agent_code] DEBUG: Suitable target found at (1, 11)
+2021-02-14 11:59:38,327 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:38,439 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,439 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,439 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
+2021-02-14 11:59:38,442 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:38,442 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:38,534 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,534 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,535 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:38,536 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:38,537 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:38,637 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,637 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,637 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:38,639 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:38,639 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:38,751 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,751 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,752 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:38,760 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:38,760 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:38,846 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,846 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,846 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:38,849 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:38,850 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:38,947 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:38,947 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:38,947 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:38,948 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:38,948 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:39,048 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,048 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,048 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:39,050 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:39,050 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:39,151 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,151 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,151 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:39,153 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:39,153 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:39,251 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,251 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,251 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:39,253 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:39,253 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:39,352 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,352 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,352 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:39,356 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:39,356 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:39,460 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,461 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,461 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:39,467 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:39,467 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:39,560 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,561 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,561 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:39,563 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:39,563 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:39,661 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,661 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,661 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:39,663 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:39,663 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:39,762 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,763 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,763 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:39,765 [rule_based_agent_code] DEBUG: Suitable target found at (3, 11)
+2021-02-14 11:59:39,765 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:39,862 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,862 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,863 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
+2021-02-14 11:59:39,864 [rule_based_agent_code] DEBUG: Suitable target found at (3, 11)
+2021-02-14 11:59:39,865 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:39,963 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:39,963 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:39,963 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:39,964 [rule_based_agent_code] DEBUG: Suitable target found at (3, 11)
+2021-02-14 11:59:39,964 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:40,064 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,064 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,064 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:40,070 [rule_based_agent_code] DEBUG: Suitable target found at (2, 11)
+2021-02-14 11:59:40,070 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:40,166 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,166 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,167 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN']
+2021-02-14 11:59:40,169 [rule_based_agent_code] DEBUG: Suitable target found at (1, 11)
+2021-02-14 11:59:40,169 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:40,269 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,269 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,269 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:40,282 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:40,282 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-02-14 11:59:40,380 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,380 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,381 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:40,390 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:40,390 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:40,477 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,477 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,477 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT']
+2021-02-14 11:59:40,481 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:40,481 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:40,576 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,577 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,577 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:40,581 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:40,581 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:40,677 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,677 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,677 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:40,678 [rule_based_agent_code] DEBUG: Suitable target found at (1, 9)
+2021-02-14 11:59:40,678 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:40,780 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,780 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,780 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:40,783 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:40,783 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:40,880 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,881 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,881 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'DOWN']
+2021-02-14 11:59:40,884 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:40,884 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:40,983 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:40,983 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:40,983 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:40,986 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:40,986 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:41,084 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,084 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,084 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:41,085 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:41,085 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:41,185 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,185 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,186 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:41,188 [rule_based_agent_code] DEBUG: Suitable target found at (1, 10)
+2021-02-14 11:59:41,188 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:41,287 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,287 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,288 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:41,303 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:41,309 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-02-14 11:59:41,396 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,396 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,397 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:41,400 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:41,400 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:41,495 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,495 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,495 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:41,503 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:41,503 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:41,596 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,597 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,597 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:41,603 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:41,603 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:41,707 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,707 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,707 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:41,712 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:41,713 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:41,806 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,806 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,806 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:41,810 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:41,811 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:41,906 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:41,906 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:41,906 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:41,908 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:41,908 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:42,013 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,013 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,013 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:42,014 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:42,014 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:42,113 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,113 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,113 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:42,114 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:42,115 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:42,216 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,216 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,216 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:42,219 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:42,220 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:42,317 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,317 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,317 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:42,318 [rule_based_agent_code] DEBUG: Suitable target found at (1, 5)
+2021-02-14 11:59:42,318 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:42,418 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,418 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,419 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
+2021-02-14 11:59:42,424 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:42,425 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:42,520 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,520 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,521 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:42,532 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:42,536 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-02-14 11:59:42,621 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,621 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,622 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:42,629 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:42,630 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:42,723 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,723 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,723 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:42,733 [rule_based_agent_code] DEBUG: Suitable target found at (3, 4)
+2021-02-14 11:59:42,734 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:42,824 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,824 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,825 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:42,837 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:42,840 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-02-14 11:59:42,925 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:42,925 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:42,925 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN']
+2021-02-14 11:59:42,943 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:42,944 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-02-14 11:59:43,025 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,025 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,026 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:43,038 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:43,038 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-02-14 11:59:43,127 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,127 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,127 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:43,132 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:43,132 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:43,229 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,229 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,229 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:43,237 [rule_based_agent_code] DEBUG: Suitable target found at (3, 7)
+2021-02-14 11:59:43,237 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:43,333 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,333 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,334 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:43,354 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:43,358 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-02-14 11:59:43,433 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,433 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,433 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:43,441 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:43,441 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:43,534 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,534 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,534 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:43,541 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:43,541 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:43,637 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,637 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,638 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:43,654 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:43,657 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-02-14 11:59:43,738 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,738 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,738 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:43,748 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:43,748 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:43,840 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,840 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,840 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN']
+2021-02-14 11:59:43,846 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:43,846 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:43,943 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:43,943 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:43,944 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:43,963 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:43,963 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-02-14 11:59:44,046 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,047 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,047 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:44,059 [rule_based_agent_code] DEBUG: Suitable target found at (9, 9)
+2021-02-14 11:59:44,059 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-02-14 11:59:44,147 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,148 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,148 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:44,156 [rule_based_agent_code] DEBUG: Suitable target found at (11, 11)
+2021-02-14 11:59:44,156 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:44,249 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,249 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,249 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:44,259 [rule_based_agent_code] DEBUG: Suitable target found at (11, 11)
+2021-02-14 11:59:44,259 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:44,351 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,351 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,351 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN']
+2021-02-14 11:59:44,356 [rule_based_agent_code] DEBUG: Suitable target found at (11, 11)
+2021-02-14 11:59:44,356 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:44,452 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,452 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,453 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:44,461 [rule_based_agent_code] DEBUG: Suitable target found at (11, 11)
+2021-02-14 11:59:44,461 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:44,560 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,560 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,561 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:44,580 [rule_based_agent_code] DEBUG: Suitable target found at (11, 11)
+2021-02-14 11:59:44,582 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-02-14 11:59:44,655 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,655 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,655 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:44,663 [rule_based_agent_code] DEBUG: Suitable target found at (13, 13)
+2021-02-14 11:59:44,663 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:44,757 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,758 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,758 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:44,770 [rule_based_agent_code] DEBUG: Suitable target found at (13, 13)
+2021-02-14 11:59:44,770 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-02-14 11:59:44,859 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,859 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,860 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN']
+2021-02-14 11:59:44,886 [rule_based_agent_code] DEBUG: Suitable target found at (13, 13)
+2021-02-14 11:59:44,887 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.028s.
+2021-02-14 11:59:44,968 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:44,968 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:44,969 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:44,982 [rule_based_agent_code] DEBUG: Suitable target found at (13, 13)
+2021-02-14 11:59:44,982 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.014s.
+2021-02-14 11:59:45,068 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,069 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,069 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:45,082 [rule_based_agent_code] DEBUG: Suitable target found at (13, 13)
+2021-02-14 11:59:45,083 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-02-14 11:59:45,169 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,169 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,170 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:45,185 [rule_based_agent_code] DEBUG: Suitable target found at (13, 13)
+2021-02-14 11:59:45,185 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.016s.
+2021-02-14 11:59:45,270 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,270 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,270 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:45,274 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,275 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:45,371 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,372 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,372 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:45,387 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,387 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-02-14 11:59:45,471 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,471 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,472 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:45,485 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,485 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.014s.
+2021-02-14 11:59:45,573 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,573 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,574 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:45,592 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,595 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-02-14 11:59:45,673 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,673 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,673 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:45,678 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,678 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:45,776 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,776 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,776 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP']
+2021-02-14 11:59:45,784 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,784 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:45,877 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,877 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,884 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
+2021-02-14 11:59:45,896 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,896 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-02-14 11:59:45,979 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:45,979 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:45,979 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:45,985 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:45,985 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:46,080 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,081 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,081 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:46,098 [rule_based_agent_code] DEBUG: Suitable target found at (7, 15)
+2021-02-14 11:59:46,098 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-02-14 11:59:46,182 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,182 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,183 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:46,202 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:46,205 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.023s.
+2021-02-14 11:59:46,281 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,282 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,282 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:46,286 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:46,286 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:46,383 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,384 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,384 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:46,398 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:46,399 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-02-14 11:59:46,485 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,485 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,486 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:46,508 [rule_based_agent_code] DEBUG: Suitable target found at (13, 7)
+2021-02-14 11:59:46,509 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.024s.
+2021-02-14 11:59:46,586 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,586 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,587 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:46,596 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:46,596 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-02-14 11:59:46,688 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,689 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,689 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:46,702 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:46,702 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-02-14 11:59:46,790 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,790 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,790 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:46,794 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:46,794 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:46,893 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,893 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,894 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:46,907 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:46,908 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.014s.
+2021-02-14 11:59:46,993 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:46,993 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:46,994 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:47,002 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:47,002 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:47,094 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,094 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,094 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:47,104 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:47,105 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:47,197 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,197 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,197 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:47,203 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:47,203 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:47,299 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,299 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,299 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN']
+2021-02-14 11:59:47,303 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:47,303 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:47,401 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,401 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,401 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:47,405 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:47,406 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:47,503 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,503 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,503 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:47,508 [rule_based_agent_code] DEBUG: Suitable target found at (9, 3)
+2021-02-14 11:59:47,508 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:47,603 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,603 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,603 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:47,608 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:47,608 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:47,706 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,706 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,706 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:47,712 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:47,712 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-02-14 11:59:47,808 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,808 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,809 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:47,829 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:47,831 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.024s.
+2021-02-14 11:59:47,907 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:47,907 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:47,907 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:47,911 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:47,911 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:48,008 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,009 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,009 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN']
+2021-02-14 11:59:48,026 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:48,026 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-02-14 11:59:48,110 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,110 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,111 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:48,130 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:48,133 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.023s.
+2021-02-14 11:59:48,210 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,210 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,210 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:48,215 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:48,215 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:48,311 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,311 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,311 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:48,316 [rule_based_agent_code] DEBUG: Suitable target found at (13, 5)
+2021-02-14 11:59:48,316 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:48,413 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,413 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,413 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:48,415 [rule_based_agent_code] DEBUG: Suitable target found at (14, 5)
+2021-02-14 11:59:48,421 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:48,515 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,515 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,516 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:48,518 [rule_based_agent_code] DEBUG: Suitable target found at (14, 5)
+2021-02-14 11:59:48,518 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:48,618 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,618 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,618 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:48,622 [rule_based_agent_code] DEBUG: Suitable target found at (14, 5)
+2021-02-14 11:59:48,622 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:48,726 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,726 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,727 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:48,730 [rule_based_agent_code] DEBUG: Suitable target found at (14, 5)
+2021-02-14 11:59:48,731 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:48,821 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,821 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,821 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:48,824 [rule_based_agent_code] DEBUG: Suitable target found at (14, 5)
+2021-02-14 11:59:48,824 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:48,922 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:48,922 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:48,922 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:48,936 [rule_based_agent_code] DEBUG: Suitable target found at (14, 5)
+2021-02-14 11:59:48,936 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.014s.
+2021-02-14 11:59:49,023 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,024 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,024 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:49,037 [rule_based_agent_code] DEBUG: Suitable target found at (15, 7)
+2021-02-14 11:59:49,037 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.014s.
+2021-02-14 11:59:49,126 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,126 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,127 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:49,133 [rule_based_agent_code] DEBUG: Suitable target found at (15, 7)
+2021-02-14 11:59:49,133 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:49,225 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,226 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,226 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:49,233 [rule_based_agent_code] DEBUG: Suitable target found at (15, 7)
+2021-02-14 11:59:49,233 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:49,327 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,327 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,328 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN']
+2021-02-14 11:59:49,334 [rule_based_agent_code] DEBUG: Suitable target found at (15, 7)
+2021-02-14 11:59:49,335 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
+2021-02-14 11:59:49,428 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,428 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,428 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
+2021-02-14 11:59:49,436 [rule_based_agent_code] DEBUG: Suitable target found at (15, 7)
+2021-02-14 11:59:49,436 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-02-14 11:59:49,530 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,530 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,530 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:49,535 [rule_based_agent_code] DEBUG: Suitable target found at (15, 7)
+2021-02-14 11:59:49,535 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-02-14 11:59:49,632 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,633 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,633 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:49,647 [rule_based_agent_code] DEBUG: Suitable target found at (14, 5)
+2021-02-14 11:59:49,648 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.015s.
+2021-02-14 11:59:49,734 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,735 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,735 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:49,747 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:49,747 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-02-14 11:59:49,836 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,836 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,836 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:49,862 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:49,862 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-02-14 11:59:49,936 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:49,936 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:49,936 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:49,940 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:49,940 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:50,037 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:50,038 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:50,038 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:50,045 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:50,045 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:50,139 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:50,139 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:50,140 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:50,155 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:50,158 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-02-14 11:59:50,239 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:50,240 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:50,240 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:50,249 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:50,250 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-02-14 11:59:50,343 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:50,343 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:50,344 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:50,360 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:50,360 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-02-14 11:59:50,444 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:50,444 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:50,444 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:50,448 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:50,448 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:50,546 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:50,547 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:50,547 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:50,554 [rule_based_agent_code] DEBUG: Suitable target found at (5, 3)
+2021-02-14 11:59:50,554 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:57,025 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,025 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,025 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:57,026 [rule_based_agent_code] DEBUG: Suitable target found at (2, 1)
+2021-02-14 11:59:57,026 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:57,138 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,138 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,139 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:57,140 [rule_based_agent_code] DEBUG: Suitable target found at (2, 1)
+2021-02-14 11:59:57,140 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:57,234 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,234 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,234 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:57,236 [rule_based_agent_code] DEBUG: Suitable target found at (1, 3)
+2021-02-14 11:59:57,236 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:57,335 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,335 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,335 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:57,337 [rule_based_agent_code] DEBUG: Suitable target found at (1, 3)
+2021-02-14 11:59:57,337 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:57,458 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,458 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,458 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:57,459 [rule_based_agent_code] DEBUG: Suitable target found at (1, 3)
+2021-02-14 11:59:57,460 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:57,539 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,539 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,539 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
+2021-02-14 11:59:57,539 [rule_based_agent_code] DEBUG: Suitable target found at (1, 3)
+2021-02-14 11:59:57,540 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:57,641 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,642 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,642 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:57,644 [rule_based_agent_code] DEBUG: Suitable target found at (1, 3)
+2021-02-14 11:59:57,644 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:57,741 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,741 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,742 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:57,742 [rule_based_agent_code] DEBUG: Suitable target found at (1, 3)
+2021-02-14 11:59:57,742 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-02-14 11:59:57,845 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,845 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,845 [rule_based_agent_code] DEBUG: Valid actions: ['UP']
+2021-02-14 11:59:57,847 [rule_based_agent_code] DEBUG: Suitable target found at (3, 3)
+2021-02-14 11:59:57,847 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:57,946 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:57,946 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:57,947 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'WAIT']
+2021-02-14 11:59:57,950 [rule_based_agent_code] DEBUG: Suitable target found at (3, 3)
+2021-02-14 11:59:57,950 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:58,047 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,047 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,047 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:58,050 [rule_based_agent_code] DEBUG: Suitable target found at (5, 1)
+2021-02-14 11:59:58,050 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:58,168 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,168 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,168 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
+2021-02-14 11:59:58,172 [rule_based_agent_code] DEBUG: Suitable target found at (3, 3)
+2021-02-14 11:59:58,172 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:58,255 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,256 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,256 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:58,258 [rule_based_agent_code] DEBUG: Suitable target found at (5, 1)
+2021-02-14 11:59:58,258 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:58,356 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,356 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,356 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:58,358 [rule_based_agent_code] DEBUG: Suitable target found at (5, 1)
+2021-02-14 11:59:58,358 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:58,459 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,459 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,460 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT', 'BOMB']
+2021-02-14 11:59:58,463 [rule_based_agent_code] DEBUG: Suitable target found at (5, 1)
+2021-02-14 11:59:58,463 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:58,559 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,559 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,560 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
+2021-02-14 11:59:58,566 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:58,566 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-02-14 11:59:58,672 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,672 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,672 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
+2021-02-14 11:59:58,676 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:58,676 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:58,766 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,766 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,767 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'DOWN', 'WAIT']
+2021-02-14 11:59:58,770 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:58,770 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-02-14 11:59:58,867 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,867 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,868 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT']
+2021-02-14 11:59:58,869 [rule_based_agent_code] DEBUG: Suitable target found at (4, 3)
+2021-02-14 11:59:58,869 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:58,969 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:58,969 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:58,969 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'UP', 'WAIT', 'BOMB']
+2021-02-14 11:59:58,971 [rule_based_agent_code] DEBUG: Suitable target found at (1, 4)
+2021-02-14 11:59:58,971 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
+2021-02-14 11:59:59,076 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:59,076 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:59,076 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'RIGHT', 'WAIT', 'BOMB']
+2021-02-14 11:59:59,079 [rule_based_agent_code] DEBUG: Suitable target found at (1, 4)
+2021-02-14 11:59:59,079 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:59,177 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:59,177 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:59,178 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'UP', 'DOWN', 'WAIT']
+2021-02-14 11:59:59,180 [rule_based_agent_code] DEBUG: Suitable target found at (1, 4)
+2021-02-14 11:59:59,180 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:59,278 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:59,278 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:59,278 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:59,281 [rule_based_agent_code] DEBUG: Suitable target found at (1, 6)
+2021-02-14 11:59:59,281 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-02-14 11:59:59,394 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
+2021-02-14 11:59:59,394 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-02-14 11:59:59,395 [rule_based_agent_code] DEBUG: Valid actions: ['UP', 'DOWN', 'WAIT', 'BOMB']
+2021-02-14 11:59:59,402 [rule_based_agent_code] DEBUG: Suitable target found at (1, 6)
+2021-02-14 11:59:59,403 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.008s.
