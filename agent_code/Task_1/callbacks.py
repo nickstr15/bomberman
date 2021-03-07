@@ -25,12 +25,15 @@ def setup(self):
 
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-        # weights = np.random.rand(len(ACTIONS))
-        # self.model = weights / weights.sum()
+
+        number_of_features = 36
+
+        self.para_vecs = np.random.rand(6, number_of_features)  # 6 = number of possible movements
+
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
-            self.model = pickle.load(file)
+            self.para_vecs = pickle.load(file)
     self.counter = 0
 
 def act(self, game_state: dict) -> str:
@@ -44,22 +47,24 @@ def act(self, game_state: dict) -> str:
     """
     # todo Exploration vs exploitation
 
-    reduction_factor = 0.001  # How fast reduce the randomness
-    random_prob = 1 - (self.counter*reduction_factor)
+    reduction_factor = 1/400 * 0.01  # How fast reduce the randomness
+    random_prob = 0.8 - (self.counter*reduction_factor)
     if self.counter*reduction_factor > 1:
         random_prob = 0
     self.counter += 1
 
     if self.train and random.random() < random_prob:
         self.logger.debug("Choosing action purely at random.")
-        # 80%: walk in any direction. 10% wait. 10% bomb.
-        return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+        # 80%: walk in any direction. 15% wait. 5% bomb.
+        return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .15, .05])
 
     self.logger.debug("Querying model for action.")
-    return np.random.choice(ACTIONS, p=self.model)
+    weights = np.dot(self.para_vecs, state_to_features(game_state))
+    prob = weights / np.sum(weights)
+    return np.random.choice(ACTIONS, p=prob)
 
 
-def state_to_features(self, game_state: dict) -> np.array:
+def state_to_features(game_state: dict) -> np.array:
         """
         *This is not a required function, but an idea to structure your code.*
 
@@ -77,10 +82,30 @@ def state_to_features(self, game_state: dict) -> np.array:
         if game_state is None:
             return None
 
-        # For example, you could construct several channels of equal shape, ...
-        channels = []
-        channels.append(...)
-        # concatenate them as a feature tensor (they must have the same shape), ...
-        stacked_channels = np.stack(channels)
-        # and return them as a vector
-        return stacked_channels.reshape(-1) 
+
+        # Distance changes of the coins:
+        coin_distance = []
+        player_pos = game_state["self"][3]
+        for coin_pos in game_state["coins"]:
+            coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([0,1]))))  # Up
+            coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([0,-1])))) # Down
+            coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([1,0]))))  # Right
+            coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([-1,0])))) # Left
+            # coin_real_distance.append(find_shortest_path_length(player_pos, coin_pos))
+        
+        collected_coins = 9 - len(game_state["coins"])
+        features = np.append(coin_distance, np.zeros(collected_coins*4))
+
+
+
+        # # For example, you could construct several channels of equal shape, ...
+        # channels = []
+        # channels.append(...)
+        # # concatenate them as a feature tensor (they must have the same shape), ...
+        # stacked_channels = np.stack(channels)
+        # # and return them as a vector
+        # return stacked_channels.reshape(-1) 
+        return features
+
+# def find_shortest_path_length(start, end):
+#     possible_moves = [1,1,1,1] # Left, Right, Up, Down

@@ -75,7 +75,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 
     # Store the model
     with open("my-saved-model.pt", "wb") as file:
-        pickle.dump(self.model, file)
+        pickle.dump(self.para_vecs, file)
 
 
 def reward_from_events(self, events: List[str]) -> int:
@@ -86,6 +86,7 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     k = -0.01
+    j = -3
     game_rewards = {
         e.COIN_COLLECTED: 1,
         e.KILLED_OPPONENT: 5,
@@ -95,7 +96,8 @@ def reward_from_events(self, events: List[str]) -> int:
         e.MOVED_DOWN: k,
         e.WAITED: k,
         e.INVALID_ACTION: k,
-        e.BOMB_DROPPED: k
+        e.BOMB_DROPPED: k,
+        e.KILLED_SELF: j
     }
     reward_sum = 0
     for event in events:
