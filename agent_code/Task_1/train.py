@@ -85,10 +85,17 @@ def reward_from_events(self, events: List[str]) -> int:
     Here you can modify the rewards your agent get so as to en/discourage
     certain behavior.
     """
+    k = -0.01
     game_rewards = {
         e.COIN_COLLECTED: 1,
         e.KILLED_OPPONENT: 5,
-        PLACEHOLDER_EVENT: -.1  # idea: the custom event is bad
+        e.MOVED_RIGHT: k
+        e.MOVED_LEFT: k
+        e.MOVED_UP: k
+        e.MOVED_DOWN: k
+        e.WAITED: k
+        e.INVALID_ACTION: k
+        e.BOMB_DROPPED: k
     }
     reward_sum = 0
     for event in events:

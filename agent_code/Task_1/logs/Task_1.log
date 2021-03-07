@@ -1,0 +1,44 @@
+2021-03-07 11:50:50,211 [Task_1_wrapper] DEBUG: Calling setup on callback.
+2021-03-07 11:50:50,211 [Task_1_code] INFO: Setting up model from scratch.
+2021-03-07 11:50:50,211 [Task_1_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-07 11:50:50,211 [Task_1_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-07 11:50:50,211 [Task_1_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-07 11:50:50,314 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-07 11:50:50,314 [Task_1_code] DEBUG: Encountered game event(s)  in step 1
+2021-03-07 11:50:50,314 [Task_1_code] INFO: Awarded -0.1 for events PLACEHOLDER
+2021-03-07 11:50:50,314 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-07 11:50:50,314 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-07 11:50:50,315 [Task_1_code] DEBUG: Querying model for action.
+2021-03-07 11:50:50,315 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-07 11:50:50,415 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-07 11:50:50,415 [Task_1_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 2
+2021-03-07 11:50:50,416 [Task_1_code] INFO: Awarded -0.1 for events BOMB_DROPPED, PLACEHOLDER
+2021-03-07 11:50:50,416 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-07 11:50:50,416 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-07 11:50:50,416 [Task_1_code] DEBUG: Querying model for action.
+2021-03-07 11:50:50,416 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-07 11:50:50,518 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-07 11:50:50,518 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 3
+2021-03-07 11:50:50,518 [Task_1_code] INFO: Awarded -0.1 for events MOVED_UP, PLACEHOLDER
+2021-03-07 11:50:50,518 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-07 11:50:50,518 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-07 11:50:50,518 [Task_1_code] DEBUG: Querying model for action.
+2021-03-07 11:50:50,518 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-07 11:50:50,618 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-07 11:50:50,618 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 4
+2021-03-07 11:50:50,618 [Task_1_code] INFO: Awarded -0.1 for events INVALID_ACTION, PLACEHOLDER
+2021-03-07 11:50:50,618 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-07 11:50:50,619 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-07 11:50:50,619 [Task_1_code] DEBUG: Querying model for action.
+2021-03-07 11:50:50,619 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-07 11:50:50,719 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-07 11:50:50,719 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
+2021-03-07 11:50:50,720 [Task_1_code] INFO: Awarded -0.1 for events INVALID_ACTION, PLACEHOLDER
+2021-03-07 11:50:50,720 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-07 11:50:50,720 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-07 11:50:50,720 [Task_1_code] DEBUG: Querying model for action.
+2021-03-07 11:50:50,720 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-07 11:50:50,721 [Task_1_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-07 11:50:50,721 [Task_1_code] DEBUG: Encountered event(s) 'INVALID_ACTION', 'BOMB_EXPLODED', 'KILLED_SELF', 'GOT_KILLED' in final step
+2021-03-07 11:50:50,721 [Task_1_code] INFO: Awarded 0 for events INVALID_ACTION, BOMB_EXPLODED, KILLED_SELF, GOT_KILLED
+2021-03-07 11:50:50,721 [Task_1_wrapper] DEBUG: Got result from callback#end_of_round in 0.000s.
