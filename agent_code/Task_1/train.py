@@ -60,7 +60,6 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
 
 
-
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
     Called at the end of each game or when the agent died to hand out final rewards.
