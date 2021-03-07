@@ -100,7 +100,7 @@ def state_to_features(game_state: dict) -> np.array:
         certain_death = []
         for step in np.array([[0,1], [0,-1], [1,0], [-1,0]]):
             next = player_pos + step
-            possible_moves.append(game_state["field"][next[0],next[1]])
+            possible_moves.append((game_state["field"][next[0],next[1]]!=0))
             death = False
             if game_state["explosion_map"][next[0],next[1]] != 0:
                 death = True
@@ -115,7 +115,7 @@ def state_to_features(game_state: dict) -> np.array:
                 # Check if the bomb would hit the player
 
                 for x in range(-3,1):
-                    if bomb[0] + np.array([x,0]) == player_pos:
+                    if (bomb[0] + np.array([x,0]) == player_pos).all():
                         blocked = False
                         for x_ in range(x, 1):
                             check = bomb[0][0] + np.array([x_,0])
@@ -126,7 +126,7 @@ def state_to_features(game_state: dict) -> np.array:
                             break
 
                 for x in range(0,4):
-                    if bomb[0] + np.array([x,0]) == player_pos:
+                    if (bomb[0] + np.array([x,0]) == player_pos).all():
                         blocked = False
                         for x_ in range(0, x):
                             check = bomb[0][0] + np.array([x_,0])
@@ -136,7 +136,7 @@ def state_to_features(game_state: dict) -> np.array:
                             death = True
 
                 for y in range(-3,1):
-                    if bomb[0] + np.array([0,y]) == player_pos:
+                    if (bomb[0] + np.array([0,y]) == player_pos).all():
                         blocked = False
                         for y_ in range(x, 1):
                             check = bomb[0][0] + np.array([0,y_])
@@ -147,7 +147,7 @@ def state_to_features(game_state: dict) -> np.array:
                             break
 
                 for y in range(0,4):
-                    if bomb[0] + np.array([0,y]) == player_pos:
+                    if (bomb[0] + np.array([0,y]) == player_pos).all():
                         blocked = False
                         for y_ in range(0, x):
                             check = bomb[0][0] + np.array([0,y_])
