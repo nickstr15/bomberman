@@ -3,7 +3,7 @@ import pickle
 import random
 
 import numpy as np
-
+from RLModel import Model
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -22,11 +22,10 @@ def setup(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
+    number_of_features = 40
 
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-
-        number_of_features = 40
 
         self.para_vecs = np.random.rand(6, number_of_features)  # 6 = number of possible movements
 
@@ -34,6 +33,8 @@ def setup(self):
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
             self.para_vecs = pickle.load(file)
+
+    model = Model(number_of_features, 10, 0.9, 0.01, state_to_features, self.para_vecs)
     self.counter = 0
 
 
