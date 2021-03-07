@@ -104,11 +104,11 @@ def state_to_features(game_state: dict) -> np.array:
             if game_state["explosion_map"][next[0],next[1]] != 0:
                 death = True
 
-            for bomb in game_state["bombs"]:
-                if bomb[0][0] != player_pos[0] and
-                hit = False
-                if bomb[1] == 1 and hit:
-                    death = True
+            # for bomb in game_state["bombs"]:
+            #     if bomb[0][0] != player_pos[0] and
+            #     hit = False
+            #     if bomb[1] == 1 and hit:
+            #         death = True
 
 
             certain_death.append(death)
