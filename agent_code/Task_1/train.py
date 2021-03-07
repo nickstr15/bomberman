@@ -30,6 +30,8 @@ def setup_training(self):
     # (s, a, r, s')
     self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
 
+    self.number_of_coins = 9
+
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -56,6 +58,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
 
     # state_to_features is defined in callbacks.py
     self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
+
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -85,8 +88,11 @@ def reward_from_events(self, events: List[str]) -> int:
     Here you can modify the rewards your agent get so as to en/discourage
     certain behavior.
     """
+
     k = -0.01
     j = -3
+    i = -1
+    # k: finish the game as fast as possible, j: prevent self kills, i: prevent wrong actions
     game_rewards = {
         e.COIN_COLLECTED: 1,
         e.KILLED_OPPONENT: 5,
@@ -95,7 +101,7 @@ def reward_from_events(self, events: List[str]) -> int:
         e.MOVED_UP: k,
         e.MOVED_DOWN: k,
         e.WAITED: k,
-        e.INVALID_ACTION: k,
+        e.INVALID_ACTION: i,
         e.BOMB_DROPPED: k,
         e.KILLED_SELF: j
     }

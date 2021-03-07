@@ -26,7 +26,7 @@ def setup(self):
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
 
-        number_of_features = 36
+        number_of_features = 44
 
         self.para_vecs = np.random.rand(6, number_of_features)  # 6 = number of possible movements
 
@@ -35,6 +35,7 @@ def setup(self):
         with open("my-saved-model.pt", "rb") as file:
             self.para_vecs = pickle.load(file)
     self.counter = 0
+
 
 def act(self, game_state: dict) -> str:
     """
@@ -93,8 +94,29 @@ def state_to_features(game_state: dict) -> np.array:
             coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([-1,0])))) # Left
             # coin_real_distance.append(find_shortest_path_length(player_pos, coin_pos))
         
+        # Possible_steps:
+        possible_moves = []
+        certain_death = []
+        for step in np.array([[0,1], [0,-1], [1,0], [-1,0]]):
+            next = player_pos + step
+            possible_moves.append(game_state["field"][next[0],next[1]])
+            death = False
+            if game_state["explosion_map"][next[0],next[1]] != 0:
+                death = True
+
+            for bomb in game_state["bombs"]:
+                if bomb[0][0] != player_pos[0] and
+                hit = False
+                if bomb[1] == 1 and hit:
+                    death = True
+
+
+            certain_death.append(death)
+        
+
         collected_coins = 9 - len(game_state["coins"])
         features = np.append(coin_distance, np.zeros(collected_coins*4))
+        features = np.append(features, possible_moves)
 
 
 
