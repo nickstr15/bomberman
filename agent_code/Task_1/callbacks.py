@@ -26,7 +26,7 @@ def setup(self):
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
 
-        number_of_features = 44
+        number_of_features = 40
 
         self.para_vecs = np.random.rand(6, number_of_features)  # 6 = number of possible movements
 
@@ -104,12 +104,56 @@ def state_to_features(game_state: dict) -> np.array:
             if game_state["explosion_map"][next[0],next[1]] != 0:
                 death = True
 
-            # for bomb in game_state["bombs"]:
-            #     if bomb[0][0] != player_pos[0] and
-            #     hit = False
-            #     if bomb[1] == 1 and hit:
-            #         death = True
+            for bomb in game_state["bombs"]:
+                # only consider the bombs exploding the next turn
+                if bomb[1] != 1:
+                    continue
+                # one coordinate has to match
+                if bomb[0][0] != player_pos[0] and bomb[0][1] != player_pos[1]:
+                    continue
+                # Check if the bomb would hit the player
 
+                for x in range(-3,1):
+                    if bomb[0] + np.array([x,0]) == player_pos:
+                        blocked = False
+                        for x_ in range(x, 1):
+                            check = bomb[0][0] + np.array([x_,0])
+                            if game_state["field"][check[0],check[1]] == -1:
+                                blocked = True
+                        if not blocked:
+                            death = True
+                            break
+
+                for x in range(0,4):
+                    if bomb[0] + np.array([x,0]) == player_pos:
+                        blocked = False
+                        for x_ in range(0, x):
+                            check = bomb[0][0] + np.array([x_,0])
+                            if game_state["field"][check[0],check[1]] == -1:
+                                blocked = True
+                        if not blocked:
+                            death = True
+
+                for y in range(-3,1):
+                    if bomb[0] + np.array([0,y]) == player_pos:
+                        blocked = False
+                        for y_ in range(x, 1):
+                            check = bomb[0][0] + np.array([0,y_])
+                            if game_state["field"][check[0],check[1]] == -1:
+                                blocked = True
+                        if not blocked:
+                            death = True
+                            break
+
+                for y in range(0,4):
+                    if bomb[0] + np.array([0,y]) == player_pos:
+                        blocked = False
+                        for y_ in range(0, x):
+                            check = bomb[0][0] + np.array([0,y_])
+                            if game_state["field"][check[0],check[1]] == -1:
+                                blocked = True
+                        if not blocked:
+                            death = True
 
             certain_death.append(death)
         

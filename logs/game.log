@@ -1,27 +1,18 @@
-2021-03-07 15:35:12,465 [BombeRLeWorld] INFO: Initializing game world
-2021-03-07 15:35:12,816 [BombeRLeWorld] INFO: STARTING ROUND #1
-2021-03-07 15:35:12,917 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-07 15:35:12,918 [BombeRLeWorld] INFO: Agent <Task_1> chose action RIGHT in 0.00s.
-2021-03-07 15:35:12,918 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
-2021-03-07 15:35:13,019 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-07 15:35:13,021 [BombeRLeWorld] INFO: Agent <Task_1> chose action LEFT in 0.00s.
-2021-03-07 15:35:13,021 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
-2021-03-07 15:35:13,120 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-07 15:35:13,123 [BombeRLeWorld] INFO: Agent <Task_1> chose action DOWN in 0.00s.
-2021-03-07 15:35:13,123 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
-2021-03-07 15:35:13,221 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-07 15:35:13,223 [BombeRLeWorld] INFO: Agent <Task_1> chose action RIGHT in 0.00s.
-2021-03-07 15:35:13,223 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
-2021-03-07 15:35:13,323 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-07 15:35:13,325 [BombeRLeWorld] INFO: Agent <Task_1> chose action LEFT in 0.00s.
-2021-03-07 15:35:13,325 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
-2021-03-07 15:35:13,424 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-07 15:35:13,426 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
-2021-03-07 15:35:13,426 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
-2021-03-07 15:35:13,426 [BombeRLeWorld] INFO: Agent <Task_1> drops bomb at (1, 2)
-2021-03-07 15:35:13,528 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-07 15:35:13,531 [BombeRLeWorld] INFO: Agent <Task_1> chose action DOWN in 0.00s.
-2021-03-07 15:35:13,531 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
-2021-03-07 15:35:13,629 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-07 15:35:18,109 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
-2021-03-07 15:35:18,110 [BombeRLeWorld] INFO: SHUT DOWN
+2021-03-07 16:15:24,931 [BombeRLeWorld] INFO: Initializing game world
+2021-03-07 16:15:25,290 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-07 16:15:25,392 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-07 16:15:25,393 [BombeRLeWorld] INFO: Agent <Task_1> chose action UP in 0.00s.
+2021-03-07 16:15:25,393 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-07 16:15:25,494 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-07 16:15:25,496 [BombeRLeWorld] INFO: Agent <Task_1> chose action WAIT in 0.00s.
+2021-03-07 16:15:25,496 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-07 16:15:25,596 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-07 16:15:25,598 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-07 16:15:25,598 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-07 16:15:25,598 [BombeRLeWorld] INFO: Agent <Task_1> drops bomb at (1, 14)
+2021-03-07 16:15:25,698 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-07 16:15:25,699 [BombeRLeWorld] INFO: Agent <Task_1> chose action UP in 0.00s.
+2021-03-07 16:15:25,699 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-07 16:15:25,802 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-07 16:15:29,673 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2021-03-07 16:15:29,674 [BombeRLeWorld] INFO: SHUT DOWN
