@@ -1,2 +1,603 @@
-2021-03-05 15:04:33,868 [BombeRLeWorld] INFO: Initializing game world
-2021-03-05 15:04:33,875 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-07 11:01:02,354 [BombeRLeWorld] INFO: Initializing game world
+2021-03-07 11:01:02,727 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-07 11:01:02,828 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-07 11:01:02,835 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:02,835 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:02,835 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:02,835 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:02,835 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:02,835 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:02,836 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:02,836 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:02,929 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action BOMB in 0.00s.
+2021-03-07 11:01:02,933 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> drops bomb at (1, 2)
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action BOMB in 0.00s.
+2021-03-07 11:01:02,933 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> drops bomb at (2, 15)
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action BOMB in 0.00s.
+2021-03-07 11:01:02,933 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> drops bomb at (15, 14)
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action BOMB in 0.00s.
+2021-03-07 11:01:02,933 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:02,933 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> drops bomb at (14, 1)
+2021-03-07 11:01:03,030 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-07 11:01:03,037 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,037 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,037 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,038 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,038 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:03,038 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,038 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:03,038 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,131 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-07 11:01:03,138 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,138 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,138 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,139 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,139 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:03,139 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,139 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:03,139 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,238 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-07 11:01:03,244 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,244 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,245 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:03,245 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,245 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,245 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,245 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,245 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,340 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-07 11:01:03,347 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:03,347 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,347 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:03,347 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,347 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:03,348 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,348 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:03,348 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,348 [BombeRLeWorld] INFO: Agent <rule_based_agent_3>'s bomb at (1, 2) explodes
+2021-03-07 11:01:03,348 [BombeRLeWorld] INFO: Agent <rule_based_agent_1>'s bomb at (2, 15) explodes
+2021-03-07 11:01:03,348 [BombeRLeWorld] INFO: Agent <rule_based_agent_2>'s bomb at (15, 14) explodes
+2021-03-07 11:01:03,348 [BombeRLeWorld] INFO: Agent <rule_based_agent_0>'s bomb at (14, 1) explodes
+2021-03-07 11:01:03,442 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-07 11:01:03,455 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:03,455 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,455 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,455 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,455 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,455 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,455 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action BOMB in 0.00s.
+2021-03-07 11:01:03,455 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,455 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> drops bomb at (2, 1)
+2021-03-07 11:01:03,544 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-07 11:01:03,550 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:03,550 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,550 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action BOMB in 0.00s.
+2021-03-07 11:01:03,550 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,550 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> drops bomb at (15, 3)
+2021-03-07 11:01:03,550 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,550 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,550 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:03,550 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,645 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-07 11:01:03,652 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action BOMB in 0.00s.
+2021-03-07 11:01:03,652 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,652 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> drops bomb at (1, 10)
+2021-03-07 11:01:03,652 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:03,652 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,652 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:03,652 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,652 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,652 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,746 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-07 11:01:03,752 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,752 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,752 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,752 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,752 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:03,752 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,752 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:03,752 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,847 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-07 11:01:03,852 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,852 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,852 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,852 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,852 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:03,853 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,853 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action BOMB in 0.00s.
+2021-03-07 11:01:03,853 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,853 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> drops bomb at (13, 12)
+2021-03-07 11:01:03,853 [BombeRLeWorld] INFO: Agent <rule_based_agent_3>'s bomb at (2, 1) explodes
+2021-03-07 11:01:03,949 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-07 11:01:03,960 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,960 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:03,960 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:03,960 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:03,960 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,960 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:03,960 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:03,960 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:03,960 [BombeRLeWorld] INFO: Agent <rule_based_agent_0>'s bomb at (15, 3) explodes
+2021-03-07 11:01:03,960 [BombeRLeWorld] INFO: Coin found at (14, 3)
+2021-03-07 11:01:04,051 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-07 11:01:04,057 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:04,057 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,057 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action BOMB in 0.00s.
+2021-03-07 11:01:04,057 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,057 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> drops bomb at (1, 5)
+2021-03-07 11:01:04,057 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,057 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,057 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:04,057 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,057 [BombeRLeWorld] INFO: Agent <rule_based_agent_1>'s bomb at (1, 10) explodes
+2021-03-07 11:01:04,057 [BombeRLeWorld] INFO: Coin found at (1, 7)
+2021-03-07 11:01:04,153 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-07 11:01:04,158 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:04,158 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,158 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,158 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,158 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action BOMB in 0.00s.
+2021-03-07 11:01:04,158 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,158 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> drops bomb at (2, 11)
+2021-03-07 11:01:04,158 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:04,158 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,255 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-07 11:01:04,261 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:04,261 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,261 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:04,261 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,261 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action BOMB in 0.00s.
+2021-03-07 11:01:04,261 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,261 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> drops bomb at (11, 1)
+2021-03-07 11:01:04,261 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:04,261 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,261 [BombeRLeWorld] INFO: Agent <rule_based_agent_2>'s bomb at (13, 12) explodes
+2021-03-07 11:01:04,261 [BombeRLeWorld] INFO: Coin found at (13, 10)
+2021-03-07 11:01:04,357 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-07 11:01:04,363 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,363 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,363 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,363 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,363 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,363 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,363 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action BOMB in 0.00s.
+2021-03-07 11:01:04,363 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,363 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> drops bomb at (12, 13)
+2021-03-07 11:01:04,457 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-07 11:01:04,465 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:04,465 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,465 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,465 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,465 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,465 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,465 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action None in 0.00s.
+2021-03-07 11:01:04,465 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,465 [BombeRLeWorld] INFO: Agent <rule_based_agent_3>'s bomb at (1, 5) explodes
+2021-03-07 11:01:04,465 [BombeRLeWorld] INFO: Coin found at (4, 5)
+2021-03-07 11:01:04,558 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-07 11:01:04,565 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,565 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,565 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action BOMB in 0.00s.
+2021-03-07 11:01:04,566 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,566 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> drops bomb at (2, 3)
+2021-03-07 11:01:04,566 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,566 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,566 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,566 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,566 [BombeRLeWorld] INFO: Agent <rule_based_agent_1>'s bomb at (2, 11) explodes
+2021-03-07 11:01:04,660 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-07 11:01:04,673 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:04,673 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,674 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:04,674 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,674 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,674 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,674 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:04,674 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,674 [BombeRLeWorld] INFO: Agent <rule_based_agent_0>'s bomb at (11, 1) explodes
+2021-03-07 11:01:04,762 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-07 11:01:04,770 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,770 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,770 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,771 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,771 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,771 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,771 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,771 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,771 [BombeRLeWorld] INFO: Agent <rule_based_agent_2>'s bomb at (12, 13) explodes
+2021-03-07 11:01:04,771 [BombeRLeWorld] INFO: Coin found at (14, 13)
+2021-03-07 11:01:04,864 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-07 11:01:04,871 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:04,871 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,871 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,871 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,871 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,871 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,871 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,871 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,966 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-07 11:01:04,972 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:04,972 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:04,972 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,972 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:04,972 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:04,972 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:04,972 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:04,972 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:04,972 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> picked up coin at (14, 3) and receives 1 point
+2021-03-07 11:01:04,972 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> picked up coin at (14, 13) and receives 1 point
+2021-03-07 11:01:04,972 [BombeRLeWorld] INFO: Agent <rule_based_agent_3>'s bomb at (2, 3) explodes
+2021-03-07 11:01:05,068 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-07 11:01:05,075 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,075 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,075 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:05,075 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,075 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,075 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,075 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,075 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,075 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> picked up coin at (1, 7) and receives 1 point
+2021-03-07 11:01:05,170 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-07 11:01:05,182 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.01s.
+2021-03-07 11:01:05,182 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,182 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action BOMB in 0.00s.
+2021-03-07 11:01:05,182 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,182 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> drops bomb at (5, 11)
+2021-03-07 11:01:05,182 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:05,182 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,182 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:05,182 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,272 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-07 11:01:05,279 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:05,279 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,279 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,279 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,279 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:05,279 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,279 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,279 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,373 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-07 11:01:05,381 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:05,381 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,381 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,381 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,381 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action BOMB in 0.00s.
+2021-03-07 11:01:05,381 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,381 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> drops bomb at (15, 11)
+2021-03-07 11:01:05,381 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,381 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,474 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-07 11:01:05,482 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action BOMB in 0.00s.
+2021-03-07 11:01:05,482 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,482 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> drops bomb at (11, 4)
+2021-03-07 11:01:05,482 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,482 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,482 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:05,482 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,483 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,483 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,576 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-07 11:01:05,586 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,586 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,586 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:05,586 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,586 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:05,586 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,586 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,586 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,586 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> picked up coin at (4, 5) and receives 1 point
+2021-03-07 11:01:05,586 [BombeRLeWorld] INFO: Agent <rule_based_agent_1>'s bomb at (5, 11) explodes
+2021-03-07 11:01:05,586 [BombeRLeWorld] INFO: Coin found at (5, 13)
+2021-03-07 11:01:05,679 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-07 11:01:05,689 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,689 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,689 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action BOMB in 0.00s.
+2021-03-07 11:01:05,689 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,689 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> drops bomb at (4, 5)
+2021-03-07 11:01:05,689 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,689 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,689 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,689 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,781 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-07 11:01:05,793 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,793 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,793 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,793 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,793 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,793 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,793 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,793 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,793 [BombeRLeWorld] INFO: Agent <rule_based_agent_2>'s bomb at (15, 11) explodes
+2021-03-07 11:01:05,884 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-07 11:01:05,899 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,899 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,899 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,899 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,899 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.01s.
+2021-03-07 11:01:05,899 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,899 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:05,899 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:05,899 [BombeRLeWorld] INFO: Agent <rule_based_agent_0>'s bomb at (11, 4) explodes
+2021-03-07 11:01:05,986 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-07 11:01:05,995 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,995 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:05,995 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:05,995 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:05,995 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:05,995 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:05,995 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:05,995 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,088 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-07 11:01:06,097 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,097 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,097 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,097 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,097 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,097 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,097 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:06,097 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,097 [BombeRLeWorld] INFO: Agent <rule_based_agent_3>'s bomb at (4, 5) explodes
+2021-03-07 11:01:06,189 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-07 11:01:06,196 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,196 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,196 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,196 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,196 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:06,196 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,196 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action BOMB in 0.00s.
+2021-03-07 11:01:06,196 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,197 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> drops bomb at (12, 11)
+2021-03-07 11:01:06,197 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> picked up coin at (5, 13) and receives 1 point
+2021-03-07 11:01:06,289 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-07 11:01:06,297 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:06,297 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,297 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,297 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,297 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,297 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,297 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,297 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,391 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-07 11:01:06,396 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,396 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,396 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action BOMB in 0.00s.
+2021-03-07 11:01:06,396 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,397 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> drops bomb at (15, 6)
+2021-03-07 11:01:06,397 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,397 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,397 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action BOMB in 0.00s.
+2021-03-07 11:01:06,397 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,397 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> drops bomb at (4, 13)
+2021-03-07 11:01:06,492 [BombeRLeWorld] INFO: STARTING STEP 37
+2021-03-07 11:01:06,501 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:06,501 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,501 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,501 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,501 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,501 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,501 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:06,501 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,595 [BombeRLeWorld] INFO: STARTING STEP 38
+2021-03-07 11:01:06,608 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,608 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,608 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,608 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,608 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:06,608 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,608 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,609 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,609 [BombeRLeWorld] INFO: Agent <rule_based_agent_2>'s bomb at (12, 11) explodes
+2021-03-07 11:01:06,696 [BombeRLeWorld] INFO: STARTING STEP 39
+2021-03-07 11:01:06,705 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:06,705 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,705 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:06,705 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,705 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,705 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,705 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:06,705 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,797 [BombeRLeWorld] INFO: STARTING STEP 40
+2021-03-07 11:01:06,805 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:06,805 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,805 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:06,805 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,805 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:06,805 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,805 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:06,805 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,805 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> picked up coin at (13, 10) and receives 1 point
+2021-03-07 11:01:06,805 [BombeRLeWorld] INFO: Agent <rule_based_agent_0>'s bomb at (15, 6) explodes
+2021-03-07 11:01:06,805 [BombeRLeWorld] INFO: Agent <rule_based_agent_1>'s bomb at (4, 13) explodes
+2021-03-07 11:01:06,899 [BombeRLeWorld] INFO: STARTING STEP 41
+2021-03-07 11:01:06,906 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:06,906 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:06,906 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:06,906 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:06,906 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:06,906 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:06,906 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action BOMB in 0.00s.
+2021-03-07 11:01:06,906 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:06,906 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> drops bomb at (7, 5)
+2021-03-07 11:01:07,000 [BombeRLeWorld] INFO: STARTING STEP 42
+2021-03-07 11:01:07,010 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,010 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,010 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,010 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,010 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,010 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,010 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:07,010 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,102 [BombeRLeWorld] INFO: STARTING STEP 43
+2021-03-07 11:01:07,115 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action BOMB in 0.00s.
+2021-03-07 11:01:07,115 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,115 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> drops bomb at (13, 8)
+2021-03-07 11:01:07,115 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,115 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,115 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,115 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,115 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,115 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,204 [BombeRLeWorld] INFO: STARTING STEP 44
+2021-03-07 11:01:07,214 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,214 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,214 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,214 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,215 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,215 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,215 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action BOMB in 0.00s.
+2021-03-07 11:01:07,215 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,215 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> drops bomb at (7, 13)
+2021-03-07 11:01:07,304 [BombeRLeWorld] INFO: STARTING STEP 45
+2021-03-07 11:01:07,317 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,317 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,317 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,317 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,317 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,317 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,317 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,317 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,317 [BombeRLeWorld] INFO: Agent <rule_based_agent_3>'s bomb at (7, 5) explodes
+2021-03-07 11:01:07,406 [BombeRLeWorld] INFO: STARTING STEP 46
+2021-03-07 11:01:07,415 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,415 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,415 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,415 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,415 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,415 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,415 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,415 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,507 [BombeRLeWorld] INFO: STARTING STEP 47
+2021-03-07 11:01:07,516 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,516 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,516 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action BOMB in 0.00s.
+2021-03-07 11:01:07,516 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,516 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> drops bomb at (12, 5)
+2021-03-07 11:01:07,516 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,516 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,516 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,517 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,517 [BombeRLeWorld] INFO: Agent <rule_based_agent_2>'s bomb at (13, 8) explodes
+2021-03-07 11:01:07,609 [BombeRLeWorld] INFO: STARTING STEP 48
+2021-03-07 11:01:07,618 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,618 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,618 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,618 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,618 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,618 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,618 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,618 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,618 [BombeRLeWorld] INFO: Agent <rule_based_agent_1>'s bomb at (7, 13) explodes
+2021-03-07 11:01:07,618 [BombeRLeWorld] INFO: Coin found at (7, 12)
+2021-03-07 11:01:07,711 [BombeRLeWorld] INFO: STARTING STEP 49
+2021-03-07 11:01:07,720 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:07,720 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,720 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,720 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,720 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,720 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,721 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,721 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,812 [BombeRLeWorld] INFO: STARTING STEP 50
+2021-03-07 11:01:07,827 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:07,827 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,827 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,827 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,827 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,827 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,827 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:07,827 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,913 [BombeRLeWorld] INFO: STARTING STEP 51
+2021-03-07 11:01:07,920 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:07,920 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:07,920 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,920 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:07,920 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:07,920 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:07,920 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:07,920 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:07,921 [BombeRLeWorld] INFO: Agent <rule_based_agent_0>'s bomb at (12, 5) explodes
+2021-03-07 11:01:08,014 [BombeRLeWorld] INFO: STARTING STEP 52
+2021-03-07 11:01:08,021 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action LEFT in 0.00s.
+2021-03-07 11:01:08,021 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,021 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:08,021 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,021 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:08,021 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,021 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:08,022 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,114 [BombeRLeWorld] INFO: STARTING STEP 53
+2021-03-07 11:01:08,121 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:08,121 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,121 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:08,121 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,121 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:08,121 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,121 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:08,121 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,121 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> picked up coin at (7, 12) and receives 1 point
+2021-03-07 11:01:08,214 [BombeRLeWorld] INFO: STARTING STEP 54
+2021-03-07 11:01:08,220 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:08,220 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,220 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action UP in 0.00s.
+2021-03-07 11:01:08,220 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,220 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:08,220 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,221 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action UP in 0.00s.
+2021-03-07 11:01:08,221 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,316 [BombeRLeWorld] INFO: STARTING STEP 55
+2021-03-07 11:01:08,325 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action UP in 0.00s.
+2021-03-07 11:01:08,325 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,325 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action BOMB in 0.00s.
+2021-03-07 11:01:08,325 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,325 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> drops bomb at (9, 9)
+2021-03-07 11:01:08,325 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:08,325 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,325 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action BOMB in 0.00s.
+2021-03-07 11:01:08,325 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,325 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> drops bomb at (7, 2)
+2021-03-07 11:01:08,417 [BombeRLeWorld] INFO: STARTING STEP 56
+2021-03-07 11:01:08,422 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:08,422 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,422 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action DOWN in 0.00s.
+2021-03-07 11:01:08,422 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,422 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action BOMB in 0.00s.
+2021-03-07 11:01:08,423 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,423 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> drops bomb at (7, 10)
+2021-03-07 11:01:08,423 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action LEFT in 0.00s.
+2021-03-07 11:01:08,423 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,518 [BombeRLeWorld] INFO: STARTING STEP 57
+2021-03-07 11:01:08,525 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action UP in 0.00s.
+2021-03-07 11:01:08,525 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,525 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action DOWN in 0.00s.
+2021-03-07 11:01:08,525 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,525 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:08,525 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,525 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action DOWN in 0.00s.
+2021-03-07 11:01:08,525 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,618 [BombeRLeWorld] INFO: STARTING STEP 58
+2021-03-07 11:01:08,623 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action RIGHT in 0.00s.
+2021-03-07 11:01:08,624 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,624 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action LEFT in 0.00s.
+2021-03-07 11:01:08,624 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,624 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action BOMB in 0.00s.
+2021-03-07 11:01:08,624 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,624 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> drops bomb at (9, 4)
+2021-03-07 11:01:08,624 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:08,624 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,751 [BombeRLeWorld] INFO: STARTING STEP 59
+2021-03-07 11:01:08,751 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2021-03-07 11:01:08,752 [BombeRLeWorld] INFO: SHUT DOWN
+2021-03-07 11:01:08,759 [BombeRLeWorld] INFO: Agent <rule_based_agent_1> chose action LEFT in 0.00s.
+2021-03-07 11:01:08,759 [BombeRLeWorld] WARNING: Agent <rule_based_agent_1> stayed within acceptable think time.
+2021-03-07 11:01:08,759 [BombeRLeWorld] INFO: Agent <rule_based_agent_3> chose action RIGHT in 0.00s.
+2021-03-07 11:01:08,759 [BombeRLeWorld] WARNING: Agent <rule_based_agent_3> stayed within acceptable think time.
+2021-03-07 11:01:08,759 [BombeRLeWorld] INFO: Agent <rule_based_agent_2> chose action RIGHT in 0.00s.
+2021-03-07 11:01:08,759 [BombeRLeWorld] WARNING: Agent <rule_based_agent_2> stayed within acceptable think time.
+2021-03-07 11:01:08,759 [BombeRLeWorld] INFO: Agent <rule_based_agent_0> chose action DOWN in 0.00s.
+2021-03-07 11:01:08,759 [BombeRLeWorld] WARNING: Agent <rule_based_agent_0> stayed within acceptable think time.
+2021-03-07 11:01:08,759 [BombeRLeWorld] INFO: Agent <rule_based_agent_2>'s bomb at (9, 9) explodes
+2021-03-07 11:01:08,759 [BombeRLeWorld] INFO: Agent <rule_based_agent_3>'s bomb at (7, 2) explodes
