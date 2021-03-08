@@ -11,12 +11,14 @@ Transition = namedtuple('Transition',
                         ('state', 'action', 'next_state', 'reward'))
 
 # Hyper parameters -- DO modify
-TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
-RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
+#TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
+#RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
+GAME_BUFFER_SIZE = 5 # keep last ... games before update
 
 # Events
-PLACEHOLDER_EVENT = "PLACEHOLDER"
+#PLACEHOLDER_EVENT = "PLACEHOLDER"
 
+ACTIONS_IDX = {'LEFT':0, 'RIGHT':1, 'UP':2, 'DOWN':3, 'WAIT':4, 'BOMB':5}
 
 def setup_training(self):
     """
@@ -28,9 +30,10 @@ def setup_training(self):
     """
     # Example: Setup an array that will note transition tuples
     # (s, a, r, s')
-    self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
+    #self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
+    self.tau = 0
+    self.t = 0
 
-    self.number_of_coins = 9
 
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
@@ -52,12 +55,11 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     """
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
 
-    # Idea: Add your own events to hand out rewards
-    if ...:
-        events.append(PLACEHOLDER_EVENT)
+    reward = reward_from_events(self, events)
 
-    # state_to_features is defined in callbacks.py
-    self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
+    self.model.add_step(self.tau, self.t, self.features, ACTIONS_IDX[self_action], reward)
+
+    self.t += 1
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -75,9 +77,14 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
     self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
 
-    # Store the model
-    with open("my-saved-model.pt", "wb") as file:
-        pickle.dump(self.para_vecs, file)
+    self.tau += 1
+    self.t = 0
+
+    if self.tau == GAME_BUFFER_SIZE:
+        self.model.update_parameter_vectors()
+        self.tau = 0
+
+        
 
 
 def reward_from_events(self, events: List[str]) -> int:
