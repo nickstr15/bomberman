@@ -1,0 +1,86 @@
+2021-03-08 16:46:09,458 [BombeRLeWorld] INFO: Initializing game world
+2021-03-08 16:46:10,996 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-08 16:46:11,100 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-08 16:46:11,102 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:11,102 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:11,102 [BombeRLeWorld] INFO: Agent <Task_1> drops bomb at (15, 1)
+2021-03-08 16:46:11,102 [BombeRLeWorld] INFO: Agent <Task_1> picked up coin at (15, 1) and receives 1 point
+2021-03-08 16:46:11,201 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-08 16:46:11,203 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:11,203 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:11,302 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-08 16:46:11,304 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:11,304 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:11,404 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-08 16:46:11,406 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:11,406 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:11,505 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-08 16:46:11,507 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:11,507 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:11,507 [BombeRLeWorld] INFO: Agent <Task_1>'s bomb at (15, 1) explodes
+2021-03-08 16:46:11,508 [BombeRLeWorld] INFO: Agent <Task_1> blown up by own bomb
+2021-03-08 16:46:11,509 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-08 16:46:11,509 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2021-03-08 16:46:14,113 [BombeRLeWorld] INFO: STARTING ROUND #2
+2021-03-08 16:46:14,126 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-08 16:46:14,128 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:14,128 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:14,128 [BombeRLeWorld] INFO: Agent <Task_1> drops bomb at (1, 15)
+2021-03-08 16:46:14,228 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-08 16:46:14,229 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:14,229 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:14,329 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-08 16:46:14,332 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:14,332 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:14,431 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-08 16:46:14,433 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:14,433 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:14,532 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-08 16:46:14,534 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:14,534 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:14,534 [BombeRLeWorld] INFO: Agent <Task_1>'s bomb at (1, 15) explodes
+2021-03-08 16:46:14,534 [BombeRLeWorld] INFO: Agent <Task_1> blown up by own bomb
+2021-03-08 16:46:14,534 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-08 16:46:14,534 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
+2021-03-08 16:46:15,961 [BombeRLeWorld] INFO: STARTING ROUND #3
+2021-03-08 16:46:16,043 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-08 16:46:16,045 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:16,045 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:16,045 [BombeRLeWorld] INFO: Agent <Task_1> drops bomb at (15, 15)
+2021-03-08 16:46:16,145 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-08 16:46:16,146 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:16,147 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:16,246 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-08 16:46:16,247 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:16,248 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:16,347 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-08 16:46:16,349 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:16,349 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:16,448 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-08 16:46:16,450 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:16,450 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:16,451 [BombeRLeWorld] INFO: Agent <Task_1>'s bomb at (15, 15) explodes
+2021-03-08 16:46:16,451 [BombeRLeWorld] INFO: Agent <Task_1> blown up by own bomb
+2021-03-08 16:46:16,451 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-08 16:46:16,451 [BombeRLeWorld] INFO: WRAPPING UP ROUND #3
+2021-03-08 16:46:18,990 [BombeRLeWorld] INFO: STARTING ROUND #4
+2021-03-08 16:46:19,073 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-08 16:46:19,074 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:19,075 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:19,075 [BombeRLeWorld] INFO: Agent <Task_1> drops bomb at (1, 1)
+2021-03-08 16:46:19,175 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-08 16:46:19,177 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:19,177 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:19,276 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-08 16:46:19,278 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:19,278 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:19,377 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-08 16:46:19,378 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:19,378 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:19,479 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-08 16:46:19,480 [BombeRLeWorld] INFO: Agent <Task_1> chose action BOMB in 0.00s.
+2021-03-08 16:46:19,481 [BombeRLeWorld] WARNING: Agent <Task_1> stayed within acceptable think time.
+2021-03-08 16:46:19,481 [BombeRLeWorld] INFO: Agent <Task_1>'s bomb at (1, 1) explodes
+2021-03-08 16:46:19,481 [BombeRLeWorld] INFO: Agent <Task_1> blown up by own bomb
+2021-03-08 16:46:19,481 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-08 16:46:19,481 [BombeRLeWorld] INFO: WRAPPING UP ROUND #4
