@@ -3,10 +3,13 @@ import pickle
 import random
 
 import numpy as np
-from RLModel import Model
+from . import RLModel
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
-
+#Hyperparameter
+N = 10 # n-step Q learning
+GAMMA = 0.9 # discounting factor
+ALPHA = 0.01 # learning rate
 
 def setup(self):
     """
@@ -34,7 +37,7 @@ def setup(self):
         with open("my-saved-model.pt", "rb") as file:
             self.para_vecs = pickle.load(file)
 
-    model = Model(number_of_features, 10, 0.9, 0.01, state_to_features, self.para_vecs)
+    model = RLModel.Model(number_of_features, N, GAMMA, ALPHA, state_to_features, self.para_vecs)
     self.counter = 0
 
 
@@ -100,7 +103,7 @@ def state_to_features(game_state: dict) -> np.array:
         certain_death = []
         for step in np.array([[0,1], [0,-1], [1,0], [-1,0]]):
             next = player_pos + step
-            possible_moves.append((game_state["field"][next[0],next[1]]!=0))
+            possible_moves.append(game_state["field"][next[0],next[1]])
             death = False
             if game_state["explosion_map"][next[0],next[1]] != 0:
                 death = True

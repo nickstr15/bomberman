@@ -22,7 +22,7 @@ class Model():
         self.gamma = gamma
         self.alpha = alpha
 
-        self.discounts = (np.ones((n))*gamma)**np.linspace(0,n,n+1) #discounting factors 
+        self.discounts = (np.ones((n+1))*gamma)**np.linspace(0,n,n+1) #discounting factors 
 
         self.batches = [[] for _ in range(6)]  #six batches for the six moves
         self.rewards = [[]]
@@ -31,7 +31,13 @@ class Model():
         self.TAU = 0
         self.T = 400 #maximum 400 time steps per episode
 
-    def add_step(self, tau, t, action, reward, state):
+    def add_step(self, tau, t, state, action, reward):
+        '''
+        tau: episode
+        t: time step in episode
+        action: action that is executed
+        reward: reward that is earned after the action
+        '''
         if tau > self.TAU: #new episode
             self.TAU = TAU
             self.rewards.append([])
@@ -49,8 +55,8 @@ class Model():
             for t in range(self.t):
                 if t+self.n < self.T:
                     rewards = np.array(self.rewards[tau][t:t+self.n]) #rewards for next n steps
-                    Y[tau][t] = np.nansum(rewards*self.discounts) 
-                    Y[tau][t] += np.max(np.dot(self.states[tau][t],self.parameter_vectors))
+                    Y[tau][t] = np.nansum(rewards*self.discounts[0:-1]) 
+                    Y[tau][t] += np.max(np.dot(self.states[tau][t],self.parameter_vectors))*self.discounts[-1]
                 else:
                     rewards = np.array(self.rewards[tau][t:]) #rewards till end of the game
                     discounts = np.array(self.discounts[0:len(self.rewards[tau][t:])]) #discounts for these rewards
