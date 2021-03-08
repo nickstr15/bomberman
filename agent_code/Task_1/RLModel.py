@@ -1,8 +1,8 @@
 import numpy as np
-
+import pickle
 class Model():
 
-    def __init__(self, feature_count, n, gamma, alpha,state_to_features, parameter_vectors):
+    def __init__(self, feature_count, n, gamma, alpha, parameter_vectors):
         '''
         feature_count: number of features
 
@@ -10,12 +10,10 @@ class Model():
         gamma: discounting factor
         alpha: learning rate
 
-        date_to_features: function that receives current state as input
         parameter_vectors: start vectors for training
         '''
 
         self.feature_count = feature_count
-        self.state_to_features = state_to_features
         self.parameter_vectors = parameter_vectors
 
         self.n = n
@@ -45,22 +43,22 @@ class Model():
 
         self.batches[action].append((tau, t))
         self.rewards[tau].append(reward)
-        self.states[tau].append(self.state_to_features(state))
+        self.states[tau].append(state)
 
     def update_parameter_vectors(self):
         #calculate The Ys
         Y = np.empty((self.TAU, self.T))
         Y.fill(np.nan)
         for tau in range(self.TAU):
-            for t in range(self.t):
-                if t+self.n < self.T:
-                    rewards = np.array(self.rewards[tau][t:t+self.n]) #rewards for next n steps
-                    Y[tau][t] = np.nansum(rewards*self.discounts[0:-1]) 
-                    Y[tau][t] += np.max(np.dot(self.states[tau][t],self.parameter_vectors))*self.discounts[-1]
-                else:
-                    rewards = np.array(self.rewards[tau][t:]) #rewards till end of the game
-                    discounts = np.array(self.discounts[0:len(self.rewards[tau][t:])]) #discounts for these rewards
-                    Y[tau][t] = np.nansum(rewards*discounts)
+            steps = len(self.states[tau])
+            for t in range(steps-self.n):
+                rewards = np.array(self.rewards[tau][t:t+self.n]) #rewards for next n steps
+                Y[tau][t] = np.nansum(rewards*self.discounts[0:-1]) 
+                Y[tau][t] += np.max(np.dot(self.states[tau][t+self.n],self.parameter_vectors))*self.discounts[-1]
+            for t in range(steps-self.n,steps):
+                rewards = np.array(self.rewards[tau][t:]) #rewards till end of the game
+                discounts = np.array(self.discounts[0:len(self.rewards[tau][t:])]) #discounts for these rewards
+                Y[tau][t] = np.nansum(rewards*discounts)
 
         #update the parameter vectors
         for i,beta in enumerate(self.parameter_vectors):
@@ -77,9 +75,13 @@ class Model():
 
         self.TAU = 0
 
+        # Store the model
+        with open("my-saved-model.pt", "wb") as file:
+            pickle.dump(self.parameter_vectors, file)
+
     def predict_action(self, state):
         #return softmax of the actions for given state
-        Q = np.dot(self.state_to_features(state), self.parameter_vectors) 
-        return np.exp(Q)/sum(np.exp(Q))
+        Q = np.dot(state, self.parameter_vectors) 
+        return Q, np.exp(Q)/sum(np.exp(Q)), np.argmax(Q) #Q, softmax, max action index
 
         

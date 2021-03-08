@@ -6,6 +6,7 @@ import numpy as np
 from . import RLModel
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+
 #Hyperparameter
 N = 10 # n-step Q learning
 GAMMA = 0.9 # discounting factor
@@ -29,7 +30,6 @@ def setup(self):
 
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-
         self.para_vecs = np.random.rand(6, number_of_features)  # 6 = number of possible movements
 
     else:
@@ -37,7 +37,7 @@ def setup(self):
         with open("my-saved-model.pt", "rb") as file:
             self.para_vecs = pickle.load(file)
 
-    model = RLModel.Model(number_of_features, N, GAMMA, ALPHA, state_to_features, self.para_vecs)
+    self.model = RLModel.Model(number_of_features, N, GAMMA, ALPHA, self.para_vecs)
     self.counter = 0
 
 
@@ -50,23 +50,29 @@ def act(self, game_state: dict) -> str:
     :param game_state: The dictionary that describes everything on the board.
     :return: The action to take as a string.
     """
+
+    self.features = state_to_features(game_state)
+    Q, action_prop, best_action_idx = self.model.predict_action(self.features)
+
     # todo Exploration vs exploitation
 
     reduction_factor = 1/400 * 0.01  # How fast reduce the randomness
     random_prob = 0.8 - (self.counter*reduction_factor)
-    if self.counter*reduction_factor > 1:
-        random_prob = 0
-    self.counter += 1
+    if self.train:
+        if self.counter*reduction_factor > 1:
+            random_prob = 0
+        self.counter += 1
 
-    if self.train and random.random() < random_prob:
-        self.logger.debug("Choosing action purely at random.")
-        # 80%: walk in any direction. 15% wait. 5% bomb.
-        return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .15, .05])
+        if random.random() < random_prob:
+            self.logger.debug("Choosing action purely at random.")
+            # 80%: walk in any direction. 15% wait. 5% bomb.
+            return np.random.choice(ACTIONS, p=[.225, .225, .225, .225, .05, .05])
+        
+        self.logger.debug("Choosing action using softmax.")
+        return np.random.choice(ACTIONS, p=action_prop)
 
-    self.logger.debug("Querying model for action.")
-    weights = np.dot(self.para_vecs, state_to_features(game_state))
-    prob = weights / np.sum(weights)
-    return np.random.choice(ACTIONS, p=prob)
+    self.logger.debug("Choose action with highest prob.")
+    return ACTIONS[best_action_idx]
 
 
 def state_to_features(game_state: dict) -> np.array:
