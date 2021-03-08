@@ -13,7 +13,7 @@ Transition = namedtuple('Transition',
 # Hyper parameters -- DO modify
 #TRANSITION_HISTORY_SIZE = 3  # keep only ... last transitions
 #RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
-GAME_BUFFER_SIZE = 5 # keep last ... games before update
+GAME_BUFFER_SIZE = 20 # keep last ... games before update
 
 # Events
 #PLACEHOLDER_EVENT = "PLACEHOLDER"
@@ -33,6 +33,7 @@ def setup_training(self):
     #self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
     self.tau = 0
     self.t = 0
+    self.first = True
 
 
 
@@ -53,13 +54,19 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     :param new_game_state: The state the agent is in now.
     :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
     """
-    self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
+    if not self.first:
 
-    reward = reward_from_events(self, events)
+        self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
 
-    self.model.add_step(self.tau, self.t, self.features, ACTIONS_IDX[self_action], reward)
+        reward = reward_from_events(self, events)
 
-    self.t += 1
+        if self_action is None:
+            self_action = "WAIT"
+        self.model.add_step(self.tau, self.t, self.features, ACTIONS_IDX[self_action], reward)
+
+        self.t += 1
+
+    self.first = False
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -75,14 +82,16 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     :param self: The same object that is passed to all of your callbacks.
     """
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
-    self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
+    #self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
 
-    self.tau += 1
+    
     self.t = 0
 
     if self.tau == GAME_BUFFER_SIZE:
         self.model.update_parameter_vectors()
         self.tau = 0
+    else:
+        self.tau += 1
 
         
 
@@ -96,7 +105,7 @@ def reward_from_events(self, events: List[str]) -> int:
     """
 
     k = -0.01
-    j = -3
+    j = -10
     i = -1
     # k: finish the game as fast as possible, j: prevent self kills, i: prevent wrong actions
     game_rewards = {

@@ -9,8 +9,8 @@ ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
 #Hyperparameter
 N = 10 # n-step Q learning
-GAMMA = 0.9 # discounting factor
-ALPHA = 0.01 # learning rate
+GAMMA = 0.4 # discounting factor
+ALPHA = 0.001 # learning rate
 
 def setup(self):
     """
@@ -53,11 +53,10 @@ def act(self, game_state: dict) -> str:
 
     self.features = state_to_features(game_state)
     Q, action_prop, best_action_idx = self.model.predict_action(self.features)
-
     # todo Exploration vs exploitation
 
     reduction_factor = 1/400 * 0.01  # How fast reduce the randomness
-    random_prob = 0.8 - (self.counter*reduction_factor)
+    random_prob = 1. - (self.counter*reduction_factor)
     if self.train:
         if self.counter*reduction_factor > 1:
             random_prob = 0
@@ -66,13 +65,15 @@ def act(self, game_state: dict) -> str:
         if random.random() < random_prob:
             self.logger.debug("Choosing action purely at random.")
             # 80%: walk in any direction. 15% wait. 5% bomb.
-            return np.random.choice(ACTIONS, p=[.225, .225, .225, .225, .05, .05])
+            return np.random.choice(ACTIONS, p=[.225, .225, .225, .225, .10, .0])
         
         self.logger.debug("Choosing action using softmax.")
         return np.random.choice(ACTIONS, p=action_prop)
 
     self.logger.debug("Choose action with highest prob.")
-    return ACTIONS[best_action_idx]
+    a = ACTIONS[best_action_idx]
+    self.logger.debug(f"make move {a}")
+    return a
 
 
 def state_to_features(game_state: dict) -> np.array:
@@ -114,7 +115,7 @@ def state_to_features(game_state: dict) -> np.array:
             if game_state["explosion_map"][next[0],next[1]] != 0:
                 death = True
 
-            for bomb in game_state["bombs"]:
+            '''for bomb in game_state["bombs"]:
                 # only consider the bombs exploding the next turn
                 if bomb[1] != 1:
                     continue
@@ -164,7 +165,7 @@ def state_to_features(game_state: dict) -> np.array:
                                 blocked = True
                         if not blocked:
                             death = True
-
+            '''
             certain_death.append(death)
         
 

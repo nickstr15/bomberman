@@ -1,9 +1,0 @@
-2021-03-08 15:24:04,601 [Task_1_wrapper] DEBUG: Calling setup on callback.
-2021-03-08 15:24:04,601 [Task_1_code] INFO: Setting up model from scratch.
-2021-03-08 15:24:04,602 [Task_1_wrapper] DEBUG: Got result from callback#setup in 0.001s.
-2021-03-08 15:24:04,602 [Task_1_wrapper] DEBUG: Calling setup_training on callback.
-2021-03-08 15:24:04,602 [Task_1_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
-2021-03-08 15:24:04,605 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-08 15:24:04,605 [Task_1_code] DEBUG: Encountered game event(s)  in step 1
-2021-03-08 15:24:04,605 [Task_1_code] INFO: Awarded 0 for events 
-2021-03-08 15:24:04,605 [Task_1_wrapper] ERROR: An exception occurred while calling game_events_occurred: 'types.SimpleNamespace' object has no attribute 'features'
