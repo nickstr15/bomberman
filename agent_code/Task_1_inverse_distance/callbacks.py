@@ -64,7 +64,7 @@ def act(self, game_state: dict) -> str:
     """
 
     self.features = state_to_features(game_state)
-    Q, action_prop, best_action_idx = self.model.predict_action(self.features)
+    Q, best_action_idx = self.model.predict_action(self.features)
     # todo Exploration vs exploitation
 
     reduction_factor = 1/400 * 0.003  # How fast reduce the randomness
@@ -84,7 +84,7 @@ def act(self, game_state: dict) -> str:
 
     self.logger.debug("Choose action with highest prob.")
     a = ACTIONS[best_action_idx]
-    self.logger.debug(f"make move {a} (prob = {action_prop[best_action_idx]}")
+    self.logger.debug(f"make move {a}")
     return a
 
 def state_to_features(game_state: dict) -> np.array:
@@ -116,8 +116,6 @@ def state_to_features(game_state: dict) -> np.array:
         np.random.shuffle(wanted_fields) # prevent a bias by having the fake entries always on the end.
         # all of the coin fields should have the same influence since the order in game_state is arbitrary
 
-    wanted_fields_list = wanted_fields.tolist() # needed for a working "in" command
-
     possible_next_pos = possible_neighbors(player_pos)
     distances = []
     for pos in (player_pos + STEP):
@@ -139,19 +137,16 @@ def state_to_features(game_state: dict) -> np.array:
         while len(q) != 0:
 
             pos, distance = q.popleft()
-            neighbors = possible_neighbors(pos)
-            
-            for node in neighbors:
+            if pos in visited:
+                continue
+            visited.append(pos)
 
-                if node in visited:
-                    continue
-                if node in wanted_fields_list:
-                    new_distances[np.argwhere((wanted_fields==node).all(axis=1))] = distance
-                
-                visited.append(node)
+            new_distances[np.argwhere((wanted_fields==pos).all(axis=1))] = distance
+            assert sum((wanted_fields==pos).all(axis=1)) <= 1
+            neighbors = possible_neighbors(pos)
+            for node in neighbors:              
                 q.append([node, distance+1])
+
         distances = np.append(distances, new_distances)
-    features = 1 / distances **21
-    # features[distances==1] = 100
-    # print(features)
+    features = 1 / distances**3
     return features
