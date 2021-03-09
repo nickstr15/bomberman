@@ -80,8 +80,9 @@ class Model():
 
     def predict_action(self, state):
         #return softmax of the actions for given state
-        Q = np.dot(state, self.parameter_vectors.T)
+        Q = np.dot(self.parameter_vectors, state)
         # Q /= np.max(np.abs(Q))
-        return Q, np.exp(Q)/sum(np.exp(Q)), np.argmax(Q) #Q, softmax, max action index
+        print("Q:"+str(Q))
+        return Q, np.argmax(Q) #Q, softmax, max action index
 
         
