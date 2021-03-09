@@ -54,6 +54,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     :param new_game_state: The state the agent is in now.
     :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
     """
+    # in the first step there is no self.features!
     if not self.first:
 
         self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
@@ -61,7 +62,9 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
         reward = reward_from_events(self, events)
 
         if self_action is None:
+            # TODO sollte nie passieren!
             self_action = "WAIT"
+            self.logger.debug(f'action was NONE!')
         self.model.add_step(self.tau, self.t, self.features, ACTIONS_IDX[self_action], reward)
 
         self.t += 1
@@ -82,8 +85,6 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     :param self: The same object that is passed to all of your callbacks.
     """
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
-    #self.transitions.append(Transition(state_to_features(last_game_state), last_action, None, reward_from_events(self, events)))
-
     
     self.t = 0
 
@@ -115,7 +116,7 @@ def reward_from_events(self, events: List[str]) -> int:
         e.MOVED_LEFT: k,
         e.MOVED_UP: k,
         e.MOVED_DOWN: k,
-        e.WAITED: 2*k,
+        e.WAITED: k,
         e.INVALID_ACTION: i,
         e.BOMB_DROPPED: k,
         e.KILLED_SELF: j

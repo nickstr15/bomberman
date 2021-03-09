@@ -1,0 +1,119 @@
+2021-03-09 16:19:06,827 [Task_1_inverse_distance_wrapper] DEBUG: Calling setup on callback.
+2021-03-09 16:19:06,828 [Task_1_inverse_distance_code] INFO: Loading model from saved state.
+2021-03-09 16:19:06,828 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-09 16:19:06,930 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:06,935 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:06,935 [Task_1_inverse_distance_code] DEBUG: make move LEFT (prob = 0.24998457472630448
+2021-03-09 16:19:06,935 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:07,031 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,036 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,036 [Task_1_inverse_distance_code] DEBUG: make move LEFT (prob = 0.2499845747263472
+2021-03-09 16:19:07,036 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:07,133 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,140 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,140 [Task_1_inverse_distance_code] DEBUG: make move LEFT (prob = 0.19999506374118156
+2021-03-09 16:19:07,140 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-09 16:19:07,233 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,238 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,239 [Task_1_inverse_distance_code] DEBUG: make move LEFT (prob = 0.24998466414751455
+2021-03-09 16:19:07,239 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:07,335 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,342 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,342 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.4046022142351604
+2021-03-09 16:19:07,342 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.007s.
+2021-03-09 16:19:07,436 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,442 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,442 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.24998466415947818
+2021-03-09 16:19:07,442 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:07,538 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,548 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,551 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.16666671964857102
+2021-03-09 16:19:07,551 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.013s.
+2021-03-09 16:19:07,640 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,645 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,645 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.47534636891822624
+2021-03-09 16:19:07,645 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:07,741 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,751 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,751 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.16666673289404765
+2021-03-09 16:19:07,751 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-09 16:19:07,842 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,847 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,847 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.24998457472630448
+2021-03-09 16:19:07,847 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:07,944 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:07,955 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:07,955 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.16666666666669877
+2021-03-09 16:19:07,955 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.011s.
+2021-03-09 16:19:08,046 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,051 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,052 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.24998457474431354
+2021-03-09 16:19:08,052 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-09 16:19:08,147 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,157 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,157 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.16666673290467607
+2021-03-09 16:19:08,157 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-09 16:19:08,248 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,256 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,257 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.47534648784562183
+2021-03-09 16:19:08,257 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-09 16:19:08,350 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,359 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,359 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:08,359 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-09 16:19:08,452 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,458 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,458 [Task_1_inverse_distance_code] DEBUG: make move UP (prob = 0.4753463292896046
+2021-03-09 16:19:08,458 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-09 16:19:08,554 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,564 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,564 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:08,564 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-09 16:19:08,657 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,662 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,662 [Task_1_inverse_distance_code] DEBUG: make move UP (prob = 0.4753463292896046
+2021-03-09 16:19:08,662 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:08,759 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,768 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,768 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:08,768 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-09 16:19:08,860 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,865 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,865 [Task_1_inverse_distance_code] DEBUG: make move UP (prob = 0.4753463292896046
+2021-03-09 16:19:08,865 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:08,963 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:08,973 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:08,973 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:08,973 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-09 16:19:09,064 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,070 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,070 [Task_1_inverse_distance_code] DEBUG: make move UP (prob = 0.4753463292896046
+2021-03-09 16:19:09,070 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-09 16:19:09,167 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,179 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,179 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:09,180 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.012s.
+2021-03-09 16:19:09,269 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,274 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,274 [Task_1_inverse_distance_code] DEBUG: make move UP (prob = 0.4753463292896046
+2021-03-09 16:19:09,274 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:09,371 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,380 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,380 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:09,380 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.009s.
+2021-03-09 16:19:09,472 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,477 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,477 [Task_1_inverse_distance_code] DEBUG: make move UP (prob = 0.4753463292896046
+2021-03-09 16:19:09,477 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:09,574 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,584 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,584 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:09,584 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-09 16:19:09,675 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,680 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,680 [Task_1_inverse_distance_code] DEBUG: make move UP (prob = 0.4753463292896046
+2021-03-09 16:19:09,680 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.005s.
+2021-03-09 16:19:09,805 [Task_1_inverse_distance_wrapper] DEBUG: Calling act on callback.
+2021-03-09 16:19:09,815 [Task_1_inverse_distance_code] DEBUG: Choose action with highest prob.
+2021-03-09 16:19:09,815 [Task_1_inverse_distance_code] DEBUG: make move DOWN (prob = 0.35218740659353
+2021-03-09 16:19:09,815 [Task_1_inverse_distance_wrapper] DEBUG: Got result from callback#act in 0.010s.

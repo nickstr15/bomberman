@@ -3,9 +3,12 @@ import pickle
 import random
 
 import numpy as np
+from collections import deque
 from . import RLModel
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
+STEP = np.array([[1,0], [-1,0], [0,1], [0,-1]])
+
 
 #Hyperparameter
 N = 10 # n-step Q learning
@@ -26,17 +29,26 @@ def setup(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
-    number_of_features = 246
+    number_of_features = 4*9
 
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
+        # TODO initialize para_vecs properly
         self.para_vecs = np.random.rand(6, number_of_features)  # 6 = number of possible movements
 
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
             self.para_vecs = pickle.load(file)
+    # print(self.para_vecs)
+    
+    # hand crafted feature vecs
 
+    self.para_vecs = np.zeros((6,36))
+    self.para_vecs[1][0:9] = 1
+    self.para_vecs[0][9:18] = 1
+    self.para_vecs[3][18:27] = 1
+    self.para_vecs[2][27:36] = 1
     self.model = RLModel.Model(number_of_features, N, GAMMA, ALPHA, self.para_vecs)
     self.counter = 0
 
@@ -67,143 +79,79 @@ def act(self, game_state: dict) -> str:
             # 80%: walk in any direction. 15% wait. 5% bomb.
             return np.random.choice(ACTIONS, p=[.225, .225, .225, .225, .10, .0])
         
-        self.logger.debug("Choosing action using softmax.")
-        return np.random.choice(ACTIONS, p=action_prop)
+        self.logger.debug("Choosing action using hardmax.")
+        return ACTIONS[best_action_idx]
 
     self.logger.debug("Choose action with highest prob.")
     a = ACTIONS[best_action_idx]
-    self.logger.debug(f"make move {a}")
+    self.logger.debug(f"make move {a} (prob = {action_prop[best_action_idx]}")
     return a
 
-
 def state_to_features(game_state: dict) -> np.array:
-    features = []
-    features.append(game_state["self"][3][0])
-    features.append(game_state["self"][3][1])
-    for coin in game_state["coins"]:
-        features.append(coin[0])
-        features.append(coin[1])
-    for no_coin in range(9 - len(game_state["coins"])):
-        features.append(0)
-        features.append(0)
 
-    for x in range(17):
-        for y in range (17):
-            if game_state["field"][(x,y)] == -1:
-                features.append(x)
-                features.append(y)
+    max_len_wanted_fields = 9 # only the coins
 
+    # at the beginning and the end:
+
+    if game_state is None:
+        return None
+
+    def possible_neighbors(pos):
+        result = []
+        for new_pos in (pos + STEP):
+            if game_state["field"][new_pos[0], new_pos[1]] == 0:
+                result.append(new_pos.tolist())
+
+        return result
+
+    player_pos = np.array(game_state["self"][3])
+    wanted_fields = np.array(game_state["coins"])
+    # if the len of wanted fields changes, we receive an error
+    # => fill it with not reachable entries (e.g. [16,16]) and shuffle afterward to prevent a bias.
+    fake_entries = []
+    for _ in range(max_len_wanted_fields - len(wanted_fields)):
+        fake_entries.append([16,16])
+    if len(fake_entries) != 0:
+        wanted_fields = np.append(wanted_fields, fake_entries, axis=0)
+        np.random.shuffle(wanted_fields) # prevent a bias by having the fake entries always on the end.
+        # all of the coin fields should have the same influence since the order in game_state is arbitrary
+
+    wanted_fields_list = wanted_fields.tolist() # needed for a working "in" command
+
+    possible_next_pos = possible_neighbors(player_pos)
+    distances = []
+    for pos in (player_pos + STEP):
+        new_distances = np.empty(len(wanted_fields))
+        pos = pos.tolist()
+
+        if pos not in possible_next_pos:
+            new_distances.fill(-1) # If impossible move, expected return would be -1
+            distances = np.append(distances, new_distances)
+            continue
+
+        new_distances.fill(np.inf) # if no way can be found we consider the distance to be infinite
+
+        # analyse the change of the distances of the shortest paths to all coins if we do a STEP
+        visited = [player_pos.tolist()]
+        q = deque()
+        q.append([pos, 1])
+
+        while len(q) != 0:
+
+            pos, distance = q.popleft()
+            neighbors = possible_neighbors(pos)
+            
+            for node in neighbors:
+
+                if node in visited:
+                    continue
+                if node in wanted_fields_list:
+                    new_distances[np.argwhere((wanted_fields==node).all(axis=1))] = distance
+                
+                visited.append(node)
+                q.append([node, distance+1])
+        distances = np.append(distances, new_distances)
+    features = 1 / distances **21
+    # features[distances==1] = 100
+    # print(features)
     return features
-    
-    
-
-# def state_to_features(game_state: dict) -> np.array:
-#         """
-#         *This is not a required function, but an idea to structure your code.*
-
-#         Converts the game state to the input of your model, i.e.
-#         a feature vector.
-
-#         You can find out about the state of the game environment via game_state,
-#         which is a dictionary. Consult 'get_state_for_agent' in environment.py to see
-#         what it contains.
-
-#         :param game_state:  A dictionary describing the current game board.
-#         :return: np.array
-#         """
-#         # This is the dict before the game begins and after it ends
-#         if game_state is None:
-#             return None
-
-
-#         # Distance changes of the coins:
-#         coin_distance = []
-#         player_pos = game_state["self"][3]
-#         for coin_pos in game_state["coins"]:
-#             coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([0,1]))))  # Up
-#             coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([0,-1])))) # Down
-#             coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([1,0]))))  # Right
-#             coin_distance.append(np.linalg.norm(coin_pos-(player_pos+np.array([-1,0])))) # Left
-#             # coin_real_distance.append(find_shortest_path_length(player_pos, coin_pos))
-        
-#         # Possible_steps:
-#         possible_moves = []
-#         certain_death = []
-#         for step in np.array([[0,1], [0,-1], [1,0], [-1,0]]):
-#             next = player_pos + step
-#             possible_moves.append(game_state["field"][next[0],next[1]])
-#             death = False
-#             if game_state["explosion_map"][next[0],next[1]] != 0:
-#                 death = True
-
-#             '''for bomb in game_state["bombs"]:
-#                 # only consider the bombs exploding the next turn
-#                 if bomb[1] != 1:
-#                     continue
-#                 # one coordinate has to match
-#                 if bomb[0][0] != player_pos[0] and bomb[0][1] != player_pos[1]:
-#                     continue
-#                 # Check if the bomb would hit the player
-
-#                 for x in range(-3,1):
-#                     if (bomb[0] + np.array([x,0]) == player_pos).all():
-#                         blocked = False
-#                         for x_ in range(x, 1):
-#                             check = bomb[0][0] + np.array([x_,0])
-#                             if game_state["field"][check[0],check[1]] == -1:
-#                                 blocked = True
-#                         if not blocked:
-#                             death = True
-#                             break
-
-#                 for x in range(0,4):
-#                     if (bomb[0] + np.array([x,0]) == player_pos).all():
-#                         blocked = False
-#                         for x_ in range(0, x):
-#                             check = bomb[0][0] + np.array([x_,0])
-#                             if game_state["field"][check[0],check[1]] == -1:
-#                                 blocked = True
-#                         if not blocked:
-#                             death = True
-
-#                 for y in range(-3,1):
-#                     if (bomb[0] + np.array([0,y]) == player_pos).all():
-#                         blocked = False
-#                         for y_ in range(x, 1):
-#                             check = bomb[0][0] + np.array([0,y_])
-#                             if game_state["field"][check[0],check[1]] == -1:
-#                                 blocked = True
-#                         if not blocked:
-#                             death = True
-#                             break
-
-#                 for y in range(0,4):
-#                     if (bomb[0] + np.array([0,y]) == player_pos).all():
-#                         blocked = False
-#                         for y_ in range(0, x):
-#                             check = bomb[0][0] + np.array([0,y_])
-#                             if game_state["field"][check[0],check[1]] == -1:
-#                                 blocked = True
-#                         if not blocked:
-#                             death = True
-#             '''
-#             certain_death.append(death)
-        
-
-#         collected_coins = 9 - len(game_state["coins"])
-#         features = np.append(coin_distance, np.zeros(collected_coins*4))
-#         features = np.append(features, possible_moves)
-
-
-
-#         # # For example, you could construct several channels of equal shape, ...
-#         # channels = []
-#         # channels.append(...)
-#         # # concatenate them as a feature tensor (they must have the same shape), ...
-#         # stacked_channels = np.stack(channels)
-#         # # and return them as a vector
-#         # return stacked_channels.reshape(-1) 
-#         return features
-
-# def find_shortest_path_length(start, end):
-#     possible_moves = [1,1,1,1] # Left, Right, Up, Down
