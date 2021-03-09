@@ -82,7 +82,6 @@ class Model():
         #return softmax of the actions for given state
         Q = np.dot(self.parameter_vectors, state)
         # Q /= np.max(np.abs(Q))
-        print("Q:"+str(Q))
-        return Q, np.argmax(Q) #Q, softmax, max action index
+        return Q, np.exp(Q*300)/sum(np.exp(Q*300)), np.argmax(Q) #Q, softmax, max action index
 
         

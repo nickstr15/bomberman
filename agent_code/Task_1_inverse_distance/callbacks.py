@@ -40,15 +40,17 @@ def setup(self):
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
             self.para_vecs = pickle.load(file)
+        print(self.para_vecs)
     # print(self.para_vecs)
     
     # hand crafted feature vecs
 
-    self.para_vecs = np.zeros((6,36))
-    self.para_vecs[1][0:9] = 1
-    self.para_vecs[0][9:18] = 1
-    self.para_vecs[3][18:27] = 1
-    self.para_vecs[2][27:36] = 1
+    # self.para_vecs = np.zeros((6,36))
+    # self.para_vecs[1][0:9] = 1
+    # self.para_vecs[0][9:18] = 1
+    # self.para_vecs[3][18:27] = 1
+    # self.para_vecs[2][27:36] = 1
+
     self.model = RLModel.Model(number_of_features, N, GAMMA, ALPHA, self.para_vecs)
     self.counter = 0
 
@@ -64,7 +66,7 @@ def act(self, game_state: dict) -> str:
     """
 
     self.features = state_to_features(game_state)
-    Q, best_action_idx = self.model.predict_action(self.features)
+    Q, action_prop, best_action_idx = self.model.predict_action(self.features)
     # todo Exploration vs exploitation
 
     reduction_factor = 1/400 * 0.003  # How fast reduce the randomness
@@ -81,7 +83,12 @@ def act(self, game_state: dict) -> str:
         
         self.logger.debug("Choosing action using hardmax.")
         return ACTIONS[best_action_idx]
+        # self.logger.debug("Choosing action using softmax.")
+        # return np.random.choice(ACTIONS, p=action_prop)
 
+    # self.logger.debug("Choosing action using softmax.")
+    # print(action_prop)
+    # return np.random.choice(ACTIONS, p=action_prop)
     self.logger.debug("Choose action with highest prob.")
     a = ACTIONS[best_action_idx]
     self.logger.debug(f"make move {a}")
