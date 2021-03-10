@@ -19,7 +19,7 @@ LEARNING_RATE = 0.01
 DISCOUNTING_FACTOR = 0.9
 EPSILON = (1.0,0.0001)
 BUFFERSIZE = 1000
-BATCH_SIZE = 30
+BATCH_SIZE = 100
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 
@@ -54,7 +54,7 @@ def setup(self):
 
     else:
         self.logger.info("Loading model from saved state.")
-        self.network.load_state_dict(torch.load('models\model_100.pt'))
+        self.network.load_state_dict(torch.load('models\model_200.pt'))
         self.network.eval()
 
     

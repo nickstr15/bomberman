@@ -19,7 +19,7 @@ class DeepQNetwork(nn.Module):
                 optimizer = optim.SGD):
         super(DeepQNetwork, self).__init__()
 
-        self.number_of_in_features = 4*9 + 4
+        self.number_of_in_features = 4*9+4
         self.number_of_actions = 6
         self.gamma = gamma
         self.alpha = alpha
@@ -148,25 +148,7 @@ def train(network, experience_buffer_in):
     # - the Ys using n-step TD Q-learning
     # - the current guess for the Q function
     Y = []
-    # for b in sub_batch:
-    #     tau = b[0][0]
-    #     t = b[0][1]
-    #     experience = b[1]
-    #     direct_reward = experience[2]                                                   
-    #     y = direct_reward                                           # Y = 1 * R_tau,t
-
-    #     length_of_episode = len(experience_buffer[tau])
-    #     max_t = min(t+network.n, length_of_episode-1)
-    #     for f,i in enumerate(range(t+1, max_t)):                    #     + sum gamma^i * R_tau,t' 
-    #         next_experience = experience_buffer[tau][i]
-    #         y+= (network.gamma**(f+1))  * next_experience[2]
-
-    #     if max_t == t+network.n:                                    #     + gamma^n * max_a Q 
-    #         last_experience = experience_buffer[tau][t+network.n]
-    #         state = last_experience[0]
-    #         Q_guess = torch.max(network(state))
-    #         y+= (network.gamma**network.n) * Q_guess
-    #     Y.append(y)
+    
     for b in sub_batch:
         old_state = b[0]
         action = b[1]
