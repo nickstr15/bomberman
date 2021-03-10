@@ -4,9 +4,9 @@ from collections import namedtuple, deque
 from typing import List
 import torch.optim as optim 
 import events as e
-from .callbacks import state_to_features
+
 import torch
-from Model import state_to_features, reward_from_events, train, save_parameters
+from .Model import state_to_features, reward_from_events, train, save_parameters
 
 # This is only an example!
 Transition = namedtuple('Transition',
@@ -139,7 +139,7 @@ import torch.optim as optim
 import events as e
 from .callbacks import state_to_features
 import torch
-from .NNModel import state_to_features, reward_from_events, train, save_parameters
+from .Model import state_to_features, reward_from_events, train, save_parameters
 
 # This is only an example!
 Transition = namedtuple('Transition',

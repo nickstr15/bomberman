@@ -19,6 +19,7 @@ class DeepQNetwork(nn.Module):
                 optimizer = optim.SGD):
         super(DeepQNetwork, self).__init__()
 
+        self.number_of_in_features = 4*9 + 4
         self.number_of_actions = 6
         self.gamma = gamma
         self.alpha = alpha
@@ -28,36 +29,25 @@ class DeepQNetwork(nn.Module):
         self.batch_size = batch_size
         self.optimizer = optimizer
         self.loss_function = loss_function
-        self.n = 10
 
-        self.conv1 = nn.Conv2d(in_channels=1, out_channels=16, kernel_size=30, stride=3) 
-        self.conv2 = nn.Conv2d(in_channels=16, out_channels=32, kernel_size=3, stride=2)
 
-        self.dense1 = nn.Linear(in_features=32*7*7, out_features=256)
+        #LAYERS
 
-        self.out = nn.Linear(in_features=256, out_features=self.number_of_actions)
+        self.dense1 = nn.Linear(in_features=self.number_of_in_features, out_features=128)
+        self.dense2 = nn.Linear(in_features=128, out_features=256)
+
+        self.dense3 = nn.Linear(in_features=256, out_features=60)
+        self.out = nn.Linear(in_features=60, out_features=self.number_of_actions)
 
 
     def forward(self, x):
-        #(1) input layer: x = x
 
-        #(2) hidden conv layer
-        x = self.conv1(x) #shape (75x75) -> (16x16)
-        x = F.relu(x)
+        x = F.relu(self.dense1(x))
+        x = F.relu(self.dense2(x))
+        x = F.relu(self.dense3(x))
+        out = self.out(x)
 
-        #(3) hidden conv layer
-        x = self.conv2(x) #shape (16x16) -> (7,7)
-        x = F.relu(x)
-
-        #(4) hidden dense layer
-        x = x.reshape(-1, 32*7*7)
-        x = self.dense1(x)
-        x = F.relu(x)
-
-        #(5) output layer
-        x = self.out(x)
-
-        return x
+        return out
 
 
 def state_to_features(game_state: dict) -> torch.tensor:
@@ -65,13 +55,16 @@ def state_to_features(game_state: dict) -> torch.tensor:
     converts the game_state dict in a RGB image 
     that is returned as a tensor
     '''
+    if game_state is None:
+        return None
+
     agent_x, agent_y = game_state['self'][3]
 
     # channel 1 -> coins
-    coins = tensor.zeros(9,4)
+    coins = torch.zeros(9,4)
     for i, (coin_x, coin_y) in enumerate(game_state['coins']):
-        distance_x = coins_x - agent_x
-        distance_y = coins_y - agent_y
+        distance_x = coin_x - agent_x
+        distance_y = coin_y - agent_y
         abs_x = abs(distance_x) 
         abs_y = abs(distance_y)
         if distance_x > 0:
@@ -83,10 +76,10 @@ def state_to_features(game_state: dict) -> torch.tensor:
         else:
             coins[i][1] = 1/ (abs_y+1)
 
-    coins = coins[troch.randperm(9)].reshape(-1)
+    coins = coins[torch.randperm(9)].reshape(-1)
 
     # channel 2 -> walls
-    walls = tensor.zeros(4)
+    walls = torch.zeros(4)
     next_steps = [[1,0],[-1,0],[0,1],[0,-1]]
     for i, (x,y) in enumerate(next_steps):
         if game_state['field'][agent_x+x,agent_y+y] == -1:

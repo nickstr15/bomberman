@@ -3,7 +3,7 @@ import pickle
 import random
 
 import numpy as np
-from Model import DeepQNetwork, state_to_features
+from .Model import DeepQNetwork, state_to_features
 
 import torch
 import torch.nn as nn
@@ -54,7 +54,7 @@ def setup(self):
 
     else:
         self.logger.info("Loading model from saved state.")
-        self.network.load_state_dict(torch.load('models\model_1000.pt'))
+        self.network.load_state_dict(torch.load('models\model_100.pt'))
         self.network.eval()
 
     

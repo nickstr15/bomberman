@@ -20,6 +20,7 @@ class DeepQNetwork(nn.Module):
                 optimizer = optim.SGD):
         super(DeepQNetwork, self).__init__()
 
+        
         self.number_of_actions = 6
         self.gamma = gamma
         self.alpha = alpha
