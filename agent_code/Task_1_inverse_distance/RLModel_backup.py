@@ -12,7 +12,6 @@ class Model():
 
         parameter_vectors: start vectors for training
         '''
-
         self.feature_count = feature_count
         self.parameter_vectors = parameter_vectors
 
@@ -46,7 +45,6 @@ class Model():
         self.states[tau].append(state)
 
     def update_parameter_vectors(self):
-        #print(self.parameter_vectors)
         #calculate The Ys
         Y = np.empty((self.TAU+1, self.T))
         Y.fill(np.nan)
@@ -65,12 +63,9 @@ class Model():
         for i,beta in enumerate(self.parameter_vectors):
             batch = self.batches[i]
             sum_ = np.zeros(len(beta))
-            #print(beta)
             for tau, t in batch:
-                if np.isnan(Y[tau][t]):
-                    print(tau, t)
                 sum_ += self.states[tau][t] * (Y[tau][t] - np.dot(self.states[tau][t], beta))
-            #print(sum_)
+            # print(len(batch))
             self.parameter_vectors[i] += (self.alpha / len(batch)) * sum_
 
         #reset for next training cicle
@@ -80,21 +75,14 @@ class Model():
 
         self.TAU = 0
 
-        #print("***\nUpdated:")
-        #print(self.parameter_vectors)
-
         # Store the model
         with open("my-saved-model.pt", "wb") as file:
             pickle.dump(self.parameter_vectors, file)
 
     def predict_action(self, state):
         #return softmax of the actions for given state
-        Q = np.dot(state, self.parameter_vectors.T) 
-        #print("***")
-        #print(Q)
-        #print("softmax")
-        #print(np.exp(Q)/sum(np.exp(Q)))
-        Q /= np.max(np.abs(Q))
-        return Q, np.exp(Q)/sum(np.exp(Q)), np.argmax(Q) #Q, softmax, max action index
+        Q = np.dot(self.parameter_vectors, state)
+        # Q /= np.max(np.abs(Q))
+        return Q, np.argmax(Q) #Q, softmax, max action index
 
         
