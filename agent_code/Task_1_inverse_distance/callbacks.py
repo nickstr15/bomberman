@@ -11,7 +11,6 @@ STEP = np.array([[1,0], [-1,0], [0,1], [0,-1]])
 
 
 #Hyperparameter
-N = 10 # n-step Q learning
 GAMMA = 0.4 # discounting factor
 ALPHA = 0.001 # learning rate
 
@@ -29,7 +28,7 @@ def setup(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
-    number_of_features = 4*9
+    number_of_features = 4
 
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
@@ -40,18 +39,17 @@ def setup(self):
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
             self.para_vecs = pickle.load(file)
-        print(self.para_vecs)
-    # print(self.para_vecs)
+    print(self.para_vecs)
     
     # hand crafted feature vecs
 
-    # self.para_vecs = np.zeros((6,36))
-    # self.para_vecs[1][0:9] = 1
-    # self.para_vecs[0][9:18] = 1
-    # self.para_vecs[3][18:27] = 1
-    # self.para_vecs[2][27:36] = 1
+    # self.para_vecs = np.zeros((6,number_of_features))
+    # self.para_vecs[1][0] = 1
+    # self.para_vecs[0][1] = 1
+    # self.para_vecs[3][2] = 1
+    # self.para_vecs[2][3] = 1
 
-    self.model = RLModel.Model(number_of_features, N, GAMMA, ALPHA, self.para_vecs)
+    self.model = RLModel.Model(number_of_features, GAMMA, ALPHA, self.para_vecs)
     self.counter = 0
 
 
@@ -64,22 +62,20 @@ def act(self, game_state: dict) -> str:
     :param game_state: The dictionary that describes everything on the board.
     :return: The action to take as a string.
     """
-
     self.features = state_to_features(game_state)
-    Q, action_prop, best_action_idx = self.model.predict_action(self.features)
+    Q, best_action_idx = self.model.predict_action(self.features)
     # todo Exploration vs exploitation
 
-    reduction_factor = 1/400 * 0.003  # How fast reduce the randomness
-    random_prob = 1. - (self.counter*reduction_factor)
+    reduction_factor = 0.01  # How fast reduce the randomness
+    random_prob = 0.7 - (self.counter*reduction_factor)
     if self.train:
         if self.counter*reduction_factor > 1:
             random_prob = 0
-        self.counter += 1
 
         if random.random() < random_prob:
             self.logger.debug("Choosing action purely at random.")
             # 80%: walk in any direction. 15% wait. 5% bomb.
-            return np.random.choice(ACTIONS, p=[.225, .225, .225, .225, .10, .0])
+            return np.random.choice(ACTIONS, p=[.225, .225, .225, .225, .095, .005])
         
         self.logger.debug("Choosing action using hardmax.")
         return ACTIONS[best_action_idx]
@@ -113,6 +109,8 @@ def state_to_features(game_state: dict) -> np.array:
 
     player_pos = np.array(game_state["self"][3])
     wanted_fields = np.array(game_state["coins"])
+    if len(wanted_fields) == 0:
+        return np.array([1,1,1,1])
     # if the len of wanted fields changes, we receive an error
     # => fill it with not reachable entries (e.g. [16,16]) and shuffle afterward to prevent a bias.
     fake_entries = []
@@ -124,14 +122,13 @@ def state_to_features(game_state: dict) -> np.array:
         # all of the coin fields should have the same influence since the order in game_state is arbitrary
 
     possible_next_pos = possible_neighbors(player_pos)
-    distances = []
+    features = []
     for pos in (player_pos + STEP):
         new_distances = np.empty(len(wanted_fields))
         pos = pos.tolist()
 
         if pos not in possible_next_pos:
-            new_distances.fill(-1) # If impossible move, expected return would be -1
-            distances = np.append(distances, new_distances)
+            features = np.append(features, -1)
             continue
 
         new_distances.fill(np.inf) # if no way can be found we consider the distance to be infinite
@@ -154,6 +151,5 @@ def state_to_features(game_state: dict) -> np.array:
             for node in neighbors:              
                 q.append([node, distance+1])
 
-        distances = np.append(distances, new_distances)
-    features = 1 / distances**3
+        features = np.append(features, sum(1/new_distances**3))
     return features
