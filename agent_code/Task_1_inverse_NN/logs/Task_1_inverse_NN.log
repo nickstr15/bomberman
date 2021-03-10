@@ -1,0 +1,9 @@
+2021-03-10 18:10:11,323 [Task_1_inverse_NN_wrapper] DEBUG: Calling setup on callback.
+2021-03-10 18:10:11,324 [Task_1_inverse_NN_code] INFO: Setting up model from scratch.
+2021-03-10 18:10:11,325 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#setup in 0.001s.
+2021-03-10 18:10:11,325 [Task_1_inverse_NN_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-10 18:10:11,325 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-10 18:10:11,327 [Task_1_inverse_NN_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-10 18:10:11,327 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-10 18:10:11,328 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-10 18:10:11,338 [Task_1_inverse_NN_wrapper] ERROR: An exception occurred while calling act: 'numpy.ndarray' object has no attribute 'values'
