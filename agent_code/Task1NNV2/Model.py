@@ -1,38 +1,21 @@
 import numpy as np
 import random
 
+from collections import deque
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim 
 
-import events as e
+class Maverick(nn.Module):
+    def __init__(self):
+        super(Maverick, self).__init__()
 
-class DeepQNetwork(nn.Module):
-    def __init__(self, 
-                alpha=0.01,
-                gamma=0.9, 
-                epsilon=(1.,0.0001), 
-                buffer_size=10000,
-                batch_size=100, 
-                loss_function = nn.MSELoss(),
-                optimizer = optim.SGD):
-        super(DeepQNetwork, self).__init__()
-
-        self.number_of_in_features = 4*9+4
+        self.number_of_in_features = 12+4+4
         self.number_of_actions = 6
-        self.gamma = gamma
-        self.alpha = alpha
-        self.epsilon_begin = epsilon[0]
-        self.epsilon_end = epsilon[1]
-        self.buffer_size = buffer_size
-        self.batch_size = batch_size
-        self.optimizer = optimizer
-        self.loss_function = loss_function
-
 
         #LAYERS
-
         self.dense1 = nn.Linear(in_features=self.number_of_in_features, out_features=128)
         self.dense2 = nn.Linear(in_features=128, out_features=256)
 
@@ -49,131 +32,30 @@ class DeepQNetwork(nn.Module):
 
         return out
 
+    def initialize_training(self, 
+                alpha,
+                gamma, 
+                epsilon, 
+                buffer_size,
+                batch_size, 
+                loss_function,
+                optimizer,
+                training_episodes):
+        self.gamma = gamma
+        self.epsilon_begin = epsilon[0]
+        self.epsilon_end = epsilon[1]
+        self.buffer_size = buffer_size
+        self.batch_size = batch_size
+        self.optimizer = optimizer(self.parameters(), lr=alpha)
+        self.loss_function = loss_function
+        self.training_episodes = training_episodes
 
-def state_to_features(game_state: dict) -> torch.tensor:
-    '''
-    converts the game_state dict in a RGB image 
-    that is returned as a tensor
-    '''
-    if game_state is None:
-        return None
 
-    agent_x, agent_y = game_state['self'][3]
 
-    # channel 1 -> coins
-    coins = torch.zeros(9,4)
-    for i, (coin_x, coin_y) in enumerate(game_state['coins']):
-        distance_x = coin_x - agent_x
-        distance_y = coin_y - agent_y
-        abs_x = abs(distance_x) 
-        abs_y = abs(distance_y)
-        if distance_x > 0:
-            coins[i][0] = 1 / (abs_x+1)
-        else:
-            coins[i][1] = 1/ (abs_x+1)
-        if distance_y > 0:
-            coins[i][0] = 1 / (abs_y+1)
-        else:
-            coins[i][1] = 1/ (abs_y+1)
 
-    coins = coins[torch.randperm(9)].reshape(-1)
 
-    # channel 2 -> walls
-    walls = torch.zeros(4)
-    next_steps = [[1,0],[-1,0],[0,1],[0,-1]]
-    for i, (x,y) in enumerate(next_steps):
-        if game_state['field'][agent_x+x,agent_y+y] == -1:
-            walls[i] = 1
+
+
+
+
     
-    features = torch.cat((coins,walls))
-
-    return features.unsqueeze(0)
-
-
-
-
-def reward_from_events(self, events) -> int:
-    """
-    *This is not a required function, but an idea to structure your code.*
-
-    Here you can modify the rewards your agent get so as to en/discourage
-    certain behavior.
-    """
-
-    # k: finish the game as fast as possible, j: prevent self kills, i: prevent wrong actions
-    game_rewards = {
-        e.COIN_COLLECTED: 100,
-        e.KILLED_OPPONENT: 5,
-        e.MOVED_RIGHT: -0.01,
-        e.MOVED_LEFT: -0.01,
-        e.MOVED_UP: -0.01,
-        e.MOVED_DOWN: -0.01,
-        e.WAITED: -0.02,
-        e.INVALID_ACTION: -0.03,
-        e.BOMB_DROPPED: -0.04,
-        e.KILLED_SELF: -20
-    }
-    reward_sum = 0
-    for event in events:
-        if event in game_rewards:
-            reward_sum += game_rewards[event]
-    self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
-    return reward_sum
-
-
-def train(network, experience_buffer_in):
-    '''
-    network: the network
-    experience_buffer: the collected experiences, list of game_episodes
-    '''
-    experience_buffer = [e for e in experience_buffer_in if len(e) > 0]
-    #randomly choose batch out of the experience buffer
-    number_of_elements_in_buffer = sum( [len(episode) for episode in experience_buffer])
-    batch_size = min(number_of_elements_in_buffer, network.batch_size)
-
-    number_of_episodes = len(experience_buffer)
-    random_episodes = [ random.randrange(number_of_episodes) for _ in range(batch_size)]
-    sub_batch = []
-    for tau in random_episodes:
-        try:
-            length_of_episode = len(experience_buffer[tau])
-            t = random.randrange(length_of_episode)
-            random_experience = experience_buffer[tau][t]
-            # sub_batch.append(((tau,t), random_experience))
-            sub_batch.append(random_experience)
-        except:
-            print(experience_buffer[tau])
-    
-    #compute for each expereince in the batch 
-    # - the Ys using n-step TD Q-learning
-    # - the current guess for the Q function
-    Y = []
-    
-    for b in sub_batch:
-        old_state = b[0]
-        action = b[1]
-        reward = b[2]
-        new_state = b[3]
-
-        y = reward
-        if new_state is not None:
-            y += network.gamma * torch.max(network(new_state))
-
-        Y.append(y)
-
-    Y = torch.tensor(Y)
-
-    #Qs
-    states = torch.cat(tuple(b[0] for b in sub_batch))  #put all states of the sub_batch in one batch
-    q_values = network(states)
-    actions = torch.cat([b[1].unsqueeze(0) for b in sub_batch])
-    Q = torch.sum(q_values*actions, dim=1)
-    
-    loss = network.loss_function(Q, Y)
-    network.optimizer.zero_grad()
-    loss.backward()
-    network.optimizer.step()
-
-
-def save_parameters(network, count):
-    torch.save(network.state_dict(), f"models/model_{count}.pt")
