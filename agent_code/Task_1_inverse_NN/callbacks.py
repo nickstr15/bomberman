@@ -17,11 +17,13 @@ ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 #Hyperparameter
 LEARNING_RATE = 0.01
 DISCOUNTING_FACTOR = 0.9
-EPSILON = (1.0,0.0001)
+EPSILON = (1.0, 0.7)
 BUFFERSIZE = 1000
 BATCH_SIZE = 100
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
+
+TRAINING_EPISODES = 1600
 
 def setup(self):
     """
@@ -41,7 +43,7 @@ def setup(self):
                             EPSILON, BUFFERSIZE, BATCH_SIZE, 
                             LOSS_FUNCTION, OPTIMIZER)
                         
-    self.epsilon = np.linspace(self.network.epsilon_begin, self.network.epsilon_end, 1000)
+    self.epsilon = np.linspace(self.network.epsilon_begin, self.network.epsilon_end, TRAINING_EPISODES)
     self.counter = 0
 
     if self.train:
@@ -54,7 +56,7 @@ def setup(self):
 
     else:
         self.logger.info("Loading model from saved state.")
-        self.network.load_state_dict(torch.load('models\model_200.pt'))
+        self.network.load_state_dict(torch.load('models\model_1500.pt'))
         self.network.eval()
 
     

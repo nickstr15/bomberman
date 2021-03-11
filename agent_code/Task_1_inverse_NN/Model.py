@@ -72,7 +72,7 @@ def state_to_features(game_state: dict) -> np.array:
     player_pos = np.array(game_state["self"][3])
     wanted_fields = np.array(game_state["coins"])
     if len(wanted_fields) == 0:
-        return np.array([1,1,1,1])
+        return torch.tensor([1,1,1,1]).float().unsqueeze(0)
     # if the len of wanted fields changes, we receive an error
     # => fill it with not reachable entries (e.g. [16,16]) and shuffle afterward to prevent a bias.
     fake_entries = []
@@ -114,7 +114,7 @@ def state_to_features(game_state: dict) -> np.array:
                 q.append([node, distance+1])
 
         features = np.append(features, sum(1/new_distances**3))
-        features = torch.from_numpy(features.values)
+    features = torch.from_numpy(features).float()
     return features.unsqueeze(0)
 
 
@@ -136,8 +136,8 @@ def reward_from_events(self, events) -> int:
         e.MOVED_LEFT: -0.01,
         e.MOVED_UP: -0.01,
         e.MOVED_DOWN: -0.01,
-        e.WAITED: -0.02,
-        e.INVALID_ACTION: -0.03,
+        e.WAITED: -0.04,
+        e.INVALID_ACTION: -0.04,
         e.BOMB_DROPPED: -0.04,
         e.KILLED_SELF: -20
     }

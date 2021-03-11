@@ -1,9 +1,79 @@
-2021-03-10 18:12:53,264 [Task_1_inverse_NN_wrapper] DEBUG: Calling setup on callback.
-2021-03-10 18:12:53,265 [Task_1_inverse_NN_code] INFO: Setting up model from scratch.
-2021-03-10 18:12:53,266 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#setup in 0.002s.
-2021-03-10 18:12:53,266 [Task_1_inverse_NN_wrapper] DEBUG: Calling setup_training on callback.
-2021-03-10 18:12:53,266 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
-2021-03-10 18:12:53,268 [Task_1_inverse_NN_wrapper] DEBUG: Calling game_events_occurred on callback.
-2021-03-10 18:12:53,268 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
-2021-03-10 18:12:53,269 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
-2021-03-10 18:12:53,279 [Task_1_inverse_NN_wrapper] ERROR: An exception occurred while calling act: 'numpy.ndarray' object has no attribute 'values'
+2021-03-11 17:40:16,007 [Task_1_inverse_NN_wrapper] DEBUG: Calling setup on callback.
+2021-03-11 17:40:16,009 [Task_1_inverse_NN_code] INFO: Loading model from saved state.
+2021-03-11 17:40:16,010 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#setup in 0.003s.
+2021-03-11 17:40:16,114 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,179 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,180 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:16,180 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.066s.
+2021-03-11 17:40:16,215 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,261 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,261 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:16,261 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.046s.
+2021-03-11 17:40:16,317 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,376 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,376 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:16,376 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-11 17:40:16,418 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,462 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,462 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:16,463 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.045s.
+2021-03-11 17:40:16,520 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,600 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,601 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:16,601 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.080s.
+2021-03-11 17:40:16,623 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,684 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,684 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:16,684 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-11 17:40:16,726 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,802 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,802 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:16,802 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.076s.
+2021-03-11 17:40:16,827 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:16,876 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:16,876 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:16,877 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.050s.
+2021-03-11 17:40:16,928 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,022 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,022 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:17,022 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.094s.
+2021-03-11 17:40:17,031 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,077 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,078 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:17,078 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.046s.
+2021-03-11 17:40:17,133 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,194 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,194 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:17,194 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-11 17:40:17,234 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,309 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,310 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:17,310 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.076s.
+2021-03-11 17:40:17,336 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,426 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,426 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:17,426 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.090s.
+2021-03-11 17:40:17,437 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,501 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,501 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:17,501 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-11 17:40:17,537 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,595 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,595 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:17,595 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-11 17:40:17,638 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,706 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,706 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:17,707 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.069s.
+2021-03-11 17:40:17,739 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,796 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,796 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:17,796 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.057s.
+2021-03-11 17:40:17,840 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:17,902 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:17,902 [Task_1_inverse_NN_code] DEBUG: make move LEFT
+2021-03-11 17:40:17,902 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-11 17:40:17,943 [Task_1_inverse_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-11 17:40:18,139 [Task_1_inverse_NN_code] DEBUG: Choose action with highest prob.
+2021-03-11 17:40:18,139 [Task_1_inverse_NN_code] DEBUG: make move RIGHT
+2021-03-11 17:40:18,140 [Task_1_inverse_NN_wrapper] DEBUG: Got result from callback#act in 0.197s.

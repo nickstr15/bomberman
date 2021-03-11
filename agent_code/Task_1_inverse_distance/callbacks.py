@@ -43,11 +43,11 @@ def setup(self):
     
     # hand crafted feature vecs
 
-    # self.para_vecs = np.zeros((6,number_of_features))
-    # self.para_vecs[1][0] = 1
-    # self.para_vecs[0][1] = 1
-    # self.para_vecs[3][2] = 1
-    # self.para_vecs[2][3] = 1
+    self.para_vecs = np.zeros((6,number_of_features))
+    self.para_vecs[1][0] = 1
+    self.para_vecs[0][1] = 1
+    self.para_vecs[3][2] = 1
+    self.para_vecs[2][3] = 1
 
     self.model = RLModel.Model(number_of_features, GAMMA, ALPHA, self.para_vecs)
     self.counter = 0

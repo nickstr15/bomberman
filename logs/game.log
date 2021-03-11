@@ -1,3 +1,61 @@
-2021-03-10 18:12:53,028 [BombeRLeWorld] INFO: Initializing game world
-2021-03-10 18:12:53,266 [BombeRLeWorld] INFO: STARTING ROUND #1
-2021-03-10 18:12:53,268 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-11 17:40:14,785 [BombeRLeWorld] INFO: Initializing game world
+2021-03-11 17:40:16,011 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-11 17:40:16,113 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-11 17:40:16,180 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.07s.
+2021-03-11 17:40:16,181 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,215 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-11 17:40:16,262 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.05s.
+2021-03-11 17:40:16,262 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,317 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-11 17:40:16,376 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.06s.
+2021-03-11 17:40:16,377 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,418 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-11 17:40:16,463 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.04s.
+2021-03-11 17:40:16,463 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,520 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-11 17:40:16,601 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.08s.
+2021-03-11 17:40:16,602 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,623 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-11 17:40:16,685 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.06s.
+2021-03-11 17:40:16,685 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,725 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-11 17:40:16,803 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.08s.
+2021-03-11 17:40:16,803 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,827 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-11 17:40:16,877 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.05s.
+2021-03-11 17:40:16,877 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:16,928 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-11 17:40:17,023 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.09s.
+2021-03-11 17:40:17,023 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,031 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-11 17:40:17,078 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.05s.
+2021-03-11 17:40:17,078 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,133 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-11 17:40:17,195 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.06s.
+2021-03-11 17:40:17,195 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,234 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-11 17:40:17,311 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.08s.
+2021-03-11 17:40:17,311 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,336 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-11 17:40:17,427 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.09s.
+2021-03-11 17:40:17,427 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,437 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-11 17:40:17,501 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.06s.
+2021-03-11 17:40:17,501 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,537 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-11 17:40:17,595 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.06s.
+2021-03-11 17:40:17,595 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,638 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-11 17:40:17,707 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.07s.
+2021-03-11 17:40:17,707 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,739 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-11 17:40:17,796 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.06s.
+2021-03-11 17:40:17,796 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,840 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-11 17:40:17,903 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action LEFT in 0.06s.
+2021-03-11 17:40:17,903 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
+2021-03-11 17:40:17,942 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-11 17:40:18,135 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2021-03-11 17:40:18,135 [BombeRLeWorld] INFO: SHUT DOWN
+2021-03-11 17:40:18,141 [BombeRLeWorld] INFO: Agent <Task_1_inverse_NN> chose action RIGHT in 0.20s.
+2021-03-11 17:40:18,141 [BombeRLeWorld] WARNING: Agent <Task_1_inverse_NN> stayed within acceptable think time.
