@@ -23,7 +23,7 @@ BUFFERSIZE = 1000 #2400
 BATCH_SIZE = 100 #300
 
 LOSS_FUNCTION = nn.MSELoss()
-OPTIMIZER = optim.Adam
+OPTIMIZER = optim.SGD
 LEARNING_RATE = 0.001
 
 TRAINING_EPISODES = 500
@@ -85,7 +85,9 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     # if len(self.experience_buffer) > 0:
     #     update_network(self)
     
-    track_game_score(self, smooth=True)
+    self.game_score += get_score(events)
+
+    track_game_score(self)
 
     add_experience(self, last_game_state, last_action, None, events)
     if len(self.experience_buffer) > 0:

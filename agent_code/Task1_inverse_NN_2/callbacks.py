@@ -60,7 +60,7 @@ def act(self, game_state: dict) -> str:
 
         eps = self.epsilon_arr[self.episode_counter]
         if random.random() <= eps: # choose random action
-            return np.random.choice(ACTIONS, p=[.22, .22, .22, .22, .11, .01]) #EXPLORATION
+            return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1]) #EXPLORATION
 
     #___SOFT DECISION___#
     # self.logger.info("action returned by callbacks#act: " + prob_good_action) 
