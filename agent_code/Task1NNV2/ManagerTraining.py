@@ -87,18 +87,20 @@ def update_network(self):
     loss.backward()
     network.optimizer.step()
 
+
 def save_parameters(self, string):
     torch.save(self.network.state_dict(), f"network_parameters/{string}.pt")
-    
-    #y = uniform_filter1d(self.game_score_arr, 200, mode='nearest')
+
+    #plot scores
     y = self.game_score_arr
     x = range(len(y))
     fig, ax = plt.subplots()
     ax.set_title('score')
     ax.set_xlabel('episode')
     ax.set_ylabel('total points')
-    ax.plot(x,y)
+    ax.plot(x,y, marker='o', markersize=3, linewidth=0)
     plt.savefig('network_parameters/training_progress.png')
+
 
 
 def get_score(events):
@@ -112,6 +114,7 @@ def get_score(events):
             score += true_game_rewards[event]
     return score
 
-def track_game_score(self):
+def track_game_score(self, smooth):
     self.game_score_arr.append(self.game_score)
     self.game_score = 0
+

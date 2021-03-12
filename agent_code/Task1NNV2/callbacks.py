@@ -64,10 +64,10 @@ def act(self, game_state: dict) -> str:
         if random.random() <= eps: # choose random action
             return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1]) #EXPLORATION
 
-    #___HARD DECISION___#
+    #___SOFT DECISION___#
     # self.logger.info("action returned by callbacks#act: " + prob_good_action) 
     # return prob_good_action
 
-    #___SOFT DECISION___#
+    #___HARD DECISION___#
     self.logger.debug("action returned by callbacks#act: " + best_action)
     return best_action

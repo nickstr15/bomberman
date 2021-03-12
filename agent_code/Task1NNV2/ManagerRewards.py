@@ -5,7 +5,7 @@ from .ManagerFeatures import closest_coin
 def reward_from_events(self, events) -> int:
 
     game_rewards = {
-        e.COIN_COLLECTED: 1,
+        e.COIN_COLLECTED: 100,
         e.KILLED_OPPONENT: 5,
         e.MOVED_RIGHT: -0.01,
         e.MOVED_LEFT: -0.01,

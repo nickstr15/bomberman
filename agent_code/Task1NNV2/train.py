@@ -12,7 +12,7 @@ import torch.optim as optim
 import torch.nn as nn
 
 from .ManagerRewards import reward_from_events, rewards_from_own_events
-from .ManagerTraining import *
+from .ManagerTraining import generate_eps_greedy_policy, add_experience, get_score, track_game_score, save_parameters, update_network
 from .ManagerFeatures import state_to_features
 
 #Hyperparameter for Training
@@ -47,6 +47,7 @@ def setup_training(self):
     self.experience_buffer = deque()
 
     self.episode_counter = 0
+    self.total_episodes = TRAINING_EPISODES
 
     self.game_score = 0 
     self.game_score_arr = []
@@ -82,10 +83,12 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     # if len(self.experience_buffer) > 0:
     #     update_network(self)
     
-    track_game_score(self)
+    track_game_score(self, smooth=True)
+
+    
 
     self.episode_counter += 1
-    if self.episode_counter % (TRAINING_EPISODES // 2) == 0: #save parameters 2 times
+    if self.episode_counter % (TRAINING_EPISODES // 10) == 0: #save parameters 2 times
         save_parameters(self, SETUP)
 
 
