@@ -1,24 +1,57 @@
-
 import random
 import numpy as np
 import torch 
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from scipy.ndimage.filters import uniform_filter1d
+
+from .ManagerFeatures import state_to_features
+from .ManagerRewards import *
     
+ACTIONS_IDX = {'LEFT':0, 'RIGHT':1, 'UP':2, 'DOWN':3, 'WAIT':4, 'BOMB':5}
 
 def generate_eps_greedy_policy(network):
     return np.linspace(network.epsilon_begin, network.epsilon_end, network.training_episodes)
 
-def update_network(network, experience_buffer):
+def add_experience(self, old_game_state, self_action, new_game_state, events):
+    old_state = state_to_features(old_game_state)
+    if old_state is not None:
+        if new_game_state is None:
+            new_state = neutral_state
+        else:
+            new_state = state_to_features(new_game_state)
+        reward = reward_from_events(self, events)
+        reward += rewards_from_own_events(self, old_game_state, self_action, new_game_state, events)
+
+        action_idx = ACTIONS_IDX[self_action]
+        action = torch.zeros(6)
+        action[action_idx] = 1
+
+        self.experience_buffer.append((old_state, action, reward, new_state))
+        number_of_elements_in_buffer = len(self.experience_buffer)
+        if number_of_elements_in_buffer > self.network.buffer_size:
+            self.experience_buffer.popleft()
+
+neutral_state = torch.tensor([ 0, 0, 0, 0, #coins
+                              -1, 0,-1, 0, #walls
+                               0, 0, 0, 0] #fire
+                            ,dtype=torch.float).unsqueeze(0)
+
+def update_network(self):
     '''
     network: the network that gets updated
     experience_buffer: the collected experiences, list of game_episodes
     '''
+    network = self.network 
+    experience_buffer = self.experience_buffer
 
     #randomly choose batch out of the experience buffer
     number_of_elements_in_buffer = len(experience_buffer)
     batch_size = min(number_of_elements_in_buffer, network.batch_size)
 
     random_i = [ random.randrange(number_of_elements_in_buffer) for _ in range(batch_size)]
-
 
     #compute for each experience in the batch 
     # - the Ys using n-step TD Q-learning
@@ -54,5 +87,31 @@ def update_network(network, experience_buffer):
     loss.backward()
     network.optimizer.step()
 
-def save_parameters(network, string):
-    torch.save(network.state_dict(), f"network_parameters/{string}.pt")
+def save_parameters(self, string):
+    torch.save(self.network.state_dict(), f"network_parameters/{string}.pt")
+    
+    #y = uniform_filter1d(self.game_score_arr, 200, mode='nearest')
+    y = self.game_score_arr
+    x = range(len(y))
+    fig, ax = plt.subplots()
+    ax.set_title('score')
+    ax.set_xlabel('episode')
+    ax.set_ylabel('total points')
+    ax.plot(x,y)
+    plt.savefig('network_parameters/training_progress.png')
+
+
+def get_score(events):
+    true_game_rewards = {
+        e.COIN_COLLECTED: 1,
+        e.KILLED_OPPONENT: 5,
+    }
+    score = 0
+    for event in events:
+        if event in true_game_rewards:
+            score += true_game_rewards[event]
+    return score
+
+def track_game_score(self):
+    self.game_score_arr.append(self.game_score)
+    self.game_score = 0

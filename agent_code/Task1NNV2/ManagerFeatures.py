@@ -14,17 +14,16 @@ def state_to_features(game_state: dict) -> torch.tensor:
     agent_x, agent_y = game_state['self'][3]
 
     #____Channel-01-Coins___#
-    coins = three_closest_coins(agent_x, agent_y, game_state['coins'])
-    # closest coin
-    # coins = closest_coin(agent_x, agent_y, game_state['coins'])
+    # coins = three_closest_coins(agent_x, agent_y, game_state['coins'])
+    coins = closest_coin(agent_x, agent_y, game_state['coins'])
             
     #____Channel-02-Walls___#
-    walls = next_walls(agent_x, agent_y, game_state['field'])
+    walls, crates = next_walls_and_crates(agent_x, agent_y, game_state['field'])
                 
     #____Channel-03-Bombs&Explosions___#
     fire = bombs_and_explosions(agent_x, agent_y, game_state['bombs'], game_state['explosion_map'])
 
-    features = torch.cat((coins,walls,fire)) #len = 12 + 4 + 4 
+    features = torch.cat((coins,walls,crates,fire)) #len = 4 + 4 + 4 + 4
 
     return features.unsqueeze(0)
 
@@ -80,21 +79,25 @@ def closest_coin(agent_x, agent_y, game_state_coins):
     return coins
 
 
-#######################
-## CHANNEL 1 - WALLS ##
-#######################
-def next_walls(agent_x, agent_y, field):
+##############################
+## CHANNEL 2 - WALLS&CRATES ##
+##############################
+def next_walls_and_crates(agent_x, agent_y, field):
     walls = torch.zeros(4)
+    crates = torch.zeros(4)
     next_steps = [[1,0],[-1,0],[0,1],[0,-1]]
     for i, (x,y) in enumerate(next_steps):
-        if field[agent_x+x,agent_y+y] == -1: #means here is a stone
+        interest = field[agent_x+x,agent_y+y]
+        if interest == -1: #means here is a stone
             walls[i] = -1
-    return walls
+        if interest == 1:
+            crates[i] = 1
+    return walls, crates
 
 
 
 #######################
-## CHANNEL 1 - FIRE  ##
+## CHANNEL 3 - FIRE  ##
 #######################
 def bombs_and_explosions(agent_x, agent_y, bombs, explosion_map):
     fire = torch.zeros(4)
@@ -112,7 +115,6 @@ def bombs_and_explosions(agent_x, agent_y, bombs, explosion_map):
             fire[i] = -1
 
     return fire
-
 
 
 # channel 5 -> opponents

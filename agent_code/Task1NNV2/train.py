@@ -26,12 +26,9 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 300
+TRAINING_EPISODES = 200
 
 SETUP = 'Test' #set name of file for stored parameters
-
-
-ACTIONS_IDX = {'LEFT':0, 'RIGHT':1, 'UP':2, 'DOWN':3, 'WAIT':4, 'BOMB':5}
 
 def setup_training(self):
     """
@@ -51,6 +48,9 @@ def setup_training(self):
 
     self.episode_counter = 0
 
+    self.game_score = 0 
+    self.game_score_arr = []
+
 
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
@@ -64,9 +64,10 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
     """
     add_experience(self, old_game_state, self_action, new_game_state, events)
-
     if len(self.experience_buffer) > 0:
-        update_network(self.network, self.experience_buffer)
+        update_network(self)
+
+    self.game_score += get_score(events)
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -77,27 +78,17 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     """
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
 
+    # add_experience(self, last_game_state, last_action, None, events)
+    # if len(self.experience_buffer) > 0:
+    #     update_network(self)
+    
+    track_game_score(self)
+
     self.episode_counter += 1
-
     if self.episode_counter % (TRAINING_EPISODES // 2) == 0: #save parameters 2 times
-        string = f'{SETUP}_episode_{self.episode_counter}'
-        save_parameters(self.network, string)
+        save_parameters(self, SETUP)
 
-def add_experience(self, old_game_state, self_action, new_game_state, events):
-    old_state = state_to_features(old_game_state)
-    if old_state is not None:
-        new_state = state_to_features(new_game_state)
-        reward = reward_from_events(self, events)
-        reward += rewards_from_own_events(self, old_game_state, self_action, new_game_state)
 
-        action_idx = ACTIONS_IDX[self_action]
-        action = torch.zeros(6)
-        action[action_idx] = 1
-
-        self.experience_buffer.append((old_state, action, reward, new_state))
-        number_of_elements_in_buffer = len(self.experience_buffer)
-        if number_of_elements_in_buffer > self.network.buffer_size:
-            self.experience_buffer.popleft()
 
 
 

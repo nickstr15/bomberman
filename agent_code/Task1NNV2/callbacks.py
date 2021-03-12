@@ -1,6 +1,7 @@
 import os
 import pickle
 import random
+from termcolor import colored
 
 import numpy as np
 import torch
@@ -10,7 +11,7 @@ import torch.optim as optim
 from .Model import Maverick
 from .ManagerFeatures import *
 
-PARAMETERS = 'Test_episode_300' #select parameter_set stored in network_parameters/
+PARAMETERS = 'Test' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -28,6 +29,7 @@ def setup(self):
 
     if self.train:
         self.logger.info("Setting up model from scratch.")
+        print(colored('\n+++ TRAINING MODE +++\n', 'red'))
 
     else:
         self.logger.info("Loading model from saved state.")
@@ -53,6 +55,8 @@ def act(self, game_state: dict) -> str:
     features = state_to_features(game_state)
     Q = self.network(features)
     action_prob = np.array(torch.softmax(Q,dim=1).detach().squeeze())
+    prob_good_action = action = np.random.choice(ACTIONS, p=action_prob)
+    best_action = ACTIONS[np.argmax(action_prob)]
 
     if self.train: # Exploration vs exploitation
 
@@ -60,9 +64,10 @@ def act(self, game_state: dict) -> str:
         if random.random() <= eps: # choose random action
             return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1]) #EXPLORATION
 
-        action = np.random.choice(ACTIONS, p=action_prob) #EXPLOITATION
-        return action
+    #___HARD DECISION___#
+    # self.logger.info("action returned by callbacks#act: " + prob_good_action) 
+    # return prob_good_action
 
-    best_action = ACTIONS[np.argmax(action_prob)]
-    #return np.random.choice(ACTIONS, p=action_prob)
+    #___SOFT DECISION___#
+    self.logger.debug("action returned by callbacks#act: " + best_action)
     return best_action
