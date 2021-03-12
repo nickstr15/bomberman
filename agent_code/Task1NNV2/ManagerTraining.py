@@ -88,6 +88,7 @@ def save_parameters(self, string):
 
     #plot scores
     y = self.game_score_arr
+    y = uniform_filter1d(y, 10, mode="nearest", output="float")
     x = range(len(y))
     fig, ax = plt.subplots()
     ax.set_title('score')
@@ -109,7 +110,7 @@ def get_score(events):
             score += true_game_rewards[event]
     return score
 
-def track_game_score(self, smooth):
+def track_game_score(self):
     self.game_score_arr.append(self.game_score)
     self.game_score = 0
 

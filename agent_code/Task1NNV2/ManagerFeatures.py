@@ -14,7 +14,7 @@ def state_to_features(game_state: dict) -> torch.tensor:
     agent_x, agent_y = game_state['self'][3]
 
     #____Channel-01-Coins___#
-    #coins = three_closest_coins(agent_x, agent_y, game_state['coins'])
+    # coins = three_closest_coins(agent_x, agent_y, game_state['coins'])
     coins = closest_coin(agent_x, agent_y, game_state['coins'])
             
     #____Channel-02-Walls___#
@@ -48,24 +48,24 @@ def three_closest_coins(agent_x, agent_y, game_state_coins):
             position = closest_dists.index(dist_new)
             closest_coins[position] = (coin_x, coin_y)
     
-    # coins = torch.zeros(3,4)         # closest, 2nd, 3rd
-    # for i, c in enumerate(closest_coins):
-    #     if c is not None:
-    #         x,y = c
-    #         if   x - agent_x > 0: coins[i][0] = 1 #coin right
-    #         elif x - agent_x < 0: coins[i][1] = 1 #coin left
-
-    #         if   y - agent_y > 0: coins[i][2] = 1 #coin down
-    #         elif y - agent_y < 0: coins[i][3] = 1 #coin up
-    coins = torch.zeros(4)
+    coins = torch.zeros(3,4)         # closest, 2nd, 3rd
     for i, c in enumerate(closest_coins):
         if c is not None:
             x,y = c
-            if   x - agent_x > 0: coins[0] += 1 #coin right
-            elif x - agent_x < 0: coins[1] += 1 #coin left
+            if   x - agent_x > 0: coins[i][0] = 1 #coin right
+            elif x - agent_x < 0: coins[i][1] = 1 #coin left
 
-            if   y - agent_y > 0: coins[2] += 1 #coin down
-            elif y - agent_y < 0: coins[3] += 1 #coin up
+            if   y - agent_y > 0: coins[i][2] = 1 #coin down
+            elif y - agent_y < 0: coins[i][3] = 1 #coin up
+    # coins = torch.zeros(4)
+    # for i, c in enumerate(closest_coins):
+    #     if c is not None:
+    #         x,y = c
+    #         if   x - agent_x > 0: coins[0] += 1 #coin right
+    #         elif x - agent_x < 0: coins[1] += 1 #coin left
+
+    #         if   y - agent_y > 0: coins[2] += 1 #coin down
+    #         elif y - agent_y < 0: coins[3] += 1 #coin up
 
     return coins.reshape(-1)
 

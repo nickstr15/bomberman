@@ -3,6 +3,7 @@ import numpy as np
 from collections import deque
 import bisect
 
+STEP = np.array([[1,0], [-1,0], [0,1], [0,-1]])
 
 def state_to_features(game_state: dict) -> np.array:
 
@@ -65,6 +66,6 @@ def state_to_features(game_state: dict) -> np.array:
             for node in neighbors:              
                 q.append([node, distance+1])
 
-        features = np.append(features, sum(1/new_distances**3))
+        features = np.append(features, sum(1/new_distances**2))
     features = torch.from_numpy(features).float()
     return features.unsqueeze(0)
