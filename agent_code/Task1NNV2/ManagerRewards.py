@@ -37,14 +37,13 @@ def rewards_from_own_events(self, old_game_state, action, new_game_state, events
 def moved_closer_to_next_coin(old_game_state, action, events):
     if e.INVALID_ACTION in events:
         return 0
+        
+    good, bad = 0.05, -0.06
 
-    return 0
-    # good, bad = 0.05, -0.06
-
-    # agent_x, agent_y = agent_x, agent_y = old_game_state['self'][3]
-    # coin = closest_coin(agent_x, agent_y, old_game_state['coins'])
-    # if   (coin[0] == 1) and (action == 'RIGHT'): return good
-    # elif (coin[1] == 1) and (action == 'LEFT'):  return good
-    # elif (coin[2] == 1) and (action == 'DOWN'):  return good
-    # elif (coin[3] == 1) and (action == 'UP'):    return good
-    # else: return bad
+    agent_x, agent_y = agent_x, agent_y = old_game_state['self'][3]
+    coin = closest_coin(agent_x, agent_y, old_game_state['coins'])
+    if   (coin[0] == 1) and (action == 'RIGHT'): return good
+    elif (coin[1] == 1) and (action == 'LEFT'):  return good
+    elif (coin[2] == 1) and (action == 'DOWN'):  return good
+    elif (coin[3] == 1) and (action == 'UP'):    return good
+    else: return bad

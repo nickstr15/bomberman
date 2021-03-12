@@ -1,7 +1,6 @@
 import os
 import pickle
 import random
-from termcolor import colored
 
 import numpy as np
 import torch
@@ -29,7 +28,6 @@ def setup(self):
 
     if self.train:
         self.logger.info("Setting up model from scratch.")
-        print(colored('\n+++ TRAINING MODE +++\n', 'red'))
 
     else:
         self.logger.info("Loading model from saved state.")

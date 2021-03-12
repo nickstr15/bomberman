@@ -20,7 +20,7 @@ EPSILON = (1.0,0.00001)
 
 DISCOUNTING_FACTOR = 0.8
 BUFFERSIZE = 1000 #2400
-BATCH_SIZE = 10 #300
+BATCH_SIZE = 100 #300
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
@@ -67,13 +67,15 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     add_experience(self, old_game_state, self_action, new_game_state, events)
     if len(self.experience_buffer) > 0:
         update_network(self)
-
+    
+    self.logger.info('####################')
+    self.logger.info(events)
     self.game_score += get_score(events)
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
-    Called at the end of each game or when the agent died .
+    Called at the end of each game or when the agent died.
 
     :param self: The same object that is passed to all of your callbacks.
     """
@@ -85,7 +87,9 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     
     track_game_score(self, smooth=True)
 
-    
+    add_experience(self, last_game_state, last_action, None, events)
+    if len(self.experience_buffer) > 0:
+        update_network(self)
 
     self.episode_counter += 1
     if self.episode_counter % (TRAINING_EPISODES // 10) == 0: #save parameters 2 times

@@ -14,7 +14,7 @@ def state_to_features(game_state: dict) -> torch.tensor:
     agent_x, agent_y = game_state['self'][3]
 
     #____Channel-01-Coins___#
-    # coins = three_closest_coins(agent_x, agent_y, game_state['coins'])
+    #coins = three_closest_coins(agent_x, agent_y, game_state['coins'])
     coins = closest_coin(agent_x, agent_y, game_state['coins'])
             
     #____Channel-02-Walls___#
@@ -23,7 +23,7 @@ def state_to_features(game_state: dict) -> torch.tensor:
     #____Channel-03-Bombs&Explosions___#
     fire = bombs_and_explosions(agent_x, agent_y, game_state['bombs'], game_state['explosion_map'])
 
-    features = torch.cat((coins,walls,crates,fire)) #len = 4 + 4 + 4 + 4
+    features = torch.cat((coins,walls,fire)) #len = 4 + 4 + 4 
 
     return features.unsqueeze(0)
 
@@ -37,7 +37,7 @@ def state_to_features(game_state: dict) -> torch.tensor:
 ## CHANNEL 1 - COINS ##
 #######################
 def three_closest_coins(agent_x, agent_y, game_state_coins):
-    coins = torch.zeros(3,4)         # closest, 2nd, 3rd
+    
     closest_coins = [None,None,None]
     closest_dists = deque([1000,1001,1002])
     for coin_x, coin_y in game_state_coins:
@@ -47,14 +47,25 @@ def three_closest_coins(agent_x, agent_y, game_state_coins):
             closest_dists.pop()
             position = closest_dists.index(dist_new)
             closest_coins[position] = (coin_x, coin_y)
+    
+    # coins = torch.zeros(3,4)         # closest, 2nd, 3rd
+    # for i, c in enumerate(closest_coins):
+    #     if c is not None:
+    #         x,y = c
+    #         if   x - agent_x > 0: coins[i][0] = 1 #coin right
+    #         elif x - agent_x < 0: coins[i][1] = 1 #coin left
+
+    #         if   y - agent_y > 0: coins[i][2] = 1 #coin down
+    #         elif y - agent_y < 0: coins[i][3] = 1 #coin up
+    coins = torch.zeros(4)
     for i, c in enumerate(closest_coins):
         if c is not None:
             x,y = c
-            if   x - agent_x > 0: coins[i][0] = 1 #coin right
-            elif x - agent_x < 0: coins[i][1] = 1 #coin left
+            if   x - agent_x > 0: coins[0] += 1 #coin right
+            elif x - agent_x < 0: coins[1] += 1 #coin left
 
-            if   y - agent_y > 0: coins[i][2] = 1 #coin down
-            elif y - agent_y < 0: coins[i][3] = 1 #coin up
+            if   y - agent_y > 0: coins[2] += 1 #coin down
+            elif y - agent_y < 0: coins[3] += 1 #coin up
 
     return coins.reshape(-1)
 

@@ -16,12 +16,12 @@ def generate_eps_greedy_policy(network):
     return np.linspace(network.epsilon_begin, network.epsilon_end, network.training_episodes)
 
 def add_experience(self, old_game_state, self_action, new_game_state, events):
-    old_state = state_to_features(old_game_state)
-    if old_state is not None:
+    old_features = state_to_features(old_game_state)
+    if old_features is not None:
         if new_game_state is None:
-            new_state = neutral_state
+            new_features = old_features
         else:
-            new_state = state_to_features(new_game_state)
+            new_features = state_to_features(new_game_state)
         reward = reward_from_events(self, events)
         reward += rewards_from_own_events(self, old_game_state, self_action, new_game_state, events)
 
@@ -29,15 +29,10 @@ def add_experience(self, old_game_state, self_action, new_game_state, events):
         action = torch.zeros(6)
         action[action_idx] = 1
 
-        self.experience_buffer.append((old_state, action, reward, new_state))
+        self.experience_buffer.append((old_features, action, reward, new_features))
         number_of_elements_in_buffer = len(self.experience_buffer)
         if number_of_elements_in_buffer > self.network.buffer_size:
             self.experience_buffer.popleft()
-
-neutral_state = torch.tensor([ 0, 0, 0, 0, #coins
-                              -1, 0,-1, 0, #walls
-                               0, 0, 0, 0] #fire
-                            ,dtype=torch.float).unsqueeze(0)
 
 def update_network(self):
     '''
@@ -98,7 +93,7 @@ def save_parameters(self, string):
     ax.set_title('score')
     ax.set_xlabel('episode')
     ax.set_ylabel('total points')
-    ax.plot(x,y, marker='o', markersize=3, linewidth=0)
+    ax.plot(x,y, marker='o', markersize=3, linewidth=1)
     plt.savefig('network_parameters/training_progress.png')
 
 
