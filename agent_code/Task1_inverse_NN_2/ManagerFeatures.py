@@ -38,12 +38,17 @@ def state_to_features(game_state: dict) -> np.array:
 
     possible_next_pos = possible_neighbors(player_pos)
     features = []
+
+    way_to_nearest = []
+
     for pos in (player_pos + STEP):
+        first_coin = True
         new_distances = np.empty(len(wanted_fields))
         pos = pos.tolist()
 
         if pos not in possible_next_pos:
-            features = np.append(features, -1)
+            features = np.append(features, [-1 for _ in range(9)])
+            way_to_nearest.append(np.inf)
             continue
 
         new_distances.fill(np.inf) # if no way can be found we consider the distance to be infinite
@@ -59,13 +64,39 @@ def state_to_features(game_state: dict) -> np.array:
             if pos in visited:
                 continue
             visited.append(pos)
+            index = np.argwhere((wanted_fields==pos).all(axis=1)) # check if pos is in wanted_fields
+            if len(index)!=0:
+                new_distances[index] = distance
+                if first_coin:
+                    way_to_nearest.append(distance)
+                    first_coin = False
 
-            new_distances[np.argwhere((wanted_fields==pos).all(axis=1))] = distance
             assert sum((wanted_fields==pos).all(axis=1)) <= 1
             neighbors = possible_neighbors(pos)
             for node in neighbors:              
                 q.append([node, distance+1])
 
-        features = np.append(features, sum(1/new_distances**2))
+        features = np.append(features, 1/new_distances)
+    # features= np.append(features, np.argmin(way_to_nearest))
     features = torch.from_numpy(features).float()
     return features.unsqueeze(0)
+
+def closest_coin(agent_x, agent_y, game_state_coins):
+    coins = torch.zeros(4)
+    closest_coin = None
+    closest_dist = 100
+    for coin_x, coin_y in game_state_coins:
+        dist = np.linalg.norm([coin_x - agent_x, coin_y - agent_y])
+        if dist < closest_dist:
+            closest_dist = dist 
+            closest_coin = [coin_x, coin_y]
+
+    if closest_coin is not None:
+        x, y = closest_coin
+        if   x - agent_x > 0: coins[0] = 1
+        elif x - agent_x < 0: coins[1] = 1
+
+        if   y - agent_y > 0: coins[2] = 1
+        elif y - agent_y < 0: coins[3] = 1
+
+    return coins
