@@ -72,9 +72,12 @@ def state_to_features(self, game_state: dict) -> np.array:
             for node in neighbors:              
                 q.append([node, distance+1])
 
-        features = np.append(features, np.sum(1/new_distances)*number_of_coins)
+        features = np.append(features, np.sum(1/new_distances))
 
     # encode the movement to the coins in one hot manner
+    hot_one = np.argmax(features)
+    features[features>=0]=0
+    features[hot_one] = number_of_coins
 
     # print("\n\n")
     # print(f"oben:{features[3]}")
