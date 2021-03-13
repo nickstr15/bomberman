@@ -1,79 +1,1900 @@
-2021-03-13 13:59:39,064 [BombeRLeWorld] INFO: Initializing game world
-2021-03-13 13:59:39,756 [BombeRLeWorld] INFO: STARTING ROUND #1
-2021-03-13 13:59:39,858 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-13 13:59:39,877 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:39,878 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:39,959 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-13 13:59:39,981 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:39,981 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,061 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-13 13:59:40,079 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:40,079 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,162 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-13 13:59:40,181 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:40,181 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,264 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-13 13:59:40,282 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:40,282 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,365 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-13 13:59:40,383 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:40,383 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,466 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-13 13:59:40,487 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:40,487 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,567 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-13 13:59:40,585 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:40,585 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,669 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-13 13:59:40,686 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:40,686 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,771 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-13 13:59:40,789 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:40,789 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,872 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-13 13:59:40,891 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:40,891 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:40,973 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-13 13:59:40,995 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:40,995 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,075 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-13 13:59:41,093 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:41,093 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,177 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-13 13:59:41,195 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:41,195 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,279 [BombeRLeWorld] INFO: STARTING STEP 15
-2021-03-13 13:59:41,297 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:41,297 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,381 [BombeRLeWorld] INFO: STARTING STEP 16
-2021-03-13 13:59:41,399 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:41,399 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,482 [BombeRLeWorld] INFO: STARTING STEP 17
-2021-03-13 13:59:41,505 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:41,505 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,584 [BombeRLeWorld] INFO: STARTING STEP 18
-2021-03-13 13:59:41,603 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:41,603 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,686 [BombeRLeWorld] INFO: STARTING STEP 19
-2021-03-13 13:59:41,704 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:41,704 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,788 [BombeRLeWorld] INFO: STARTING STEP 20
-2021-03-13 13:59:41,807 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:41,807 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,890 [BombeRLeWorld] INFO: STARTING STEP 21
-2021-03-13 13:59:41,908 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:41,908 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:41,990 [BombeRLeWorld] INFO: STARTING STEP 22
-2021-03-13 13:59:42,012 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:42,012 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:42,092 [BombeRLeWorld] INFO: STARTING STEP 23
-2021-03-13 13:59:42,110 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:42,110 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:42,193 [BombeRLeWorld] INFO: STARTING STEP 24
-2021-03-13 13:59:42,211 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action LEFT in 0.02s.
-2021-03-13 13:59:42,211 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
-2021-03-13 13:59:42,341 [BombeRLeWorld] INFO: STARTING STEP 25
-2021-03-13 13:59:42,341 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
-2021-03-13 13:59:42,341 [BombeRLeWorld] INFO: SHUT DOWN
-2021-03-13 13:59:42,361 [BombeRLeWorld] INFO: Agent <Task1_inverse_NN_2> chose action RIGHT in 0.02s.
-2021-03-13 13:59:42,361 [BombeRLeWorld] WARNING: Agent <Task1_inverse_NN_2> stayed within acceptable think time.
+2021-03-13 18:59:58,864 [BombeRLeWorld] INFO: Initializing game world
+2021-03-13 18:59:59,566 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-13 18:59:59,568 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 18:59:59,570 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 18:59:59,571 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,571 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 18:59:59,641 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 18:59:59,641 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,641 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 18:59:59,685 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 18:59:59,685 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,685 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 18:59:59,731 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 18:59:59,731 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,731 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 18:59:59,784 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 18:59:59,784 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,784 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 18:59:59,840 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 18:59:59,840 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,840 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 18:59:59,895 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 18:59:59,895 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,895 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 18:59:59,968 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 18:59:59,968 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 18:59:59,968 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:00,021 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:00,021 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,021 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:00,064 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:00,064 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,064 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:00,133 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:00,133 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,134 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:00,195 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:00,196 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,196 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:00,262 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:00,262 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,262 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:00,328 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:00,328 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,328 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:00,397 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:00,397 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,397 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:00,483 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:00,483 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,483 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:00,541 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:00,541 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,541 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:00,594 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:00,594 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,594 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:00,641 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:00,641 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,641 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:00,685 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:00,685 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,685 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:00,731 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:00,732 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,732 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (6, 3)
+2021-03-13 19:00:00,732 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:00,784 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:00,784 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,784 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:00,834 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:00,834 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,834 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:00,914 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:00,914 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,914 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:00,991 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:00,991 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:00,991 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (6, 3) explodes
+2021-03-13 19:00:00,991 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-13 19:00:01,041 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:01,041 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,041 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-13 19:00:01,113 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:01,113 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,113 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-13 19:00:01,211 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:01,211 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,211 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-13 19:00:01,278 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:01,278 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,279 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-13 19:00:01,323 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:01,323 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,323 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-13 19:00:01,388 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:01,388 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,388 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-13 19:00:01,454 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:01,454 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,454 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-13 19:00:01,522 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:01,522 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,522 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-13 19:00:01,588 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:01,588 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,588 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-13 19:00:01,642 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:01,642 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,642 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (7, 6)
+2021-03-13 19:00:01,642 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-13 19:00:01,688 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:01,688 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,688 [BombeRLeWorld] INFO: STARTING STEP 37
+2021-03-13 19:00:01,758 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:01,758 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,759 [BombeRLeWorld] INFO: STARTING STEP 38
+2021-03-13 19:00:01,841 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:01,841 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,841 [BombeRLeWorld] INFO: STARTING STEP 39
+2021-03-13 19:00:01,916 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:01,916 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,916 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (7, 6) explodes
+2021-03-13 19:00:01,916 [BombeRLeWorld] INFO: STARTING STEP 40
+2021-03-13 19:00:01,991 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:01,991 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:01,991 [BombeRLeWorld] INFO: STARTING STEP 41
+2021-03-13 19:00:02,071 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:02,071 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,071 [BombeRLeWorld] INFO: STARTING STEP 42
+2021-03-13 19:00:02,150 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:02,151 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,151 [BombeRLeWorld] INFO: STARTING STEP 43
+2021-03-13 19:00:02,206 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:02,206 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,206 [BombeRLeWorld] INFO: STARTING STEP 44
+2021-03-13 19:00:02,264 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:02,264 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,264 [BombeRLeWorld] INFO: STARTING STEP 45
+2021-03-13 19:00:02,313 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:02,313 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,313 [BombeRLeWorld] INFO: STARTING STEP 46
+2021-03-13 19:00:02,379 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:02,379 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,379 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (8, 7) and receives 1 point
+2021-03-13 19:00:02,379 [BombeRLeWorld] INFO: STARTING STEP 47
+2021-03-13 19:00:02,452 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:02,452 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,452 [BombeRLeWorld] INFO: STARTING STEP 48
+2021-03-13 19:00:02,503 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:02,503 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,503 [BombeRLeWorld] INFO: STARTING STEP 49
+2021-03-13 19:00:02,550 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:02,550 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,550 [BombeRLeWorld] INFO: STARTING STEP 50
+2021-03-13 19:00:02,623 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:02,623 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,623 [BombeRLeWorld] INFO: STARTING STEP 51
+2021-03-13 19:00:02,721 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:02,721 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,721 [BombeRLeWorld] INFO: STARTING STEP 52
+2021-03-13 19:00:02,799 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:02,799 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,799 [BombeRLeWorld] INFO: STARTING STEP 53
+2021-03-13 19:00:02,874 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:02,874 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,874 [BombeRLeWorld] INFO: STARTING STEP 54
+2021-03-13 19:00:02,940 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:02,940 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,940 [BombeRLeWorld] INFO: STARTING STEP 55
+2021-03-13 19:00:02,987 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:02,987 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:02,987 [BombeRLeWorld] INFO: STARTING STEP 56
+2021-03-13 19:00:03,053 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:03,053 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,053 [BombeRLeWorld] INFO: STARTING STEP 57
+2021-03-13 19:00:03,126 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:03,126 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,126 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (7, 6)
+2021-03-13 19:00:03,126 [BombeRLeWorld] INFO: STARTING STEP 58
+2021-03-13 19:00:03,173 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:03,173 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,173 [BombeRLeWorld] INFO: STARTING STEP 59
+2021-03-13 19:00:03,227 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:03,227 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,228 [BombeRLeWorld] INFO: STARTING STEP 60
+2021-03-13 19:00:03,300 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:03,300 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,300 [BombeRLeWorld] INFO: STARTING STEP 61
+2021-03-13 19:00:03,371 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:03,371 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,371 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (7, 6) explodes
+2021-03-13 19:00:03,371 [BombeRLeWorld] INFO: STARTING STEP 62
+2021-03-13 19:00:03,420 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:03,420 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,420 [BombeRLeWorld] INFO: STARTING STEP 63
+2021-03-13 19:00:03,467 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:03,467 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,467 [BombeRLeWorld] INFO: STARTING STEP 64
+2021-03-13 19:00:03,515 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:03,515 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,515 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (6, 5)
+2021-03-13 19:00:03,515 [BombeRLeWorld] INFO: STARTING STEP 65
+2021-03-13 19:00:03,566 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:03,566 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,566 [BombeRLeWorld] INFO: STARTING STEP 66
+2021-03-13 19:00:03,638 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:03,638 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,638 [BombeRLeWorld] INFO: STARTING STEP 67
+2021-03-13 19:00:03,735 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:03,735 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,735 [BombeRLeWorld] INFO: STARTING STEP 68
+2021-03-13 19:00:03,808 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:03,809 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:03,809 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (6, 5) explodes
+2021-03-13 19:00:03,809 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:03,809 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:03,809 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2021-03-13 19:00:03,984 [BombeRLeWorld] INFO: STARTING ROUND #2
+2021-03-13 19:00:03,999 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:04,006 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:04,006 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,007 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:04,051 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:04,051 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,051 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:04,104 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:04,104 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,104 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:04,156 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:04,156 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,156 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:04,210 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:04,210 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,210 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:04,263 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:04,263 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,263 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:04,316 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:04,316 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,316 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:04,369 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:04,369 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,369 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:04,420 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:04,420 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,420 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:04,465 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:04,465 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,465 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:04,519 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:04,519 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,519 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:04,562 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:04,562 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,562 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:04,605 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:04,605 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,605 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:04,654 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:04,654 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,654 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:04,706 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:04,706 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,706 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:04,752 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:04,752 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,752 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (2, 1)
+2021-03-13 19:00:04,752 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:04,796 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:04,796 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,796 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:04,840 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:04,840 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,840 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:04,887 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:04,887 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,887 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:04,930 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:04,930 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:04,930 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (2, 1) explodes
+2021-03-13 19:00:04,930 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:04,930 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:04,930 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
+2021-03-13 19:00:05,072 [BombeRLeWorld] INFO: STARTING ROUND #3
+2021-03-13 19:00:05,087 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:05,096 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:05,096 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,096 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:05,145 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:05,145 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,145 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:05,192 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:05,192 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,192 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:05,239 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:05,239 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,239 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 2)
+2021-03-13 19:00:05,239 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:05,284 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:05,285 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,285 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:05,343 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:05,343 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,343 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:05,393 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:05,393 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,393 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:05,438 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:05,438 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,438 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 2) explodes
+2021-03-13 19:00:05,438 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:05,438 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:05,438 [BombeRLeWorld] INFO: WRAPPING UP ROUND #3
+2021-03-13 19:00:05,611 [BombeRLeWorld] INFO: STARTING ROUND #4
+2021-03-13 19:00:05,627 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:05,635 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:05,635 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,635 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:05,679 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:05,679 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,679 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:05,722 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:05,722 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,722 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:05,766 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:05,766 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,766 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (1, 1)
+2021-03-13 19:00:05,766 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:05,821 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:05,821 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,821 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:05,872 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:05,872 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,872 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:05,923 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:05,923 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,923 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:05,966 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:05,966 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:05,966 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (1, 1) explodes
+2021-03-13 19:00:05,966 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:05,966 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:05,966 [BombeRLeWorld] INFO: WRAPPING UP ROUND #4
+2021-03-13 19:00:06,113 [BombeRLeWorld] INFO: STARTING ROUND #5
+2021-03-13 19:00:06,145 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:06,154 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:06,154 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,154 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:06,203 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:06,203 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,204 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:06,258 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:06,258 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,258 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:06,300 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:06,300 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,300 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 15)
+2021-03-13 19:00:06,300 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:06,346 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:06,347 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,347 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:06,395 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:06,395 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,395 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:06,438 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:06,439 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,439 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:06,482 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:06,482 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,482 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 15) explodes
+2021-03-13 19:00:06,482 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:06,482 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:06,482 [BombeRLeWorld] INFO: WRAPPING UP ROUND #5
+2021-03-13 19:00:06,639 [BombeRLeWorld] INFO: STARTING ROUND #6
+2021-03-13 19:00:06,655 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:06,664 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:06,664 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,664 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:06,710 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:06,710 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,710 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (15, 2) and receives 1 point
+2021-03-13 19:00:06,710 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:06,760 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:06,760 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,760 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:06,806 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:06,807 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,807 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:06,850 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:06,850 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,850 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:06,894 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:06,894 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,894 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:06,942 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:06,942 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,942 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:06,997 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:06,997 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:06,997 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:07,040 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:07,040 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,040 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:07,085 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:07,085 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,085 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:07,130 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:07,130 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,130 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (14, 1)
+2021-03-13 19:00:07,130 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:07,177 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:07,177 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,177 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:07,225 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:07,225 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,225 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:07,275 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:07,275 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,275 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:07,321 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:07,321 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,321 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (14, 1) explodes
+2021-03-13 19:00:07,321 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:07,321 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:07,321 [BombeRLeWorld] INFO: WRAPPING UP ROUND #6
+2021-03-13 19:00:07,471 [BombeRLeWorld] INFO: STARTING ROUND #7
+2021-03-13 19:00:07,487 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:07,497 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:07,497 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,497 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:07,556 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:07,556 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,556 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:07,611 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:07,611 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,611 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (14, 1) and receives 1 point
+2021-03-13 19:00:07,611 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:07,655 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:07,655 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,655 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:07,700 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:07,700 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,700 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:07,751 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:07,751 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,751 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:07,797 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:07,797 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,797 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:07,841 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:07,841 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,841 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:07,885 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:07,885 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,885 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:07,942 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:07,942 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:07,942 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:08,004 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:08,004 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,004 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:08,056 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:08,056 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,056 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:08,099 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:08,099 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,099 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:08,143 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:08,143 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,143 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:08,193 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:08,193 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,193 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:08,238 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:08,238 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,238 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:08,282 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:08,282 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,282 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (14, 1)
+2021-03-13 19:00:08,282 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:08,326 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:08,326 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,326 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:08,378 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:08,378 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,378 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:08,447 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:08,447 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,447 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:08,508 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:08,508 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,509 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (14, 1) explodes
+2021-03-13 19:00:08,509 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:08,561 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:08,561 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,561 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:08,613 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:08,613 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,613 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (13, 1)
+2021-03-13 19:00:08,613 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:08,689 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:08,689 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,689 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:08,752 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:08,752 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,752 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-13 19:00:08,817 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:08,817 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,817 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-13 19:00:08,891 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:08,891 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,891 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (13, 1) explodes
+2021-03-13 19:00:08,892 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-13 19:00:08,935 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:08,935 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,935 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-13 19:00:08,978 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:08,978 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:08,978 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (12, 3)
+2021-03-13 19:00:08,978 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-13 19:00:09,023 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:09,023 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,023 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-13 19:00:09,091 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:09,091 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,092 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-13 19:00:09,163 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:09,163 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,164 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-13 19:00:09,209 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:09,209 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,209 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (12, 3) explodes
+2021-03-13 19:00:09,209 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:09,209 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:09,209 [BombeRLeWorld] INFO: WRAPPING UP ROUND #7
+2021-03-13 19:00:09,352 [BombeRLeWorld] INFO: STARTING ROUND #8
+2021-03-13 19:00:09,368 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:09,399 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:09,399 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,399 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:09,457 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:09,457 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,457 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 2)
+2021-03-13 19:00:09,457 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:09,506 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:09,506 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,507 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:09,551 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:09,551 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,551 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:09,594 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:09,595 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,595 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:09,644 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:09,644 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,644 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 2) explodes
+2021-03-13 19:00:09,644 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:09,693 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:09,693 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,693 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (14, 1)
+2021-03-13 19:00:09,693 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:09,738 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:09,738 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,738 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:09,789 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:09,789 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,789 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:09,839 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:09,839 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,839 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:09,903 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.02s.
+2021-03-13 19:00:09,903 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:09,903 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (14, 1) explodes
+2021-03-13 19:00:09,903 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:09,903 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:09,903 [BombeRLeWorld] INFO: WRAPPING UP ROUND #8
+2021-03-13 19:00:10,060 [BombeRLeWorld] INFO: STARTING ROUND #9
+2021-03-13 19:00:10,076 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:10,084 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:10,084 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,084 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (1, 1) and receives 1 point
+2021-03-13 19:00:10,084 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:10,129 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:10,129 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,129 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:10,173 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:10,173 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,173 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:10,222 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:10,222 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,222 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:10,268 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:10,268 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,268 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:10,313 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:10,313 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,313 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:10,359 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:10,359 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,359 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:10,419 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:10,419 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,419 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:10,476 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:10,476 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,476 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:10,532 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:10,532 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,532 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:10,579 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:10,579 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,579 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:10,645 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:10,645 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,645 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:10,700 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:10,700 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,700 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:10,745 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:10,745 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,745 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:10,794 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:10,794 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,794 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:10,839 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:10,839 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,839 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:10,904 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:10,904 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,904 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:10,978 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:10,978 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:10,978 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:11,039 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:11,039 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,039 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:11,093 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:11,093 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,093 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:11,151 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:11,151 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,151 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:11,214 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:11,214 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,214 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:11,268 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:11,268 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,268 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:11,316 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:11,316 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,316 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:11,364 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:11,364 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,364 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (6, 1)
+2021-03-13 19:00:11,364 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-13 19:00:11,417 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:11,417 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,417 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-13 19:00:11,460 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:11,460 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,460 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-13 19:00:11,504 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:11,504 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,504 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-13 19:00:11,558 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:11,559 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,559 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (6, 1) explodes
+2021-03-13 19:00:11,559 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:11,559 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:11,559 [BombeRLeWorld] INFO: WRAPPING UP ROUND #9
+2021-03-13 19:00:11,744 [BombeRLeWorld] INFO: STARTING ROUND #10
+2021-03-13 19:00:11,759 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:11,767 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:11,767 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,767 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:11,813 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:11,813 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,813 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:11,865 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:11,866 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,866 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:11,929 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:11,929 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:11,929 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:12,001 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:12,001 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,001 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:12,062 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:12,062 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,062 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:12,124 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:12,124 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,124 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:12,217 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.02s.
+2021-03-13 19:00:12,217 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,217 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:12,275 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:12,275 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,275 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:12,339 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:12,339 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,339 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:12,393 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:12,393 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,394 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:12,443 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:12,443 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,443 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (14, 15)
+2021-03-13 19:00:12,443 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:12,490 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:12,491 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,491 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:12,534 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:12,534 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,534 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:12,582 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:12,583 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,583 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:12,627 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:12,627 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,627 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (14, 15) explodes
+2021-03-13 19:00:12,627 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:12,627 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:12,627 [BombeRLeWorld] INFO: WRAPPING UP ROUND #10
+2021-03-13 19:00:12,777 [BombeRLeWorld] INFO: STARTING ROUND #11
+2021-03-13 19:00:12,792 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:12,800 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:12,800 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,800 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:12,854 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:12,854 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,854 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:12,902 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:12,902 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,902 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:12,954 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:12,954 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:12,955 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:13,028 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.02s.
+2021-03-13 19:00:13,028 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,028 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:13,081 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:13,081 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,081 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:13,135 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:13,135 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,135 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:13,188 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:13,188 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,188 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:13,233 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:13,233 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,234 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:13,282 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:13,282 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,282 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:13,327 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:13,327 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,327 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:13,377 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:13,377 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,378 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:13,428 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:13,428 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,428 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 15)
+2021-03-13 19:00:13,428 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:13,476 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:13,477 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,477 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:13,526 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:13,526 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,526 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:13,574 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:13,574 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,574 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:13,618 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:13,618 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,618 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 15) explodes
+2021-03-13 19:00:13,618 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:13,618 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:13,618 [BombeRLeWorld] INFO: WRAPPING UP ROUND #11
+2021-03-13 19:00:13,769 [BombeRLeWorld] INFO: STARTING ROUND #12
+2021-03-13 19:00:13,801 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:13,832 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:13,832 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,832 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (15, 2) and receives 1 point
+2021-03-13 19:00:13,832 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:13,876 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:13,876 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,876 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:13,922 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:13,922 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,922 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:13,972 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:13,972 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:13,972 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:14,020 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:14,020 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,020 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:14,065 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:14,065 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,065 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:14,109 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:14,109 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,109 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:14,154 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:14,154 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,154 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:14,200 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:14,200 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,200 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:14,252 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:14,252 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,252 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:14,330 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:14,330 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,330 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:14,391 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:14,391 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,391 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:14,442 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:14,442 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,442 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:14,506 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:14,506 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,507 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:14,562 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:14,562 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,563 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:14,681 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.04s.
+2021-03-13 19:00:14,681 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,681 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:14,758 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:14,758 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,758 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:14,805 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:14,805 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,805 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:14,850 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:14,850 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,850 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:14,902 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:14,902 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,902 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:14,945 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:14,945 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:14,945 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:15,016 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:15,016 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,016 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:15,081 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:15,081 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,081 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:15,146 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:15,147 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,147 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:15,218 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:15,218 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,218 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-13 19:00:15,292 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:15,292 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,292 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (13, 3)
+2021-03-13 19:00:15,292 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-13 19:00:15,374 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:15,374 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,374 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-13 19:00:15,443 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:15,443 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,443 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-13 19:00:15,501 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:15,501 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,501 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-13 19:00:15,550 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:15,550 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,551 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (13, 3) explodes
+2021-03-13 19:00:15,551 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:15,551 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:15,551 [BombeRLeWorld] INFO: WRAPPING UP ROUND #12
+2021-03-13 19:00:15,701 [BombeRLeWorld] INFO: STARTING ROUND #13
+2021-03-13 19:00:15,717 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:15,725 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:15,725 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,725 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:15,776 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:15,776 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,776 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:15,825 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:15,825 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,825 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:15,873 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:15,873 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,873 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:15,926 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:15,926 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,926 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:15,979 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:15,979 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:15,979 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:16,054 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:16,054 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,054 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:16,123 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:16,123 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,123 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:16,168 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:16,168 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,168 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:16,213 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:16,213 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,213 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:16,286 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:16,286 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,286 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:16,364 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:16,364 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,364 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:16,417 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:16,417 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,417 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:16,489 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:16,489 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,489 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:16,568 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:16,568 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,568 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:16,623 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:16,623 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,624 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:16,687 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:16,687 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,687 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:16,750 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:16,750 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,750 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:16,819 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:16,819 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,819 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:16,897 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:16,897 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,897 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:16,945 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:16,945 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:16,945 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:17,014 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:17,014 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,014 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:17,084 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:17,084 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,084 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:17,134 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:17,134 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,134 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:17,199 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:17,199 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,199 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-13 19:00:17,269 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:17,269 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,269 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (3, 4)
+2021-03-13 19:00:17,269 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-13 19:00:17,316 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:17,316 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,316 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-13 19:00:17,362 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:17,362 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,362 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-13 19:00:17,424 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:17,424 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,425 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-13 19:00:17,488 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:17,488 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,488 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (3, 4) explodes
+2021-03-13 19:00:17,488 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-13 19:00:17,539 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:17,539 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,539 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-13 19:00:17,592 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:17,592 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,592 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (2, 3)
+2021-03-13 19:00:17,592 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-13 19:00:17,641 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:17,641 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,641 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-13 19:00:17,691 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:17,691 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,691 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-13 19:00:17,744 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:17,744 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,744 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-13 19:00:17,807 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:17,807 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:17,807 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (2, 3) explodes
+2021-03-13 19:00:17,807 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:17,807 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:17,807 [BombeRLeWorld] INFO: WRAPPING UP ROUND #13
+2021-03-13 19:00:17,967 [BombeRLeWorld] INFO: STARTING ROUND #14
+2021-03-13 19:00:17,999 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:18,031 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.02s.
+2021-03-13 19:00:18,031 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,032 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:18,080 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:18,080 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,080 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:18,131 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:18,131 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,131 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:18,182 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:18,182 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,182 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:18,233 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:18,233 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,233 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:18,287 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:18,287 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,287 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (1, 15)
+2021-03-13 19:00:18,287 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:18,333 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:18,333 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,333 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:18,379 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:18,379 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,379 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:18,431 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:18,431 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,431 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:18,474 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:18,474 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,474 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (3, 15) and receives 1 point
+2021-03-13 19:00:18,474 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (1, 15) explodes
+2021-03-13 19:00:18,474 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:18,474 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:18,474 [BombeRLeWorld] INFO: WRAPPING UP ROUND #14
+2021-03-13 19:00:18,655 [BombeRLeWorld] INFO: STARTING ROUND #15
+2021-03-13 19:00:18,671 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:18,678 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:18,678 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,679 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:18,728 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:18,728 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,729 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:18,772 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:18,772 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,772 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:18,821 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:18,821 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,821 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:18,869 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:18,869 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,869 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:18,913 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:18,913 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,913 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:18,957 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:18,957 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:18,957 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:19,001 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:19,001 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,001 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:19,049 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:19,049 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,049 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (2, 1)
+2021-03-13 19:00:19,049 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:19,094 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:19,094 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,094 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:19,140 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:19,140 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,140 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:19,189 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:19,189 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,189 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:19,243 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:19,243 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,243 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (2, 1) explodes
+2021-03-13 19:00:19,243 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:19,243 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:19,243 [BombeRLeWorld] INFO: WRAPPING UP ROUND #15
+2021-03-13 19:00:19,391 [BombeRLeWorld] INFO: STARTING ROUND #16
+2021-03-13 19:00:19,407 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:19,414 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:19,415 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,415 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:19,467 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:19,467 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,467 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (14, 1) and receives 1 point
+2021-03-13 19:00:19,467 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:19,513 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:19,514 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,514 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:19,569 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:19,569 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,569 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:19,622 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:19,622 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,622 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:19,666 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:19,666 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,666 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:19,716 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:19,716 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,716 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:19,761 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:19,761 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,761 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 1)
+2021-03-13 19:00:19,761 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:19,811 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:19,811 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,811 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:19,862 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:19,862 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,862 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:19,912 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:19,912 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,912 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:19,963 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:19,963 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:19,963 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 1) explodes
+2021-03-13 19:00:19,963 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:19,963 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:19,963 [BombeRLeWorld] INFO: WRAPPING UP ROUND #16
+2021-03-13 19:00:20,109 [BombeRLeWorld] INFO: STARTING ROUND #17
+2021-03-13 19:00:20,140 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:20,148 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:20,148 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,148 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:20,200 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:20,200 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,200 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:20,265 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:20,265 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,265 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:20,309 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:20,309 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,309 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:20,354 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:20,354 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,354 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:20,399 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:20,399 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,399 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:20,459 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:20,460 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,460 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:20,512 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:20,512 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,512 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:20,562 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:20,562 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,563 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:20,607 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:20,607 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,607 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:20,666 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:20,666 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,666 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:20,749 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:20,749 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,749 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:20,809 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:20,809 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,809 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:20,866 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:20,866 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,866 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (1, 13)
+2021-03-13 19:00:20,866 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:20,928 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:20,928 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:20,928 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:21,009 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:21,009 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,010 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:21,072 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:21,072 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,072 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:21,128 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:21,128 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,128 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (1, 13) explodes
+2021-03-13 19:00:21,128 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:21,128 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:21,129 [BombeRLeWorld] INFO: WRAPPING UP ROUND #17
+2021-03-13 19:00:21,293 [BombeRLeWorld] INFO: STARTING ROUND #18
+2021-03-13 19:00:21,308 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:21,315 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:21,315 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,316 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:21,370 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:21,370 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,370 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:21,422 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:21,422 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,422 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:21,473 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:21,473 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,474 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (1, 2)
+2021-03-13 19:00:21,474 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:21,521 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:21,522 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,522 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:21,572 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:21,572 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,572 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:21,630 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:21,630 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,630 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:21,681 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:21,682 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,682 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (1, 2) explodes
+2021-03-13 19:00:21,682 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:21,749 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.02s.
+2021-03-13 19:00:21,749 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,749 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:21,815 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:21,815 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,815 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:21,881 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:21,882 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,882 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:21,927 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:21,927 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,927 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (4, 1)
+2021-03-13 19:00:21,927 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:21,972 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:21,972 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:21,972 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:22,019 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:22,019 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,019 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:22,066 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:22,066 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,066 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:22,112 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:22,112 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,112 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (4, 1) explodes
+2021-03-13 19:00:22,112 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:22,112 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:22,112 [BombeRLeWorld] INFO: WRAPPING UP ROUND #18
+2021-03-13 19:00:22,263 [BombeRLeWorld] INFO: STARTING ROUND #19
+2021-03-13 19:00:22,278 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:22,286 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:22,286 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,286 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:22,335 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:22,335 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,335 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:22,381 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:22,381 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,381 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:22,427 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:22,428 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,428 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:22,475 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:22,475 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,475 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:22,529 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:22,529 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,529 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:22,588 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:22,588 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,589 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:22,659 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:22,659 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,659 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:22,716 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:22,716 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,716 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:22,787 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:22,787 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,787 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:22,842 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:22,842 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,842 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:22,893 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:22,893 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,893 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:22,937 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:22,937 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,937 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:22,999 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:22,999 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:22,999 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (13, 13)
+2021-03-13 19:00:22,999 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:23,087 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:23,087 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,087 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:23,163 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:23,163 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,163 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:23,222 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:23,222 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,222 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:23,295 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:23,295 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,295 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (13, 13) explodes
+2021-03-13 19:00:23,295 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:23,295 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:23,295 [BombeRLeWorld] INFO: WRAPPING UP ROUND #19
+2021-03-13 19:00:23,517 [BombeRLeWorld] INFO: STARTING ROUND #20
+2021-03-13 19:00:23,532 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:23,541 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:23,541 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,541 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:23,595 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:23,595 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,595 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:23,643 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:23,643 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,643 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:23,694 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:23,694 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,694 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:23,747 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:23,747 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,747 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:23,797 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:23,797 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,797 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:23,846 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:23,846 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,846 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:23,893 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:23,893 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,893 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:23,942 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:23,942 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,942 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:23,989 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:23,989 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:23,990 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:24,034 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:24,034 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,034 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:24,095 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:24,095 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,095 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:24,154 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:24,154 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,154 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 2)
+2021-03-13 19:00:24,154 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:24,209 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:24,209 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,209 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:24,260 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:24,260 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,260 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:24,319 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:24,319 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,319 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:24,374 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:24,374 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,375 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 2) explodes
+2021-03-13 19:00:24,375 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:24,375 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:24,375 [BombeRLeWorld] INFO: WRAPPING UP ROUND #20
+2021-03-13 19:00:24,530 [BombeRLeWorld] INFO: STARTING ROUND #21
+2021-03-13 19:00:24,546 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:24,554 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:24,554 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,554 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 1)
+2021-03-13 19:00:24,555 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:24,609 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:24,610 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,610 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:24,653 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:24,653 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,653 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:24,697 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:24,697 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,697 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:24,741 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:24,741 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,741 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 1) explodes
+2021-03-13 19:00:24,742 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:24,742 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:24,742 [BombeRLeWorld] INFO: WRAPPING UP ROUND #21
+2021-03-13 19:00:24,894 [BombeRLeWorld] INFO: STARTING ROUND #22
+2021-03-13 19:00:24,926 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:24,957 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:24,957 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:24,957 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:25,016 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:25,017 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,017 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:25,109 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.03s.
+2021-03-13 19:00:25,109 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,109 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:25,165 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:25,165 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,165 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:25,209 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:25,209 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,209 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:25,253 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:25,253 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,254 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:25,304 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:25,304 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,304 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:25,365 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:25,366 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,366 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:25,468 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.03s.
+2021-03-13 19:00:25,468 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,469 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:25,539 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:25,539 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,539 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 5)
+2021-03-13 19:00:25,539 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:25,613 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:25,613 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,614 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:25,667 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:25,667 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,667 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:25,712 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:25,712 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,712 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:25,766 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:25,766 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,766 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 5) explodes
+2021-03-13 19:00:25,766 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:25,766 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:25,766 [BombeRLeWorld] INFO: WRAPPING UP ROUND #22
+2021-03-13 19:00:25,908 [BombeRLeWorld] INFO: STARTING ROUND #23
+2021-03-13 19:00:25,924 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:25,932 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:25,932 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,932 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:25,982 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:25,982 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:25,982 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:26,036 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:26,036 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,036 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:26,081 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:26,081 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,081 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 1)
+2021-03-13 19:00:26,081 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:26,148 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:26,148 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,148 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:26,199 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:26,199 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,199 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:26,244 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:26,244 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,244 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:26,288 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:26,288 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,288 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 1) explodes
+2021-03-13 19:00:26,288 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:26,288 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:26,288 [BombeRLeWorld] INFO: WRAPPING UP ROUND #23
+2021-03-13 19:00:26,425 [BombeRLeWorld] INFO: STARTING ROUND #24
+2021-03-13 19:00:26,440 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:26,448 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:26,448 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,448 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:26,497 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:26,497 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,497 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:26,550 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:26,550 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,550 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:26,593 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:26,593 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,593 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:26,637 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:26,637 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,637 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:26,689 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:26,689 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,689 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:26,736 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:26,736 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,737 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:26,781 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:26,781 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,781 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:26,834 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:26,834 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,834 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:26,882 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:26,882 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,882 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:26,926 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:26,926 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,926 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:26,970 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:26,970 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:26,970 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:27,017 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:27,017 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,017 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:27,088 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:27,088 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,088 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:27,145 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:27,145 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,145 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (15, 15)
+2021-03-13 19:00:27,145 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:27,196 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:27,196 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,196 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:27,240 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:27,240 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,240 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:27,283 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:27,283 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,283 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:27,329 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:27,329 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,329 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (15, 15) explodes
+2021-03-13 19:00:27,329 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:27,329 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:27,329 [BombeRLeWorld] INFO: WRAPPING UP ROUND #24
+2021-03-13 19:00:27,475 [BombeRLeWorld] INFO: STARTING ROUND #25
+2021-03-13 19:00:27,491 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:27,498 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:27,499 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,499 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:27,545 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:27,545 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,545 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:27,591 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:27,591 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,591 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:27,635 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:27,635 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,635 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:27,678 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:27,678 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,678 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:27,732 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:27,732 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,732 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:27,792 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:27,792 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,792 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:27,863 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:27,863 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,863 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:27,928 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:27,928 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,928 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (2, 1)
+2021-03-13 19:00:27,928 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:27,974 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:27,974 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:27,974 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:28,026 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:28,026 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,026 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:28,079 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:28,079 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,079 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:28,123 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:28,123 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,123 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (2, 1) explodes
+2021-03-13 19:00:28,123 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:28,167 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:28,167 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,167 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:28,216 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:28,216 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,216 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:28,269 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:28,269 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,269 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:28,321 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:28,321 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,321 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:28,423 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.04s.
+2021-03-13 19:00:28,423 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,423 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:28,486 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:28,486 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,486 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:28,553 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:28,553 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,553 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:28,627 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:28,627 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,627 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:28,683 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:28,683 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,683 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:28,756 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:28,756 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,756 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:28,831 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:28,831 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,831 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:28,886 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:28,886 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,886 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-13 19:00:28,956 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:28,956 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:28,957 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-13 19:00:29,030 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:29,030 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,030 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (4, 5)
+2021-03-13 19:00:29,030 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-13 19:00:29,075 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:29,075 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,075 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-13 19:00:29,129 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:29,129 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,129 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-13 19:00:29,184 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:29,184 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,184 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-13 19:00:29,255 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.02s.
+2021-03-13 19:00:29,255 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,255 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (4, 5) explodes
+2021-03-13 19:00:29,256 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:29,256 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:29,256 [BombeRLeWorld] INFO: WRAPPING UP ROUND #25
+2021-03-13 19:00:29,432 [BombeRLeWorld] INFO: STARTING ROUND #26
+2021-03-13 19:00:29,447 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:29,456 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:29,456 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,456 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:29,501 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:29,501 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,501 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:29,546 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:29,546 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,546 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:29,596 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:29,596 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,596 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:29,645 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:29,645 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,645 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:29,688 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:29,689 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,689 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:29,734 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:29,734 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,734 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:29,787 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:29,787 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,787 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:29,841 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:29,841 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,841 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (3, 14)
+2021-03-13 19:00:29,841 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:29,896 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:29,896 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,896 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:29,944 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:29,944 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:29,944 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:30,009 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:30,009 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,009 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:30,100 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:30,100 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,100 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (3, 14) explodes
+2021-03-13 19:00:30,101 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:30,172 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:30,172 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,172 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:30,227 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:30,227 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,227 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:30,288 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:30,288 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,288 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:30,368 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:30,368 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,368 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:30,434 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:30,435 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,435 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:30,482 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:30,482 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,482 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:30,535 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:30,535 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,535 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:30,597 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:30,597 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,597 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (3, 15)
+2021-03-13 19:00:30,597 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:30,690 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.03s.
+2021-03-13 19:00:30,690 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,690 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:30,754 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:30,754 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,754 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:30,806 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:30,806 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,807 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:30,864 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:30,864 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:30,864 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (3, 15) explodes
+2021-03-13 19:00:30,864 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:30,864 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:30,864 [BombeRLeWorld] INFO: WRAPPING UP ROUND #26
+2021-03-13 19:00:31,015 [BombeRLeWorld] INFO: STARTING ROUND #27
+2021-03-13 19:00:31,031 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:31,039 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:31,039 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,039 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:31,088 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:31,088 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,088 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:31,141 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:31,141 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,141 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:31,186 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:31,186 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,186 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:31,230 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:31,230 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,230 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:31,274 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:31,274 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,275 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:31,334 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:31,334 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,334 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:31,388 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:31,388 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,388 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:31,431 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:31,431 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,432 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:31,484 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:31,484 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,484 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:31,554 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:31,554 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,554 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:31,616 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:31,616 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,616 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:31,668 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:31,668 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,669 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-13 19:00:31,733 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.02s.
+2021-03-13 19:00:31,733 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,733 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-13 19:00:31,781 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:31,781 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,781 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-13 19:00:31,854 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.02s.
+2021-03-13 19:00:31,854 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,854 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-13 19:00:31,919 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:31,919 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,919 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-13 19:00:31,971 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:31,971 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:31,971 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-13 19:00:32,033 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:32,033 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,033 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-13 19:00:32,086 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:32,086 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,086 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-13 19:00:32,148 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:32,148 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,148 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-13 19:00:32,214 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:32,214 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,214 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-13 19:00:32,277 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:32,277 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,277 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-13 19:00:32,335 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:32,335 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,335 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-13 19:00:32,384 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:32,384 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,384 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-13 19:00:32,428 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:32,428 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,428 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-13 19:00:32,473 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:32,474 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,474 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-13 19:00:32,527 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:32,527 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,527 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-13 19:00:32,585 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:32,585 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,585 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-13 19:00:32,629 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:32,629 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,629 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-13 19:00:32,693 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:32,693 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,693 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-13 19:00:32,756 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:32,756 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,756 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (3, 15)
+2021-03-13 19:00:32,756 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-13 19:00:32,818 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:32,818 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,818 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-13 19:00:32,871 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:32,871 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,871 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-13 19:00:32,930 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:32,930 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,930 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-13 19:00:32,976 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:32,976 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:32,976 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (3, 15) explodes
+2021-03-13 19:00:32,976 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:32,976 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:32,976 [BombeRLeWorld] INFO: WRAPPING UP ROUND #27
+2021-03-13 19:00:33,121 [BombeRLeWorld] INFO: STARTING ROUND #28
+2021-03-13 19:00:33,137 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:33,145 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:33,145 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,145 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:33,219 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.02s.
+2021-03-13 19:00:33,219 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,219 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:33,269 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:33,269 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,269 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (14, 1)
+2021-03-13 19:00:33,269 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:33,312 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:33,312 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,312 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:33,369 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:33,369 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,369 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:33,432 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:33,432 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,432 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (13, 2) and receives 1 point
+2021-03-13 19:00:33,432 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:33,491 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:33,491 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,491 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (14, 1) explodes
+2021-03-13 19:00:33,491 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:33,564 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:33,564 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,564 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> drops bomb at (13, 3)
+2021-03-13 19:00:33,564 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:33,658 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:33,658 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,658 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:33,731 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:33,731 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,731 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:33,784 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action WAIT in 0.00s.
+2021-03-13 19:00:33,784 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,784 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:33,847 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action BOMB in 0.00s.
+2021-03-13 19:00:33,847 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:33,847 [BombeRLeWorld] INFO: Agent <Task1_loop_killer>'s bomb at (13, 3) explodes
+2021-03-13 19:00:33,847 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> blown up by own bomb
+2021-03-13 19:00:33,847 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-13 19:00:33,847 [BombeRLeWorld] INFO: WRAPPING UP ROUND #28
+2021-03-13 19:00:34,009 [BombeRLeWorld] INFO: STARTING ROUND #29
+2021-03-13 19:00:34,040 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-13 19:00:34,048 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:34,048 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,049 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-13 19:00:34,101 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:34,101 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,101 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-13 19:00:34,154 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:34,154 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,154 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-13 19:00:34,199 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:34,199 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,199 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> picked up coin at (1, 15) and receives 1 point
+2021-03-13 19:00:34,199 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-13 19:00:34,247 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:34,247 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,247 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-13 19:00:34,316 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.02s.
+2021-03-13 19:00:34,316 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,317 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-13 19:00:34,365 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:34,365 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,365 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-13 19:00:34,413 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:34,414 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,414 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-13 19:00:34,466 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action LEFT in 0.00s.
+2021-03-13 19:00:34,466 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,466 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-13 19:00:34,511 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:34,511 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,511 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-13 19:00:34,562 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action DOWN in 0.00s.
+2021-03-13 19:00:34,562 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,562 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-13 19:00:34,606 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action RIGHT in 0.00s.
+2021-03-13 19:00:34,606 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,606 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-13 19:00:34,654 [BombeRLeWorld] INFO: Agent <Task1_loop_killer> chose action UP in 0.00s.
+2021-03-13 19:00:34,654 [BombeRLeWorld] WARNING: Agent <Task1_loop_killer> stayed within acceptable think time.
+2021-03-13 19:00:34,654 [BombeRLeWorld] INFO: STARTING STEP 14
