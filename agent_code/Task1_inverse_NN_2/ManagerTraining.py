@@ -13,7 +13,13 @@ from .ManagerRewards import *
 ACTIONS_IDX = {'LEFT':0, 'RIGHT':1, 'UP':2, 'DOWN':3, 'WAIT':4, 'BOMB':5}
 
 def generate_eps_greedy_policy(network):
-    return np.linspace(network.epsilon_begin, network.epsilon_end, network.training_episodes)
+    real_cut = int(0.1*100)
+    cutoff = int(network.epsilon_end*100) # works only if epsilon is not more detaiked than 1%
+    remaining_eps = cutoff - real_cut*100
+    eps = np.linspace(network.epsilon_begin, network.epsilon_end, network.training_episodes-remaining_eps)
+    for eps_elem in range(real_cut, cutoff+1)[::-1]:
+        eps = np.append(eps, eps_elem)
+    return eps
 
 def add_experience(self, old_game_state, self_action, new_game_state, events):
     old_features = state_to_features(old_game_state)
@@ -88,6 +94,7 @@ def save_parameters(self, string):
 
     #plot scores
     y = self.game_score_arr
+    y = uniform_filter1d(y, 10, mode="nearest", output="float")
     x = range(len(y))
     fig, ax = plt.subplots()
     ax.set_title('score')
@@ -109,7 +116,7 @@ def get_score(events):
             score += true_game_rewards[event]
     return score
 
-def track_game_score(self, smooth):
+def track_game_score(self):
     self.game_score_arr.append(self.game_score)
     self.game_score = 0
 
