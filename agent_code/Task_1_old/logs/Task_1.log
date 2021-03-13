@@ -1,0 +1,930 @@
+2021-03-09 13:44:19,644 [Task_1_wrapper] DEBUG: Calling setup on callback.
+2021-03-09 13:44:19,644 [Task_1_code] INFO: Setting up model from scratch.
+2021-03-09 13:44:19,644 [Task_1_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-09 13:44:19,644 [Task_1_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-09 13:44:19,644 [Task_1_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-09 13:44:19,746 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:19,747 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:19,747 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:19,747 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:19,747 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:19,847 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:19,848 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 2
+2021-03-09 13:44:19,848 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:19,848 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:19,848 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:19,848 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:19,849 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:19,949 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:19,949 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 3
+2021-03-09 13:44:19,949 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:19,949 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:19,950 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:19,950 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:19,950 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:20,050 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,050 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 4
+2021-03-09 13:44:20,051 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:20,051 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:20,051 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,051 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,051 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:20,151 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,151 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
+2021-03-09 13:44:20,151 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:20,151 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:20,152 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,152 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,152 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:20,252 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,252 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 6
+2021-03-09 13:44:20,252 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:20,253 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:20,253 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,254 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,254 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:20,353 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,353 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 7
+2021-03-09 13:44:20,353 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:20,353 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:20,354 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,354 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,354 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:20,455 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,456 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 8
+2021-03-09 13:44:20,456 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:20,456 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:20,456 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,456 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,456 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:20,557 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,557 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 9
+2021-03-09 13:44:20,557 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:20,558 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:20,558 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,559 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,559 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:20,659 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,659 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 10
+2021-03-09 13:44:20,659 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:20,659 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:20,660 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,660 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,660 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:20,761 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,761 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 11
+2021-03-09 13:44:20,762 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:20,762 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:20,762 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,762 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,762 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:20,861 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,861 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 12
+2021-03-09 13:44:20,861 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:20,861 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:20,861 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,862 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,862 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:20,964 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:20,965 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 13
+2021-03-09 13:44:20,965 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:20,965 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:20,965 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:20,965 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:20,965 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:21,066 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,066 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 14
+2021-03-09 13:44:21,066 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:21,066 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:21,066 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,067 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,067 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:21,167 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,167 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 15
+2021-03-09 13:44:21,168 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:21,168 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:21,168 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,168 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,168 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:21,269 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,269 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 16
+2021-03-09 13:44:21,269 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:21,270 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:21,270 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,270 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,271 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:21,369 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,369 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 17
+2021-03-09 13:44:21,369 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:21,369 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:21,370 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,370 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,370 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:21,470 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,471 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 18
+2021-03-09 13:44:21,471 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:21,471 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:21,471 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,471 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,471 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:21,571 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,571 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 19
+2021-03-09 13:44:21,571 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:21,571 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:21,572 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,572 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,572 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:21,673 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,673 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 20
+2021-03-09 13:44:21,673 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:21,674 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:21,674 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,674 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,674 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:21,773 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,773 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 21
+2021-03-09 13:44:21,773 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:21,774 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:21,774 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,774 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,774 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:21,875 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,875 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 22
+2021-03-09 13:44:21,876 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:21,876 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:21,876 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,877 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,877 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:21,978 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:21,978 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 23
+2021-03-09 13:44:21,978 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:21,978 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:21,978 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:21,978 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:21,979 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:22,078 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,079 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 24
+2021-03-09 13:44:22,079 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:22,079 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:22,079 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,079 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,079 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:22,180 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,180 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 25
+2021-03-09 13:44:22,180 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:22,181 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:22,181 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,181 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,181 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:22,282 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,282 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 26
+2021-03-09 13:44:22,282 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:22,282 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:22,282 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,283 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,283 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:22,383 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,383 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 27
+2021-03-09 13:44:22,383 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:22,384 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:22,384 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,384 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,384 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:22,485 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,485 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 28
+2021-03-09 13:44:22,485 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:22,486 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:22,486 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,486 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,486 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:22,586 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,587 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 29
+2021-03-09 13:44:22,587 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:22,587 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:22,587 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,587 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,587 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:22,688 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,688 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 30
+2021-03-09 13:44:22,688 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:22,688 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:22,689 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,689 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,689 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:22,789 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,789 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 31
+2021-03-09 13:44:22,789 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:22,789 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:22,789 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,789 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,790 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:22,890 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,890 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 32
+2021-03-09 13:44:22,890 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:22,890 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:22,891 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,891 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,891 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:22,990 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:22,990 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 33
+2021-03-09 13:44:22,992 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:22,992 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:22,992 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:22,992 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:22,992 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:23,091 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,092 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 34
+2021-03-09 13:44:23,092 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:23,092 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:23,092 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,092 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,092 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:23,193 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,193 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 35
+2021-03-09 13:44:23,193 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:23,193 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:23,194 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,194 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,194 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:23,295 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,295 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 36
+2021-03-09 13:44:23,295 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:23,296 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:23,296 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,296 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,296 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:23,396 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,396 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 37
+2021-03-09 13:44:23,397 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:23,397 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:23,397 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,397 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,397 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:23,498 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,498 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 38
+2021-03-09 13:44:23,498 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:23,498 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:23,498 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,498 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,499 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:23,599 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,599 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 39
+2021-03-09 13:44:23,599 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:23,600 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:23,600 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,600 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,601 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:23,700 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,700 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 40
+2021-03-09 13:44:23,700 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:23,701 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:23,701 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,701 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,701 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:23,804 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,804 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 41
+2021-03-09 13:44:23,804 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:23,804 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:23,804 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,805 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,805 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:23,905 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:23,905 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 42
+2021-03-09 13:44:23,905 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:23,905 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:23,906 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:23,906 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:23,906 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:24,007 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,007 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 43
+2021-03-09 13:44:24,007 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:24,008 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:24,008 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,008 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,008 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:24,107 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,107 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 44
+2021-03-09 13:44:24,107 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:24,107 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:24,107 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,107 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,107 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:24,208 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,208 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 45
+2021-03-09 13:44:24,209 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:24,209 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:24,209 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,210 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,210 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:24,311 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,311 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 46
+2021-03-09 13:44:24,311 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:24,311 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:24,311 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,311 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,311 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:24,412 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,412 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 47
+2021-03-09 13:44:24,412 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:24,412 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:24,413 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,413 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,413 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:24,514 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,515 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 48
+2021-03-09 13:44:24,515 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:24,515 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:24,515 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,515 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,515 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:24,615 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,615 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 49
+2021-03-09 13:44:24,615 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:24,616 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:24,616 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,616 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,616 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:24,719 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,719 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 50
+2021-03-09 13:44:24,719 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:24,719 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:24,719 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,720 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,720 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:24,820 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,820 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 51
+2021-03-09 13:44:24,821 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:24,821 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:24,821 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,822 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,822 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:24,921 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:24,922 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 52
+2021-03-09 13:44:24,922 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:24,922 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:24,922 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:24,923 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:24,923 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:25,022 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,023 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 53
+2021-03-09 13:44:25,023 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:25,023 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:25,023 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,023 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,024 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:25,124 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,124 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 54
+2021-03-09 13:44:25,124 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:25,125 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:25,125 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,125 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,125 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,226 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,226 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 55
+2021-03-09 13:44:25,227 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:25,227 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:25,227 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,227 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,227 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,328 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,329 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 56
+2021-03-09 13:44:25,329 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:25,329 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:25,329 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,329 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,329 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,429 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,429 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 57
+2021-03-09 13:44:25,429 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:25,431 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:25,431 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,431 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,431 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,530 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,530 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 58
+2021-03-09 13:44:25,530 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:25,531 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:25,531 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,531 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,531 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,633 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,633 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 59
+2021-03-09 13:44:25,633 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:25,633 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:25,634 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,634 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,634 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,735 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,736 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 60
+2021-03-09 13:44:25,736 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:25,736 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:25,736 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,736 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,736 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,837 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,837 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 61
+2021-03-09 13:44:25,837 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:25,837 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:25,837 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,837 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,837 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:25,938 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:25,938 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 62
+2021-03-09 13:44:25,938 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:25,939 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:25,939 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:25,939 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:25,939 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,039 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,039 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 63
+2021-03-09 13:44:26,039 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:26,040 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:26,040 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,040 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,040 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,140 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,140 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 64
+2021-03-09 13:44:26,140 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:26,141 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:26,141 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,141 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,141 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,241 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,241 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 65
+2021-03-09 13:44:26,241 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:26,242 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:26,242 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,242 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,242 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,341 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,342 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 66
+2021-03-09 13:44:26,342 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:26,342 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:26,342 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,342 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,342 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,443 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,444 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 67
+2021-03-09 13:44:26,444 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:26,444 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:26,444 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,444 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,444 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,548 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,548 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 68
+2021-03-09 13:44:26,548 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:26,548 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:26,548 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,549 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,549 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,647 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,647 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 69
+2021-03-09 13:44:26,647 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:26,647 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:26,648 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,648 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,648 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,749 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,750 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 70
+2021-03-09 13:44:26,750 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:26,750 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:26,750 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,750 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,751 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:26,850 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,850 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 71
+2021-03-09 13:44:26,850 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:26,851 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:26,851 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,851 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,851 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:26,952 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:26,952 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 72
+2021-03-09 13:44:26,952 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:26,952 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:26,952 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:26,953 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:26,953 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:27,053 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,053 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 73
+2021-03-09 13:44:27,054 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:27,054 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:27,054 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,055 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,055 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:27,155 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,155 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 74
+2021-03-09 13:44:27,155 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:27,155 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:27,156 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,156 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,157 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:27,256 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,256 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 75
+2021-03-09 13:44:27,256 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:27,256 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:27,257 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,257 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,258 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:27,356 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,357 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 76
+2021-03-09 13:44:27,357 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:27,357 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:27,357 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,357 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,357 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:27,460 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,460 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 77
+2021-03-09 13:44:27,460 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:27,460 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:27,461 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,461 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,461 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:27,561 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,562 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 78
+2021-03-09 13:44:27,562 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:27,562 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:27,562 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,563 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,563 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:27,663 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,663 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 79
+2021-03-09 13:44:27,663 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:27,663 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:27,663 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,663 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,664 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:27,764 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,764 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 80
+2021-03-09 13:44:27,765 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:27,765 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:27,765 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,765 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,765 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:27,866 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,866 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 81
+2021-03-09 13:44:27,866 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:27,866 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:27,867 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,867 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,867 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:27,968 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:27,968 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 82
+2021-03-09 13:44:27,968 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:27,968 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:27,968 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:27,969 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:27,969 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:28,071 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,071 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 83
+2021-03-09 13:44:28,071 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:28,071 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,071 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,071 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,071 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:28,172 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,172 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 84
+2021-03-09 13:44:28,172 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:28,172 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,173 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,173 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,173 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:28,274 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,274 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 85
+2021-03-09 13:44:28,274 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:28,274 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,274 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,275 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,275 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:28,375 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,375 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 86
+2021-03-09 13:44:28,375 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:28,376 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:28,376 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,376 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,376 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:28,478 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,478 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 87
+2021-03-09 13:44:28,478 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:28,478 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,478 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,479 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,479 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:28,581 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,581 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 88
+2021-03-09 13:44:28,581 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:28,581 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,582 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,582 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,582 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:28,682 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,682 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 89
+2021-03-09 13:44:28,683 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:28,683 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:28,683 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,683 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,683 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:28,783 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,783 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 90
+2021-03-09 13:44:28,783 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:28,783 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,784 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,784 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,784 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:28,886 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,886 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 91
+2021-03-09 13:44:28,886 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:28,886 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,886 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,887 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,887 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:28,986 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:28,987 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 92
+2021-03-09 13:44:28,987 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:28,987 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:28,987 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:28,987 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:28,988 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:29,088 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,088 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 93
+2021-03-09 13:44:29,088 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:29,089 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:29,089 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,089 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,089 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:29,189 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,189 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 94
+2021-03-09 13:44:29,189 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:29,190 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:29,190 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,190 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,190 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:29,291 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,291 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 95
+2021-03-09 13:44:29,291 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:29,291 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:29,292 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,292 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,292 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:29,393 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,393 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 96
+2021-03-09 13:44:29,393 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:29,393 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:29,393 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,394 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,394 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:29,494 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,494 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 97
+2021-03-09 13:44:29,494 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:29,495 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:29,498 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,498 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,499 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:29,596 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,596 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 98
+2021-03-09 13:44:29,596 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:29,596 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:29,596 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,596 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,597 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:29,698 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,698 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 99
+2021-03-09 13:44:29,698 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:29,698 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:29,699 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,699 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,699 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:29,800 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,801 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 100
+2021-03-09 13:44:29,801 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:29,801 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:29,801 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,801 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,801 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:29,901 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:29,902 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 101
+2021-03-09 13:44:29,902 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:29,902 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:29,902 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:29,902 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:29,902 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:30,003 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,003 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 102
+2021-03-09 13:44:30,003 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:30,003 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,003 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,004 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,004 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:30,104 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,104 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 103
+2021-03-09 13:44:30,104 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:30,104 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,104 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,105 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,105 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:30,204 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,204 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 104
+2021-03-09 13:44:30,204 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:30,204 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,205 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,205 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,205 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:30,307 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,307 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 105
+2021-03-09 13:44:30,307 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:30,307 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,307 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,307 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,307 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:30,408 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,408 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 106
+2021-03-09 13:44:30,408 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:30,409 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:30,409 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,410 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,413 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-09 13:44:30,510 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,511 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 107
+2021-03-09 13:44:30,511 [Task_1_code] INFO: Awarded -0.01 for events MOVED_DOWN
+2021-03-09 13:44:30,511 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,511 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,512 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,512 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:30,612 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,612 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 108
+2021-03-09 13:44:30,613 [Task_1_code] INFO: Awarded -0.01 for events MOVED_UP
+2021-03-09 13:44:30,613 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:30,613 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,613 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,613 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:30,713 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,713 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 109
+2021-03-09 13:44:30,713 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:30,713 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,713 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,713 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,714 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:30,815 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,815 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 110
+2021-03-09 13:44:30,815 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:30,815 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,815 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,816 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,816 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:30,916 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:30,916 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 111
+2021-03-09 13:44:30,916 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:30,916 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:30,917 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:30,917 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:30,917 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,017 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,017 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 112
+2021-03-09 13:44:31,018 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:31,018 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:31,018 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,018 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,018 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,119 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,119 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 113
+2021-03-09 13:44:31,119 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:31,119 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:31,119 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,120 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,120 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:31,220 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,220 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 114
+2021-03-09 13:44:31,220 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:31,221 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:31,221 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,221 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,221 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,321 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,321 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 115
+2021-03-09 13:44:31,322 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:31,322 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:31,322 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,322 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,322 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,422 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,422 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 116
+2021-03-09 13:44:31,423 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:31,423 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:31,423 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,423 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,423 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,524 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,524 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 117
+2021-03-09 13:44:31,524 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:31,524 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:31,525 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,525 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,525 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,626 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,626 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 118
+2021-03-09 13:44:31,626 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:31,626 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:31,627 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,627 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,627 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,728 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,728 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 119
+2021-03-09 13:44:31,728 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:31,729 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:31,729 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,730 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,730 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:31,830 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,830 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 120
+2021-03-09 13:44:31,830 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:31,830 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:31,831 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,831 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,831 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:31,932 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:31,932 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 121
+2021-03-09 13:44:31,932 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:31,932 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:31,932 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:31,933 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:31,933 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:32,034 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,034 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 122
+2021-03-09 13:44:32,035 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:32,035 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:32,035 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,035 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,036 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:32,135 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,135 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_RIGHT' in step 123
+2021-03-09 13:44:32,135 [Task_1_code] INFO: Awarded -0.01 for events MOVED_RIGHT
+2021-03-09 13:44:32,136 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:32,136 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,136 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,136 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:32,237 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,237 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 124
+2021-03-09 13:44:32,237 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:32,237 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:32,238 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,238 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,238 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:32,338 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,338 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 125
+2021-03-09 13:44:32,338 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:32,338 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:32,339 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,339 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,339 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:32,439 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,439 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 126
+2021-03-09 13:44:32,439 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:32,439 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:32,440 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,440 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,440 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:32,540 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,540 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT' in step 127
+2021-03-09 13:44:32,540 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT
+2021-03-09 13:44:32,540 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:32,541 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,541 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,541 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:32,640 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,640 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 128
+2021-03-09 13:44:32,640 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:32,640 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:32,641 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,642 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,642 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-09 13:44:32,741 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,741 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 129
+2021-03-09 13:44:32,741 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:32,742 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:32,742 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,742 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,743 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:32,843 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,843 [Task_1_code] DEBUG: Encountered game event(s) 'WAITED' in step 130
+2021-03-09 13:44:32,843 [Task_1_code] INFO: Awarded -0.02 for events WAITED
+2021-03-09 13:44:32,844 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-09 13:44:32,844 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,844 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,844 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:32,945 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:32,945 [Task_1_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 131
+2021-03-09 13:44:32,945 [Task_1_code] INFO: Awarded -1 for events INVALID_ACTION
+2021-03-09 13:44:32,945 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:32,946 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:32,946 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:32,946 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-09 13:44:33,098 [Task_1_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-09 13:44:33,098 [Task_1_code] DEBUG: Encountered game event(s) 'MOVED_LEFT', 'SURVIVED_ROUND' in step 132
+2021-03-09 13:44:33,098 [Task_1_code] INFO: Awarded -0.01 for events MOVED_LEFT, SURVIVED_ROUND
+2021-03-09 13:44:33,098 [Task_1_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.000s.
+2021-03-09 13:44:33,098 [Task_1_wrapper] DEBUG: Calling end_of_round on callback.
+2021-03-09 13:44:33,098 [Task_1_code] DEBUG: Encountered event(s) 'MOVED_LEFT', 'SURVIVED_ROUND' in final step
+2021-03-09 13:44:33,098 [Task_1_wrapper] DEBUG: Got result from callback#end_of_round in 0.000s.
+2021-03-09 13:44:33,099 [Task_1_wrapper] DEBUG: Calling act on callback.
+2021-03-09 13:44:33,099 [Task_1_code] DEBUG: Choosing action purely at random.
+2021-03-09 13:44:33,099 [Task_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
