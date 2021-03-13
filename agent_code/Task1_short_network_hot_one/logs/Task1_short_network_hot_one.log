@@ -1,0 +1,1734 @@
+2021-03-13 23:10:46,208 [Task1_short_network_hot_one_wrapper] DEBUG: Calling setup on callback.
+2021-03-13 23:10:46,208 [Task1_short_network_hot_one_code] INFO: Loading model from saved state.
+2021-03-13 23:10:46,209 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#setup in 0.001s.
+2021-03-13 23:10:46,312 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:46,330 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:46,331 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:46,413 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:46,433 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:46,433 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:10:46,514 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:46,540 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:46,540 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:10:46,615 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:46,633 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:46,633 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:46,718 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:46,752 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:46,752 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:10:46,819 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:46,838 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:46,838 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:46,921 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:46,962 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:46,962 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:10:47,023 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,044 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:47,044 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:47,123 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,158 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:47,158 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:47,224 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,242 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:47,242 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:47,325 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,360 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:47,360 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:47,427 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,445 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:47,445 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:47,529 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,567 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:47,567 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:10:47,630 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,652 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:47,652 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:10:47,731 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,766 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:47,766 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:47,833 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,851 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:47,851 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:47,935 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:47,970 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:47,970 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:48,037 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,055 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:48,055 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:48,138 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,176 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:48,177 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:10:48,239 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,261 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:48,261 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:10:48,341 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,376 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:48,376 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:48,443 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,462 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:48,462 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:48,545 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,581 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:48,581 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:10:48,646 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,663 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:48,664 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:48,749 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,788 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:48,788 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:10:48,849 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,869 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:48,869 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:10:48,951 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:48,986 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:48,986 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:49,053 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,071 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:49,072 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:49,153 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,188 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:49,189 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:49,255 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,273 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:49,273 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:10:49,357 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,397 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:49,398 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.041s.
+2021-03-13 23:10:49,458 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,478 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:49,478 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:10:49,559 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,585 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:49,586 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:10:49,660 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,678 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:49,678 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:49,762 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,789 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:49,789 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:10:49,864 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,882 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:49,882 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:49,968 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:49,997 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:49,997 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-13 23:10:50,067 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,085 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:50,085 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:50,170 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,196 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:50,197 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:10:50,270 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,291 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:50,292 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:10:50,372 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,397 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:50,397 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.025s.
+2021-03-13 23:10:50,473 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,491 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:50,491 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:10:50,576 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,610 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:50,610 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:10:50,677 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,695 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:50,695 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:50,779 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,818 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:50,818 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:10:50,880 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:50,901 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:50,901 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:50,982 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,016 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,016 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:10:51,082 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,101 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,101 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:51,183 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,219 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,219 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:51,284 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,302 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,302 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:51,385 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,425 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,425 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 23:10:51,487 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,508 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,508 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:51,589 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,624 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,624 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:51,690 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,708 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,708 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:51,792 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,827 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,827 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:51,895 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:51,912 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:51,913 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:51,995 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:52,035 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:52,035 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 23:10:52,097 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:52,117 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:52,117 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:10:52,199 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:52,225 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:52,225 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:10:53,105 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,124 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:53,124 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:53,206 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,224 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:53,224 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:53,307 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,337 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:53,337 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:10:53,407 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,426 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:53,426 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:53,509 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,535 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:53,536 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:10:53,609 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,630 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:53,631 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:53,711 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,746 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:53,746 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:53,812 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,829 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:53,829 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:53,914 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:53,950 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:53,950 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:54,017 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,035 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:54,035 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:54,118 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,156 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:54,156 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:10:54,220 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,240 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:54,241 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:10:54,322 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,356 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:54,356 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:54,423 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,441 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:54,441 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:54,525 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,561 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:54,561 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:54,626 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,644 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:54,644 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:54,727 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,766 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:54,766 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:10:54,828 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,849 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:54,849 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:54,931 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:54,965 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:54,965 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:10:55,031 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,049 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:55,049 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:55,132 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,167 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:55,167 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:55,232 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,250 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:55,250 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:55,334 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,372 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:55,372 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:10:55,434 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,455 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:55,456 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:10:55,536 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,571 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:55,571 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:55,638 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,657 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:55,657 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:55,740 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,774 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:55,774 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:10:55,841 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,859 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:55,859 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:55,945 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:55,980 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:55,980 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:56,044 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,062 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:56,062 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:56,146 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,185 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:56,185 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:10:56,248 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,270 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:56,271 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.023s.
+2021-03-13 23:10:56,348 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,383 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:56,383 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:56,449 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,466 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:56,467 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:56,551 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,585 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:56,586 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:56,652 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,670 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:56,670 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:56,754 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,792 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:56,792 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:10:56,854 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,874 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:56,875 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:56,958 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:56,992 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:56,992 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:10:57,058 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,076 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,076 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:10:57,160 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,195 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,195 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:57,261 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,279 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,279 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:57,364 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,399 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,399 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:57,464 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,482 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,483 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:57,565 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,604 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,604 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:10:57,666 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,686 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,687 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:57,767 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,801 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,801 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:10:57,869 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:57,887 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:10:57,887 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:57,971 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:58,006 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:10:58,007 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:58,071 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:58,089 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:58,089 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:58,174 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:58,212 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:58,212 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:10:58,274 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:58,295 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:58,296 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:10:58,376 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:58,411 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:58,411 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:58,477 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:58,495 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:58,495 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:59,081 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,099 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:59,100 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:10:59,183 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,200 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:59,200 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:10:59,283 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,314 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:59,314 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.031s.
+2021-03-13 23:10:59,384 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,402 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:59,402 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:59,485 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,523 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:59,523 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:10:59,586 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,607 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:59,607 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:10:59,687 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,722 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:59,722 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:10:59,787 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,805 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:10:59,805 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:10:59,889 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:10:59,925 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:10:59,925 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:10:59,991 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,010 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:00,010 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:00,092 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,130 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:00,131 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:00,193 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,214 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:00,214 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:00,294 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,329 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:00,329 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:00,396 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,414 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:00,414 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:00,499 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,533 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:00,533 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:00,599 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,617 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:00,617 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:00,701 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,739 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:00,740 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:00,802 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,823 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:00,823 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:00,903 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:00,938 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:00,938 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:01,004 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,022 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:01,022 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:01,106 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,141 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:01,141 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:01,207 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,225 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:01,225 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:01,311 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,347 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:01,347 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:01,409 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,427 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:01,427 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:01,510 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,550 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:01,550 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:01,611 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,632 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:01,632 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:01,713 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,748 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:01,748 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:01,814 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,832 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:01,832 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:01,916 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:01,951 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:01,951 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:02,018 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,035 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:02,036 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:02,121 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,157 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:02,157 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:02,222 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,240 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:02,240 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:02,324 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,354 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:02,354 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-13 23:11:02,426 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,444 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:02,444 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:02,529 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,567 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:02,567 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:02,630 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,652 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:02,653 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:02,733 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,767 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:02,767 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:02,834 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,852 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:02,852 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:02,935 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:02,970 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:02,970 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:03,036 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,055 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:03,055 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:03,141 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,176 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:03,176 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:03,238 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,256 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:03,256 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:03,340 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,379 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:03,380 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:03,442 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,463 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:03,463 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:03,543 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,578 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:03,578 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:03,646 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,664 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:03,665 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:03,749 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,783 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:03,784 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:03,850 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,868 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:03,868 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:03,953 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:03,988 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:03,988 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:04,052 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,070 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,070 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:04,154 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,194 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,194 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:04,255 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,276 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,277 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:04,357 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,392 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,393 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:04,458 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,476 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,476 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:04,560 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,595 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,596 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:04,661 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,679 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,679 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:04,763 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,804 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,804 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.041s.
+2021-03-13 23:11:04,864 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,884 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:04,885 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:04,964 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:04,990 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:04,990 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:05,065 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:05,083 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:05,083 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:05,165 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:05,192 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:05,192 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:05,267 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:05,285 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:05,285 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:05,368 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:05,398 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:05,398 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:11:05,470 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:05,489 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:05,489 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:06,073 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,091 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:06,092 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:06,175 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,192 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:06,192 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:06,277 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,303 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:06,303 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:06,378 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,400 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:06,400 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:06,479 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,514 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:06,514 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:06,580 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,598 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:06,598 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:06,681 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,717 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:06,717 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:06,782 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,800 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:06,800 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:06,882 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:06,921 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:06,921 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:06,983 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,004 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,004 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:07,085 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,120 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,120 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:07,187 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,205 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,205 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:07,287 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,322 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:07,322 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:07,387 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,406 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:07,406 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:07,489 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,529 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,529 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 23:11:07,590 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,612 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,612 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:07,691 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,726 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,726 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:07,793 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,811 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,811 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:07,894 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:07,929 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:07,929 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:07,995 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,013 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:08,013 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:08,100 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,135 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:08,135 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:08,198 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,216 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:08,216 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:08,299 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,338 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:08,339 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:08,402 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,422 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:08,423 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:08,503 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,538 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:08,539 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:08,604 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,622 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:08,622 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:08,705 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,739 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:08,739 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:08,808 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,825 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:08,825 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:08,909 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:08,948 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:08,948 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:09,011 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,033 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:09,033 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:09,111 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,146 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:09,146 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:09,212 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,230 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:09,230 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:09,315 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,350 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:09,350 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:09,417 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,435 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:09,435 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:09,518 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,548 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:09,549 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.031s.
+2021-03-13 23:11:09,621 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,638 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:09,638 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:09,722 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,748 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:09,749 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:09,823 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,845 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:09,845 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:09,924 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:09,959 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:09,959 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:10,025 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,043 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:10,043 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:10,126 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,160 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:10,161 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:10,228 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,246 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:10,246 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:10,333 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,369 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:10,369 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:10,432 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,450 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:10,450 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:10,534 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,572 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:10,572 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:10,635 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,657 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:10,657 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:10,736 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,771 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:10,771 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:10,837 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,855 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:10,855 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:10,938 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:10,974 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:10,974 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:11,041 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,058 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:11,059 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:11,142 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,183 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:11,183 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.041s.
+2021-03-13 23:11:11,243 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,263 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:11,264 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:11,345 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,380 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:11,381 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:11,446 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,464 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:11,464 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:11,548 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,582 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:11,582 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:11,649 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,667 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:11,667 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:11,751 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,789 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:11,789 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:11,853 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,873 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:11,873 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:11,953 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:11,988 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:11,988 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:12,055 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:12,073 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:12,073 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:12,156 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:12,191 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:12,191 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:12,257 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:12,275 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:12,275 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:13,263 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,283 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:13,283 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:13,365 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,382 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:13,382 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:13,465 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,495 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:13,495 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-13 23:11:13,566 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,584 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:13,584 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:13,667 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,701 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:13,701 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:13,767 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,788 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:13,788 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:13,868 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,903 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:13,903 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:13,968 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:13,986 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:13,987 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:14,071 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,106 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:14,106 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:14,171 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,189 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:14,189 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:14,273 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,312 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:14,312 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:14,374 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,396 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:14,396 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:14,475 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,509 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:14,510 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:14,576 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,594 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:14,594 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:14,677 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,712 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:14,712 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:14,779 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,797 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:14,797 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:14,880 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:14,919 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:14,919 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:14,982 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,003 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:15,003 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:15,083 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,118 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:15,118 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:15,185 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,203 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:15,203 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:15,286 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,321 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:15,321 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:15,387 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,404 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:15,404 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:15,488 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,527 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:15,527 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:15,589 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,610 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:15,610 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:15,691 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,725 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:15,726 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:15,792 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,810 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:15,810 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:15,894 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:15,929 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:15,929 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:15,996 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,014 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:16,014 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:16,099 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,134 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:16,134 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:16,200 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,219 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:16,219 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:16,302 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,341 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:16,342 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:16,403 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,424 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:16,424 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:16,505 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,539 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:16,539 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:16,606 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,624 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:16,624 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:16,707 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,742 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:16,742 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:16,808 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,826 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:16,826 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:16,910 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:16,949 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:16,949 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:17,011 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,032 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:17,032 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:17,112 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,139 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:17,139 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:17,214 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,231 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,231 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:17,316 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,342 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,342 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:17,417 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,435 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,435 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:17,522 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,550 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,550 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.028s.
+2021-03-13 23:11:17,621 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,639 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,639 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:17,723 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,753 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,753 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:11:17,823 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,841 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,841 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:17,925 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:17,952 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:17,952 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:18,026 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:18,048 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:18,048 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:18,128 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:18,154 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:18,155 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:18,228 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:18,246 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:18,246 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:18,329 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:18,364 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:18,364 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:18,430 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:18,448 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:18,448 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:18,532 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:18,571 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:18,571 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:19,438 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:19,455 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:19,455 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:19,539 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:19,560 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:19,560 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:19,643 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:19,669 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:19,669 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:19,743 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:19,761 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:19,761 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:19,845 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:19,879 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:19,879 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:19,948 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:19,966 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:19,966 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:20,051 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,086 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:20,086 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:20,151 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,169 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:20,169 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:20,254 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,294 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:20,294 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 23:11:20,355 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,377 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:20,377 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:20,457 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,492 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:20,492 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:20,559 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,578 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:20,578 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:20,660 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,695 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:20,695 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:20,761 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,779 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:20,779 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:20,862 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,901 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:20,901 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:20,963 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:20,985 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:20,985 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:21,064 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,098 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:21,098 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:21,165 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,184 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:21,184 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:21,266 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,300 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:21,301 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:21,368 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,386 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:21,386 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:21,469 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,508 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:21,508 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:21,571 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,592 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:21,592 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:21,671 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,706 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:21,707 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:21,772 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,791 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:21,791 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:21,873 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,909 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:21,909 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:21,975 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:21,993 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:21,993 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:22,076 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,116 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,116 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 23:11:22,177 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,198 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,198 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:22,278 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,313 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,313 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:22,380 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,398 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,398 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:22,481 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,516 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,516 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:22,582 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,600 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,600 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:22,684 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,722 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,722 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:22,785 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,807 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:22,807 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:22,887 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:22,914 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:22,914 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:22,990 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,008 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:23,008 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:23,092 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,119 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:23,119 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:23,193 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,210 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:23,210 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:23,296 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,323 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:23,323 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:23,396 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,414 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:23,414 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:23,498 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,528 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:23,528 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:11:23,599 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,616 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:23,616 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:23,701 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,736 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:23,739 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:23,802 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,823 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:23,824 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:23,903 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:23,938 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:23,938 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:24,004 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,022 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:24,022 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:24,106 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,141 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:24,141 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:24,207 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,225 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:24,225 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:24,307 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,346 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:24,346 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:24,409 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,430 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:24,430 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:24,510 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,545 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:24,545 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:24,611 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,629 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:24,629 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:24,713 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,748 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:24,748 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:24,815 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,833 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:24,833 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:24,920 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:24,955 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:24,955 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:25,019 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,037 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,038 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:25,122 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,160 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,160 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:25,223 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,244 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,244 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:25,324 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,358 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,358 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:25,425 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,443 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,443 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:25,526 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,561 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,561 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:25,627 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,646 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,646 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:25,728 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,767 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,767 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:25,829 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:25,849 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:25,849 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:27,339 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:27,357 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:27,357 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:27,441 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:27,459 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:27,459 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:27,542 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:27,569 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:27,569 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:27,643 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:27,660 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:27,660 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:27,745 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:27,783 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:27,783 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:27,847 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:27,868 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:27,868 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:27,949 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:27,983 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:27,983 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:28,050 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,068 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:28,068 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:28,152 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,187 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:28,188 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:28,253 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,270 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:28,270 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:28,354 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,393 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:28,393 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:28,455 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,476 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:28,476 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:28,556 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,591 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:28,591 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:28,659 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,677 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:28,677 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:28,761 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,795 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:28,795 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:28,861 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:28,879 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:28,879 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:28,967 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,005 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:29,005 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:29,064 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,082 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:29,082 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:29,164 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,202 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:29,202 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.037s.
+2021-03-13 23:11:29,265 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,287 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:29,288 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:29,367 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,402 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:29,402 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:29,467 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,485 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:29,485 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:29,568 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,604 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:29,604 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:29,669 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,687 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:29,687 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:29,771 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,809 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:29,809 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:29,872 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:29,893 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:29,893 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:29,974 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,009 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:30,009 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:30,075 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,093 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:30,093 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:30,176 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,211 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:30,211 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:30,278 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,297 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:30,297 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:30,381 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,416 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:30,416 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:30,481 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,499 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:30,499 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:30,583 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,622 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:30,622 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:30,685 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,705 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:30,706 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:30,785 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,819 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:30,820 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:30,886 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:30,904 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:30,904 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:30,988 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,024 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:31,024 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:31,089 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,107 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:31,107 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:31,190 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,229 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:31,230 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:31,291 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,312 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:31,312 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:31,392 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,427 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:31,427 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:31,495 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,513 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:31,513 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:31,597 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,632 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:31,632 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:31,699 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,717 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:31,717 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:31,802 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,837 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:31,837 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:31,903 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:31,920 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:31,920 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:32,004 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,044 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:32,044 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.041s.
+2021-03-13 23:11:32,105 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,126 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:32,126 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:32,206 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,241 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:32,241 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:32,310 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,327 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:32,327 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:32,411 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,446 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:32,446 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:32,512 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,529 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:32,529 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:32,615 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,650 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:32,650 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:32,715 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,733 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:32,733 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:32,816 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,845 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:32,846 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:11:32,916 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:32,934 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:32,934 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:33,018 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,052 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,052 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:33,119 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,139 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,140 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:33,220 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,255 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,255 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:33,321 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,339 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,339 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:33,423 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,458 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,458 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:33,524 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,542 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,542 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:33,625 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,664 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,664 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:33,727 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,747 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,747 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:33,828 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,863 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,863 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:33,928 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:33,946 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:33,946 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:34,030 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:34,064 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:34,064 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:34,836 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:34,853 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:34,853 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:34,937 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:34,958 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:34,959 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:35,038 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,064 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,064 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:35,139 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,157 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,157 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:35,241 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,276 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,276 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:35,344 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,361 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,361 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:35,448 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,483 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,483 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:35,547 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,565 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,566 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:35,648 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,687 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,687 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:35,749 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,770 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,770 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:35,849 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,884 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,884 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:35,951 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:35,968 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:35,968 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:36,052 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,087 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:36,087 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:36,153 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,171 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:36,171 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:36,254 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,293 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:36,293 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:36,355 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,376 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:36,377 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:36,456 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,491 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:36,491 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:36,558 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,577 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:36,577 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:36,660 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,695 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:36,696 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:36,762 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,780 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:36,780 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:36,863 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,902 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:36,902 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:36,965 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:36,985 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:36,985 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:37,065 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,099 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:37,099 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:37,166 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,184 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:37,184 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:37,268 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,303 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:37,303 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:37,371 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,388 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:37,388 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:37,475 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,511 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:37,511 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:37,577 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,594 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:37,594 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:37,678 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,717 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:37,717 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:37,780 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,801 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:37,802 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:37,882 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:37,916 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:37,916 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:37,984 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,002 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:38,002 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:38,085 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,120 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:38,120 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:38,187 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,205 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:38,206 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:38,288 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,327 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:38,327 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:38,389 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,410 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:38,410 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:38,490 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,525 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:38,525 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:38,592 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,610 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:38,610 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:38,693 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,728 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:38,728 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:38,795 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,813 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:38,813 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:38,896 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:38,935 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:38,935 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:38,996 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,017 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:39,018 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:39,098 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,133 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:39,133 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:39,200 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,218 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:39,218 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:39,302 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,336 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:39,336 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:39,403 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,422 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:39,422 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:39,504 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,543 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:39,543 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:39,605 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,626 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:39,626 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:39,706 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,733 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:39,733 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:39,807 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,825 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:39,825 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:39,910 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:39,937 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:39,937 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:40,011 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:40,029 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:40,029 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:40,112 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:40,143 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:40,143 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-13 23:11:44,436 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:44,453 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:44,454 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:44,537 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:44,555 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:44,555 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:44,639 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:44,665 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:44,665 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:44,740 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:44,757 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:44,757 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:44,844 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:44,879 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:44,879 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:44,942 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:44,960 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:44,960 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:45,044 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,083 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:45,083 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:45,146 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,168 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:45,168 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:45,247 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,282 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:45,282 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:45,348 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,367 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:45,367 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:45,451 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,485 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:45,485 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:45,552 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,569 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:45,569 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:45,654 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,692 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:45,692 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:45,754 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,776 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:45,776 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:45,857 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,891 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:45,891 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:45,957 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:45,974 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:45,975 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:46,058 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,093 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:46,093 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:46,160 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,178 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:46,178 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:46,262 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,302 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:46,302 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:46,364 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,385 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:46,385 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:46,465 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,500 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:46,500 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:46,569 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,586 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:46,586 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:46,669 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,704 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:46,704 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:46,771 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,789 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:46,789 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:46,874 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,909 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:46,909 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:46,976 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:46,993 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:46,993 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:47,077 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,116 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:47,116 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:47,179 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,200 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:47,201 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:47,280 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,315 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:47,315 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:47,381 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,399 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:47,399 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:47,483 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,518 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:47,518 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:47,585 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,603 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:47,603 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:47,689 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,724 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:47,724 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:47,788 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,806 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:47,806 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:47,889 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:47,927 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:47,928 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 23:11:47,990 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,011 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:48,012 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 23:11:48,092 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,127 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:48,127 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:48,193 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,211 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:48,211 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:48,294 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,329 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:48,329 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:48,395 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,413 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:48,413 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:48,496 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,526 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:48,526 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:11:48,600 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,617 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:48,617 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:48,700 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,727 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:48,727 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:48,802 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,824 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:48,824 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:48,905 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:48,931 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:48,931 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:49,006 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:49,024 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:49,024 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:49,107 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:49,133 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:49,133 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:49,209 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:49,226 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:49,226 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:49,310 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:49,340 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:49,340 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:11:49,411 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:49,429 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:49,429 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:49,513 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:49,539 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:49,540 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:49,613 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:49,634 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:49,634 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:50,518 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:50,536 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:50,536 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:50,620 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:50,639 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:50,639 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:50,720 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:50,746 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:50,746 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 23:11:50,821 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:50,842 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:50,842 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:50,923 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:50,958 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:50,958 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:51,024 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,043 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:51,043 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:51,125 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,160 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:51,160 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:51,226 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,244 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:51,244 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:51,327 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,367 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:51,367 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:51,429 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,449 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:51,449 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 23:11:51,530 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,565 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:51,565 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:51,632 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,649 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:51,649 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:51,733 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,768 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:51,768 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:51,833 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,852 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:51,852 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:51,934 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:51,972 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:51,973 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:52,036 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,057 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:52,057 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:52,137 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,172 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:52,172 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:52,240 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,258 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:52,259 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:52,341 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,376 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:52,376 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:52,443 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,461 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:52,461 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:52,546 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,581 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:52,582 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:52,647 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,666 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:52,666 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:52,747 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,786 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:52,786 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:52,848 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,869 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:52,870 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:52,949 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:52,984 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:52,984 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 23:11:53,052 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,070 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 23:11:53,070 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:53,153 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,187 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,188 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-13 23:11:53,254 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,272 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,272 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:53,355 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,394 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,395 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 23:11:53,456 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,477 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,477 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:53,557 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,592 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,592 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:53,659 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,677 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,677 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:53,760 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,795 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,795 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:53,860 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:53,878 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:53,878 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:53,962 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,002 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:54,002 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 23:11:54,062 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,083 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 23:11:54,084 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:54,163 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,189 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:54,189 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.025s.
+2021-03-13 23:11:54,264 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,283 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:54,283 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 23:11:54,366 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,401 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:54,401 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:54,467 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,485 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:54,485 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 23:11:54,569 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,608 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:54,608 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 23:11:54,670 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,691 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:54,691 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 23:11:54,771 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,806 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:54,806 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 23:11:54,872 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:54,890 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-13 23:11:54,890 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:54,974 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:55,001 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:55,001 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 23:11:55,075 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:55,093 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:55,093 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:55,178 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:55,207 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:55,208 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 23:11:55,279 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:55,297 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:55,297 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 23:11:55,379 [Task1_short_network_hot_one_wrapper] DEBUG: Calling act on callback.
+2021-03-13 23:11:55,405 [Task1_short_network_hot_one_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 23:11:55,406 [Task1_short_network_hot_one_wrapper] DEBUG: Got result from callback#act in 0.027s.

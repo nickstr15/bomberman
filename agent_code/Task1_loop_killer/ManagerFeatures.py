@@ -43,7 +43,10 @@ def state_to_features(self, game_state: dict) -> np.array:
     way_to_nearest = []
 
     for pos in (player_pos + STEP):
-        history.append(self.pos_saver_feat.count((pos[0], pos[1])))
+        if self.pos_saver_feat.count((pos[0], pos[1])) > 4:
+            history.append(-self.pos_saver_feat.count((pos[0], pos[1])))
+        else:
+            history.append(1)
         first_coin = True
         new_distances = np.empty(len(wanted_fields))
         pos = pos.tolist()
@@ -79,13 +82,23 @@ def state_to_features(self, game_state: dict) -> np.array:
                 q.append([node, distance+1])
 
         features = np.append(features, np.sum(1/new_distances))
+    hot_one = np.argmax(features)
+    features[features>=0]=0
+    features[hot_one] = 1
+    # print("\n\n")
+    # print(f"oben:{features[3]}")
+    # print(f"unten:{features[2]}")
+    # print(f"links:{features[1]}")
+    # print(f"rechts:{features[0]}")
+    # a = ["rechts", "links", "unten", "oben"]
+    # print(f"--> {a[np.argmax(features)]}")
     features = np.append(features, history)
     # features= np.append(features, np.argmin(way_to_nearest))
     features = torch.from_numpy(features).float()
 
     # update pos_saver
     self.pos_saver_feat.append(game_state["self"][3])
-    if len(self.pos_saver_feat) > 20:
+    if len(self.pos_saver_feat) > 15:
         self.pos_saver_feat.pop(0)
 
     return features.unsqueeze(0)

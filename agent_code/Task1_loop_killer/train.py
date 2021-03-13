@@ -16,7 +16,7 @@ from .ManagerTraining import generate_eps_greedy_policy, add_experience, get_sco
 from .ManagerFeatures import state_to_features
 
 #Hyperparameter for Training
-EPSILON = (1.0,0.0001)
+EPSILON = (1.0,0.01)
 
 DISCOUNTING_FACTOR = 0.8
 BUFFERSIZE = 200 #2400
@@ -26,7 +26,7 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 500
+TRAINING_EPISODES = 1500
 
 SETUP = 'Test' #set name of file for stored parameters
 
