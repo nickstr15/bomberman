@@ -1,0 +1,5 @@
+2021-03-13 22:39:18,580 [Task1_loop_killer_wrapper] DEBUG: Calling setup on callback.
+2021-03-13 22:39:18,581 [Task1_loop_killer_code] INFO: Loading model from saved state.
+2021-03-13 22:39:18,582 [Task1_loop_killer_wrapper] ERROR: An exception occurred while calling setup: Error(s) in loading state_dict for Maverick:
+	Unexpected key(s) in state_dict: "dense1.weight", "dense1.bias", "dense2.weight", "dense2.bias", "dense3.weight", "dense3.bias". 
+	size mismatch for out.weight: copying a param with shape torch.Size([6, 27]) from checkpoint, the shape in current model is torch.Size([6, 8]).

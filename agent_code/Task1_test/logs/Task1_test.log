@@ -1,0 +1,165 @@
+2021-03-13 18:34:39,001 [Task1_test_wrapper] DEBUG: Calling setup on callback.
+2021-03-13 18:34:39,002 [Task1_test_code] INFO: Loading model from saved state.
+2021-03-13 18:34:39,003 [Task1_test_wrapper] DEBUG: Got result from callback#setup in 0.001s.
+2021-03-13 18:34:39,106 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,123 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:39,123 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:39,207 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,228 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:39,228 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 18:34:39,309 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,334 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:39,334 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.025s.
+2021-03-13 18:34:39,410 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,428 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:39,428 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:39,512 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,537 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:39,538 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.025s.
+2021-03-13 18:34:39,613 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,631 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:39,631 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:39,717 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,752 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:39,752 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 18:34:39,816 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,834 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:39,834 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:39,918 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:39,956 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:39,956 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-13 18:34:40,019 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,040 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:40,040 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 18:34:40,120 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,155 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,155 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 18:34:40,221 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,239 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,239 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:40,322 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,356 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,356 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 18:34:40,423 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,440 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,440 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:40,525 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,563 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,564 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-13 18:34:40,627 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,649 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,649 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 18:34:40,730 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,764 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,764 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 18:34:40,830 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,848 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,848 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:40,932 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:40,967 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:40,967 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 18:34:41,034 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,052 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:41,052 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:41,135 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,174 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:41,174 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 18:34:41,236 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,257 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:41,257 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-13 18:34:41,337 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,372 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:41,372 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 18:34:41,439 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,457 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:41,457 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:41,541 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,575 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:41,576 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 18:34:41,642 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,660 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:41,660 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 18:34:41,744 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,784 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:41,784 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-13 18:34:41,847 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,869 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:41,869 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 18:34:41,948 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:41,982 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:41,982 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-13 18:34:42,049 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,066 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:42,066 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 18:34:42,150 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,185 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:42,185 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-13 18:34:42,251 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,269 [Task1_test_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-13 18:34:42,269 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:42,352 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,382 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:42,382 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-13 18:34:42,453 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,471 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:42,471 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 18:34:42,555 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,582 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:42,582 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 18:34:42,656 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,678 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:42,678 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-13 18:34:42,756 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,782 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:42,783 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 18:34:42,857 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,875 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:42,875 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:42,960 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:42,986 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:42,986 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 18:34:43,062 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,080 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:43,080 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-13 18:34:43,165 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,191 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:43,192 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 18:34:43,265 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,284 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:43,284 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 18:34:43,367 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,398 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:43,398 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.031s.
+2021-03-13 18:34:43,469 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,486 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:43,486 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 18:34:43,569 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,595 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:43,595 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 18:34:43,669 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,690 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:43,690 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-13 18:34:43,771 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,797 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:43,797 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 18:34:43,872 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:43,889 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:43,889 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 18:34:43,974 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:44,000 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:44,000 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-13 18:34:44,077 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:44,094 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:44,094 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-13 18:34:44,178 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:44,208 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:44,209 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.031s.
+2021-03-13 18:34:44,279 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:44,298 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:44,298 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-13 18:34:44,381 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:44,408 [Task1_test_code] DEBUG: action returned by callbacks#act: UP
+2021-03-13 18:34:44,408 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-13 18:34:44,489 [Task1_test_wrapper] DEBUG: Calling act on callback.
+2021-03-13 18:34:44,507 [Task1_test_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-13 18:34:44,508 [Task1_test_wrapper] DEBUG: Got result from callback#act in 0.018s.
