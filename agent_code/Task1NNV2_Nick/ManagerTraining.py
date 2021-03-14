@@ -2,8 +2,8 @@ import random
 import numpy as np
 import torch 
 
-import matplotlib
-matplotlib.use('Agg')
+import matplotlib as mpl
+mpl.use('Agg')
 import matplotlib.pyplot as plt
 from scipy.ndimage.filters import uniform_filter1d
 
@@ -12,15 +12,14 @@ from .ManagerRewards import *
     
 ACTIONS_IDX = {'LEFT':0, 'RIGHT':1, 'UP':2, 'DOWN':3, 'WAIT':4, 'BOMB':5}
 
-def generate_eps_greedy_policy(network):
-    #__ANSATZ 1: Linear__#
-    # return np.linspace(network.epsilon_begin, network.epsilon_end, network.training_episodes)
+def generate_eps_greedy_policy(network, q):
 
-    #__ANSATZ 2: Linear + Const__#
     N = network.training_episodes
-    N_1 = int(N*0.7)
+    N_1 = int(N*q)
     N_2 = N - N_1
     eps1 = np.linspace(network.epsilon_begin, network.epsilon_end, N_1)
+    if N_1 == N:
+        return eps1
     eps2 = np.ones(N_2) * network.epsilon_end
     return np.append(eps1, eps2)
 
@@ -120,13 +119,19 @@ def track_game_score(self, smooth=False):
         y = uniform_filter1d(y, window_size, mode="nearest", output="float")
     x = range(len(y))
 
-    fig, ax = plt.subplots()
-    ax.set_title('score')
-    ax.set_xlabel('episode')
-    ax.set_ylabel('total points')
-    ax.plot(x,y, marker='o', markersize=3, linewidth=1)
+    fig, ax = plt.subplots(figsize=(20,10))
+    ax.set_title('score during training', fontsize=35, fontweight='bold')
+    ax.set_xlabel('episode', fontsize=25, fontweight='bold')
+    ax.set_ylabel('points', fontsize=25, fontweight='bold')
+    ax.grid(axis='y', alpha=0.2, color='gray', zorder=-1)
+    ax.set_yticks([0,1,2,3,4,5,6,7,8,9])
+    ax.tick_params(labelsize=16)
+
+    ax.plot(x,y,color='gray',linewidth=0.5, alpha=0.7, zorder=0)
+
+    cmap = mpl.colors.LinearSegmentedColormap.from_list("", ["red","darkorange","green"])
+    ax.scatter(x,y,c=y,cmap=cmap,s=40, alpha=0.5, zorder=1)
     
     plt.savefig('network_parameters/training_progress.png')
-
     plt.close()
 

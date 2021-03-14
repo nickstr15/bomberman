@@ -17,16 +17,17 @@ from .ManagerFeatures import state_to_features
 
 #Hyperparameter for Training
 EPSILON = (1.0,0.0001)
+LINEAR_CONSTANT_QUOTIENT = 0.7
 
 DISCOUNTING_FACTOR = 0.8
-BUFFERSIZE = 200 #2400
-BATCH_SIZE = 50 #300
+BUFFERSIZE = 1000 #2400
+BATCH_SIZE = 100 #300
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 500
+TRAINING_EPISODES = 200
 
 SETUP = 'Test' #set name of file for stored parameters
 
@@ -43,7 +44,7 @@ def setup_training(self):
                                         LOSS_FUNCTION, OPTIMIZER,
                                         TRAINING_EPISODES)
 
-    self.epsilon_arr = generate_eps_greedy_policy(self.network)
+    self.epsilon_arr = generate_eps_greedy_policy(self.network, LINEAR_CONSTANT_QUOTIENT)
     self.experience_buffer = deque()
 
     self.episode_counter = 0
