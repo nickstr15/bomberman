@@ -1,0 +1,1734 @@
+2021-03-14 12:55:22,527 [Task1_to_NN_wrapper] DEBUG: Calling setup on callback.
+2021-03-14 12:55:22,527 [Task1_to_NN_code] INFO: Loading model from saved state.
+2021-03-14 12:55:22,528 [Task1_to_NN_wrapper] DEBUG: Got result from callback#setup in 0.001s.
+2021-03-14 12:55:22,631 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:22,650 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:22,650 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:22,732 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:22,754 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:22,754 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:22,833 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:22,860 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:22,860 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:22,934 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:22,952 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:22,952 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:23,036 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,071 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:23,071 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:23,138 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,155 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:23,156 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:23,240 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,278 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:23,278 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:55:23,341 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,362 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:23,363 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:23,442 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,477 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:23,478 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:23,544 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,563 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:23,563 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:23,646 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,672 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:23,672 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:23,748 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,765 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:23,765 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:23,849 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,888 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:23,888 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:23,950 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:23,971 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:23,971 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:24,052 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,087 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:24,087 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:24,154 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,172 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:24,173 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:24,255 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,290 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:24,290 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:24,355 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,373 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:24,373 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:24,458 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,493 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:24,493 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:24,560 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,578 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:24,578 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:24,662 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,700 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:24,700 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:24,762 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,784 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:24,784 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:24,864 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,900 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:24,900 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:24,966 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:24,984 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:24,984 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:25,068 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,103 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:25,103 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:25,170 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,188 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:25,188 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:25,271 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,310 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:25,310 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:25,372 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,394 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:25,394 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:25,475 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,509 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:25,509 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:25,576 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,593 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:25,593 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:25,677 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,703 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:25,703 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:25,779 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,797 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:25,797 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:25,880 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:25,910 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:25,911 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.031s.
+2021-03-14 12:55:25,983 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,001 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:26,001 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:26,084 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,111 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:26,111 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:26,187 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,207 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:26,208 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:26,288 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,315 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:26,316 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:26,390 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,407 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:26,407 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:26,490 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,517 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:26,517 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:26,592 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,610 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:26,610 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:26,695 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,733 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:26,733 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:55:26,796 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,818 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:26,818 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:26,897 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:26,932 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:26,933 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:26,998 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,016 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:27,016 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:27,099 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,134 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:27,134 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:27,200 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,217 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:27,217 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:27,305 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,341 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:27,341 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:27,405 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,424 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:27,424 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:27,507 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,538 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:27,538 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.031s.
+2021-03-14 12:55:27,608 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,627 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:27,627 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:27,709 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,736 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:27,736 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:27,810 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,831 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:27,831 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:27,912 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:27,939 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:27,939 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:28,013 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,031 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,031 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:28,114 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,149 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,149 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:28,216 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,234 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,234 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:28,317 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,356 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,356 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:28,418 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,439 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,440 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:28,520 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,555 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,555 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:28,622 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,640 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,640 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:28,723 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,759 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,759 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:28,826 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,843 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,843 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:28,928 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:28,963 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:28,963 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:29,028 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:29,046 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:29,046 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:29,129 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:29,167 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:29,167 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:55:29,532 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:29,550 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:29,550 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:29,633 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:29,651 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:29,651 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:29,735 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:29,762 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:29,762 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:29,836 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:29,854 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:29,854 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:29,937 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:29,976 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:29,976 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:30,039 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,059 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,060 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:30,139 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,174 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,174 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:30,241 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,258 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,258 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:30,341 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,376 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,376 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:30,442 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,460 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,460 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:30,544 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,583 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,583 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:30,647 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,668 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,668 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:30,748 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,783 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:30,783 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:30,850 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,867 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:30,867 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:30,950 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:30,984 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:30,985 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:31,051 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,069 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:31,069 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:31,155 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,192 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:31,192 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:55:31,253 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,274 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:31,274 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:31,355 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,389 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:31,389 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:31,457 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,475 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:31,475 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:31,558 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,592 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:31,592 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:31,659 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,676 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:31,676 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:31,763 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,798 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:31,798 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:31,863 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:31,881 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:31,881 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:31,964 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,003 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:32,003 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:32,065 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,086 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:32,086 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:32,166 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,201 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:32,201 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:32,266 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,284 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:32,284 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:32,368 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,402 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:32,402 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:32,470 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,487 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:32,487 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:32,572 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,611 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:32,611 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:32,674 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,696 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:32,696 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:32,775 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,810 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:32,810 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:32,875 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:32,893 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:32,893 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:32,977 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,012 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:33,012 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:33,080 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,097 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:33,097 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:33,180 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,220 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:33,220 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-14 12:55:33,280 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,301 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:33,301 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:33,381 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,416 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:33,416 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:33,483 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,500 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:33,500 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:33,583 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,609 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:33,609 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:33,685 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,702 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:33,703 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:33,786 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,816 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:33,816 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:55:33,888 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:33,906 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:33,906 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:33,988 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:34,014 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:34,014 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:34,089 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:34,110 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:34,110 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:34,794 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:34,814 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:34,814 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:55:34,896 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:34,913 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:34,914 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:34,997 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,027 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:35,027 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:55:35,099 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,117 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:35,117 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:35,202 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,239 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:35,239 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.037s.
+2021-03-14 12:55:35,303 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,324 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:35,324 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:35,405 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,439 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:35,439 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:35,507 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,525 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:35,525 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:35,608 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,644 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:35,644 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:35,709 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,727 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:35,727 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:35,813 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,849 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:35,849 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:35,913 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:35,931 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:35,931 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:36,015 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,053 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:36,053 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:55:36,115 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,136 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:36,136 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:36,217 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,251 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:36,251 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:36,319 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,336 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:36,336 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:36,419 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,454 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:36,454 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:36,521 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,539 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:36,539 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:36,626 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,661 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:36,661 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:36,726 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,744 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:36,744 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:36,826 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,864 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:36,864 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:36,928 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:36,950 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:36,950 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:37,030 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,064 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:37,064 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:37,131 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,149 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:37,149 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:37,232 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,266 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:37,266 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:37,333 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,352 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:37,352 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:37,433 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,472 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:37,473 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:37,535 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,557 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:37,557 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:37,637 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,671 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:37,671 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:37,738 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,755 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:37,756 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:37,840 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,874 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:37,874 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:37,941 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:37,959 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:37,959 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:38,044 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,082 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:38,083 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:38,145 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,166 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:38,167 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:38,247 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,281 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:38,281 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:38,348 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,365 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:38,365 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:38,449 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,485 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:38,485 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:38,551 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,569 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:38,569 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:38,654 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,683 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:38,683 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-14 12:55:38,755 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,773 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:38,773 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:38,856 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,883 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:38,883 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:38,957 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:38,980 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:38,980 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:39,059 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,094 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,094 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:39,160 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,178 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,178 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:39,262 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,296 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,297 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:39,363 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,381 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,381 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:39,466 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,501 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,501 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:39,569 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,587 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,587 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:39,670 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,708 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,709 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:39,772 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,793 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,793 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:39,873 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,908 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,908 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:39,974 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:39,992 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:39,992 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:40,075 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,110 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,110 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:40,175 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,193 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,193 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:40,277 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,316 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,316 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:40,379 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,400 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,400 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:40,480 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,514 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,514 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:40,581 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,599 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,599 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:40,681 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,715 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,715 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:40,782 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:40,800 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:40,800 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:41,287 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:41,305 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:41,305 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:41,388 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:41,406 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:41,406 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:41,488 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:41,514 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:41,514 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:41,589 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:41,609 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:41,610 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:41,690 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:41,716 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:41,716 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:41,791 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:41,809 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:41,809 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:41,891 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:41,918 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:41,918 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:41,995 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,012 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:42,013 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:42,095 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,135 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:42,135 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:42,196 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,217 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:42,217 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:42,297 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,331 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:42,331 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:42,399 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,417 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:42,417 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:42,500 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,535 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:42,535 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:42,602 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,620 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:42,620 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:42,703 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,742 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:42,742 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:42,806 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,826 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:42,826 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:55:42,907 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:42,942 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:42,942 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:43,008 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,026 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:43,026 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:43,111 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,145 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:43,145 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:43,212 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,230 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:43,230 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:43,313 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,352 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:43,352 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:43,413 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,434 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:43,434 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:43,515 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,549 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:43,549 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:43,615 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,633 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:43,633 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:43,715 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,750 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:43,750 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:43,817 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,835 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:43,835 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:43,917 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:43,956 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:43,956 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:44,019 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,040 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:44,040 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:44,120 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,154 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:44,155 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:44,221 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,249 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:44,249 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.028s.
+2021-03-14 12:55:44,322 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,357 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:44,357 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:44,424 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,443 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:44,443 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:44,526 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,565 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:44,566 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-14 12:55:44,628 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,649 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:44,649 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:44,729 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,764 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:44,765 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:44,829 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,847 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:44,847 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:44,931 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:44,966 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:44,966 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:45,032 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,050 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:45,050 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:45,133 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,173 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:45,173 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:45,233 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,255 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:45,255 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:55:45,334 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,369 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:45,369 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:45,435 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,453 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:45,453 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:45,537 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,572 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:45,572 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:45,638 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,656 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:45,656 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:45,739 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,777 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:45,778 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:45,840 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,861 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:45,861 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:45,941 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:45,976 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:45,976 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:46,043 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,061 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:46,061 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:46,144 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,180 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:46,180 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:46,245 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,263 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:46,263 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:46,347 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,376 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:46,377 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:55:46,448 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,467 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:46,467 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:46,549 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,576 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:46,576 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:46,649 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,670 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:46,671 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:46,751 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,778 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:46,778 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:46,852 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,870 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:46,870 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:46,954 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:46,981 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:46,981 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:47,054 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:47,072 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:47,072 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:47,155 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:47,185 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:47,186 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.031s.
+2021-03-14 12:55:47,256 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:47,274 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:47,275 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:47,357 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:47,384 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:47,384 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:48,464 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:48,482 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:48,482 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:48,565 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:48,583 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:48,583 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:48,666 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:48,693 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:48,693 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:48,768 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:48,786 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:48,786 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:48,870 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:48,905 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:48,905 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:48,971 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:48,989 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:48,989 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:49,072 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,111 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:49,112 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-14 12:55:49,173 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,194 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:49,194 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:49,274 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,309 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:49,309 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:49,375 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,393 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:49,393 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:49,476 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,511 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:49,511 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:49,578 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,596 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:49,596 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:49,679 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,718 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:49,718 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:49,779 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,800 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:49,801 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:49,881 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:49,916 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:49,916 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:49,983 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,001 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:50,001 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:50,084 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,119 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:50,119 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:50,186 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,204 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:50,204 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:50,287 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,327 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:50,327 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-14 12:55:50,388 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,409 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:50,409 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:50,490 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,524 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:50,525 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:50,591 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,609 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:50,609 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:50,694 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,728 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:50,728 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:50,795 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,814 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:50,814 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:50,899 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:50,934 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:50,935 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:50,999 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,017 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:51,017 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:51,100 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,130 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:51,130 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-14 12:55:51,200 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,218 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:51,218 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:51,301 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,335 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:51,335 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:51,403 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,423 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:51,423 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:55:51,503 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,538 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:51,538 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:51,604 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,622 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:51,622 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:51,706 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,740 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:51,740 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:51,806 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,825 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:51,825 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:51,908 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:51,938 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:51,939 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:55:52,011 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,028 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:52,029 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:52,112 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,138 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:52,138 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:52,213 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,234 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:52,235 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:55:52,313 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,339 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:52,339 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:52,414 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,432 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:52,432 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:52,516 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,543 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:52,543 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:52,617 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,635 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:52,635 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:52,719 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,757 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:52,758 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:52,819 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,837 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:52,837 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:52,921 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:52,958 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:52,959 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:55:53,022 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,043 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,043 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:53,123 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,158 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:53,158 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:53,226 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,242 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:53,242 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:53,326 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,361 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,361 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:53,427 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,445 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,446 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:53,530 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,565 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,566 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:55:53,631 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,649 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,649 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:53,731 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,770 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,770 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:53,833 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,853 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,854 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:55:53,933 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:53,968 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:53,968 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:54,035 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:54,053 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:54,053 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:54,137 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:54,163 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:54,163 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:55:54,238 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:54,256 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:54,256 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:54,341 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:54,368 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:54,368 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:54,440 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:54,458 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:54,458 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:54,541 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:54,570 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:54,570 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-14 12:55:54,642 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:54,661 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:54,661 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:56,050 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,068 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:56,068 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:56,151 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,168 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:56,168 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:56,252 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,281 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,281 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-14 12:55:56,354 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,373 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,373 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:56,455 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,493 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,493 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:55:56,557 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,578 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,578 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:56,659 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,693 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,693 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:56,758 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,776 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,776 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:56,860 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,894 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,894 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:56,961 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:56,979 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:56,979 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:57,062 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,101 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:57,102 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-14 12:55:57,163 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,184 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:57,184 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:57,264 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,299 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:57,299 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:57,366 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,384 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:57,384 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:57,467 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,494 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:57,494 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:55:57,569 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,587 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:57,587 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:57,671 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,701 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:57,701 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:55:57,773 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,792 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:57,792 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:57,874 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,911 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:57,911 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.037s.
+2021-03-14 12:55:57,975 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:57,996 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:57,997 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:58,076 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,111 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:58,111 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:58,177 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,195 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:58,195 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:58,279 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,315 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:58,315 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:58,380 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,398 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:58,398 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:58,481 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,520 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:58,520 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:55:58,581 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,602 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:58,602 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:55:58,682 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,717 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:58,717 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:58,783 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,801 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:58,801 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:55:58,885 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:58,920 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:55:58,920 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:58,987 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,005 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:59,005 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:59,088 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,127 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:59,127 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.037s.
+2021-03-14 12:55:59,190 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,210 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:55:59,210 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:55:59,291 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,326 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:59,326 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:59,392 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,411 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:55:59,411 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:59,494 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,529 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:59,530 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:55:59,596 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,615 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:59,615 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:55:59,701 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,735 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:59,735 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:55:59,801 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,819 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:59,819 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:55:59,902 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:55:59,941 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:55:59,941 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:00,003 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,024 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:00,024 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:00,105 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,140 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:00,140 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:00,206 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,224 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:00,224 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:00,307 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,342 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:00,342 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:00,409 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,427 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:00,427 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:00,512 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,547 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:00,547 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:00,613 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,631 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:00,631 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:00,714 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,753 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:00,753 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:00,815 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,837 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:00,837 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:56:00,916 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:00,951 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:00,951 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:01,619 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:01,637 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:01,637 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:01,719 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:01,737 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:01,737 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:01,823 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:01,849 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:01,850 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:01,923 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:01,940 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:01,941 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:02,024 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,054 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:02,054 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:56:02,127 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,145 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:02,145 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:02,228 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,255 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,255 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:02,329 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,350 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,350 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:02,431 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,465 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,466 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:02,532 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,551 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,551 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:56:02,633 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,668 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,668 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:02,734 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,752 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,752 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:02,836 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,875 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,875 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:02,939 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:02,959 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:02,960 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:03,039 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,073 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:03,073 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:03,140 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,158 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:03,158 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:03,241 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,276 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:03,277 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:56:03,342 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,360 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:03,360 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:03,442 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,481 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:03,481 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:03,544 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,565 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:03,565 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:03,644 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,679 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:03,680 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:56:03,745 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,763 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:03,763 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:03,846 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,881 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:03,881 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:03,948 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:03,966 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:03,966 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:04,050 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,090 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:04,090 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-14 12:56:04,151 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,172 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:04,172 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:04,253 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,287 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:04,288 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:04,354 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,372 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:04,373 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:56:04,455 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,490 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:04,490 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:04,557 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,575 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:04,575 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:04,657 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,696 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:04,696 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:04,758 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,779 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:04,779 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:04,861 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,895 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:04,895 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:04,963 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:04,981 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:04,981 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:05,063 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,091 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:05,091 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.028s.
+2021-03-14 12:56:05,164 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,182 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:05,182 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:05,267 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,294 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:05,294 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:05,366 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,385 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:05,385 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:05,469 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,498 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:05,498 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:56:05,570 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,588 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:05,588 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:05,671 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,708 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:05,708 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.037s.
+2021-03-14 12:56:05,774 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,794 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:05,794 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:56:05,875 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,901 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:05,901 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:05,975 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:05,993 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:05,993 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:06,077 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,104 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:06,104 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:06,178 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,195 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:06,195 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:06,279 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,309 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:06,309 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-14 12:56:06,381 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,399 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:06,399 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:06,483 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,520 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:06,521 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:06,583 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,604 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:06,605 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:56:06,684 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,710 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:06,711 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:06,786 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,803 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:06,803 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:06,888 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:06,915 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:06,915 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:06,989 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:07,007 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:07,007 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:07,696 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:07,713 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:07,713 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:07,796 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:07,817 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:07,818 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:56:07,899 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:07,925 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:07,925 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:07,999 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,016 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,016 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:08,100 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,134 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,134 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:08,201 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,219 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,219 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:08,303 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,342 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,342 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:08,404 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,425 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,425 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:08,506 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,539 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,540 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:08,606 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,624 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,625 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:56:08,707 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,741 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,741 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:08,808 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,826 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:08,826 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:08,910 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:08,948 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:08,948 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:09,012 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,032 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,032 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:56:09,113 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,148 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,148 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:09,214 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,232 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,232 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:09,316 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,351 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,351 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:09,417 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,435 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,435 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:09,519 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,555 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,555 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:09,621 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,640 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,640 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:09,723 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,762 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,762 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:09,824 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,846 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:09,846 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:56:09,924 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:09,959 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:09,959 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:10,027 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,044 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:10,044 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:10,128 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,163 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:10,163 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:10,229 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,247 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:10,247 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:10,329 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,368 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:10,368 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:10,430 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,451 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:10,451 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:10,533 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,567 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:10,568 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:10,633 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,651 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:10,651 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:10,734 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,769 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:10,769 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:10,834 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,852 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:10,852 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:10,936 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:10,974 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:10,974 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:11,037 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,057 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:11,057 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:56:11,138 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,173 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:11,173 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:11,239 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,258 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:11,258 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:56:11,341 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,368 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:11,368 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:11,443 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,460 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:11,460 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:11,546 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,573 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:11,573 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:11,647 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,665 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:11,665 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:11,748 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,787 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:11,787 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:11,849 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,870 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:11,870 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:11,950 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:11,985 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:11,985 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:12,051 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,069 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,069 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:12,153 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,187 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,187 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:12,254 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,272 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,272 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:12,357 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,393 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,393 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:56:12,458 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,476 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,477 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:56:12,560 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,598 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,599 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:12,661 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,682 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,682 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:12,762 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:12,796 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:12,796 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:13,466 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:13,484 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:13,484 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:13,567 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:13,585 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:13,586 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:13,670 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:13,696 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:13,696 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:13,772 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:13,789 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:13,789 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:13,874 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:13,912 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:13,912 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:13,974 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:13,995 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:13,995 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:14,076 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,111 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:14,111 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:14,177 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,195 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:14,195 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:14,277 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,312 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:14,312 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:14,379 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,397 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:14,397 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:14,480 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,519 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:14,519 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:14,582 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,603 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:14,603 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:56:14,683 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,718 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:14,718 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:14,785 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,802 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:14,803 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:14,887 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:14,922 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:14,923 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:56:14,988 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,006 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:15,006 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:15,093 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,130 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:15,130 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.037s.
+2021-03-14 12:56:15,192 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,213 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:15,213 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:56:15,293 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,328 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:15,328 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:15,394 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,413 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:15,413 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:56:15,496 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,531 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:15,531 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:15,598 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,615 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:15,616 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:15,698 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,737 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:15,737 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:15,799 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,820 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:15,820 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:15,899 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:15,934 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:15,934 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:16,001 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,018 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:16,019 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:16,102 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,137 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:16,137 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:16,205 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,222 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:16,222 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:16,306 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,341 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:16,341 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:16,409 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,426 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:16,427 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:16,510 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,540 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:16,540 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-14 12:56:16,613 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,631 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:16,632 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.019s.
+2021-03-14 12:56:16,715 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,741 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:16,741 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:16,817 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,837 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:16,838 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:16,917 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:16,952 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:16,952 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:17,019 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,037 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:17,037 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:17,120 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,155 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:17,155 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:17,221 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,239 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:17,239 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:17,322 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,362 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:17,362 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:17,424 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,445 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:17,445 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:17,526 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,560 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:17,560 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:17,628 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,645 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:17,646 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:17,729 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,764 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:17,764 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:17,830 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,848 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:17,848 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:17,932 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:17,972 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:17,972 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.040s.
+2021-03-14 12:56:18,033 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,054 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:18,054 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:18,134 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,169 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:18,169 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:18,237 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,255 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:18,255 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:18,338 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,373 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:18,373 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:18,439 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,457 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:18,457 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:18,540 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,579 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:18,579 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:18,641 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,662 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:18,662 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:18,742 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,777 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:18,777 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:18,845 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,862 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:18,862 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:18,946 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:18,972 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:18,972 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:19,049 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,066 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,066 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:19,152 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,178 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,179 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:19,252 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,270 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,270 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:19,353 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,383 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,383 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:56:19,453 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,471 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,471 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:19,555 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,582 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,582 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:19,656 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,678 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,678 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.022s.
+2021-03-14 12:56:19,758 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,783 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,784 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:19,859 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,877 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,877 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:19,960 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:19,987 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:19,987 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:20,767 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:20,785 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:20,785 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:20,870 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:20,888 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:20,888 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:20,972 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:20,998 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:20,998 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:21,075 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,095 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:21,096 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:21,175 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,210 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:21,210 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:21,278 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,295 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:21,295 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:21,378 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,413 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:21,413 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:21,480 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,498 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:21,498 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:21,584 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,619 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:21,619 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:21,684 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,702 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:21,702 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:21,785 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,824 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:21,824 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:21,885 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:21,906 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:21,906 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:21,986 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,021 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:22,021 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:22,088 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,106 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:22,106 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:22,189 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,224 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:22,224 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:22,291 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,309 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:22,309 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:22,392 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,431 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:22,431 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:22,492 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,514 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:22,514 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:22,594 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,629 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:22,629 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:22,696 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,714 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:22,714 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:22,796 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,831 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:22,831 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:22,897 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:22,916 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:22,916 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:22,998 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,037 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:23,037 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:23,100 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,120 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:23,121 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:23,201 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,227 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:23,227 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:23,303 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,321 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:23,321 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:23,405 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,431 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:23,431 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:23,505 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,522 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:23,523 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:23,608 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,637 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:23,637 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.029s.
+2021-03-14 12:56:23,708 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,726 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:23,726 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:23,810 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,837 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:23,837 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:23,912 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:23,933 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:23,933 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:24,012 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,047 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,047 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:24,113 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,131 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,131 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:24,216 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,250 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,251 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:24,315 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,333 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,333 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:24,418 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,456 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,456 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:24,518 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,538 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,538 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.020s.
+2021-03-14 12:56:24,620 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,654 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,654 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:24,722 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,740 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,740 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:24,822 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,857 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,857 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:24,923 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:24,941 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:24,941 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:25,024 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,063 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:25,063 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:25,125 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,146 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: LEFT
+2021-03-14 12:56:25,146 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:25,226 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,252 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:25,252 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.026s.
+2021-03-14 12:56:25,326 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,344 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:25,344 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:25,428 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,455 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:25,455 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:25,529 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,547 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:25,547 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:25,630 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,660 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:25,660 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.030s.
+2021-03-14 12:56:25,731 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,749 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: UP
+2021-03-14 12:56:25,749 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:25,834 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,851 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:25,852 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:25,934 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:25,955 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: RIGHT
+2021-03-14 12:56:25,955 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:26,036 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,062 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,063 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.027s.
+2021-03-14 12:56:26,137 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,155 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,155 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:26,239 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,273 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,273 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.034s.
+2021-03-14 12:56:26,339 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,357 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,357 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:26,441 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,479 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,479 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.038s.
+2021-03-14 12:56:26,542 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,563 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,563 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.
+2021-03-14 12:56:26,642 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,677 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,677 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.035s.
+2021-03-14 12:56:26,743 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,761 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,761 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.017s.
+2021-03-14 12:56:26,844 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,880 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,880 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.036s.
+2021-03-14 12:56:26,946 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:26,964 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:26,964 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.018s.
+2021-03-14 12:56:27,047 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:27,086 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:27,086 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.039s.
+2021-03-14 12:56:27,147 [Task1_to_NN_wrapper] DEBUG: Calling act on callback.
+2021-03-14 12:56:27,168 [Task1_to_NN_code] DEBUG: action returned by callbacks#act: DOWN
+2021-03-14 12:56:27,168 [Task1_to_NN_wrapper] DEBUG: Got result from callback#act in 0.021s.

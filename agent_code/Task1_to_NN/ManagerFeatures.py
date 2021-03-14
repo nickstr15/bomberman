@@ -26,7 +26,7 @@ def state_to_features(self, game_state: dict) -> np.array:
     wanted_fields = np.array(game_state["coins"])
     number_of_coins = len(wanted_fields)
     if len(wanted_fields) == 0:
-        return torch.tensor([1,1,1,1,1,1,1,1]).float().unsqueeze(0)
+        return torch.tensor([1,1,1,1]).float().unsqueeze(0)
     # if the len of wanted fields changes, we receive an error
     # => fill it with not reachable entries (e.g. [16,16]) and shuffle afterward to prevent a bias.
     fake_entries = []
@@ -73,14 +73,10 @@ def state_to_features(self, game_state: dict) -> np.array:
 
         features = np.append(features, np.sum(1/new_distances))
 
-    # create a hot one direction array
+    # encode the movement to the coins in one hot manner
     hot_one = np.argmax(features)
-
-    direction = np.zeros(4)
-    direction[hot_one] = number_of_coins
-
-    features+=number_of_coins
-    features = np.append(features, direction)
+    features[features>=0]=0
+    features[hot_one] = number_of_coins
 
     # print("\n\n")
     # print(f"oben:{features[3]}")
