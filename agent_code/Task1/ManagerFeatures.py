@@ -43,7 +43,6 @@ def state_to_features(self, game_state: dict) -> np.array:
     way_to_nearest = []
 
     for pos in (player_pos + STEP):
-        first_coin = True
         new_distances = np.empty(len(wanted_fields))
         pos = pos.tolist()
 
