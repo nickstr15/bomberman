@@ -60,6 +60,7 @@ def act(self, game_state: dict) -> str:
     action_prob = np.array(torch.softmax(Q,dim=1).detach().squeeze())
     prob_good_action = action = np.random.choice(ACTIONS, p=action_prob)
     best_action = ACTIONS[np.argmax(action_prob)]
+
     #___SOFT DECISION___#
     # self.logger.info("action returned by callbacks#act: " + prob_good_action) 
     # return prob_good_action

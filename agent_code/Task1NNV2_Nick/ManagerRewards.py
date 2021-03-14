@@ -1,11 +1,10 @@
 import events as e
-
 from .ManagerFeatures import closest_coin
 
 def reward_from_events(self, events) -> int:
 
     game_rewards = {
-        e.COIN_COLLECTED: 100,
+        e.COIN_COLLECTED: 5, #100,
         e.KILLED_OPPONENT: 5,
         e.MOVED_RIGHT: -0.01,
         e.MOVED_LEFT: -0.01,
@@ -14,8 +13,8 @@ def reward_from_events(self, events) -> int:
         e.WAITED: -0.5,
         e.INVALID_ACTION: -0.5,
         e.BOMB_DROPPED: -0.01,
-        e.KILLED_SELF: -20,
-        e.GOT_KILLED: -10,
+        e.KILLED_SELF: -5,
+        e.GOT_KILLED: -5,
         e.CRATE_DESTROYED: 0.5
     }
     reward_sum = 0
@@ -33,6 +32,11 @@ def rewards_from_own_events(self, old_game_state, action, new_game_state, events
 
     self.logger.info(f"Awarded {reward_sum} for own transition events")
     return reward_sum
+
+
+###################
+## sub functions ##
+###################
 
 def moved_closer_to_next_coin(old_game_state, action, events):
     if e.INVALID_ACTION in events:

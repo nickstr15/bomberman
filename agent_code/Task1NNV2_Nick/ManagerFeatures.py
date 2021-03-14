@@ -23,7 +23,7 @@ def state_to_features(game_state: dict) -> torch.tensor:
     #____Channel-03-Bombs&Explosions___#
     fire = bombs_and_explosions(agent_x, agent_y, game_state['bombs'], game_state['explosion_map'])
 
-    features = torch.cat((coins,walls,fire)) #len = 4 + 4 + 4 
+    features = torch.cat((coins,walls,fire)) #len = 5 + 4 + 4 
 
     return features.unsqueeze(0)
 
@@ -70,7 +70,7 @@ def three_closest_coins(agent_x, agent_y, game_state_coins):
     return coins.reshape(-1)
 
 def closest_coin(agent_x, agent_y, game_state_coins):
-    coins = torch.zeros(4)
+    coins = torch.tensor([len(game_state_coins),0,0,0,0])
     closest_coin = None
     closest_dist = 100
     for coin_x, coin_y in game_state_coins:
@@ -81,11 +81,11 @@ def closest_coin(agent_x, agent_y, game_state_coins):
 
     if closest_coin is not None:
         x, y = closest_coin
-        if   x - agent_x > 0: coins[0] = 1
-        elif x - agent_x < 0: coins[1] = 1
+        if   x - agent_x > 0: coins[1] = 1
+        elif x - agent_x < 0: coins[2] = 1
 
-        if   y - agent_y > 0: coins[2] = 1
-        elif y - agent_y < 0: coins[3] = 1
+        if   y - agent_y > 0: coins[3] = 1
+        elif y - agent_y < 0: coins[4] = 1
 
     return coins
 
