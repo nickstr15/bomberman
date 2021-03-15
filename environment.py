@@ -356,6 +356,11 @@ class BombeRLeWorld(GenericWorld):
                 n_crates = (self.arena[1 + 5 * i:6 + 5 * i, 1 + 5 * j:6 + 5 * j] == 1).sum()
                 while True:
                     x, y = np.random.randint(1 + 5 * i, 6 + 5 * i), np.random.randint(1 + 5 * j, 6 + 5 * j)
+                    ##################
+                    #      NEW       #
+                    ##################
+                    x %= s.COLS
+                    y %= s.ROWS
                     if n_crates == 0 and self.arena[x, y] == 0:
                         self.coins.append(Coin((x, y)))
                         self.coins[-1].collectable = True
