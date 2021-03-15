@@ -1,7 +1,5 @@
 import events as e
 
-from .ManagerFeatures import closest_coin
-
 def reward_from_events(self, events) -> int:
 
     game_rewards = {
@@ -16,7 +14,7 @@ def reward_from_events(self, events) -> int:
         e.BOMB_DROPPED: -0.01,
         e.KILLED_SELF: -20,
         e.GOT_KILLED: -10,
-        e.CRATE_DESTROYED: 0.5
+        e.CRATE_DESTROYED: 2
     }
     reward_sum = 0
     for event in events:
@@ -28,30 +26,11 @@ def reward_from_events(self, events) -> int:
 def rewards_from_own_events(self, old_game_state, action, new_game_state, events):
     reward_sum = 0
 
-    # check if agent moved closer to next coin
-    # reward_sum += moved_closer_to_next_coin(old_game_state, action, events)
+    # give malus if maverick is caught in an endless loop
     reward_sum += loop_killer(self, new_game_state)
 
     self.logger.info(f"Awarded {reward_sum} for own transition events")
     return reward_sum
-
-def moved_closer_to_next_coin(old_game_state, action, events):
-    if old_game_state is None:
-        return 0
-
-    if e.INVALID_ACTION in events:
-        return 0
-        
-    good, bad = 0.05, -0.06
-
-    agent_x, agent_y = agent_x, agent_y = old_game_state['self'][3]
-    coin = closest_coin(agent_x, agent_y, old_game_state['coins'])
-    if   (coin[0] == 1) and (action == 'RIGHT'): return good
-    elif (coin[1] == 1) and (action == 'LEFT'):  return good
-    elif (coin[2] == 1) and (action == 'DOWN'):  return good
-    elif (coin[3] == 1) and (action == 'UP'):    return good
-    else: return bad
-
 
 def loop_killer(self, new_game_state):
     if new_game_state is None:

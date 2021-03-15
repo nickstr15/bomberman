@@ -26,7 +26,7 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.0001
 
-TRAINING_EPISODES = 800
+TRAINING_EPISODES = 20
 
 SETUP = 'Test' #set name of file for stored parameters
 
