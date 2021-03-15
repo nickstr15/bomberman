@@ -15,12 +15,25 @@ from .ManagerRewards import reward_from_events, rewards_from_own_events
 from .ManagerTraining import generate_eps_greedy_policy, add_experience, get_score, track_game_score, save_parameters, update_network
 from .ManagerFeatures import state_to_features
 
+#TRAINING PLAN
+# i |Episoded | eps        | grates | opp | Name  | done?
+# -------------------------------------------------------
+# 1 | 200     | 1.0-0.001  | 0.00   | 0   | Test1 |
+# 2 | 200     | 0.9-0.001  | 0.20   | 0   | Test2 |
+# 3 | 200     | 0.7-0.0001 | 0.40   | 0   | Test3 |
+# 4 | 200     | 0.6-0.0001 | 0.60   | 0   | Test4 |
+# 5 | 200     | 0.6-0.0001 | 0.75   | 0   | Test5 |
+
 #Hyperparameter for Training
-EPSILON = (1.0,0.0001)
-LINEAR_CONSTANT_QUOTIENT = 0.7
+TRAIN_FROM_SCRETCH = False
+LOAD = 'Test1'
+SAVE = 'Test1' 
+
+EPSILON = (1.0,0.001)
+LINEAR_CONSTANT_QUOTIENT = 0.9
 
 DISCOUNTING_FACTOR = 0.8
-BUFFERSIZE = 200 #2400
+BUFFERSIZE = 2000 #2400
 BATCH_SIZE = 50 #300
 
 LOSS_FUNCTION = nn.MSELoss()
@@ -29,7 +42,7 @@ LEARNING_RATE = 0.001
 
 TRAINING_EPISODES = 200
 
-SETUP = 'Test' #set name of file for stored parameters
+
 
 def setup_training(self):
     """
@@ -39,6 +52,10 @@ def setup_training(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
+    if not TRAIN_FROM_SCRETCH:
+        self.network.load_state_dict(torch.load(f'network_parameters\{LOAD}.pt'))
+        self.network.eval()
+
     self.network.initialize_training(LEARNING_RATE, DISCOUNTING_FACTOR, EPSILON, 
                                         BUFFERSIZE, BATCH_SIZE, 
                                         LOSS_FUNCTION, OPTIMIZER,
@@ -98,7 +115,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 
     self.episode_counter += 1
     if self.episode_counter % (TRAINING_EPISODES // 10) == 0: #save parameters 2 times
-        save_parameters(self, SETUP)
+        save_parameters(self, SAVE)
 
 
 

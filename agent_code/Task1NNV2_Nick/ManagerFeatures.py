@@ -13,17 +13,19 @@ def state_to_features(game_state: dict) -> torch.tensor:
 
     agent_x, agent_y = game_state['self'][3]
 
+    #____Channel-00-Moves___#
+    moves = get_possible_moves(agent_x, agent_y, game_state)
+
     #____Channel-01-Coins___#
-    # coins = three_closest_coins(agent_x, agent_y, game_state['coins'])
     coins = closest_coin(agent_x, agent_y, game_state['coins'])
             
     #____Channel-02-Walls___#
-    walls, crates = next_walls_and_crates(agent_x, agent_y, game_state['field'])
+    walls_and_crates = next_walls_and_crates(agent_x, agent_y, game_state['field'])
                 
     #____Channel-03-Bombs&Explosions___#
     fire = bombs_and_explosions(agent_x, agent_y, game_state['bombs'], game_state['explosion_map'])
 
-    features = torch.cat((coins,walls,fire)) #len = 5 + 4 + 4 
+    features = torch.cat((moves,coins)) #len = 6+2
 
     return features.unsqueeze(0)
 
@@ -33,44 +35,28 @@ def state_to_features(game_state: dict) -> torch.tensor:
 #&& CHANNELS &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&#
 #&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&#
 
+################################
+## CHANNEL 0 - POSSIBLE MOVES ##
+################################
+def get_possible_moves(agent_x, agent_y, game_state):
+    result = torch.tensor([0.,0.,0.,0.,1.,0.]) #it is always allowed to wait
+    moves = [[1,0], [-1,0], [0,1], [0,-1]]
+    for i, (mx,my) in enumerate(moves):
+        if game_state['field'][agent_x+mx,agent_y+my] == 0:
+            result[i] = 1
+    if game_state['self'][2]:
+        result[5] = 1
+    return result
+
+
 #######################
 ## CHANNEL 1 - COINS ##
 #######################
-def three_closest_coins(agent_x, agent_y, game_state_coins):
-    
-    closest_coins = [None,None,None]
-    closest_dists = deque([1000,1001,1002])
-    for coin_x, coin_y in game_state_coins:
-        dist_new = np.linalg.norm([coin_x - agent_x, coin_y - agent_y])
-        if dist_new < closest_dists[-1]:
-            bisect.insort(closest_dists, dist_new)
-            closest_dists.pop()
-            position = closest_dists.index(dist_new)
-            closest_coins[position] = (coin_x, coin_y)
-    
-    coins = torch.zeros(3,4)         # closest, 2nd, 3rd
-    for i, c in enumerate(closest_coins):
-        if c is not None:
-            x,y = c
-            if   x - agent_x > 0: coins[i][0] = 1 #coin right
-            elif x - agent_x < 0: coins[i][1] = 1 #coin left
-
-            if   y - agent_y > 0: coins[i][2] = 1 #coin down
-            elif y - agent_y < 0: coins[i][3] = 1 #coin up
-    # coins = torch.zeros(4)
-    # for i, c in enumerate(closest_coins):
-    #     if c is not None:
-    #         x,y = c
-    #         if   x - agent_x > 0: coins[0] += 1 #coin right
-    #         elif x - agent_x < 0: coins[1] += 1 #coin left
-
-    #         if   y - agent_y > 0: coins[2] += 1 #coin down
-    #         elif y - agent_y < 0: coins[3] += 1 #coin up
-
-    return coins.reshape(-1)
-
 def closest_coin(agent_x, agent_y, game_state_coins):
-    coins = torch.tensor([len(game_state_coins),0,0,0,0])
+    N_coins = len(game_state_coins)
+    coins = torch.tensor([0.,0.,0.,0.]) #number of coins + direction
+    if N_coins == 0:
+        coins = torch.tensor([0.,0.]) #number of coins + direction
     closest_coin = None
     closest_dist = 100
     for coin_x, coin_y in game_state_coins:
@@ -79,31 +65,22 @@ def closest_coin(agent_x, agent_y, game_state_coins):
             closest_dist = dist 
             closest_coin = [coin_x, coin_y]
 
-    if closest_coin is not None:
-        x, y = closest_coin
-        if   x - agent_x > 0: coins[1] = 1
-        elif x - agent_x < 0: coins[2] = 1
-
-        if   y - agent_y > 0: coins[3] = 1
-        elif y - agent_y < 0: coins[4] = 1
-
-    return coins
+    return torch.tensor(closest_coin)
 
 
 ##############################
 ## CHANNEL 2 - WALLS&CRATES ##
 ##############################
 def next_walls_and_crates(agent_x, agent_y, field):
-    walls = torch.zeros(4)
-    crates = torch.zeros(4)
+    result = torch.zeros(4)
     next_steps = [[1,0],[-1,0],[0,1],[0,-1]]
     for i, (x,y) in enumerate(next_steps):
         interest = field[agent_x+x,agent_y+y]
         if interest == -1: #means here is a stone
-            walls[i] = -1
+            result[i] = -1
         if interest == 1:
-            crates[i] = 1
-    return walls, crates
+            result[i] = 1
+    return result
 
 
 

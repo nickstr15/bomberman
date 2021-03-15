@@ -4,18 +4,18 @@ from .ManagerFeatures import closest_coin
 def reward_from_events(self, events) -> int:
 
     game_rewards = {
-        e.COIN_COLLECTED: 100, #100,
-        e.KILLED_OPPONENT: 5,
-        e.MOVED_RIGHT: -0.01,
-        e.MOVED_LEFT: -0.01,
-        e.MOVED_UP: -0.01,
-        e.MOVED_DOWN: -0.01,
-        e.WAITED: -0.5,
-        e.INVALID_ACTION: -0.5,
-        e.BOMB_DROPPED: -0.01,
-        e.KILLED_SELF: -5,
-        e.GOT_KILLED: -5,
-        e.CRATE_DESTROYED: 0.5
+        e.COIN_COLLECTED: 500, #100,
+        e.KILLED_OPPONENT: 500,
+        e.MOVED_RIGHT: -1,
+        e.MOVED_LEFT: -1,
+        e.MOVED_UP: -1,
+        e.MOVED_DOWN: -1,
+        e.WAITED: -5,
+        e.INVALID_ACTION: -5,
+        e.BOMB_DROPPED: -1,
+        e.KILLED_SELF: -500,
+        e.GOT_KILLED: -500,
+        e.CRATE_DESTROYED: 100
     }
     reward_sum = 0
     for event in events:
