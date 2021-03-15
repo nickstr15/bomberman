@@ -1,114 +1,15 @@
-2021-03-15 13:38:14,743 [Task2_wrapper] DEBUG: Calling setup on callback.
-2021-03-15 13:38:14,743 [Task2_code] INFO: Loading model from saved state.
-2021-03-15 13:38:14,744 [Task2_wrapper] DEBUG: Got result from callback#setup in 0.001s.
-2021-03-15 13:38:14,847 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:14,850 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:14,850 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:14,948 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:14,950 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:14,950 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:15,049 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,050 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,051 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:15,150 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,151 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,151 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:15,251 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,253 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,253 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:15,353 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,354 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,354 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:15,454 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,456 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,456 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:15,555 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,556 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,556 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:15,656 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,658 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,658 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:15,758 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,760 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,760 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:15,859 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,860 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,863 [Task2_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-15 13:38:15,962 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:15,963 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:15,963 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:16,064 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,065 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,066 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:16,164 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,166 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,166 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:16,266 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,268 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,268 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:16,367 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,368 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,369 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:16,469 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,470 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,470 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:16,571 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,573 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,573 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:16,672 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,674 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,674 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:16,776 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,777 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,777 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:16,877 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,878 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,878 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:16,978 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:16,980 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:16,980 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:17,079 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,081 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,081 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:17,180 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,184 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,184 [Task2_wrapper] DEBUG: Got result from callback#act in 0.004s.
-2021-03-15 13:38:17,282 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,284 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,284 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:17,382 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,383 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,383 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:17,483 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,484 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,484 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:17,583 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,585 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,585 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:17,685 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,687 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,687 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:17,786 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,787 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,787 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:17,888 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,889 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,889 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:17,988 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:17,990 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:17,990 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:18,090 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:18,092 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:18,092 [Task2_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 13:38:18,192 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:18,193 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:18,193 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:18,293 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:18,297 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:18,297 [Task2_wrapper] DEBUG: Got result from callback#act in 0.003s.
-2021-03-15 13:38:18,396 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:18,396 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:18,396 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 13:38:18,497 [Task2_wrapper] DEBUG: Calling act on callback.
-2021-03-15 13:38:18,499 [Task2_code] DEBUG: action returned by callbacks#act: RIGHT
-2021-03-15 13:38:18,499 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 22:01:55,383 [Task2_wrapper] DEBUG: Calling setup on callback.
+2021-03-15 22:01:55,383 [Task2_code] INFO: Setting up model from scratch.
+2021-03-15 22:01:55,383 [Task2_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-15 22:01:55,384 [Task2_wrapper] DEBUG: Calling setup_training on callback.
+2021-03-15 22:01:55,384 [Task2_wrapper] DEBUG: Got result from callback#setup_training in 0.000s.
+2021-03-15 22:01:55,386 [Task2_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-15 22:01:55,386 [Task2_code] INFO: ####################
+2021-03-15 22:01:55,387 [Task2_code] INFO: []
+2021-03-15 22:01:55,387 [Task2_wrapper] DEBUG: Got result from callback#game_events_occurred in 0.001s.
+2021-03-15 22:01:55,387 [Task2_wrapper] DEBUG: Calling act on callback.
+2021-03-15 22:01:55,388 [Task2_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 22:01:55,389 [Task2_wrapper] DEBUG: Calling game_events_occurred on callback.
+2021-03-15 22:01:55,390 [Task2_code] INFO: Awarded -0.5 for events INVALID_ACTION
+2021-03-15 22:01:55,390 [Task2_code] INFO: Awarded 0 for own transition events
+2021-03-15 22:01:55,537 [Task2_wrapper] ERROR: An exception occurred while calling game_events_occurred: mat1 and mat2 shapes cannot be multiplied (1x32 and 51x37)

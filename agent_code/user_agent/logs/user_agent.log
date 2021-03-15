@@ -1,146 +1,56 @@
-2021-03-15 15:15:06,428 [user_agent_wrapper] DEBUG: Calling setup on callback.
-2021-03-15 15:15:06,428 [user_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
-2021-03-15 15:15:08,756 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:08,757 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:08,757 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:09,462 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:09,462 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:09,462 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:10,269 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:10,269 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:10,269 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:10,973 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:10,973 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:10,973 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:12,281 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:12,282 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:12,282 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:13,294 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:13,294 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:13,294 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:14,402 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:14,402 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:14,402 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:17,728 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:17,728 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:17,728 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:18,231 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:18,231 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:18,231 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:18,533 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:18,533 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:18,533 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:18,736 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:18,737 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:18,737 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:19,043 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:19,043 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:19,043 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:19,245 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:19,245 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:19,245 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:19,347 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:19,348 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:19,348 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:20,556 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:20,556 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:20,556 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:20,758 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:20,758 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:20,759 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 15:15:21,061 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:21,061 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:21,062 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:21,670 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:21,670 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:21,670 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:22,073 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:22,073 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:22,073 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:27,504 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:27,504 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:27,504 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:30,621 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:30,621 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:30,621 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:33,041 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:33,041 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:33,042 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 15:15:34,652 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:34,652 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:34,652 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:35,964 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:35,964 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:35,964 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:51,967 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:51,967 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:51,967 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:52,470 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:52,470 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:52,470 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:53,274 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:53,274 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:53,274 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:53,778 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:53,778 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:53,778 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:54,080 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:54,080 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:54,080 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:54,487 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:54,487 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:54,487 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:54,991 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:54,991 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:54,991 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:55,395 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:55,395 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:55,395 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:55,700 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:55,700 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:55,700 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:56,002 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:56,002 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:56,002 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:15:57,313 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:15:57,313 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:15:57,313 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:16:30,829 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:16:30,829 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:16:30,829 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:16:32,744 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:16:32,744 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:16:32,744 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:16:33,148 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:16:33,148 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:16:33,148 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:16:34,056 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:16:34,056 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:16:34,056 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:16:34,560 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:16:34,560 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:16:34,560 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:16:35,065 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:16:35,065 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:16:35,065 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:16:36,578 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:16:36,578 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:16:36,578 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:20:11,174 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:20:11,174 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:20:11,174 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:20:12,181 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:20:12,181 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:20:12,181 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:20:13,190 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:20:13,190 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:20:13,190 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:20:13,795 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:20:13,795 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:20:13,795 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:20:14,400 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:20:14,400 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:20:14,400 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:20:14,906 [user_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:20:14,906 [user_agent_code] INFO: Pick action according to pressed key
-2021-03-15 15:20:14,906 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:34:42,056 [user_agent_wrapper] DEBUG: Calling setup on callback.
+2021-03-15 16:34:42,056 [user_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-15 16:34:42,661 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:42,661 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:42,661 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:34:43,165 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:43,165 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:43,165 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:34:43,368 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:43,368 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:43,368 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:34:43,673 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:43,675 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:43,675 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:34:44,278 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:44,278 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:44,279 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:34:44,884 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:44,885 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:44,885 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:34:45,387 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:45,388 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:45,388 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:34:47,705 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:47,705 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:47,705 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:34:48,109 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:48,110 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:48,110 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:34:48,817 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:48,818 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:48,818 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:34:49,623 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:49,623 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:49,624 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:34:50,635 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:34:50,636 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:34:50,636 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:57:05,908 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:57:05,908 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:57:05,908 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:57:06,712 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:57:06,712 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:57:06,712 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:57:07,719 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:57:07,719 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:57:07,719 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-15 16:57:09,029 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:57:09,030 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:57:09,030 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:57:11,852 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:57:11,853 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:57:11,853 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-15 16:57:12,055 [user_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-15 16:57:12,056 [user_agent_code] INFO: Pick action according to pressed key
+2021-03-15 16:57:12,056 [user_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.

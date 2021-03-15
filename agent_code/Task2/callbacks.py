@@ -36,6 +36,8 @@ def setup(self):
     
     self.pos_saver_feat = []
 
+    self.bomb_timer = 0
+
     
 
 def act(self, game_state: dict) -> str:
@@ -67,5 +69,9 @@ def act(self, game_state: dict) -> str:
     # return prob_good_action
 
     #___HARD DECISION___#
+    if self.bomb_timer > 0:
+        self.bomb_timer -= 1
     self.logger.debug("action returned by callbacks#act: " + best_action)
+    if best_action == 5 and self.bomb_timer==0:
+        self.bomb_timer = 3
     return best_action
