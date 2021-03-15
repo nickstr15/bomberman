@@ -12,7 +12,7 @@ class Maverick(nn.Module):
     def __init__(self):
         super(Maverick, self).__init__()
 
-        self.number_of_in_features = 5+4+4
+        self.number_of_in_features = 6+2
         self.number_of_actions = 6
 
         #LAYERS
