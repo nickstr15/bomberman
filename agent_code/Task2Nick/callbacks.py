@@ -9,8 +9,9 @@ import torch.optim as optim
 
 from .Model import Maverick
 from .ManagerFeatures import *
+from .ManagerTraining import rule_based_act
 
-PARAMETERS = 'Test1' #select parameter_set stored in network_parameters/
+PARAMETERS = 'CoinsAndCrates50' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -31,7 +32,7 @@ def setup(self):
 
     else:
         self.logger.info("Loading model from saved state.")
-        self.network.load_state_dict(torch.load(f'network_parameters\{PARAMETERS}.pt'))
+        self.network.load_state_dict(torch.load(f'network_parameters/{PARAMETERS}.pt'))
         self.network.eval()
 
     
@@ -52,7 +53,9 @@ def act(self, game_state: dict) -> str:
     if self.train: # Exploration vs exploitation
 
         eps = self.epsilon_arr[self.episode_counter]
-        if random.random() <= eps: # choose random action
+        if random.random() <= eps:
+            #if random.random() <= 0.75:
+                #return rule_based_act(self, game_state)
             return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1]) #EXPLORATION
 
     features = state_to_features(game_state)

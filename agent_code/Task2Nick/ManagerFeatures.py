@@ -25,19 +25,21 @@ def state_to_features(game_state: dict) -> torch.tensor:
     complete_free = np.ones((17,17), dtype=bool)
     #coins 
     coins = game_state['coins']
-    #The best position for a bomb is in a dead end (here the most crates get destroyed)
-    good_bomb_positions = [(x,y) for x in range(0,16) for y in range(1,16) 
-                            if field[x,y] == 0 and isdeadend(field,x,y) ]
-    #list of all crates
-    crates = [(x,y) for x in range(1,16) for y in range(1,16) if field[x,y]==1]
     #list of all bombs and dangerous zones
     death = []
     bombs = game_state['bombs']
     for (bx,by), bt in bombs:
         unsafe = 4 - bt
         for x in range(-unsafe, unsafe+1):
-            for y in range(-unsafe, unsafe+1):
-                death.append((bx+x, by+y))
+            death.append((bx+x, by))
+        for y in range(-unsafe, unsafe+1):
+            death.append((bx, by+y))
+    #The best position for a bomb is in a dead end (here the most crates get destroyed)
+    good_bomb_positions = [(x,y) for x in range(0,16) for y in range(1,16) 
+                            if field[x,y] == 0 and isdeadend(field,x,y, death) ]
+    #list of all crates
+    crates = [(x,y) for x in range(1,16) for y in range(1,16) if field[x,y]==1]
+    
     #list of all other players
     others = [(x,y) for (x,y,_,_,_) in game_state['others']]
     
@@ -49,7 +51,12 @@ def state_to_features(game_state: dict) -> torch.tensor:
     next_steps = [(1,0), (-1,0), (0,1), (0,-1)]
     for sx,sy in next_steps:
         next_x, next_y = agent[0]+sx, agent[1]+sy
-        next_positions.append(field[next_x, next_y])
+        if (next_x, next_y) in death:
+            next_positions.append(-2)
+        else:
+            next_positions.append(field[next_x, next_y])
+    
+
 
 
     #######
@@ -125,12 +132,12 @@ def bfs(is_free_field, start, targets, returnParent = False):
         q = deque([start])
         visited = set()
         parents = {start: start}
-        counter = 0
+        # counter = 0
         while len(q) > 0:
-            counter += 1
-            if counter > 10000:
-                print('SHIT')
-                return None
+            # counter += 1
+            # if counter > 100000:
+            #     print('SHIT')
+            #     return None
             pos = q.popleft()
             visited.add(pos)
             if pos in targets: #found closest next target
@@ -141,16 +148,21 @@ def bfs(is_free_field, start, targets, returnParent = False):
             x,y = pos
             new_positions = [(x+1,y), (x-1,y), (x,y+1), (x,y-1)]
             for new_pos in new_positions:
-                if is_free_field[new_pos]:
-                    if new_pos not in visited:
-                        q.append(new_pos)
-                        parents[(new_pos)] = pos
+                try:
+                    if is_free_field[new_pos]:
+                        if new_pos not in visited:
+                            q.append(new_pos)
+                            parents[(new_pos)] = pos
+                except:
+                    print(new_pos)
         return None
 
     
 
-def isdeadend(field, x,y):
+def isdeadend(field, x,y, death):
     counter = 0 
+    if (x,y) in death:
+        return False
     for sx,sy in [(1,0), (-1,0), (0,1), (0,-1)]:
         if field[x+sx, y+sy] != 0:
             counter += 1

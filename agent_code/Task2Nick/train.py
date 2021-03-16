@@ -12,7 +12,7 @@ import torch.optim as optim
 import torch.nn as nn
 
 from .ManagerRewards import reward_from_events, rewards_from_own_events
-from .ManagerTraining import generate_eps_greedy_policy, add_experience, get_score, track_game_score, save_parameters, update_network
+from .ManagerTraining import *
 from .ManagerFeatures import state_to_features
 
 #TRAINING PLAN
@@ -25,12 +25,12 @@ from .ManagerFeatures import state_to_features
 # 5 | 200     | 0.6-0.0001 | 0.75   | 0   | Test5 |
 
 #Hyperparameter for Training
-TRAIN_FROM_SCRETCH = False
-LOAD = 'Test1'
-SAVE = 'Test1' 
+TRAIN_FROM_SCRETCH = True
+LOAD = 'Test2' #not needed if TRAIN_FROM_SCRETCH = True
+SAVE = 'CoinsAndCrates50' 
 
-EPSILON = (1.0,0.001)
-LINEAR_CONSTANT_QUOTIENT = 0.9
+EPSILON = (0.9,0.001)
+LINEAR_CONSTANT_QUOTIENT = 0.8
 
 DISCOUNTING_FACTOR = 0.8
 BUFFERSIZE = 2000 #2400
@@ -52,8 +52,10 @@ def setup_training(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
+    rule_based_setup(self)
+
     if not TRAIN_FROM_SCRETCH:
-        self.network.load_state_dict(torch.load(f'network_parameters\{LOAD}.pt'))
+        self.network.load_state_dict(torch.load(f'network_parameters/{LOAD}.pt'))
         self.network.eval()
 
     self.network.initialize_training(LEARNING_RATE, DISCOUNTING_FACTOR, EPSILON, 
