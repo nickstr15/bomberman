@@ -12,24 +12,20 @@ class Maverick(nn.Module):
     def __init__(self):
         super(Maverick, self).__init__()
 
-        self.number_of_in_features = 5
+        self.number_of_in_features = 51
         self.number_of_actions = 6
 
         #LAYERS
-        self.dense1 = nn.Linear(in_features=self.number_of_in_features, out_features=12)
-        self.dense2 = nn.Linear(in_features=12, out_features=21)
-
-        self.dense3 = nn.Linear(in_features=21, out_features=10)
-        self.out = nn.Linear(in_features=10, out_features=self.number_of_actions)
-        # self.out = nn.Linear(in_features=self.number_of_in_features, out_features=self.number_of_actions)
+        self.dense1 = nn.Linear(in_features=self.number_of_in_features, out_features=37)
+        self.dense2 = nn.Linear(in_features=37, out_features=23)
+        self.out = nn.Linear(in_features=23, out_features=self.number_of_actions)
 
 
 
     def forward(self, x):
 
-        x = F.relu(self.dense1(x))
-        x = F.relu(self.dense2(x))
-        x = F.relu(self.dense3(x))
+        x = torch.sigmoid(self.dense1(x))
+        x = torch.sigmoid(self.dense2(x))
         out = self.out(x)
 
         return out

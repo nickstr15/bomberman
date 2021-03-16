@@ -14,7 +14,7 @@ def reward_from_events(self, events) -> int:
         e.BOMB_DROPPED: -0.01,
         e.KILLED_SELF: -20,
         e.GOT_KILLED: -10,
-        e.CRATE_DESTROYED: 2
+        e.CRATE_DESTROYED: 33
     }
     reward_sum = 0
     for event in events:

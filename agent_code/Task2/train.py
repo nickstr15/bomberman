@@ -16,7 +16,7 @@ from .ManagerTraining import generate_eps_greedy_policy, add_experience, get_sco
 from .ManagerFeatures import state_to_features
 
 #Hyperparameter for Training
-EPSILON = (1.0,0.0001)
+EPSILON = (1.0,0.001)
 
 DISCOUNTING_FACTOR = 0.8
 BUFFERSIZE = 200 #2400
@@ -26,7 +26,7 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.0001
 
-TRAINING_EPISODES = 20
+TRAINING_EPISODES = 15000
 
 SETUP = 'Test' #set name of file for stored parameters
 
@@ -96,8 +96,11 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
         update_network(self)
 
     self.episode_counter += 1
-    if self.episode_counter % (TRAINING_EPISODES // 10) == 0: #save parameters 2 times
-        save_parameters(self, SETUP)
+    if self.episode_counter % 50 == 0: #save parameters 100 times
+        save_parameters(self, f"save after {self.episode_counter} iterations")
+    
+    if self.episode_counter == TRAINING_EPISODES-1:
+        save_parameters(self, f"final save")
 
 
 

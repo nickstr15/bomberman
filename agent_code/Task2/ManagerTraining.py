@@ -99,6 +99,7 @@ def save_parameters(self, string):
 def get_score(events):
     true_game_rewards = {
         e.COIN_COLLECTED: 1,
+        e.CRATE_DESTROYED: 1,
         e.KILLED_OPPONENT: 5,
     }
     score = 0
@@ -113,18 +114,18 @@ def track_game_score(self, smooth=False):
 
     #plot scores
     y = self.game_score_arr
-    if smooth:
-        window_size = self.total_episodes // 25
-        if window_size < 1:
-            window_size = 1
-        y = uniform_filter1d(y, window_size, mode="nearest", output="float")
-    x = range(len(y))
+    window_size = self.total_episodes // 25
+    y_smoothed = uniform_filter1d(y, 20, mode="nearest", output="float")
+
+    x = np.array(range(len(y)))
+    y = np.array(y)
 
     fig, ax = plt.subplots()
     ax.set_title('score')
     ax.set_xlabel('episode')
     ax.set_ylabel('total points')
-    ax.plot(x,y, marker='o', markersize=3, linewidth=1)
+    ax.plot(x[::10],y[::10], marker='o', markersize=5, linewidth=0)
+    ax.plot(x,y_smoothed, marker='o', markersize=0, linewidth=1, color = "red")
     
     plt.savefig('network_parameters/training_progress.png')
 
