@@ -28,10 +28,7 @@ def generate_eps_greedy_policy(network, q):
 def add_experience(self, old_game_state, self_action, new_game_state, events):
     old_features = state_to_features(old_game_state)
     if old_features is not None:
-        if new_game_state is None:
-            new_features = old_features
-        else:
-            new_features = state_to_features(new_game_state)
+        new_features = state_to_features(new_game_state)
         reward = reward_from_events(self, events)
         reward += rewards_from_own_events(self, old_game_state, self_action, new_game_state, events)
 
@@ -90,10 +87,10 @@ def update_network(self):
     actions = torch.cat([b[1].unsqueeze(0) for b in sub_batch])
     Q = torch.sum(q_values*actions, dim=1)
     
-    loss = network.loss_function(Q, Y)
-    network.optimizer.zero_grad()
-    loss.backward()
-    network.optimizer.step()
+    self.loss = self.network.loss_function(Q, Y)
+    self.network.optimizer.zero_grad()
+    self.loss.backward()
+    self.network.optimizer.step()
 
 
 def save_parameters(self, string):

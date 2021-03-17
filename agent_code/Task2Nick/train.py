@@ -27,20 +27,20 @@ from .ManagerFeatures import state_to_features
 #Hyperparameter for Training
 TRAIN_FROM_SCRETCH = True
 LOAD = 'Test2' #not needed if TRAIN_FROM_SCRETCH = True
-SAVE = 'CoinsAndCrates50' 
+SAVE = 'CoinsOnly' 
 
 EPSILON = (0.9,0.001)
 LINEAR_CONSTANT_QUOTIENT = 0.8
 
 DISCOUNTING_FACTOR = 0.8
-BUFFERSIZE = 2000 #2400
+BUFFERSIZE = 200 #2400
 BATCH_SIZE = 50 #300
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 200
+TRAINING_EPISODES = 500
 
 
 

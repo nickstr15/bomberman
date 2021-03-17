@@ -22,7 +22,10 @@ def state_to_features(game_state: dict) -> torch.tensor:
     agent = game_state['self'][3] #get position of the agent
     field = game_state['field']
     is_free_field = field == 0   #get fields that are "free" to move to
-    complete_free = np.ones((17,17), dtype=bool)
+
+    cf = np.ones((17,17), dtype=bool)
+    cf[:,0] = cf[0,:] = cf[:,-1] = cf[-1,:] = False
+    complete_free = cf
     #coins 
     coins = game_state['coins']
     #list of all bombs and dangerous zones
@@ -62,13 +65,8 @@ def state_to_features(game_state: dict) -> torch.tensor:
     #######
     # 2.1 #
     #######
-    t0 = time.time()
     #___compute closest targets___#
     best_coin = bfs(is_free_field, agent, coins)
-    t1 = time.time()-t0
-    if t1 > 0.1:
-        print(t1)
-        print(len(coins))
 
     best_bomb_position = bfs(is_free_field, agent, good_bomb_positions)
     if best_bomb_position is None:
@@ -118,7 +116,7 @@ def state_to_features(game_state: dict) -> torch.tensor:
     features = next_positions + distances + flags
     #features = [right, left, down, up,
     #            coin_x, coin_y, best_bomb_x, best_bomb_y, death_x, death_y, opp_x, opp_y
-    #            canBomb, inBestBombPosition, onnDeathField]
+    #            canBomb, inBestBombPosition, onDeathField]
 
     return torch.tensor(features, dtype=torch.float).unsqueeze(0)
 
@@ -148,13 +146,9 @@ def bfs(is_free_field, start, targets, returnParent = False):
             x,y = pos
             new_positions = [(x+1,y), (x-1,y), (x,y+1), (x,y-1)]
             for new_pos in new_positions:
-                try:
-                    if is_free_field[new_pos]:
-                        if new_pos not in visited:
+                    if is_free_field[new_pos] and new_pos not in visited:
                             q.append(new_pos)
                             parents[(new_pos)] = pos
-                except:
-                    print(new_pos)
         return None
 
     
