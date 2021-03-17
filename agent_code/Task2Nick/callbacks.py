@@ -11,7 +11,7 @@ from .Model import Maverick
 from .ManagerFeatures import *
 from .ManagerTraining import rule_based_act
 
-PARAMETERS = 'CoinsAndCrates50' #select parameter_set stored in network_parameters/
+PARAMETERS = 'CoinsOnly' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
