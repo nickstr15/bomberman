@@ -13,7 +13,7 @@ from .Model import Maverick
 from .ManagerFeatures import *
 
 PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
-PARAMETERS = 'save after 3600 iterations' #select parameter_set stored in network_parameters/
+# PARAMETERS = 'save after 3600 iterations' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
