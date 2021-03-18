@@ -29,7 +29,6 @@ def reward_from_events(self, events) -> int:
         e.BOMB_DROPPED: -1,
         e.KILLED_SELF: -300,
         e.GOT_KILLED: -10,
-        e.CRATE_DESTROYED: 33
     }
     reward_sum = 0
     for event in events:
@@ -44,6 +43,7 @@ def rewards_from_own_events(self, old_game_state, action, new_game_state, events
     # check if agent moved closer to next coin
     # reward_sum += moved_closer_to_next_coin(old_game_state, action, events)
     reward_sum += loop_killer(self, new_game_state)
+    reward_sum += crate_rewards(self, events)
 
     self.logger.info(f"Awarded {reward_sum} for own transition events")
     return reward_sum
@@ -79,3 +79,9 @@ def loop_killer(self, new_game_state):
     if loop:
         return -1
     else: return 0
+
+def crate_rewards(self, events):
+    if e.BOMB_DROPPED in events:
+        self.logger.info(f"reward for the {self.destroyed_crates} that are going to be destroyed -> +{self.destroyed_crates * 33}")
+        return self.destroyed_crates * 33
+    return 0

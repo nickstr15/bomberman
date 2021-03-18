@@ -49,25 +49,23 @@ def add_experience(self, old_game_state, self_action, new_game_state, events, n)
         action[action_idx] = 1
 
         # n-Step TD learning
-        # add_remaining_experience(self, events, old_game_state, new_game_state, new_features, n)
+        add_remaining_experience(self, events, reward, new_features, n)
 
 
-        self.experience_buffer.append((old_features, action, reward, new_features, 1))
+        self.experience_buffer.append((old_features, action, reward, new_features, 0))
         number_of_elements_in_buffer = len(self.experience_buffer)
         if number_of_elements_in_buffer > self.network.buffer_size:
-            self.experience_buffer.popleft()
+            self.experience_buffer.pop(0)
 
-# TODO self.DISCOUNTING_FACTOR doesnt exist
-def add_remaining_experience(self, events, old_game_state, new_game_state, new_features, n):
-    steps_back = max(len(self.experience_buffer), n)
 
-    new_reward = reward_from_events(self, events)
-    new_reward += rewards_from_own_events(self, old_game_state, self_action, new_game_state, events)
-
+def add_remaining_experience(self, events, new_reward, new_features, n):
+    steps_back = min(len(self.experience_buffer), n)
     for i in range(1, steps_back+1):
-        old_features, action, reward, new_features = self.experience_buffer[-i]
-        reward += (self.DISCOUNTING_FACTOR**i)*new_reward
-        self.experience_buffer[-i] = old_features, action, reward, new_features
+        old_old_features, action, reward, old_new_features, number_of_additional_rewards = self.experience_buffer[-i]
+        reward += (self.network.gamma**i)*new_reward
+        number_of_additional_rewards += 1
+        assert number_of_additional_rewards == i
+        self.experience_buffer[-i] = (old_old_features, action, reward, new_features, number_of_additional_rewards)
 
 
 def update_network(self):
@@ -94,14 +92,15 @@ def update_network(self):
         sub_batch.append(random_experience)
     
     for b in sub_batch:
-        old_state = b[0]
+        old_features = b[0]
         action = b[1]
         reward = b[2]
-        new_state = b[3]
+        new_features = b[3]
+        number_of_additional_rewards = b[4]
 
         y = reward
-        if new_state is not None:
-            y += network.gamma * torch.max(network(new_state))
+        if new_features is not None:
+            y += network.gamma**(number_of_additional_rewards+1) * torch.max(network(new_features))
 
         Y.append(y)
 
@@ -113,7 +112,15 @@ def update_network(self):
     actions = torch.cat([b[1].unsqueeze(0) for b in sub_batch])
     Q = torch.sum(q_values*actions, dim=1)
     
+    # Residuals = torch.abs(Y-Q)
+    # batch_size = min(len(Residuals), 230)
+    # _, indices = torch.topk(Residuals, batch_size)
+
+    # Y_reduced = Y[indices]
+    # Q_reduced = Q[indices]
+
     loss = network.loss_function(Q, Y)
+    # loss = network.loss_function(Q_reduced, Y_reduced)
     network.optimizer.zero_grad()
     loss.backward()
     network.optimizer.step()
@@ -153,7 +160,8 @@ def track_game_score(self, smooth=False):
     ax.set_xlabel('episode', fontsize=25, fontweight='bold')
     ax.set_ylabel('points', fontsize=25, fontweight='bold')
     ax.grid(axis='y', alpha=0.2, color='gray', zorder=-1)
-    ax.set_yticks(range(255)[::10])
+    # ax.set_yticks(range(255)[::10])
+    ax.set_yticks(range(255))
     ax.tick_params(labelsize=16)
 
     ax.plot(x,y,color='gray',linewidth=0.5, alpha=0.7, zorder=0)
