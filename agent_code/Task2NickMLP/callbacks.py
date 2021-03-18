@@ -51,11 +51,10 @@ def act(self, game_state: dict) -> str:
         return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .0, .0])
 
     if self.train: # Exploration vs exploitation
-
         eps = self.epsilon_arr[self.episode_counter]
         if random.random() <= eps:
-            #if random.random() <= 0.75:
-                #return rule_based_act(self, game_state)
+            if random.random() <= 0.3:
+                return rule_based_act(self, game_state)
             return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1]) #EXPLORATION
 
     features = state_to_features(game_state)
@@ -64,10 +63,9 @@ def act(self, game_state: dict) -> str:
     prob_good_action = np.random.choice(ACTIONS, p=action_prob)
     best_action = ACTIONS[np.argmax(action_prob)]
 
-    #___SOFT DECISION___#
-    # self.logger.info("action returned by callbacks#act: " + prob_good_action) 
-    # return prob_good_action
-
     #___HARD DECISION___#
     self.logger.debug("action returned by callbacks#act: " + best_action)
     return best_action
+
+    # action_idx = np.argmax(np.sum(np.array(features.squeeze(0).reshape(3,6)).T, axis=1))
+    # return ACTIONS[action_idx]

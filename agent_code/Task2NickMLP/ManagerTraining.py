@@ -52,12 +52,12 @@ def update_network(self):
     network: the network that gets updated
     experience_buffer: the collected experiences, list of game_episodes
     '''
-    network = self.network 
+
     experience_buffer = self.experience_buffer
 
     #randomly choose batch out of the experience buffer
     number_of_elements_in_buffer = len(experience_buffer)
-    batch_size = min(number_of_elements_in_buffer, network.batch_size)
+    batch_size = min(number_of_elements_in_buffer, self.network.batch_size)
 
     random_i = [ random.randrange(number_of_elements_in_buffer) for _ in range(batch_size)]
 
@@ -78,7 +78,7 @@ def update_network(self):
 
         y = reward
         if new_state is not None:
-            y += network.gamma * torch.max(network(new_state))
+            y += self.network.gamma * torch.max(self.network(new_state))
 
         Y.append(y)
 
@@ -86,14 +86,14 @@ def update_network(self):
 
     #Qs
     states = torch.cat(tuple(b[0] for b in sub_batch))  #put all states of the sub_batch in one batch
-    q_values = network(states)
+    q_values = self.network(states)
     actions = torch.cat([b[1].unsqueeze(0) for b in sub_batch])
     Q = torch.sum(q_values*actions, dim=1)
     
-    loss = network.loss_function(Q, Y)
-    network.optimizer.zero_grad()
+    loss = self.network.loss_function(Q, Y)
+    self.network.optimizer.zero_grad()
     loss.backward()
-    network.optimizer.step()
+    self.network.optimizer.step()
 
 
 def save_parameters(self, string):
@@ -103,7 +103,7 @@ def save_parameters(self, string):
 def get_score(events):
     true_game_rewards = {
         e.COIN_COLLECTED: 1,
-        e.KILLED_OPPONENT: 5,
+        e.KILLED_OPPONENT: 5
     }
     score = 0
     for event in events:
@@ -111,12 +111,23 @@ def get_score(events):
             score += true_game_rewards[event]
     return score
 
+def get_score_crates(old_game_state, new_game_state):
+    try:
+        crates0 = np.count_nonzero(old_game_state['field'] == 1)
+        crates1 = np.count_nonzero(new_game_state['field'] == 1)
+        return crates0 - crates1
+    except:
+        return 0
+
 def track_game_score(self, smooth=False):
     self.game_score_arr.append(self.game_score)
+    self.crate_score_arr.append(self.crate_score)
     self.game_score = 0
+    self.crate_score = 0
 
     #plot scores
     y = self.game_score_arr
+    y_crates = self.crate_score_arr
     if smooth:
         window_size = self.total_episodes // 25
         if window_size < 1:
@@ -131,6 +142,8 @@ def track_game_score(self, smooth=False):
     ax.grid(axis='y', alpha=0.2, color='gray', zorder=-1)
     ax.set_yticks([0,1,2,3,4,5,6,7,8,9])
     ax.tick_params(labelsize=16)
+
+    ax.plot(x,y_crates, color = 'blue', linewidth=1, alpha=0.3)
 
     ax.plot(x,y,color='gray',linewidth=0.5, alpha=0.7, zorder=0)
 
