@@ -12,7 +12,7 @@ import torch.optim as optim
 import torch.nn as nn
 
 from .ManagerRewards import reward_from_events, rewards_from_own_events
-from .ManagerTraining import generate_eps_greedy_policy, add_experience, get_score, track_game_score, save_parameters, update_network
+from .ManagerTraining import generate_eps_greedy_policy, add_experience, get_score, track_game_score, save_parameters, update_network, add_remaining_experience
 from .ManagerFeatures import state_to_features
 
 #TRAINING PLAN
@@ -84,7 +84,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     :param new_game_state: The state the agent is in now.
     :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
     """
-    add_experience(self, old_game_state, self_action, new_game_state, events)
+    add_experience(self, old_game_state, self_action, new_game_state, events, 5)
     if len(self.experience_buffer) > 0:
         update_network(self)
     
@@ -109,7 +109,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 
     track_game_score(self)
 
-    add_experience(self, last_game_state, last_action, None, events)
+    add_experience(self, last_game_state, last_action, None, events, 5)
     if len(self.experience_buffer) > 0:
         update_network(self)
 

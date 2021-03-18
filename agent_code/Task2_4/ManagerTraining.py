@@ -23,7 +23,7 @@ def generate_eps_greedy_policy(network, q):
     eps2 = np.ones(N_2) * network.epsilon_end
     return np.append(eps1, eps2)
 
-def add_experience(self, old_game_state, self_action, new_game_state, events):
+def add_experience(self, old_game_state, self_action, new_game_state, events, n):
     reset = False
     if self.bomb_timer == 5:
         reset = True
@@ -44,19 +44,31 @@ def add_experience(self, old_game_state, self_action, new_game_state, events):
                 self.bomb_timer += 1
         reward = reward_from_events(self, events)
         reward += rewards_from_own_events(self, old_game_state, self_action, new_game_state, events)
-        # TODO: Bug, only with rule based agent
-        ##############################
-        if self_action == None:
-            self_action = "WAIT"
-        ##############################
         action_idx = ACTIONS_IDX[self_action]
         action = torch.zeros(6)
         action[action_idx] = 1
 
-        self.experience_buffer.append((old_features, action, reward, new_features))
+        # n-Step TD learning
+        # add_remaining_experience(self, events, old_game_state, new_game_state, new_features, n)
+
+
+        self.experience_buffer.append((old_features, action, reward, new_features, 1))
         number_of_elements_in_buffer = len(self.experience_buffer)
         if number_of_elements_in_buffer > self.network.buffer_size:
             self.experience_buffer.popleft()
+
+# TODO self.DISCOUNTING_FACTOR doesnt exist
+def add_remaining_experience(self, events, old_game_state, new_game_state, new_features, n):
+    steps_back = max(len(self.experience_buffer), n)
+
+    new_reward = reward_from_events(self, events)
+    new_reward += rewards_from_own_events(self, old_game_state, self_action, new_game_state, events)
+
+    for i in range(1, steps_back+1):
+        old_features, action, reward, new_features = self.experience_buffer[-i]
+        reward += (self.DISCOUNTING_FACTOR**i)*new_reward
+        self.experience_buffer[-i] = old_features, action, reward, new_features
+
 
 def update_network(self):
     '''
@@ -70,7 +82,7 @@ def update_network(self):
     number_of_elements_in_buffer = len(experience_buffer)
     batch_size = min(number_of_elements_in_buffer, network.batch_size)
 
-    random_i = [ random.randrange(number_of_elements_in_buffer) for _ in range(batch_size)]
+    random_i = [random.randrange(number_of_elements_in_buffer) for _ in range(batch_size)]
 
     #compute for each experience in the batch 
     # - the Ys using n-step TD Q-learning

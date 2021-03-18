@@ -404,6 +404,7 @@ def state_to_features(self, game_state: dict) -> np.array:
 
     # append the remaining positive total reward
     features = np.append(features, number_of_coins + 1/3 * number_of_crates)
+    self.features = features
 
 
 

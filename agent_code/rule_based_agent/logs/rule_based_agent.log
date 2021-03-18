@@ -1,43 +1,116 @@
-2021-03-15 15:14:28,063 [rule_based_agent_wrapper] DEBUG: Calling setup on callback.
-2021-03-15 15:14:28,063 [rule_based_agent_code] DEBUG: Successfully entered setup code
-2021-03-15 15:14:28,063 [rule_based_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
-2021-03-15 15:14:29,674 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:29,675 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:29,675 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'UP', 'WAIT', 'BOMB']
-2021-03-15 15:14:29,675 [rule_based_agent_code] DEBUG: Suitable target found at (15, 14)
-2021-03-15 15:14:29,675 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
-2021-03-15 15:14:30,379 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:30,379 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:30,379 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN', 'WAIT', 'BOMB']
-2021-03-15 15:14:30,379 [rule_based_agent_code] DEBUG: Suitable target found at (15, 14)
-2021-03-15 15:14:30,379 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 15:14:30,983 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:30,983 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:30,984 [rule_based_agent_code] DEBUG: Valid actions: ['DOWN']
-2021-03-15 15:14:30,985 [rule_based_agent_code] DEBUG: Suitable target found at (14, 15)
-2021-03-15 15:14:30,985 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 15:14:32,397 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:32,397 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:32,397 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT', 'WAIT']
-2021-03-15 15:14:32,398 [rule_based_agent_code] DEBUG: Suitable target found at (14, 15)
-2021-03-15 15:14:32,399 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.002s.
-2021-03-15 15:14:32,801 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:32,801 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:32,801 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT']
-2021-03-15 15:14:32,802 [rule_based_agent_code] DEBUG: Suitable target found at (14, 15)
-2021-03-15 15:14:32,802 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 15:14:33,304 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:33,304 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:33,304 [rule_based_agent_code] DEBUG: Valid actions: ['LEFT']
-2021-03-15 15:14:33,305 [rule_based_agent_code] DEBUG: Suitable target found at (14, 15)
-2021-03-15 15:14:33,305 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 15:14:38,744 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:38,744 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:38,744 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT', 'WAIT', 'BOMB']
-2021-03-15 15:14:38,745 [rule_based_agent_code] DEBUG: Suitable target found at (14, 15)
-2021-03-15 15:14:38,745 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
-2021-03-15 15:14:44,484 [rule_based_agent_wrapper] DEBUG: Calling act on callback.
-2021-03-15 15:14:44,485 [rule_based_agent_code] INFO: Picking action according to rule set
-2021-03-15 15:14:44,485 [rule_based_agent_code] DEBUG: Valid actions: ['RIGHT']
-2021-03-15 15:14:44,486 [rule_based_agent_code] DEBUG: Suitable target found at (15, 13)
-2021-03-15 15:14:44,486 [rule_based_agent_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-18 00:24:29,328 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:29,430 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:29,532 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:29,632 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:29,735 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:29,837 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:29,938 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,039 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,142 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,242 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,344 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,450 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,548 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,649 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,752 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,853 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:30,955 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,056 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,162 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,259 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,360 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,461 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,564 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,665 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,767 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,868 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:31,971 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,072 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,174 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,275 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,378 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,480 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,580 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,683 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,785 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,886 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:32,986 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,088 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,190 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,289 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,392 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,492 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,594 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,695 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,799 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:33,900 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,002 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,103 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,205 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,307 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,409 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,511 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,611 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,712 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,814 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:34,917 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,016 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,120 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,221 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,324 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,429 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,526 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,627 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,730 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,831 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:35,933 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,033 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,140 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,237 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,339 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,440 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,542 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,643 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,743 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,848 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:36,947 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,047 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,151 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,251 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,354 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,452 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,559 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,657 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,754 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,856 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:37,957 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,058 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,159 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,261 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,363 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,466 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,567 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,669 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,771 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,872 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:38,972 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,074 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,179 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,280 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,381 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,483 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,585 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,688 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,790 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,891 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:39,993 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,095 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,196 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,298 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,400 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,502 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,603 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,704 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,806 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:40,909 [rule_based_agent_code] INFO: Picking action according to rule set
+2021-03-18 00:24:41,009 [rule_based_agent_code] INFO: Picking action according to rule set
