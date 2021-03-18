@@ -29,18 +29,18 @@ TRAIN_FROM_SCRETCH = True
 LOAD = 'last_save'
 SAVE = 'last_save' 
 
-EPSILON = (1.0,0.001)
-LINEAR_CONSTANT_QUOTIENT = 0.9
+EPSILON = (1.0,0)
+LINEAR_CONSTANT_QUOTIENT = 0.85
 
-DISCOUNTING_FACTOR = 0.8
-BUFFERSIZE = 2000 #2400
-BATCH_SIZE = 50 #300
+DISCOUNTING_FACTOR = 0.6
+BUFFERSIZE = 4000 # cleared after 3 games
+BATCH_SIZE = 500 #
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 12000
+TRAINING_EPISODES = 4000
 
 
 
@@ -62,7 +62,7 @@ def setup_training(self):
                                         TRAINING_EPISODES)
 
     self.epsilon_arr = generate_eps_greedy_policy(self.network, LINEAR_CONSTANT_QUOTIENT)
-    self.experience_buffer = deque()
+    self.experience_buffer = []
 
     self.episode_counter = 0
     self.total_episodes = TRAINING_EPISODES
@@ -71,6 +71,8 @@ def setup_training(self):
 
     self.game_score = 0 
     self.game_score_arr = []
+
+    self.old_network = None
 
 
 
@@ -85,8 +87,8 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     :param events: The events that occurred when going from  `old_game_state` to `new_game_state`
     """
     add_experience(self, old_game_state, self_action, new_game_state, events, 5)
-    if len(self.experience_buffer) > 0:
-        update_network(self)
+    # if len(self.experience_buffer) > 0:
+    #     update_network(self)
     
     # self.logger.info('####################')
     # self.logger.info(events)
@@ -117,6 +119,11 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     if self.episode_counter % (TRAINING_EPISODES // 30) == 0: #save parameters 2 times
         save_parameters(self, SAVE)
         save_parameters(self, f"save after {self.episode_counter} iterations")
+
+    # clear experience buffer
+    if self.episode_counter % 3 == 0:
+        self.experience_buffer = []
+
 
     if e.SURVIVED_ROUND in events:
         self.logger.info("Runde Erfolgreich beendet!")

@@ -12,8 +12,11 @@ from random import shuffle
 from .Model import Maverick
 from .ManagerFeatures import *
 
-# PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
-PARAMETERS = 'save after 6000 iterations' #select parameter_set stored in network_parameters/
+import events as e
+
+PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
+# PARAMETERS = 'save after 198 iterations' #select parameter_set stored in network_parameters/
+# PARAMETERS = 'good_first_training' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -43,6 +46,8 @@ def setup(self):
 
     self.bomb_timer = 0
     initialize_rule_based(self)
+
+    self.bomb_buffer = 0
     
 
 def act(self, game_state: dict) -> str:
@@ -71,7 +76,7 @@ def act(self, game_state: dict) -> str:
         eps = self.epsilon_arr[self.episode_counter]
         if random.random() <= eps: # choose random action
             if eps > 0.1:
-                if np.random.randint(10) == 0:    # 10 / 100
+                if np.random.randint(4) != 0:    # old: 10 / 100 now: 3/4
                     action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
                     self.logger.info(f"Waehle Aktion {action} komplett zufaellig")
 
@@ -83,7 +88,6 @@ def act(self, game_state: dict) -> str:
                     action = act_rulebased(self, features)
                     if action == "BOMB" and self.bomb_timer==0:
                         self.bomb_timer = 5
-
                     self.logger.info(f"Waehle Aktion {action} nach dem rule based agent.")
                     return action
             else:
@@ -99,6 +103,7 @@ def act(self, game_state: dict) -> str:
 
     action_prob	= np.array(torch.softmax(Q/T,dim=1).detach().squeeze())
     best_action = ACTIONS[np.argmax(action_prob)]
+    # best_action = act_rulebased(self, features)
     self.logger.info(f"Waehle Aktion {best_action} nach dem Hardmax der Q-Funktion")
     if best_action == "BOMB" and self.bomb_timer==0:
         self.bomb_timer = 5
@@ -125,13 +130,13 @@ def initialize_rule_based(self):
     self.action_array[3][3] = 100
 
     # crates
-    self.action_array[0][4] = 23
-    self.action_array[1][5] = 23
-    self.action_array[2][6] = 23
-    self.action_array[3][7] = 23
+    self.action_array[0][4] = 33
+    self.action_array[1][5] = 33
+    self.action_array[2][6] = 33
+    self.action_array[3][7] = 33
 
     # bomb here
-    self.action_array[5][8] = 30
+    self.action_array[5][8] = 36
 
     # explosion here
     self.action_array[0][9] = 10
