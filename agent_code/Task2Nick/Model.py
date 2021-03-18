@@ -25,9 +25,9 @@ class Maverick(nn.Module):
 
     def forward(self, x):
 
-        x = F.relu(self.dense1(x))
-        x = F.relu(self.dense2(x))
-        x = F.relu(self.dense3(x))
+        x = F.sigmoid(self.dense1(x))
+        x = F.sigmoid(self.dense2(x))
+        x = F.sigmoid(self.dense3(x))
         out = self.out(x)
 
         return out
