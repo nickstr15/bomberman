@@ -11,7 +11,7 @@ from .Model import Maverick
 from .ManagerFeatures import *
 from .ManagerTraining import rule_based_act
 
-PARAMETERS = 'CoinsAndCrates50' #select parameter_set stored in network_parameters/
+PARAMETERS = 'CoinsOnly' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -61,7 +61,7 @@ def act(self, game_state: dict) -> str:
     features = state_to_features(game_state)
     Q = self.network(features)
     action_prob = np.array(torch.softmax(Q,dim=1).detach().squeeze())
-    prob_good_action = action = np.random.choice(ACTIONS, p=action_prob)
+    prob_good_action = np.random.choice(ACTIONS, p=action_prob)
     best_action = ACTIONS[np.argmax(action_prob)]
 
     #___SOFT DECISION___#
