@@ -76,7 +76,7 @@ def act(self, game_state: dict) -> str:
         eps = self.epsilon_arr[self.episode_counter]
         if random.random() <= eps: # choose random action
             if eps > 0.1:
-                if np.random.randint(4) != 0:    # old: 10 / 100 now: 3/4
+                if np.random.randint(10) == 0:    # old: 10 / 100 now: 3/4
                     action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
                     self.logger.info(f"Waehle Aktion {action} komplett zufaellig")
 
