@@ -103,7 +103,7 @@ def act(self, game_state: dict) -> str:
 
     action_prob	= np.array(torch.softmax(Q/T,dim=1).detach().squeeze())
     best_action = ACTIONS[np.argmax(action_prob)]
-    # best_action = act_rulebased(self, features)
+    best_action = act_rulebased(self, features)
     self.logger.info(f"Waehle Aktion {best_action} nach dem Hardmax der Q-Funktion")
     if best_action == "BOMB" and self.bomb_timer==0:
         self.bomb_timer = 5
@@ -116,9 +116,9 @@ def act_rulebased(self, features):
     
     Q = np.dot(self.action_array, self.features)
     action = ACTIONS[np.argmax(Q)]
-    # print()
-    # print(np.array([ACTIONS, Q]).T)
-    # print(f"--> {action}")
+    print()
+    print(np.array([ACTIONS, Q]).T)
+    print(f"--> {action}")
     return action
 
 def initialize_rule_based(self):
@@ -157,3 +157,9 @@ def initialize_rule_based(self):
     self.action_array[1][15] = 400
     self.action_array[2][16] = 400
     self.action_array[3][17] = 400
+
+    # walk to opponent
+    self.action_array[0][18] = 75
+    self.action_array[1][19] = 75
+    self.action_array[2][20] = 75
+    self.action_array[3][21] = 75
