@@ -29,20 +29,21 @@ import copy
 #Hyperparameter for Training
 TRAIN_FROM_SCRETCH = True
 LOAD = 'last_save'
+# LOAD = 'end_coin_training_1'
 SAVE = 'last_save' 
 
-EPSILON = (1.0,0)
-LINEAR_CONSTANT_QUOTIENT = 0.85
+EPSILON = (1.0,0.05)
+LINEAR_CONSTANT_QUOTIENT = 0.95
 
 DISCOUNTING_FACTOR = 0.6
-BUFFERSIZE = 2000 # cleared after 3 games
-BATCH_SIZE = 50 #
+BUFFERSIZE = 2000 #
+BATCH_SIZE = 120 #
 
 LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 200
+TRAINING_EPISODES = 10000
 
 
 
@@ -105,7 +106,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     """
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
 
-    add_experience(self, last_game_state, last_action, None, events)
+    add_experience(self, last_game_state, last_action, None, events, 5)
     if len(self.experience_buffer) > 0:
         train_network(self)
 

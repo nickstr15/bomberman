@@ -80,7 +80,7 @@ def train_network(self):
 
     #randomly choose batch out of the experience buffer
     number_of_elements_in_buffer = len(experience_buffer)
-    batch_size = min(number_of_elements_in_buffer, network.batch_size)
+    batch_size = min(number_of_elements_in_buffer, old_network.batch_size)
 
     random_i = [random.randrange(number_of_elements_in_buffer) for _ in range(batch_size)]
 
@@ -114,15 +114,15 @@ def train_network(self):
     actions = torch.cat([b[1].unsqueeze(0) for b in sub_batch])
     Q = torch.sum(q_values*actions, dim=1)
     
-    # Residuals = torch.abs(Y-Q)
-    # batch_size = min(len(Residuals), 230)
-    # _, indices = torch.topk(Residuals, batch_size)
+    Residuals = torch.abs(Y-Q)
+    batch_size = min(len(Residuals), 50)
+    _, indices = torch.topk(Residuals, batch_size)
 
-    # Y_reduced = Y[indices]
-    # Q_reduced = Q[indices]
+    Y_reduced = Y[indices]
+    Q_reduced = Q[indices]
 
-    loss = new_network.loss_function(Q, Y)
-    # loss = network.loss_function(Q_reduced, Y_reduced)
+    # loss = new_network.loss_function(Q, Y)
+    loss = new_network.loss_function(Q_reduced, Y_reduced)
     new_network.optimizer.zero_grad()
     loss.backward()
     new_network.optimizer.step()
@@ -168,8 +168,8 @@ def track_game_score(self, smooth=False):
     ax.set_xlabel('episode', fontsize=25, fontweight='bold')
     ax.set_ylabel('points', fontsize=25, fontweight='bold')
     ax.grid(axis='y', alpha=0.2, color='gray', zorder=-1)
-    # ax.set_yticks(range(255)[::10])
-    ax.set_yticks(range(255))
+    ax.set_yticks(range(255)[::10])
+    # ax.set_yticks(range(255))
     ax.tick_params(labelsize=16)
 
     ax.plot(x,y,color='gray',linewidth=0.5, alpha=0.7, zorder=0)

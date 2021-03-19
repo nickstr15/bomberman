@@ -42,7 +42,7 @@ def rewards_from_own_events(self, old_game_state, action, new_game_state, events
 
     # check if agent moved closer to next coin
     # reward_sum += moved_closer_to_next_coin(old_game_state, action, events)
-    reward_sum += loop_killer(self, new_game_state)
+    # reward_sum += loop_killer(self, new_game_state)
     reward_sum += crate_rewards(self, events)
 
     self.logger.info(f"Awarded {reward_sum} for own transition events")
