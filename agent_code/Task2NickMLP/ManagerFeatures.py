@@ -65,19 +65,19 @@ def state_to_features(game_state: dict) -> torch.tensor:
             valid_tiles.append(d)
     if (x - 1, y) in valid_tiles: 
         valid_actions[0] = 1 #LEFT
-        nValid += 1
+        nValid+=1 
     if (x + 1, y) in valid_tiles: 
         valid_actions[1] = 1 #RIGHT
-        nValid += 1
+        nValid+=1 
     if (x, y - 1) in valid_tiles: 
         valid_actions[2] = 1 #UP
-        nValid += 1
+        nValid+=1 
     if (x, y + 1) in valid_tiles: 
         valid_actions[3] = 1 #DOWN
-        nValid += 1
+        nValid+=1 
     if (x, y) in valid_tiles:     
         valid_actions[4] = 1 #WAIT
-        nValid += 1
+        nValid+=1 
     free_space = field == 0
 
     # 1) coins
@@ -128,7 +128,7 @@ def state_to_features(game_state: dict) -> torch.tensor:
             else:
                 randomFlag = True
     elif (checkSingleCrates and len(crates) == 0) or randomFlag:
-        if nValid > 0: destroy_crates_move = valid_actions / nValid
+        if nValid > 0: coin_move = valid_actions / nValid
         
             
 
@@ -136,11 +136,12 @@ def state_to_features(game_state: dict) -> torch.tensor:
     others_move = torch.zeros(6)
     tile,distance,path_is_free = look_for_targets(free_space, (x,y), others)
     if tile is None:
-        if nValid > 0: others_move = valid_actions / nValid
+        if nValid > 0: coin_move = valid_actions / nValid
     else:
         if distance <= 1:
             if canBomb: others_move[5] = 1 #BOMB
-            else: others_move = valid_actions / nValid
+            else: 
+                if nValid > 0: coin_move = valid_actions / nValid
         else:
             if not path_is_free:
                 distance *= 2
@@ -152,16 +153,6 @@ def state_to_features(game_state: dict) -> torch.tensor:
     
     features = torch.cat((coin_move, destroy_crates_move, others_move)) #3*6 features
     return features.unsqueeze(0)
-
-
-
-
-
-
-
-
-
-
 
 
 def look_for_targets(free_space, start, targets, logger=None):
