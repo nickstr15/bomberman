@@ -11,7 +11,7 @@ from .Model import Maverick
 from .ManagerFeatures import *
 from .ManagerTraining import rule_based_act
 
-PARAMETERS = 'CoinsOnly' #select parameter_set stored in network_parameters/
+PARAMETERS = 'Train75_2000' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -53,8 +53,8 @@ def act(self, game_state: dict) -> str:
     if self.train: # Exploration vs exploitation
         eps = self.epsilon_arr[self.episode_counter]
         if random.random() <= eps:
-            if random.random() <= 0.3:
-                return rule_based_act(self, game_state)
+            # if random.random() <= 0.3:
+            #     return rule_based_act(self, game_state)
             return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1]) #EXPLORATION
 
     features = state_to_features(game_state)

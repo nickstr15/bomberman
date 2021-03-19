@@ -3,6 +3,7 @@ from random import shuffle
 import numpy as np
 import torch 
 from collections import deque
+import copy
 
 import matplotlib as mpl
 mpl.use('Agg')
@@ -47,19 +48,21 @@ def add_experience(self, old_game_state, self_action, new_game_state, events):
         if number_of_elements_in_buffer > self.network.buffer_size:
             self.experience_buffer.popleft()
 
-def update_network(self):
+def train_network(self):
     '''
     network: the network that gets updated
     experience_buffer: the collected experiences, list of game_episodes
     '''
 
+    new_network = self.new_network  # apply updates to
+    old_network = self.network      # used in training, used to calculate Y
     experience_buffer = self.experience_buffer
 
     #randomly choose batch out of the experience buffer
     number_of_elements_in_buffer = len(experience_buffer)
-    batch_size = min(number_of_elements_in_buffer, self.network.batch_size)
+    batch_size = min(number_of_elements_in_buffer, old_network.batch_size)
 
-    random_i = [ random.randrange(number_of_elements_in_buffer) for _ in range(batch_size)]
+    random_i = [random.randrange(number_of_elements_in_buffer) for _ in range(batch_size)]
 
     #compute for each experience in the batch 
     # - the Ys using n-step TD Q-learning
@@ -86,15 +89,26 @@ def update_network(self):
 
     #Qs
     states = torch.cat(tuple(b[0] for b in sub_batch))  #put all states of the sub_batch in one batch
-    q_values = self.network(states)
+    q_values = new_network(states)
     actions = torch.cat([b[1].unsqueeze(0) for b in sub_batch])
     Q = torch.sum(q_values*actions, dim=1)
     
-    loss = self.network.loss_function(Q, Y)
-    self.network.optimizer.zero_grad()
-    loss.backward()
-    self.network.optimizer.step()
+    # Residuals = torch.abs(Y-Q)
+    # batch_size = min(len(Residuals), 50)
+    # _, indices = torch.topk(Residuals, batch_size)
 
+    # Y_reduced = Y[indices]
+    # Q_reduced = Q[indices]
+
+    # loss = new_network.loss_function(Q, Y)
+    loss = new_network.loss_function(Q, Y)
+    new_network.optimizer.zero_grad()
+    loss.backward()
+    new_network.optimizer.step()
+
+
+def update_network(self):
+    self.network = copy.deepcopy(self.new_network)
 
 def save_parameters(self, string):
     torch.save(self.network.state_dict(), f"network_parameters/{string}.pt")

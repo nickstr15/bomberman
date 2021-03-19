@@ -27,10 +27,10 @@ from .ManagerFeatures import state_to_features
 #Hyperparameter for Training
 TRAIN_FROM_SCRETCH = True
 LOAD = 'Test2' #not needed if TRAIN_FROM_SCRETCH = True
-SAVE = 'Train00' 
+SAVE = 'Train75' 
 
-EPSILON = (1,0.001)
-LINEAR_CONSTANT_QUOTIENT = 0.8
+EPSILON = (1,0.05)
+LINEAR_CONSTANT_QUOTIENT = 0.95
 
 DISCOUNTING_FACTOR = 0.6
 BUFFERSIZE = 2000 
@@ -40,7 +40,7 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 1000
+TRAINING_EPISODES = 2000
 
 
 
@@ -78,6 +78,8 @@ def setup_training(self):
 
     self.dead_ends = set()
 
+    self.new_network = copy.deepcopy(self.network)
+
 
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
@@ -92,7 +94,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     """
     add_experience(self, old_game_state, self_action, new_game_state, events)
     if len(self.experience_buffer) > 0:
-        update_network(self)
+        train_network(self)
     
     self.logger.info('####################')
     self.logger.info(events)
@@ -118,7 +120,9 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 
     add_experience(self, last_game_state, last_action, None, events)
     if len(self.experience_buffer) > 0:
-        update_network(self)
+        train_network(self)
+
+    update_network(self)
 
     self.episode_counter += 1
     if self.episode_counter % (TRAINING_EPISODES // 10) == 0: #save parameters 2 times
