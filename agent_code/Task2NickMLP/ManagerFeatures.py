@@ -94,40 +94,41 @@ def state_to_features(game_state: dict) -> torch.tensor:
         if nValid > 0: coin_move = valid_actions / nValid
 
     # 2) destroy crates
-    checkSingleCrates = False
-    randomFlag = False
+    # first check for dead ends
+    checkSingleCrates=False
+    noGoodPositionFound = False
     destroy_crates_move = torch.zeros(6)
     if len(dead_ends) > 0:
         if (x, y) in dead_ends and (x,y) in valid_tiles: 
                 if canBomb: destroy_crates_move[5] = 1 #BOMB
                 else:       destroy_crates_move[4] = 1 #WAIT
         else:
-            tile0,distance0,path_is_free0 = look_for_targets(free_space, (x,y), dead_ends)
-            if path_is_free0:
-                if tile0 in valid_tiles:
-                    if tile0 == (x, y - 1): destroy_crates_move[2] = 1 / distance0  #UP
-                    if tile0 == (x, y + 1): destroy_crates_move[3] = 1 / distance0  #DOWN
-                    if tile0 == (x - 1, y): destroy_crates_move[0] = 1 / distance0  #LEFT
-                    if tile0 == (x + 1, y): destroy_crates_move[1] = 1 / distance0  #RIGHT
+            tile,distance,path_is_free = look_for_targets(free_space, (x,y), dead_ends)
+            if path_is_free and (tile in valid_tiles):
+                if tile == (x, y - 1): destroy_crates_move[2] = 1 / distance  #UP
+                if tile == (x, y + 1): destroy_crates_move[3] = 1 / distance  #DOWN
+                if tile == (x - 1, y): destroy_crates_move[0] = 1 / distance  #LEFT
+                if tile == (x + 1, y): destroy_crates_move[1] = 1 / distance  #RIGHT
             else:
                 checkSingleCrates = True
     else: 
         checkSingleCrates = True
 
     if checkSingleCrates and len(crates) > 0:
-        tile1,distance1,path_is_free1 = look_for_targets(free_space, (x,y), crates)
-        if distance1 <= 1 and (x,y) in valid_tiles:
+        tile,distance,path_is_free = look_for_targets(free_space, (x,y), crates)
+        if distance <= 1 and (x,y) in valid_tiles:
             if canBomb: destroy_crates_move[5] = 1 #BOMB if path to dead end is not free and standing next to crate
             else:       destroy_crates_move[4] = 1 #WAIT
         else: 
-            if tile1 in valid_tiles and path_is_free1: #else: move to next crate if possible
-                if tile1 == (x, y - 1): destroy_crates_move[2] = 1 / distance1  #UP
-                if tile1 == (x, y + 1): destroy_crates_move[3] = 1 / distance1  #DOWN
-                if tile1 == (x - 1, y): destroy_crates_move[0] = 1 / distance1  #LEFT
-                if tile1 == (x + 1, y): destroy_crates_move[1] = 1 / distance1  #RIGHT
+            if (tile in valid_tiles) and path_is_free: #else: move to next crate if possible
+                if tile == (x, y - 1): destroy_crates_move[2] = 1 / distance  #UP
+                if tile == (x, y + 1): destroy_crates_move[3] = 1 / distance  #DOWN
+                if tile == (x - 1, y): destroy_crates_move[0] = 1 / distance  #LEFT
+                if tile == (x + 1, y): destroy_crates_move[1] = 1 / distance  #RIGHT
             else:
-                randomFlag = True
-    elif (checkSingleCrates and len(crates) == 0) or randomFlag:
+                noGoodPositionFound = True
+        
+    if noGoodPositionFound:
         if nValid > 0: coin_move = valid_actions / nValid
         
             

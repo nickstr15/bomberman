@@ -16,18 +16,18 @@ from .ManagerTraining import *
 from .ManagerFeatures import state_to_features
 
 #TRAINING PLAN
-# i |Episoded | eps        | grates | opp | Name  | done?
+# i |Episoded | eps        | grates | opp | Name    | done?
 # -------------------------------------------------------
-# 1 | 200     | 1.0-0.001  | 0.00   | 0   | Test1 |
-# 2 | 200     | 0.9-0.001  | 0.20   | 0   | Test2 |
-# 3 | 200     | 0.7-0.0001 | 0.40   | 0   | Test3 |
-# 4 | 200     | 0.6-0.0001 | 0.60   | 0   | Test4 |
-# 5 | 200     | 0.6-0.0001 | 0.75   | 0   | Test5 |
+# 1 | 200     | 1.0-0.001  | 0.00   | 0   | Train00 |
+# 2 | 200     | 0.9-0.001  | 0.20   | 0   | Test2   |
+# 3 | 200     | 0.7-0.0001 | 0.40   | 0   | Test3   |
+# 4 | 200     | 0.6-0.0001 | 0.60   | 0   | Test4   |
+# 5 | 200     | 0.6-0.0001 | 0.75   | 0   | Test5   |
 
 #Hyperparameter for Training
 TRAIN_FROM_SCRETCH = True
 LOAD = 'Test2' #not needed if TRAIN_FROM_SCRETCH = True
-SAVE = 'CoinsOnly2' 
+SAVE = 'Train00' 
 
 EPSILON = (1,0.001)
 LINEAR_CONSTANT_QUOTIENT = 0.8
@@ -40,7 +40,7 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 200
+TRAINING_EPISODES = 1000
 
 
 
