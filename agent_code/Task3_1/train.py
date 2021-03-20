@@ -28,12 +28,12 @@ import copy
 
 #Hyperparameter for Training
 TRAIN_FROM_SCRETCH = False
-LOAD = 'last_save'
+LOAD = 'start_long_training'
 # LOAD = 'end_coin_training_1'
 SAVE = 'last_save' 
 
 EPSILON = (0.3,0.05)
-LINEAR_CONSTANT_QUOTIENT = 0.95
+LINEAR_CONSTANT_QUOTIENT = 0.85
 
 DISCOUNTING_FACTOR = 0.6
 BUFFERSIZE = 2000 #
@@ -43,7 +43,7 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 10000
+TRAINING_EPISODES = 12000
 
 
 

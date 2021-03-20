@@ -75,8 +75,8 @@ def act(self, game_state: dict) -> str:
     if self.train: # Exploration vs exploitation
         eps = self.epsilon_arr[self.episode_counter]
         if random.random() <= eps: # choose random action
-            if eps > 0.1:
-                if np.random.randint(10) != -1:    # old: 10 / 100 now: 3/4
+            if eps > 0.6:
+                if np.random.randint(2) == 0:    # old: 10 / 100 now: 3/4
                     action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
                     self.logger.info(f"Waehle Aktion {action} komplett zufaellig")
 
@@ -103,7 +103,7 @@ def act(self, game_state: dict) -> str:
 
     action_prob	= np.array(torch.softmax(Q/T,dim=1).detach().squeeze())
     best_action = ACTIONS[np.argmax(action_prob)]
-    best_action = act_rulebased(self, features)
+    # best_action = act_rulebased(self, features)
     self.logger.info(f"Waehle Aktion {best_action} nach dem Hardmax der Q-Funktion")
     if best_action == "BOMB" and self.bomb_timer==0:
         self.bomb_timer = 5
@@ -116,13 +116,13 @@ def act_rulebased(self, features):
     
     Q = np.dot(self.action_array, self.features)
     action = ACTIONS[np.argmax(Q)]
-    print()
-    print(np.array([ACTIONS, Q]).T)
-    print(f"--> {action}")
+    # print()
+    # print(np.array([ACTIONS, Q]).T)
+    # print(f"--> {action}")
     return action
 
 def initialize_rule_based(self):
-    self.action_array = np.zeros((6,19))
+    self.action_array = np.zeros((6,23))
     # coins
     self.action_array[0][0] = 100
     self.action_array[1][1] = 100
@@ -151,6 +151,14 @@ def initialize_rule_based(self):
     self.action_array[1][11] = 300
     self.action_array[2][12] = 300
     self.action_array[3][13] = 300
+    self.action_array[4][10] = 300
+    self.action_array[4][11] = 300
+    self.action_array[4][12] = 300
+    self.action_array[4][13] = 300
+    self.action_array[5][10] = 300
+    self.action_array[5][11] = 300
+    self.action_array[5][12] = 300
+    self.action_array[5][13] = 300
 
     # not run in explosion
     self.action_array[0][14] = 400

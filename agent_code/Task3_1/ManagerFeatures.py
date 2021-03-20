@@ -36,6 +36,7 @@ def state_to_features(self, game_state: dict) -> np.array:
     if game_state is None:
         return None
 
+
     # calculate the valid movements
     def possible_neighbors(pos):
         result = []
@@ -69,7 +70,7 @@ def state_to_features(self, game_state: dict) -> np.array:
             field[pos[0], pos[1]] = -2 # put the bombs in the field array as n obstackles
 
             for direction in STEP:
-                for length in range(1, 4):
+                for length in range(0, 4):
                     beam = direction*length + pos
                     obj = field[beam[0], beam[1]]
                     if obj == -1:
@@ -80,20 +81,63 @@ def state_to_features(self, game_state: dict) -> np.array:
         return future_explosion_map
 
 
-    def certain_death(pos, future_explosion_map):
+    def create_new_future_explosion_map(future_explosion_map, pos):
+        new_future_explosion_map = np.copy(future_explosion_map)
+        # nex turn -> each counter - 1
+        new_future_explosion_map[new_future_explosion_map < 1] -= 1
+        new_future_explosion_map[new_future_explosion_map < -3] = 1
+        timer = 0
+
+        for direction in STEP:
+            for length in range(0, 4):
+                beam = direction*length + pos
+                obj = field[beam[0], beam[1]]
+                if obj == -1:
+                    break
+                if new_future_explosion_map[beam[0], beam[1]] > timer:
+                    new_future_explosion_map[beam[0], beam[1]] = timer
+
+        return new_future_explosion_map
+
+
+    def certain_death(pos, future_explosion_map, turns=0, forbidden_fields = None):
         q = deque()
+
+        # TODO we do not consider the possibility of waiting!
+        # This is not a very large problem since this situation is 1) rare and 2) dangerous
+        # But still a fix would be nice!
+
         visited = []
-        q.append(pos.tolist())
+
+        if forbidden_fields is not None:
+            for forbidden_pos in forbidden_fields:
+                visited.append(forbidden_pos)
+
+        q.append((pos.tolist(), turns))
         while len(q):
-            pos = q.popleft()
+            pos, turns = q.popleft()
+
+            # The bomb did explode
+            if turns > 4:
+                break
+
             if pos in visited:
                 continue
 
+            # field = -3 exploding the coming turn, += 1 for each additional turn
+
+            # YOU DIED
+            if turns-1 - future_explosion_map[pos[0], pos[1]] == 3:
+                continue
+            
+            # We found a way out
             if future_explosion_map[pos[0], pos[1]] == 1:
                 return False
+
             visited.append(pos)
             for neighbor in possible_neighbors(pos):
-                q.append(neighbor)
+                q.append((neighbor, turns+1))
+                
         return True
 
 
@@ -116,6 +160,17 @@ def state_to_features(self, game_state: dict) -> np.array:
     number_of_crates = len(crates)
     future_explosion_map = fill_explosion_map(explosions, bombs, field)
 
+    # save the posisition of the other agents
+    others = []
+    for agent in game_state["others"]:
+        pos = agent[3]
+        others.append(pos)
+
+        field[pos[0], pos[1]] == 2 # append the opponents as new obstacle to the field
+
+    others = np.array(others)
+    others_list = others.tolist()
+
     # assert (field[x,y] == game_state["field"][x][y])
     # print(field)
 
@@ -131,10 +186,12 @@ def state_to_features(self, game_state: dict) -> np.array:
     inv_coins = [[] for _ in range(4)]
     inv_crate_distances = [[] for _ in range(4)]
     crate_points = [[] for _ in range(4)]
+    inv_opponents = [[] for _ in range(4)]
 
     # create the distance arrays
     coin_distances_after_step = np.empty((4, max_len_coins))
     crate_distances_after_step = np.empty((4, MAX_CRATES))
+    opponent_distances_after_step = np.empty((4, 4))  # MAX_OPPONENTS = 4
 
     # create the bomb effectiveness array
     expected_destructions_after_step = np.zeros((4, MAX_CRATES))
@@ -142,6 +199,7 @@ def state_to_features(self, game_state: dict) -> np.array:
     # Initialize the distance arrays, if no way can be found we consider the distance to be infinite
     coin_distances_after_step.fill(np.inf)
     crate_distances_after_step.fill(np.inf)
+    opponent_distances_after_step.fill(np.inf)
 
 
     visited = [player_pos.tolist()]
@@ -157,6 +215,7 @@ def state_to_features(self, game_state: dict) -> np.array:
     number_of_found_crate_positions = np.zeros(4)
     number_of_found_dead_ends = np.zeros(4)
     number_of_found_coins = np.zeros(4)
+    number_of_found_opponents = np.zeros(4)
 
     # condition to quit the search early
     found_one = False
@@ -186,8 +245,11 @@ def state_to_features(self, game_state: dict) -> np.array:
                 placebo1.fill(-2)
                 placebo2 = np.zeros(max_len_coins)
                 placebo2.fill(-2)
+                placebo3 = np.zeros(4)
+                placebo3.fill(-2)
                 inv_crate_distances[direction] = np.copy(placebo1)
                 inv_coins[direction] = np.copy(placebo2)
+                inv_opponents[direction] = np.copy(placebo3)
 
                 skipped[direction] = True
                 continue
@@ -199,8 +261,11 @@ def state_to_features(self, game_state: dict) -> np.array:
                 placebo1.fill(-1)
                 placebo2 = np.zeros(max_len_coins)
                 placebo2.fill(-1)
+                placebo3 = np.zeros(4)
+                placebo3.fill(-1)
                 inv_crate_distances[direction] = np.copy(placebo1)
                 inv_coins[direction] = np.copy(placebo2)
+                inv_opponents[direction] = np.copy(placebo3)
 
                 skipped[direction] = True
                 continue
@@ -211,9 +276,21 @@ def state_to_features(self, game_state: dict) -> np.array:
         if is_coin:
             coin_distances_after_step[direction][int(number_of_found_coins[direction])] = distance
             number_of_found_coins[direction] += 1
-            # print(pos, MOVE[direction], distance)
         if is_coin and not found_one:
             found_one = True
+
+
+        # opponents
+        if (number_of_found_opponents[direction] < 4):
+            for possible_opponent in (pos + STEP):
+                if (possible_opponent.tolist() in others_list):
+                    # one of the neighboring fields is a free crate
+                    index_opponents = int(number_of_found_opponents[direction])
+                    opponent_distances_after_step[direction][index_opponents] = distance
+
+                    number_of_found_opponents[direction] += 1
+                    # Here found one should not be set to True!
+                    break
 
 
         neighbors = possible_neighbors(pos)
@@ -223,8 +300,8 @@ def state_to_features(self, game_state: dict) -> np.array:
         for node in neighbors:
             ways_out += 1
             if (distance+1)<=3 and (future_explosion_map[node[0], node[1]] != 1):
-                # estimate that we will loose a half turns, for each bomb field we cross beacuse of unsafty reasons
-                heapq.heappush(q, (distance+0.5, node, direction))
+                # estimate that we will loose ~ a turn, for each bomb field we cross beacuse of unsafty reasons (e.g. we have to wait)
+                heapq.heappush(q, (distance+1, node, direction))
             heapq.heappush(q, (distance+1, node, direction))
 
         # crates
@@ -259,13 +336,16 @@ def state_to_features(self, game_state: dict) -> np.array:
     for direction in range(4):
         if skipped[direction]:
             continue
-        # append the sum of the inverse distances to the coins for this direction as a feature
+        # append the inverse distances to the coins for this direction as a feature later
         inv_coins[direction] = 1/np.array(coin_distances_after_step[direction])
 
-        # append the inverse crate distances -> here no sum to keep the relation to the bomb_points
+        # append the inverse distances to the opponents for this direction as a feature later
+        inv_opponents[direction] = 1/np.array(opponent_distances_after_step[direction])
+
+        # append the inverse crate distances -> here no sum to keep the relation to the bomb_points later
         inv_crate_distances[direction] = 1/np.array(crate_distances_after_step[direction])
 
-        # append the destroyed crates as a feature
+        # append the destroyed crates as a feature later
         crate_points[direction] = np.array(expected_destructions_after_step[direction])
 
     inv_crate_distances = np.array(inv_crate_distances)
@@ -274,11 +354,12 @@ def state_to_features(self, game_state: dict) -> np.array:
 
     inv_coins = np.array(inv_coins)
 
+    inv_opponents = np.array(inv_opponents)
+
     # END OF THE SEARCH ALGORITHM -> Collect the features in one feature array
 
     features = []
-
-    # encode the movement to the coins in one hot manner to crate features that can be used in a linear model
+    # append the coins feature
     features = np.append(features, np.max(inv_coins, axis=1))
 
     # append the crates features
@@ -286,95 +367,52 @@ def state_to_features(self, game_state: dict) -> np.array:
 
     # is it senceful to drop a bomb here?
     neighboring_chest = False
+    neighboring_opponent = False
     if future_explosion_map[player_pos[0], player_pos[1]] == 1:
         for pos in player_pos + STEP:
             if (field[pos[0], pos[1]] == 1) and (future_explosion_map[pos[0], pos[1]] == 1): # free crate
                 neighboring_chest = True
-    if neighboring_chest:
+            if pos.tolist() in others_list: # oppontent
+                neighboring_opponent = True
+
+    if neighboring_opponent:
+        bomb_here = 5 + bomb_effect(player_pos)
+    elif neighboring_chest:
         bomb_here = bomb_effect(player_pos)
-    else:
+
+    if not neighboring_chest and not neighboring_opponent:
+        bomb_here = -1
+        
+    if not game_state["self"][2]:
         bomb_here = -1
 
-    if not game_state["self"][2]:
+    new_future_explosion_map = create_new_future_explosion_map(future_explosion_map, player_pos)
+
+    if certain_death(player_pos, new_future_explosion_map):
+        # print("Sicherer Tod")
         bomb_here = -1
     
     features = np.append(features, bomb_here)
-
     
     # append the negative explosion timer +1 of the current field as a feature, => 0 if no bomb is ticking
     # need to run from this field
     features = np.append(features,-(future_explosion_map[player_pos[0], player_pos[1]]-1))
 
     # append a running away feature:
-    running = np.empty(4)
-    running.fill(0)
+    running = np.zeros(4)
     if future_explosion_map[player_pos[0], player_pos[1]] == 1:
         features = np.append(features, running)
+
     else:
-        running.fill(-3)
-        bomb_locations = []
-        for bomb in bombs:
-            bomb_locations.append(bomb[0])
-        bomb_locations = np.array(bomb_locations)
-        # TODO rework if more than one bomb
-        pos = bomb_locations[0]
-        if pos[0] < player_pos[0]:   # -> pos[1] == player_pos[1]
-
-            if field[player_pos[0]+1, player_pos[1]] == 0:
-                running[0] = 1        # -> run away in a straight line
-                # check if we run in a dead end
-                if future_explosion_map[player_pos[0]+2, player_pos[1]] != 1 and certain_death(player_pos + np.array([2,0]), future_explosion_map):
-                    running[0] = -5
-
-            if field[player_pos[0], player_pos[1]+1] == 0:
-                running[2] = 7        # -> run around a corner -> Safe
-            if field[player_pos[0], player_pos[1]-1] == 0:
-                running[3] = 7        # -> run around a corner -> Safe
-                
-
-        if pos[0] > player_pos[0]:   # -> pos[1] == player_pos[1]
-            
-            if field[player_pos[0]-1, player_pos[1]] == 0:
-                running[1] = 1        # -> run away in a straight line
-                # check if we run in a dead end
-                if future_explosion_map[player_pos[0]-2, player_pos[1]] != 1 and certain_death(player_pos + np.array([-2,0]), future_explosion_map):
-                    running[1] = -5
-
-            if field[player_pos[0], player_pos[1]+1] == 0:
-                running[2] = 7        # -> run around a corner -> Safe
-            if field[player_pos[0], player_pos[1]-1] == 0:
-                running[3] = 7        # -> run around a corner -> Safe
-
-
-        if pos[1] < player_pos[1]:   # -> pos[0] == player_pos[0]
-
-            if field[player_pos[0], player_pos[1]+1] == 0:
-                running[2] = 1        # -> run away in a straight line
-                # check if we run in a dead end
-                if future_explosion_map[player_pos[0], player_pos[1]+2] != 1 and certain_death(player_pos + np.array([0,2]), future_explosion_map):
-                    running[2] = -5
-
-            if field[player_pos[0]+1, player_pos[1]] == 0:
-                running[0] = 7        # -> run around a corner -> Safe
-            if field[player_pos[0]-1, player_pos[1]] == 0:
-                running[1] = 7        # -> run around a corner -> Safe
-
-
-        if pos[1] > player_pos[1]:   # -> pos[0] == player_pos[0]
-
-            if field[player_pos[0], player_pos[1]-1] == 0:
-                running[3] = 1        # -> run away in a straight line
-                # check if we run in a dead end
-                if future_explosion_map[player_pos[0], player_pos[1]-2] != 1 and certain_death(player_pos + np.array([0,-2]), future_explosion_map):
-                    running[3] = -5
-
-            if field[player_pos[0]+1, player_pos[1]] == 0:
-                running[0] = 7        # -> run around a corner -> Safe
-            if field[player_pos[0]-1, player_pos[1]] == 0:
-                running[1] = 7        # -> run around a corner -> Safe
-
-        if (pos[0] == player_pos[0]) and (pos[1] == player_pos[1]):
-            running.fill(3)
+        direction = -1
+        for pos in player_pos+STEP:
+            direction += 1
+            if certain_death(pos, future_explosion_map, turns=1, forbidden_fields=[player_pos.tolist()]):
+                running[direction] = -1
+            elif direction == np.argmax(np.max(inv_opponents, axis = 1)) and ((1/np.max(inv_opponents, axis = 1)) < 5).any():
+                running[direction] = -0.5
+            if field[pos[0], pos[1]] != 0:
+                running[direction] = -1
 
         features = np.append(features, running)
 
@@ -389,7 +427,8 @@ def state_to_features(self, game_state: dict) -> np.array:
     features = np.append(features, danger)
 
 
-    # TODO: append opponent distance here
+    # append the opponents feature
+    features = np.append(features, np.max(inv_opponents, axis=1))
 
 
     # append the remaining positive total reward
@@ -397,7 +436,6 @@ def state_to_features(self, game_state: dict) -> np.array:
     self.features = features
     self.destroyed_crates = self.bomb_buffer
     self.bomb_buffer = bomb_effect(player_pos)
-
 
 
     # crate a torch tensor that can be returned from the features
