@@ -138,10 +138,10 @@ def save_parameters(self, string):
     torch.save(self.network.state_dict(), f"network_parameters/{string}.pt")
 
 
+# track the true score
 def get_score(events):
     true_game_rewards = {
         e.COIN_COLLECTED: 1,
-        # e.CRATE_DESTROYED: 1,
         e.KILLED_OPPONENT: 5,
     }
     score = 0
@@ -150,6 +150,7 @@ def get_score(events):
             score += true_game_rewards[event]
     return score
 
+# Plot our gamescore -> helpful to see if our training is working without much time effort
 def track_game_score(self, smooth=False):
     self.game_score_arr.append(self.game_score)
     self.game_score = 0

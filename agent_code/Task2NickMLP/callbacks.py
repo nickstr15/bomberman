@@ -11,7 +11,7 @@ from .Model import Maverick
 from .ManagerFeatures import *
 from .ManagerTraining import rule_based_act
 
-PARAMETERS = 'Train75_2000' #select parameter_set stored in network_parameters/
+PARAMETERS = 'Train75_Long' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 

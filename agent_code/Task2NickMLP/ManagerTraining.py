@@ -129,7 +129,7 @@ def get_score_crates(old_game_state, new_game_state):
     try:
         crates0 = np.count_nonzero(old_game_state['field'] == 1)
         crates1 = np.count_nonzero(new_game_state['field'] == 1)
-        return crates0 - crates1
+        return (crates0 - crates1)*0.07
     except:
         return 0
 
