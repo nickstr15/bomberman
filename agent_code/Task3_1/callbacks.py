@@ -15,8 +15,8 @@ from .ManagerFeatures import *
 import events as e
 
 PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
-# PARAMETERS = 'save after 8991 iterations' #select parameter_set stored in network_parameters/
-# PARAMETERS = 'good_first_training' #select parameter_set stored in network_parameters/
+# PARAMETERS = 'save after 1998 iterations' #select parameter_set stored in network_parameters/
+# PARAMETERS = 'end_long_training' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
@@ -76,8 +76,8 @@ def act(self, game_state: dict) -> str:
         eps = self.epsilon_arr[self.episode_counter]
         if random.random() <= eps: # choose random action
             if eps > 0.6:
-                if np.random.randint(2) == 0:    # old: 10 / 100 now: 3/4
-                    action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+                if np.random.randint(2) != -1:    # old: 10 / 100 now: 3/4
+                    action = np.random.choice(ACTIONS, p=[.167, .167, .167, .167, .166, .166])
                     self.logger.info(f"Waehle Aktion {action} komplett zufaellig")
 
                     if action == "BOMB" and self.bomb_timer==0:

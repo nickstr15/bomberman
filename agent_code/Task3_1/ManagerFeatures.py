@@ -171,15 +171,13 @@ def state_to_features(self, game_state: dict) -> np.array:
     others = np.array(others)
     others_list = others.tolist()
 
-    # assert (field[x,y] == game_state["field"][x][y])
-    # print(field)
-
     # in the last gamestate during training we have no more coins
     # thus the algorithm would crash if we did not create a fake coin entry somewhere. Append would not wor othervise
     # 0,0 is always in the border and thus not reachable
     if number_of_coins == 0:
         coins = np.zeros((max_len_coins, 2))
 
+    # needed to find the possible moves
     possible_next_pos = possible_neighbors(player_pos)
 
     # create the result arrays
@@ -201,8 +199,10 @@ def state_to_features(self, game_state: dict) -> np.array:
     crate_distances_after_step.fill(np.inf)
     opponent_distances_after_step.fill(np.inf)
 
-
+    # visited array for bfs
     visited = [player_pos.tolist()]
+
+    # heap queue for bfs
     q = []
     for pos in (player_pos + STEP):
         pos = pos.tolist() # needed for the "in" command to work
@@ -211,7 +211,7 @@ def state_to_features(self, game_state: dict) -> np.array:
         y = pos[1] - player_pos[1]
         heapq.heappush(q, (1, pos, DIRECTION[(x,y)]))
 
-    # Counter for the crate arrays
+    # Counter for the step arrays
     number_of_found_crate_positions = np.zeros(4)
     number_of_found_dead_ends = np.zeros(4)
     number_of_found_coins = np.zeros(4)
@@ -221,11 +221,15 @@ def state_to_features(self, game_state: dict) -> np.array:
     found_one = False
     skipped = [False, False, False, False]
 
-    # analyse the change of the distances of the shortest paths to all coins and crates if we do a STEP
+    # analyse the change of the distances of the shortest paths to all coins, crates and opponents
+    # if we do a STEP by performing a bfs 
+    # -> Dijkstra is faster but not necessary and with this structure it is easier to fix bugs
+
     while len(q) != 0:
         
-        # direction = element of STEP
+        # direction = index of the STEP array of the first STEP, first index of our step arrays
         distance, pos, direction = heapq.heappop(q)
+
         # quit the search early if we found a target and if too much steps are exceeded (relevant if few crates)
         if (distance > MAX_SEARCHING_DISTANCE) and (found_one==True):
             break
@@ -237,6 +241,7 @@ def state_to_features(self, game_state: dict) -> np.array:
         # mark the current node as visited
         visited.append(pos)
 
+        # check for other obvious quit early conditions
         if distance == 1:
             # Safely blown up
             if future_explosion_map[pos[0], pos[1]]==-2:
@@ -310,7 +315,7 @@ def state_to_features(self, game_state: dict) -> np.array:
 
         dead_end = False
         if (ways_out == 1) and (number_of_found_dead_ends[direction] < MAX_FOUND_DEAD_ENDS):
-            # we found a unused dead end, this should be a good bomb position
+            # we found a unused dead end, this might be a good bomb position
             index_crates = int(number_of_found_crate_positions[direction] + number_of_found_dead_ends[direction])
             crate_distances_after_step[direction][index_crates] = distance
             expected_destructions_after_step[direction][index_crates] = bomb_effect(pos)
@@ -319,7 +324,8 @@ def state_to_features(self, game_state: dict) -> np.array:
             number_of_found_dead_ends[direction] += 1
             found_one = True
 
-        # consider only the MAX_FOUND_CRATE_POSITIONS positions to reduce the features (relevant if many crates)
+        # consider only the MAX_FOUND_CRATE_POSITIONS positions to reduce the number of found crates. Crates that are far away are less interesting
+        # (relevant if many crates)
         # This crates should be closer but are most likely not as good as the dead ends
         if (number_of_found_crate_positions[direction] < MAX_FOUND_CRATE_POSITIONS) and not dead_end:
             for possible_crate in (pos + STEP):
@@ -375,19 +381,27 @@ def state_to_features(self, game_state: dict) -> np.array:
             if pos.tolist() in others_list: # oppontent
                 neighboring_opponent = True
 
+    # TODO: maybe an own feature for neighboring opponents?
+    # Points for opponent and crates
     if neighboring_opponent:
         bomb_here = 5 + bomb_effect(player_pos)
+
+    # Points only for the crates
     elif neighboring_chest:
         bomb_here = bomb_effect(player_pos)
 
+    # We do not get anything if we drop a bomb here
     if not neighboring_chest and not neighboring_opponent:
         bomb_here = -1
-        
+    
+    # We do not have our bomb
     if not game_state["self"][2]:
         bomb_here = -1
 
     new_future_explosion_map = create_new_future_explosion_map(future_explosion_map, player_pos)
 
+    # TODO: maybe a own feature
+    # We would kill ourself if we drop a bomb here
     if certain_death(player_pos, new_future_explosion_map):
         # print("Sicherer Tod")
         bomb_here = -1
@@ -398,11 +412,12 @@ def state_to_features(self, game_state: dict) -> np.array:
     # need to run from this field
     features = np.append(features,-(future_explosion_map[player_pos[0], player_pos[1]]-1))
 
-    # append a running away feature:
+    # append a running away feature to find the way out of the explosion area:
     running = np.zeros(4)
+    # no bomb at our position
     if future_explosion_map[player_pos[0], player_pos[1]] == 1:
         features = np.append(features, running)
-
+    # Which way can we take without beeing blown up?
     else:
         direction = -1
         for pos in player_pos+STEP:
@@ -431,80 +446,29 @@ def state_to_features(self, game_state: dict) -> np.array:
     features = np.append(features, np.max(inv_opponents, axis=1))
 
 
+    # TODO: Maybe put here a feature to indicate if an opponent is a neighbor
+
+    # TODO: maybe put a bomb veto (kill ourself) here
+
+    # TODO: maybe put a indicator for outplaying an opponent:
+    # - Safe kill after a single step
+    # - Estimate the opponents' next step by a not predicting verion of maveric...
+
+    # TODO if woking pass more than the max of the coin, crate and opponent array, maybe the max 3?
+    # I doubt that this wouldwork
+
     # append the remaining positive total reward
     features = np.append(features, number_of_coins + 1/3 * number_of_crates)
+    
+    # needed for the rulebased version
     self.features = features
+
+    # Unused at the moment
     self.destroyed_crates = self.bomb_buffer
     self.bomb_buffer = bomb_effect(player_pos)
 
 
     # crate a torch tensor that can be returned from the features
-    # show_suggested_coin_movement(features)
     features = torch.from_numpy(features).float()
 
     return features.unsqueeze(0)
-
-
-def show_suggested_coin_movement(features):
-    print("\n\n")
-    print(f"oben:{features[3]}")
-    print(f"unten:{features[2]}")
-    print(f"links:{features[1]}")
-    print(f"rechts:{features[0]}")
-    a = ["rechts", "links", "unten", "oben"]
-    print(f"--> {a[np.argmax(features[0:4])]}")
-
-
-def closest_coin(agent_x, agent_y, game_state_coins):
-    N_coins = len(game_state_coins)
-    coins = torch.tensor([0.,0.,0.,0.]) #number of coins + direction
-    if N_coins == 0:
-        coins = torch.tensor([0.,0.]) #number of coins + direction
-    closest_coin = None
-    closest_dist = 100
-    for coin_x, coin_y in game_state_coins:
-        dist = np.linalg.norm([coin_x - agent_x, coin_y - agent_y])
-        if dist < closest_dist:
-            closest_dist = dist 
-            closest_coin = [coin_x, coin_y]
-
-    return torch.tensor(closest_coin)
-
-
-##############################
-## CHANNEL 2 - WALLS&CRATES ##
-##############################
-def next_walls_and_crates(agent_x, agent_y, field):
-    result = torch.zeros(4)
-    next_steps = [[1,0],[-1,0],[0,1],[0,-1]]
-    for i, (x,y) in enumerate(next_steps):
-        interest = field[agent_x+x,agent_y+y]
-        if interest == -1: #means here is a stone
-            result[i] = -1
-        if interest == 1:
-            result[i] = 1
-    return result
-
-
-
-#######################
-## CHANNEL 3 - FIRE  ##
-#######################
-def bombs_and_explosions(agent_x, agent_y, bombs, explosion_map):
-    fire = torch.zeros(4)
-    # => bombs
-    for (x,y), t in bombs: #5 is minimum distance that is save
-        if y == agent_y: #if same row: check that row
-            if   ((x - agent_x) > 0 ) and ((x-agent_x) <  5): fire[0] = -1
-            elif ((x - agent_x) > 0 ) and ((x-agent_x) > -5): fire[1] = -1
-
-        if x == agent_x: #if same column: check that column
-            if   ((y - agent_y) > 0 ) and ((y-agent_y) <  5): fire[2] = -1
-            elif ((y - agent_y) > 0 ) and ((y-agent_y) > -5): fire[3] = -1
-    # => explosions
-    next_steps = [[1,0],[-1,0],[0,-1],[0,1]]
-    for i, (x,y) in enumerate(next_steps):
-        if explosion_map[agent_x+x,agent_y+y] > 0: #means here is an explosion
-            fire[i] = -1
-
-    return fire
