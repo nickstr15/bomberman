@@ -222,9 +222,7 @@ def state_to_features(self, game_state: dict) -> np.array:
     skipped = [False, False, False, False]
 
     # analyse the change of the distances of the shortest paths to all coins, crates and opponents
-    # if we do a STEP by performing a bfs 
-    # -> Dijkstra is faster but not necessary and with this structure it is easier to fix bugs
-
+    # if we do a STEP by performing the dijkstra algorithm
     while len(q) != 0:
         
         # direction = index of the STEP array of the first STEP, first index of our step arrays

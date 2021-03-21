@@ -124,10 +124,10 @@ def act_rulebased(self, features):
 def initialize_rule_based(self):
     self.action_array = np.zeros((6,23))
     # coins
-    self.action_array[0][0] = 100
-    self.action_array[1][1] = 100
-    self.action_array[2][2] = 100
-    self.action_array[3][3] = 100
+    self.action_array[0][0] = 120
+    self.action_array[1][1] = 120
+    self.action_array[2][2] = 120
+    self.action_array[3][3] = 120
 
     # crates
     self.action_array[0][4] = 33
@@ -147,18 +147,18 @@ def initialize_rule_based(self):
     self.action_array[5][9] = -10
 
     # run away
-    self.action_array[0][10] = 300
-    self.action_array[1][11] = 300
-    self.action_array[2][12] = 300
-    self.action_array[3][13] = 300
-    self.action_array[4][10] = 300
-    self.action_array[4][11] = 300
-    self.action_array[4][12] = 300
-    self.action_array[4][13] = 300
-    self.action_array[5][10] = 300
-    self.action_array[5][11] = 300
-    self.action_array[5][12] = 300
-    self.action_array[5][13] = 300
+    self.action_array[0][10] = 400
+    self.action_array[1][11] = 400
+    self.action_array[2][12] = 400
+    self.action_array[3][13] = 400
+    self.action_array[4][10] = 400
+    self.action_array[4][11] = 400
+    self.action_array[4][12] = 400
+    self.action_array[4][13] = 400
+    self.action_array[5][10] = 400
+    self.action_array[5][11] = 400
+    self.action_array[5][12] = 400
+    self.action_array[5][13] = 400
 
     # not run in explosion
     self.action_array[0][14] = 400
