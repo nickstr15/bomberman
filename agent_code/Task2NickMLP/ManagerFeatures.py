@@ -99,18 +99,15 @@ def state_to_features(game_state: dict) -> torch.tensor:
         if tile == (x, y + 1): coins_move[3] = 1 / distance  #DOWN
         if tile == (x - 1, y): coins_move[0] = 1 / distance  #LEFT
         if tile == (x + 1, y): coins_move[1] = 1 / distance  #RIGHT
-    else:
-        if nValid > 0: coins_move = valid_actions
 
     # 2) destroy crates
     # first check for dead ends
     checkSingleCrates=False
-    noGoodPositionFound = False
     destroy_crates_move = torch.zeros(6)
+    if canBomb: destroy_crates_move[5] = 1
     if len(dead_ends) > 0:
         if (x, y) in dead_ends and (x,y) in valid_tiles: 
-                if canBomb: destroy_crates_move[5] = 1 #BOMB
-                else:       destroy_crates_move[4] = 1 #WAIT
+                if canBomb: destroy_crates_move[5] = 2 #BOMB would be good
         else:
             tile,distance,path_is_free = look_for_targets(free_space, (x,y), dead_ends)
             if path_is_free and (tile in valid_tiles):
@@ -128,31 +125,21 @@ def state_to_features(game_state: dict) -> torch.tensor:
         distance -= 1 #the tile that is the target for a crate is the free tile next to the crate
         if distance == 0 and (x,y) in valid_tiles:
             if canBomb: destroy_crates_move[5] = 1 #BOMB if path to dead end is not free and standing next to crate
-            else:       destroy_crates_move[4] = 1 #WAIT
         else: 
             if (tile in valid_tiles) and path_is_free: #else: move to next crate if possible
                 if tile == (x, y - 1): destroy_crates_move[2] = 1 / distance  #UP
                 if tile == (x, y + 1): destroy_crates_move[3] = 1 / distance  #DOWN
                 if tile == (x - 1, y): destroy_crates_move[0] = 1 / distance  #LEFT
                 if tile == (x + 1, y): destroy_crates_move[1] = 1 / distance  #RIGHT
-            else:
-                noGoodPositionFound = True
-        
-    if noGoodPositionFound:
-        if nValid > 0: destroy_crates_move = valid_actions
-        
-            
 
+        
     # 3) others
     others_move = torch.zeros(6)
+    if canBomb: others_move[5] = 1
     tile,distance,path_is_free = look_for_targets(free_space, (x,y), others)
-    if tile is None:
-        if nValid > 0: others_move = valid_actions 
-    else:
+    if tile is not None:
         if distance <= 1:
-            if canBomb: others_move[5] = 1 #BOMB
-            else: 
-                if nValid > 0: others_move = valid_actions 
+            if canBomb: others_move[5] = 2 
         else:
             if not path_is_free:
                 distance *= 2
@@ -160,9 +147,6 @@ def state_to_features(game_state: dict) -> torch.tensor:
             if tile == (x, y + 1): others_move[3] = 1 / distance  #DOWN
             if tile == (x - 1, y): others_move[0] = 1 / distance  #LEFT
             if tile == (x + 1, y): others_move[1] = 1 / distance  #RIGHT
-
-    # 4) run away from bombs
-    stay_alive_move = torch.zeros(6)
     
     features = torch.cat((coins_move, destroy_crates_move, others_move)) #4*6 features
     return features.unsqueeze(0)

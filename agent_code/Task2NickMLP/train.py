@@ -25,11 +25,11 @@ from .ManagerFeatures import state_to_features
 # 5 | 200     | 0.6-0.0001 | 0.75   | 0   | Test5   |
 
 #Hyperparameter for Training
-TRAIN_FROM_SCRETCH = False
+TRAIN_FROM_SCRETCH = True
 LOAD = 'Train75_4000' #not needed if TRAIN_FROM_SCRETCH = True
-SAVE = 'Train75_Long' 
+SAVE = 'Train75_5000' 
 
-EPSILON = (0.3,0.001)
+EPSILON = (0.9,0.001)
 LINEAR_CONSTANT_QUOTIENT = 0.95
 
 DISCOUNTING_FACTOR = 0.6
@@ -40,7 +40,7 @@ LOSS_FUNCTION = nn.MSELoss()
 OPTIMIZER = optim.Adam
 LEARNING_RATE = 0.001
 
-TRAINING_EPISODES = 50000
+TRAINING_EPISODES = 5000
 
 
 
