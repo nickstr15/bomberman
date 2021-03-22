@@ -32,8 +32,8 @@ LOAD = 'end_long_training'
 # LOAD = 'end_coin_training_1'
 SAVE = 'last_save' 
 
-EPSILON = (0.10,0.05)
-LINEAR_CONSTANT_QUOTIENT = 0.7
+EPSILON = (1,0.05)
+LINEAR_CONSTANT_QUOTIENT = 0.9
 
 DISCOUNTING_FACTOR = 0.6
 BUFFERSIZE = 2000 #

@@ -27,13 +27,13 @@ import copy
 # 5 | 200     | 0.6-0.0001 | 0.75   | 0   | Test5 |
 
 #Hyperparameter for Training
-TRAIN_FROM_SCRETCH = False
+TRAIN_FROM_SCRETCH = True
 LOAD = 'end_long_training'
 # LOAD = 'end_coin_training_1'
 SAVE = 'last_save' 
 
-EPSILON = (0.10,0.05)
-LINEAR_CONSTANT_QUOTIENT = 0.7
+EPSILON = (0.30,0.05)
+LINEAR_CONSTANT_QUOTIENT = 0.8
 
 DISCOUNTING_FACTOR = 0.6
 BUFFERSIZE = 2000 #
