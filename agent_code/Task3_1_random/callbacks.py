@@ -16,7 +16,7 @@ import events as e
 
 # PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
 # PARAMETERS = 'save after 1998 iterations' #select parameter_set stored in network_parameters/
-PARAMETERS = 'save after 20000 iterations' #select parameter_set stored in network_parameters/
+PARAMETERS = 'random_training_20000' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
