@@ -15,7 +15,7 @@ from .ManagerFeatures import *
 import events as e
 
 # PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
-PARAMETERS = 'save after 12000 iterations' #select parameter_set stored in network_parameters/
+PARAMETERS = 'save after 14000 iterations' #select parameter_set stored in network_parameters/
 # PARAMETERS = 'end_long_training' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']

@@ -15,8 +15,8 @@ from .ManagerRuleBased import act_rulebased, initialize_rule_based
 
 import events as e
 
-PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
-# PARAMETERS = 'save after 4600 iterations' #select parameter_set stored in network_parameters/
+# PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
+PARAMETERS = 'save after 14000 iterations' #select parameter_set stored in network_parameters/
 # PARAMETERS = 'end_long_training' #select parameter_set stored in network_parameters/
 
 ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
