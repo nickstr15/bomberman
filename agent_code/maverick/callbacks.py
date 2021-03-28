@@ -3,34 +3,49 @@ import pickle
 import random
 
 import numpy as np
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import os
+from random import shuffle
 
+from .Model import Maverick
+from .ManagerFeatures import *
+from .ManagerRuleBased import act_rulebased, initialize_rule_based
 
-ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
+import events as e
+
+# PARAMETERS = 'last_save' #select parameter_set stored in network_parameters/
+PARAMETERS = 'final_parameters' #select parameter_set stored in network_parameters/
+
+ACTIONS = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB']
 
 
 def setup(self):
     """
-    Setup your code. This is called once when loading each agent.
-    Make sure that you prepare everything such that act(...) can be called.
+    This is called once when loading each agent.
+    Preperation such that act(...) can be called.
 
     When in training mode, the separate `setup_training` in train.py is called
-    after this method. This separation allows you to share your trained agent
-    with other students, without revealing your training code.
-
-    In this example, our model is a set of probabilities over actions
-    that are is independent of the game state.
+    after this method.
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
-    if self.train or not os.path.isfile("my-saved-model.pt"):
-        self.logger.info("Setting up model from scratch.")
-        weights = np.random.rand(len(ACTIONS))
-        self.model = weights / weights.sum()
-    else:
-        self.logger.info("Loading model from saved state.")
-        with open("my-saved-model.pt", "rb") as file:
-            self.model = pickle.load(file)
+    self.network = Maverick()
 
+    if self.train:
+        self.logger.info("Trainiere ein neues Model.")
+
+    else:
+        self.logger.info(f"Lade Model '{PARAMETERS}'.")
+        filename = os.path.join("network_parameters", f'{PARAMETERS}.pt')
+        self.network.load_state_dict(torch.load(filename))
+        self.network.eval()
+    
+    initialize_rule_based(self)
+
+    self.bomb_buffer = 0
+    
 
 def act(self, game_state: dict) -> str:
     """
@@ -41,39 +56,37 @@ def act(self, game_state: dict) -> str:
     :param game_state: The dictionary that describes everything on the board.
     :return: The action to take as a string.
     """
-    # todo Exploration vs exploitation
-    random_prob = .1
-    if self.train and random.random() < random_prob:
-        self.logger.debug("Choosing action purely at random.")
-        # 80%: walk in any direction. 10% wait. 10% bomb.
+    
+    if game_state is None:
         return np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
 
-    self.logger.debug("Querying model for action.")
-    return np.random.choice(ACTIONS, p=self.model)
+    features = state_to_features(self, game_state)
+    Q = self.network(features)
 
+    if self.train: # Exploration vs exploitation
+        eps = self.epsilon_arr[self.episode_counter]
+        if random.random() <= eps: # choose random action
+            if eps > 0.1:
+                if np.random.randint(10) == 0:    # old: 10 / 100 now: 3/4
+                    action = np.random.choice(ACTIONS, p=[.167, .167, .167, .167, .166, .166])
+                    self.logger.info(f"Waehle Aktion {action} komplett zufaellig")
 
-def state_to_features(game_state: dict) -> np.array:
-    """
-    *This is not a required function, but an idea to structure your code.*
+                    return action
 
-    Converts the game state to the input of your model, i.e.
-    a feature vector.
+                else:
+                    action = act_rulebased(self)
 
-    You can find out about the state of the game environment via game_state,
-    which is a dictionary. Consult 'get_state_for_agent' in environment.py to see
-    what it contains.
+                    self.logger.info(f"Waehle Aktion {action} nach dem rule based agent.")
+                    return action
+            else:
+                action = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+                self.logger.info(f"Waehle Aktion {action} komplett zufaellig")
 
-    :param game_state:  A dictionary describing the current game board.
-    :return: np.array
-    """
-    # This is the dict before the game begins and after it ends
-    if game_state is None:
-        return None
+                return action
 
-    # For example, you could construct several channels of equal shape, ...
-    channels = []
-    channels.append(...)
-    # concatenate them as a feature tensor (they must have the same shape), ...
-    stacked_channels = np.stack(channels)
-    # and return them as a vector
-    return stacked_channels.reshape(-1)
+    action_prob	= np.array(torch.softmax(Q,dim=1).detach().squeeze())
+    best_action = ACTIONS[np.argmax(action_prob)]
+    # best_action = act_rulebased(self)
+    self.logger.info(f"Waehle Aktion {best_action} nach dem Hardmax der Q-Funktion")
+
+    return best_action
