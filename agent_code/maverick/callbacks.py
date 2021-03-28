@@ -10,7 +10,7 @@ import os
 from random import shuffle
 
 from .Model import Maverick
-from .ManagerFeatures import *
+from .ManagerFeatures import state_to_features
 from .ManagerRuleBased import act_rulebased, initialize_rule_based
 
 import events as e
