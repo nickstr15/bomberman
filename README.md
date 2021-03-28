@@ -1,3 +1,6 @@
+*Contributers: Florian Ernst and Nick Striebel*
+
+
 # Bomberman
 Final project of the lecture *Fundamentals of Machine Learning* at the University of Heidelberg. The goal is to create an agent playing the game Bomberman using reinforcement learning. The framework for this project can be found at [https://github.com/ukoethe/bomberman_rl](https://github.com/ukoethe/bomberman_rl).
 
