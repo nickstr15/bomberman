@@ -16,7 +16,7 @@ maverick has luck and finds a lot of coins in good positions. Towards the end of
 
 
 ##### Bad game: 
-He kills him self.
+maverick kills him self.
 
 ![game_1](https://github.com/nickstr15/bomberman/blob/master/gifs/bad.gif)
 
