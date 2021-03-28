@@ -9,13 +9,13 @@ To run a demo of our agent **maverick** download the repository and run ``python
 ## Final version
 Here are two examples of our final result:
 
-##### Good game: 
+### Good game: 
 maverick has luck and finds a lot of coins in good positions. Towards the end of the game he stays out of fights.
 
 ![game_0](https://github.com/nickstr15/bomberman/blob/master/gifs/good_lucky.gif)
 
 
-##### Bad game: 
+### Bad game: 
 maverick kills him self.
 
 ![game_1](https://github.com/nickstr15/bomberman/blob/master/gifs/bad.gif)
